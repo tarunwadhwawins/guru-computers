@@ -1,0 +1,167 @@
+.footer {
+  padding-top: 60px;
+  background-color: #333333;
+}
+.footer .widgetTitle {
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  font-family: "poppinsmedium";
+  position: relative;
+}
+.footer .widgetTitle::after {
+  content: "";
+  border-bottom: 3px solid #f15a24;
+  height: 0px;
+  width: 25px;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+}
+.footer .footerLinks {
+  margin-top: 15px;
+}
+.footer .footerLinks ul {
+  padding: 0;
+}
+.footer .footerLinks ul li {
+  border-bottom: 1px DASHED #777 !important;
+  padding: 5px 0;
+  list-style: none;
+  line-height: 24px;
+  font-family: "open_sanslight";
+}
+.footer .footerLinks ul li a {
+  text-decoration: none;
+  color: #777;
+}
+.footer .footerLinks ul li a:hover {
+  color: #f15a24;
+}
+.footer .footerDetail {
+  font-family: "open_sansregular";
+  margin-top: 15px;
+}
+.footer .footerDetail p {
+  margin: 0px;
+  padding: 5px 0;
+  line-height: 24px;
+  text-decoration: none;
+  color: #777;
+  font-size: 14px;
+  font-family: "open_sansregular";
+}
+.footer .footerDetail .contactLink a {
+  text-decoration: none;
+  color: #aaa;
+}
+.footer .footerDetail .contactLink a:hover {
+  color: #f15a24;
+}
+.footer .footerDetail .contactLink a:hover .mailtext {
+  color: #f15a24;
+}
+.footer .footerDetail .contactLink a .mailtext {
+  font-size: 16px;
+  color: #cbcbcb;
+}
+.footer .footerDetail .workHour p {
+  color: #777;
+  padding: 5px 0;
+  line-height: 24px;
+  font-size: 14px;
+  font-family: "open_sansregular";
+}
+.footer .copyright {
+  background-color: #3a3a3a;
+  padding: 30px 0;
+}
+@media only screen and (max-width: 767px) {
+  .footer .copyright {
+    text-align: center;
+    align-items: center;
+  }
+}
+.footer .copyright p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.25);
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-family: "open_sansregular";
+}
+.footer .copyright .textRight {
+  text-align: right;
+}
+@media only screen and (max-width: 767px) {
+  .footer .copyright .textRight {
+    margin-top: 10px;
+    text-align: center;
+  }
+}
+.footer .copyright .textRight .socials {
+  list-style: none;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+.footer .copyright .textRight .socials li.facebook a:hover {
+  background: #3E5993;
+}
+.footer .copyright .textRight .socials li.instagram a:hover {
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #fd1d1d);
+}
+.footer .copyright .textRight .socials li.twitter a:hover {
+  background: #00C3F8;
+}
+.footer .copyright .textRight .socials li {
+  border: 0px solid;
+  width: auto;
+  display: inline-block;
+  font-size: 16px;
+}
+.footer .copyright .textRight .socials li a {
+  color: #fff;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  display: inline-block;
+  border-radius: 4px;
+  transition: all 0.5s;
+  background: #777;
+}
+
+.show {
+  display: block !important;
+}
+
+.backToTop {
+  position: fixed;
+  right: 3px;
+  top: 83%;
+  margin-right: 22px;
+  display: none;
+  z-index: 60;
+  border-radius: 4px;
+  padding: 4px 11px;
+  background-color: #f15a24;
+  text-decoration: none;
+  cursor: pointer;
+}
+.backToTop a {
+  color: #fff;
+  text-align: center;
+}
+.backToTop a i {
+  display: block;
+  font-size: 36px;
+  line-height: 40px;
+  padding-bottom: 2px;
+  text-align: center;
+}
+.backToTop:hover {
+  background-color: #000;
+  transition: all 0.8s;
+}
+.backToTop:hover a {
+  color: #f15a24;
+}
