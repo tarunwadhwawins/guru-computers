@@ -39,6 +39,7 @@ h1 {
     color: $primary-contrast-color;
     text-transform: uppercase;
     font-family: 'open_sanssemibold';
+    text-align: center;
     @media(max-width: 767px) {
         font-size: 28px;
     }
@@ -61,14 +62,12 @@ h3 {
 h4,
 h5,
 h6 {
-    font-family: 'open_sansregular';
     margin: 0;
 }
 
 p {
     font-size: 14px;
     line-height: 24px;
-    font-family: 'open_sansregular';
     color: $primary-dark-color;
 }
 
@@ -89,7 +88,7 @@ p {
 }
 
 // Button
-.baseButton {
+.primaryButton {
     font-size: 16px;
     padding: 10px 18px;
     background-color: $primary-color;
@@ -106,7 +105,7 @@ p {
     }
 }
 
-.baseButton2 {
+.secondaryButton {
     background: $secondary-contrast-color;
     color: $grey2;
     border: 2px solid $secondary-contrast-color;

@@ -11,6 +11,9 @@ header {
 header.fixedHeader {
   background: #3a3a3a !important;
 }
+header .navbar {
+  padding: 0 !important;
+}
 header .navbar .navbar-brand img {
   max-width: 240px;
 }
@@ -58,10 +61,16 @@ header .navbar li.nav-item .dropdown-menu a:hover {
   transition: all 0.4s;
   background: none;
 }
-header .navbar .dropdown:hover .dropdown-menu {
+header .navbar .mainDropdown:hover .dropdown-menu.mainMenu {
   display: block;
 }
-header .navbar .submenu {
+header .navbar .repairDropdown:hover .repairMenu {
+  display: block;
+}
+header .navbar .subMenuDropdown:hover .dropdown-menu.subMenu {
+  display: block;
+}
+header .navbar .subMenu {
   position: absolute;
   right: -180px;
   top: 0px;

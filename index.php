@@ -20,7 +20,7 @@
                 <div class="bannerText d-flex align-items-center flex-column">
                     <h1>Need a keyboard replacement?</h1>
                     <p> Keyboard replacement starting at $175 onwords.</p>
-                    <button type="button" class="baseButton">Call Now!</button>
+                    <button type="button" class="primaryButton">Call Now!</button>
                 </div>
                 <img src="./assets/images/keyboardreplacement.jpg" alt="banner-image">
             </div>
@@ -29,7 +29,7 @@
                 <div class="bannerText d-flex align-items-center flex-column">
                     <h1>Spilled liquid?</h1>
                     <p>Liquid damage repair starting at $110 onwards. </p>
-                    <button type="button" class=" baseButton">Call Now!</button>
+                    <button type="button" class=" primaryButton">Call Now!</button>
                 </div>
             </div>
             <div class="slider">
@@ -37,7 +37,7 @@
                 <div class="bannerText d-flex align-items-center flex-column">
                     <h1>Need a Logicboard repair?</h1>
                     <p>Logicboard repair service comes with 90 days warranty.</p>
-                    <button type="button" class=" baseButton">Call Now!</button>
+                    <button type="button" class=" primaryButton">Call Now!</button>
                 </div>
             </div>
             <div class="slider">
@@ -45,7 +45,7 @@
                 <div class="bannerText d-flex align-items-center flex-column">
                     <h1>cracked or shattered screens?</h1>
                     <p> Screen replacement starting at $200 onwards.</p>
-                    <a href=""> <button type="button" class=" baseButton">Call Now!</button></a>
+                    <a href=""> <button type="button" class=" primaryButton">Call Now!</button></a>
                 </div>
             </div>
         </div>
@@ -83,16 +83,16 @@
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="buttonSection">
-                        <a href=""> <button type="button" class=" baseButton">Macbook Repair in Delta</button></a>
+                        <a href=""> <button type="button" class=" primaryButton">Macbook Repair in Delta</button></a>
                     </div>
                     <div class="buttonSection">
-                        <a href=""> <button type="button" class=" baseButton">Macbook Repair in Surrey</button></a>
+                        <a href=""> <button type="button" class=" primaryButton">Macbook Repair in Surrey</button></a>
                     </div>
                     <div class="buttonSection">
-                        <a href=""> <button type="button" class=" baseButton">Computer Repair in Delta</button></a>
+                        <a href=""> <button type="button" class=" primaryButton">Computer Repair in Delta</button></a>
                     </div>
                     <div class="buttonSection">
-                        <a href=""> <button type="button" class=" baseButton">Computer Repair in Surrey</button></a>
+                        <a href=""> <button type="button" class=" primaryButton">Computer Repair in Surrey</button></a>
                     </div>
                 </div>
             </div>
@@ -246,7 +246,7 @@
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="yourComputer d-flex align-items-center justify-content-center">
                         <h4>Do you have any queries about your Computer/MacBook repair? </h4>
-                        <a class="btn baseButton2" href="tel:+1 (604) 256-2193" target="_self" rel="noopener">Call  +1 (604) 256-2193</a>
+                        <a class="btn secondaryButton" href="tel:+1 (604) 256-2193" target="_self" rel="noopener">Call  +1 (604) 256-2193</a>
                     </div>
                 </div>
             </div>

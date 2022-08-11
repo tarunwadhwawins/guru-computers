@@ -15,14 +15,14 @@
                     <li class="nav-item ">
                         <a class="nav-link  active" href="index">Home</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link " data-bs-toggle="dropdown" aria-expanded="false">Computer Repair <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                        <ul class="dropdown-menu">
-                            <li class="nav-item dropdown"> <a href="" class=" nav-link dropdown-item" data-bs-toggle="dropdown" aria-expanded="false">MacBook Repair </a>
+                    <li class="nav-item dropdown mainDropdown">
+                        <a href="./services-offered" class="nav-link ">Computer Repair <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu mainMenu">
+                            <li class="nav-item dropdown subMenuDropdown"> <a href="" class=" nav-link dropdown-item" data-bs-toggle="dropdown" aria-expanded="false">MacBook Repair </a>
                                 <!-- SubMenu -->
-                                <ul class="submenu dropdown-menu">
-                                    <li><a href="" class="dropdown-item">MacBook Repair Delta</a></li>
-                                    <li><a href="" class="dropdown-item">MacBook Repair Surrey</a></li>
+                                <ul class="subMenu dropdown-menu">
+                                    <li><a href="./macbook-repair-delta" class="dropdown-item">MacBook Repair Delta</a></li>
+                                    <li><a href="./macbook-repair-surrey" class="dropdown-item">MacBook Repair Surrey</a></li>
                                 </ul>
                             </li>
                             <li> <a href="#" class="dropdown-item">Laptop Repair</a></li>
@@ -30,9 +30,9 @@
                             <li> <a href="#" class="dropdown-item">Virus Removal</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown repairDropdown">
                         <a href="#" class="nav-link" data-bs-toggle="dropdown">Repair By Brand <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu repairMenu">
                             <li><a href="#" class="dropdown-item">Apple</a></li>
                             <li><a href="#" class="dropdown-item">ASUS Repair</a></li>
                             <li><a href="#" class="dropdown-item">Acer Repair</a></li>

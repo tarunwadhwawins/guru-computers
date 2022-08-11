@@ -15,7 +15,6 @@
   letter-spacing: 1px;
 }
 .banner .owl-carousel {
-  margin: 10px 0 0 0;
   position: relative;
   transition: all 0.5s;
 }
@@ -97,7 +96,7 @@
   display: inline-block;
   margin: 0 40px 0 0;
 }
-.deltaSurrey .buttonSection .baseButton {
+.deltaSurrey .buttonSection .primaryButton {
   min-width: 215px;
   font-size: 14px;
 }
@@ -188,8 +187,11 @@
   color: #777;
   text-align: left;
 }
+.commonRepair .boardImage {
+  text-align: right;
+}
 .commonRepair .boardImage img {
-  max-width: 345px;
+  max-width: 360px;
 }
 @media (max-width: 991px) {
   .commonRepair .boardImage img {
@@ -201,5 +203,72 @@
 
 .chooseComputer {
   background-color: #000;
-  padding: 20px 0;
+  padding: 30px 0;
+}
+.chooseComputer .trustWorthy ul {
+  padding: 8px 0 0 20px;
+}
+.chooseComputer .trustWorthy ul li {
+  text-align: left;
+  color: #fff;
+  width: 30%;
+  float: left;
+  list-style: initial;
+  padding-bottom: 5px;
+  font-size: 14px;
+  font-family: "open_sanslight";
+}
+.chooseComputer .primaryButton {
+  margin: 0 0 15px 0;
+  padding: 20px;
+  display: block;
+  font-size: 16px;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .chooseComputer .primaryButton {
+    margin: 15px 0 0 0;
+  }
+}
+
+.replacmentMacbook {
+  padding: 30px 0;
+}
+.replacmentMacbook .logicboardRepair h3 {
+  color: #2d2d2d;
+}
+.replacmentMacbook .logicboardRepair p {
+  color: #777;
+}
+.replacmentMacbook .logicboardRepair .repairButtonn .primaryButton {
+  padding: 7px 12px;
+  font-family: "poppinsbold";
+  font-size: 13px;
+}
+
+#deltaBg {
+  background: transparent;
+}
+#deltaBg .sectionHead {
+  width: auto;
+  display: inline-block;
+  margin: 0 40px 20px 0;
+}
+@media (max-width: 991px) {
+  #deltaBg .sectionHead {
+    margin-bottom: 30px;
+  }
+}
+#deltaBg .sectionHead h2 {
+  margin: 0 0 24px 0;
+  font-family: "poppinsmedium";
+}
+#deltaBg .sectionHead .primaryButton {
+  padding: 12px 60px;
+  font-size: 14px;
+  margin: 0 0 18px 0;
+}
+#deltaBg p {
+  color: #777;
+  text-align: left;
 }

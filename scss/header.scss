@@ -12,6 +12,7 @@ header {
         background: $darkcolor!important;
     }
     .navbar {
+        padding: 0 !important;
         .navbar-brand {
             img {
                 max-width: 240px;
@@ -61,14 +62,32 @@ header {
                 }
             }
         }
-        .dropdown {
+        .mainDropdown {
             &:hover {
                 .dropdown-menu {
+                    &.mainMenu {
+                        display: block;
+                    }
+                }
+            }
+        }
+        .repairDropdown {
+            &:hover {
+                .repairMenu {
                     display: block;
                 }
             }
         }
-        .submenu {
+        .subMenuDropdown {
+            &:hover {
+                .dropdown-menu {
+                    &.subMenu {
+                        display: block;
+                    }
+                }
+            }
+        }
+        .subMenu {
             position: absolute;
             right: -180px;
             top: 0px;

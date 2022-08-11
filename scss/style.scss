@@ -13,14 +13,13 @@
                     text-shadow: 0 1px 1px #333;
                     line-height: 30px;
                     text-align: center;
-                    color: #fff;
+                    color: $primary-contrast-color;
                     letter-spacing: 1px;
                 }
             }
         }
     }
     .owl-carousel {
-        margin: 10px 0 0 0;
         position: relative;
         transition: all 0.5s;
         .owl-prev {
@@ -103,7 +102,7 @@
         width: auto;
         display: inline-block;
         margin: 0 40px 0 0;
-        .baseButton {
+        .primaryButton {
             min-width: 215px;
             font-size: 14px;
         }
@@ -176,7 +175,6 @@
 }
 
 // MacBook Repair Service ---------------------//
-@import './variables.scss';
 // RepairBanner
 .repairBanner {
     background-image: url(../images/innerimage1.jpg);
@@ -206,8 +204,9 @@
         }
     }
     .boardImage {
+        text-align: right;
         img {
-            max-width: 345px;
+            max-width: 360px;
             @media(max-width: 991px) {
                 max-width: 400px;
                 margin: 0 auto;
@@ -220,6 +219,77 @@
 // WHY SHOULD YOU CHOOSE GURU COMPUTERS
 .chooseComputer {
     background-color: $primary-dark-color;
-    padding: 20px 0;
-    .trustWorthy {}
+    padding: 30px 0;
+    .trustWorthy {
+        ul {
+            padding: 8px 0 0 20px;
+            li {
+                text-align: left;
+                color: $primary-contrast-color;
+                width: 30%;
+                float: left;
+                list-style: initial;
+                padding-bottom: 5px;
+                font-size: 14px;
+                font-family: 'open_sanslight';
+            }
+        }
+    }
+    .primaryButton {
+        margin: 0 0 15px 0;
+        padding: 20px;
+        display: block;
+        font-size: 16px;
+        text-align: center;
+        @media(max-width: 991px) {
+            margin: 15px 0 0 0;
+        }
+    }
+}
+
+// Macbook Replacement & Repair Keyboard LogicBoard
+.replacmentMacbook {
+    padding: 30px 0;
+    .logicboardRepair {
+        h3 {
+            color: $secondary-dark-color;
+        }
+        p {
+            color: $grey;
+        }
+        .repairButtonn {
+            .primaryButton {
+                padding: 7px 12px;
+                font-family: 'poppinsbold';
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+// Computer Repair Services-----------------------------
+// Computer Reapir Services Delta & Surrey 
+#deltaBg {
+    background: transparent;
+    .sectionHead {
+        width: auto;
+        display: inline-block;
+        margin: 0 40px 20px 0;
+        @media(max-width: 991px) {
+            margin-bottom: 30px;
+        }
+        h2 {
+            margin: 0 0 24px 0;
+            font-family: 'poppinsmedium';
+        }
+        .primaryButton {
+            padding: 12px 60px;
+            font-size: 14px;
+            margin: 0 0 18px 0;
+        }
+    }
+    p {
+        color: $grey;
+        text-align: left;
+    }
 }
