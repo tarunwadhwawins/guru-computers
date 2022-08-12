@@ -50,7 +50,7 @@ header {
                     background: #2d2d2d;
                     a {
                         color: $primary-contrast-color;
-                        padding: 12px 15px;
+                        padding: 9px 17px;
                         font-size: 14px;
                         font-family: 'open_sanslight';
                         &:hover {
@@ -89,8 +89,8 @@ header {
         }
         .subMenu {
             position: absolute;
-            right: -180px;
-            top: 0px;
+            left: 100%;
+            top: 0;
         }
         .detailed {
             row-gap: 7px;

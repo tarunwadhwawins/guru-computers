@@ -60,11 +60,6 @@
         </div>
     </section>
     <!--  -->
-
-
-
-
-
     <!-- queries about your Computer/MacBook repair? -->
     <section class="queriesAbout">
         <div class="container">

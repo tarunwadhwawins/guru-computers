@@ -18,32 +18,51 @@
                     <li class="nav-item dropdown mainDropdown">
                         <a href="./services-offered" class="nav-link ">Computer Repair <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                         <ul class="dropdown-menu mainMenu">
-                            <li class="nav-item dropdown subMenuDropdown"> <a href="" class=" nav-link dropdown-item" data-bs-toggle="dropdown" aria-expanded="false">MacBook Repair </a>
+                            <li class="nav-item dropdown subMenuDropdown"> <a href="" class=" nav-link dropdown-item"  aria-expanded="false">MacBook Repair </a>
                                 <!-- SubMenu -->
                                 <ul class="subMenu dropdown-menu">
                                     <li><a href="./macbook-repair-delta" class="dropdown-item">MacBook Repair Delta</a></li>
                                     <li><a href="./macbook-repair-surrey" class="dropdown-item">MacBook Repair Surrey</a></li>
-                                </ul>
-                            </li>
-                            <li> <a href="#" class="dropdown-item">Laptop Repair</a></li>
-                            <li> <a href="#" class="dropdown-item">Data Recovery</a></li>
-                            <li> <a href="#" class="dropdown-item">Virus Removal</a></li>
-                        </ul>
-                    </li>
+                                </ul> </li>
+                            <li class="nav-item dropdown subMenuDropdown"> <a href="" class=" nav-link dropdown-item"  aria-expanded="false">Laptop Repair</a>
+                        <!-- SubMenu -->
+                        <ul class="subMenu dropdown-menu">
+                                    <li><a href="./laptop-screen-replacement-in-delta" class="dropdown-item">Laptop Screen Replacement</a></li>
+                                    <li><a href="./lapatop-ssd-upgrade-in-delta" class="dropdown-item">Laptop SSD Upgrade in Delta</a></li>
+                                </ul></li>
+                            <li class="nav-item dropdown subMenuDropdown"> <a href="" class=" nav-link dropdown-item"  aria-expanded="false">Data Recovery</a>
+                         <!-- SubMenu -->
+                         <ul class="subMenu dropdown-menu">
+                                    <li><a href="./macbook-repair-delta" class="dropdown-item">Data Recovery Delta</a></li>
+                                    <li><a href="./macbook-repair-surrey" class="dropdown-item">Data Recovery Surrey</a></li>
+                                </ul></li> 
+                            <li class="nav-item dropdown subMenuDropdown"> <a href="" class=" nav-link dropdown-item"  aria-expanded="false">Virus Removal</a>
+                         <!-- SubMenu -->
+                         <ul class="subMenu dropdown-menu">
+                                    <li><a href="./macbook-repair-delta" class="dropdown-item">Virus Removal Delta</a></li>
+                                    <li><a href="./macbook-repair-surrey" class="dropdown-item">Virus Removal Surrey</a></li>
+                                </ul></li>
+                            </ul></li>
                     <li class="nav-item dropdown repairDropdown">
-                        <a href="#" class="nav-link" data-bs-toggle="dropdown">Repair By Brand <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <a href="#" class="nav-link" data-bs-toggle="dropdown">Repair By Brands <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                         <ul class="dropdown-menu repairMenu">
-                            <li><a href="#" class="dropdown-item">Apple</a></li>
+                            <li class="nav-item dropdown subMenuDropdown"> <a href="" class=" nav-link dropdown-item"  aria-expanded="false">Apple</a>
+                         <!-- SubMenu -->
+                         <ul class="subMenu dropdown-menu">
+                                    <li><a href="./macbook-repair-delta" class="dropdown-item">MacBook Repair</a></li>
+                                    <li><a href="./imac-repair-delta" class="dropdown-item">iMac Repair</a></li>
+                                </ul>
+                        </li>
                             <li><a href="#" class="dropdown-item">ASUS Repair</a></li>
                             <li><a href="#" class="dropdown-item">Acer Repair</a></li>
                             <li><a href="#" class="dropdown-item">Lenovo Repair</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">About Us</a>
+                        <a class="nav-link" href="#">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Contact Us</a>
+                        <a class="nav-link" href="#">Contact Us</a>
                     </li>
                 </ul>
                 <div class="detailed d-flex flex-column">

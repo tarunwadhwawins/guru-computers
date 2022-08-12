@@ -272,3 +272,101 @@
   color: #777;
   text-align: left;
 }
+
+.laptopProduct {
+  padding: 50px 0;
+}
+.laptopProduct .productContent {
+  float: right;
+  width: 295px;
+  margin: 0 0 0 28px;
+}
+.laptopProduct strong {
+  color: #777;
+}
+.laptopProduct p {
+  color: #777;
+}
+.laptopProduct p a {
+  background: transparent;
+  color: #777;
+}
+.laptopProduct p a:hover {
+  color: #f15a24;
+}
+.laptopProduct h2 {
+  margin: 0 0 18px 0;
+  font-family: "poppinsbold";
+  font-size: 26px;
+  color: #000;
+}
+.laptopProduct h3 {
+  font-family: "poppinssemibold";
+  color: #2d2d2d;
+}
+.laptopProduct .product-listing {
+  width: 100%;
+  float: left;
+  margin: 0 0 12px 0;
+}
+.laptopProduct .product-listing ul {
+  padding: 0px 0 0 38px;
+  list-style: none;
+  margin: 0;
+}
+.laptopProduct .product-listing ul li {
+  width: 100%;
+  float: left;
+  color: #666;
+}
+.laptopProduct .product-listing ul li::before {
+  content: ".";
+  color: #f15a24;
+  font-family: "poppinsbold";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.laptopProduct h4 {
+  font-family: "poppinsbold";
+}
+.laptopProduct .referLink {
+  margin: 0 0 18px 70px;
+}
+.laptopProduct .referLink li {
+  list-style: disc;
+  font-size: 12px;
+  color: #aaa;
+}
+.laptopProduct .referLink li a {
+  background: transparent;
+  color: #aaa;
+}
+.laptopProduct .referLink li a:hover {
+  color: #f15a24;
+}
+.laptopProduct .productBook {
+  margin: 22px 0 17px 0;
+}
+.laptopProduct .productBook h4 .primaryButton {
+  padding: 6px 12px;
+  font-size: 13px;
+}
+
+.callButtn {
+  margin: 0 auto 0;
+  width: auto;
+  text-align: center;
+  display: none;
+  margin-top: 25px;
+}
+@media (max-width: 575px) {
+  .callButtn {
+    display: block;
+  }
+}
+.callButtn .primaryButton {
+  margin: 0 0 15px 0;
+  padding: 14px;
+  font-size: 16px;
+}
