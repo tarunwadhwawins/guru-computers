@@ -159,7 +159,9 @@
             font-size: 22px;
             color: $primary-contrast-color;
             line-height: normal;
+            text-transform: none;
             margin: 0 20px 0px 0;
+            font-family: 'open_sansregular';
             @media(max-width: 991px) {
                 font-size: 17px;
                 margin: 5px 0 15px 0;
@@ -260,8 +262,9 @@
         .repairButtonn {
             .primaryButton {
                 padding: 7px 12px;
-                font-family: 'poppinsbold';
+                font-family: 'open_sansbold';
                 font-size: 13px;
+                line-height: 26px;
             }
         }
     }

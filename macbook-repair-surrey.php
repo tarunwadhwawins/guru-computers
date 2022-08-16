@@ -107,7 +107,7 @@ Apple MacBook is a powerful machine in a metallic chassis. They handle a lot of 
 Apple MacBook liquid Damage Repair Surrey
 Liquid damage is the worst damage to any electronic device. If you have spilled liquid don’t use a hair dryer or ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="">MacBook Water Damage Repair Surrey</a>
+                            <a class="primaryButton read-more" href="./macbook-liquid-damage-repair-surrey">MacBook Water Damage Repair Surrey</a>
                         </div>
                     </div>
                 </div>
@@ -118,7 +118,7 @@ Liquid damage is the worst damage to any electronic device. If you have spilled 
 Apple MacBook Keyboard Replacement Surrey
 Apple MacBook is designed with great quality keyboard however, sometimes a liquid spill can cause damage and ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="">MacBook Keyboard Replacement Surrey</a>
+                            <a class="primaryButton read-more" href="./macbook-keyboard-replacement-surrey">MacBook Keyboard Replacement Surrey</a>
                         </div>
                     </div>
                 </div>
