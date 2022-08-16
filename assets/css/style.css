@@ -352,6 +352,11 @@
   padding: 6px 12px;
   font-size: 13px;
 }
+@media (max-width: 991px) {
+  .laptopProduct p iframe {
+    width: 100%;
+  }
+}
 
 .callButtn {
   margin: 0 auto 0;

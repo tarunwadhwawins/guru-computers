@@ -95,6 +95,10 @@ p {
   text-transform: capitalize;
 }
 
+.textt-theme {
+  color: #f15a24;
+}
+
 .primaryButton {
   font-size: 16px;
   padding: 10px 18px;

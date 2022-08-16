@@ -375,6 +375,13 @@
             }
         }
     }
+    p {
+        iframe {
+            @media(max-width: 991px) {
+                width: 100%;
+            }
+        }
+    }
 }
 
 // Laptop SSD Upgrade | MacBook SSD Repair-----------------------

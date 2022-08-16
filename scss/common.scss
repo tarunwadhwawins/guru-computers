@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    font-family: 'open_sansregular';
+    font-family: $secondary-font-family;
     scroll-behavior: smooth;
 }
 
@@ -92,6 +92,10 @@ p {
     color: $basered;
     margin-right: 20px;
     text-transform: capitalize;
+}
+
+.textt-theme {
+    color: $primary-color;
 }
 
 // Button

@@ -85,7 +85,7 @@
 Apple MacBook Screen Replacement Surrey
 The most common repair for Apple MacBook is LCD screen replacement. These are high-quality screens, however, are susceptible to accidental damages. Accidental drops may cause vertical ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="">MacBook Screen Replacement Surrey</a>
+                            <a class="primaryButton read-more" href="./macbook-screen-replacement-surrey">MacBook Screen Replacement Surrey</a>
                         </div>
                     </div>
                 </div>
@@ -96,7 +96,7 @@ The most common repair for Apple MacBook is LCD screen replacement. These are hi
 Apple Macbook Logic Board Repair Surrey
 Apple MacBook is a powerful machine in a metallic chassis. They handle a lot of ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="">MacBook Motherboard Repair Surrey</a>
+                            <a class="primaryButton read-more" href="./macbook-logic-board-repair-surrey">MacBook Motherboard Repair Surrey</a>
                         </div>
                     </div>
                 </div>
