@@ -4,6 +4,13 @@
     .replacement {
         .slider {
             position: relative;
+            &:before {
+                content: "";
+                width: 100%;
+                height: 100%;
+                background: #00000066;
+                position: absolute;
+            }
             .bannerText {
                 position: absolute;
                 top: 50%;
@@ -24,7 +31,9 @@
     }
     .owl-carousel {
         position: relative;
-        transition: all 0.5s;
+        .owl-item {
+            animation-duration: 0.9s !important;
+        }
         .owl-prev {
             .fa {
                 position: absolute;

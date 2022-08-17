@@ -2,6 +2,13 @@
 .banner .replacement .slider {
   position: relative;
 }
+.banner .replacement .slider:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+}
 .banner .replacement .slider .bannerText {
   position: absolute;
   top: 50%;
@@ -22,7 +29,9 @@
 }
 .banner .owl-carousel {
   position: relative;
-  transition: all 0.5s;
+}
+.banner .owl-carousel .owl-item {
+  animation-duration: 0.9s !important;
 }
 .banner .owl-carousel .owl-prev .fa {
   position: absolute;

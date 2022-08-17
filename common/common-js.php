@@ -12,7 +12,8 @@
             nav: true,
             navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
             autoplay: true,
-            autoplayTimeout: 3000,
+            autoplayTimeout: 3000000,
+            smartSpeed: 800,
             loop: true,
             responsive: {
                 0: {
@@ -67,4 +68,16 @@
             $(".backToTop ").removeClass("show");
         }
     });
+</script>
+<script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("navActive");
+var btns = header.getElementsByClassName("nav-item");
+for (var i = 0; i < btns.length; i++) {2
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
 </script>

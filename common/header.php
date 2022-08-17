@@ -11,7 +11,7 @@
               </div>
            </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <ul class="d-flex align-items-center navbar-nav m-auto">
+                <ul class="d-flex align-items-center navbar-nav m-auto" id="navActive">
                     <li class="nav-item ">
                         <a class="nav-link  active" href="index">Home</a>
                     </li>
