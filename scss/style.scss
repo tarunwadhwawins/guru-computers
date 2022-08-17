@@ -390,7 +390,7 @@
 // Laptop SSD Upgrade | MacBook SSD Repair-----------------------
 // Callus-Button
 .callButtn {
-    margin: 0 auto 0;
+    margin: 0 auto;
     width: auto;
     text-align: center;
     display: none;
@@ -577,6 +577,145 @@
             }
             .primaryButton {
                 width: 200px
+            }
+        }
+    }
+}
+
+// data recovery //
+.dataRecoverydelta {
+    .productData {
+        a {
+            color: $grey3;
+            &:hover {
+                color: $primary-color;
+            }
+        }
+        padding: 50px 0;
+        img {
+            &.rightimg {
+                float: right;
+                width: 295px;
+                margin: 0 0 0 28px;
+                @media screen and (max-width: 767px) {
+                    width: 100%;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        h5 {
+            line-height: 26px;
+            color: #777;
+            font-family: 'open_sansbold';
+        }
+        p {
+            line-height: 24px;
+            color: #777;
+            margin: 0 0 10px;
+            @media screen and (max-width: 480px) {
+                text-align: justify;
+                line-height: 26px;
+            }
+        }
+        h2 {
+            font-size: 26px;
+            margin: 0 0 16px 0;
+            font-family: 'open_sansbold';
+            line-height: 26px;
+            @media screen and (max-width: 767px) {
+                font-size: 22px;
+            }
+        }
+        h3 {
+            font-size: 18px;
+            line-height: 26px;
+            font-family: 'poppinsmedium';
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: $secondary-dark-color;
+        }
+        h4 {
+            line-height: 26px;
+            color: $secondary-dark-color;
+            text-transform: uppercase;
+            font-family: 'poppinsmedium';
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .listing {
+            margin: 0 0 12px 0;
+            ul {
+                padding: 0px 0 0 38px;
+                list-style: none;
+                margin: 0;
+                li {
+                    font-size: 14px;
+                    line-height: 28px;
+                    font-family: 'open_sansregular';
+                    a {
+                        &::before {
+                            content: "\2022";
+                            color: $grey3;
+                            font-weight: bold;
+                            display: inline-block;
+                            width: 1em;
+                            margin-left: -1em;
+                        }
+                    }
+                    &::before {
+                        content: "\2022";
+                        color: $primary-color;
+                        font-weight: bold;
+                        display: inline-block;
+                        width: 1em;
+                        margin-left: -1em;
+                    }
+                }
+            }
+        }
+        .baseButton {
+            padding: 6px 12px;
+        }
+        .comments {
+            textarea {
+                display: block;
+                border: 1px solid #d9d9d9;
+                font-size: 14px;
+                padding: 10px;
+                color: #2d2d2d;
+                margin: 10px 0;
+                max-width: 77%;
+                width: 100%;
+                resize: none;
+            }
+            input {
+                border: 1px solid #d9d9d9;
+                color: #b8b8b8;
+                font-size: 14px;
+                padding: 10px;
+                margin: 10px 0;
+                max-width: 77%;
+                width: 100%;
+                &.checkbox {
+                    width: unset !important;
+                }
+            }
+            .boldtext {
+                display: inline-block;
+                max-width: 100%;
+                margin: 10px 0;
+                font-size: 14px;
+                line-height: 24px;
+                color: #777;
+                font-family: 'open_sansbold';
+            }
+            h3 {
+                border-bottom: 1px solid #d9d9d9;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 48px;
+                margin-bottom: 15px;
+                position: relative;
             }
         }
     }

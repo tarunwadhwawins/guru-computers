@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .banner .replacement .slider {
   position: relative;
 }
@@ -362,7 +363,7 @@
 }
 
 .callButtn {
-  margin: 0 auto 0;
+  margin: 0 auto;
   width: auto;
   text-align: center;
   display: none;
@@ -560,4 +561,140 @@
 }
 .contact .question .contactFeild .primaryButton {
   width: 200px;
+}
+
+.dataRecoverydelta .productData {
+  padding: 50px 0;
+}
+.dataRecoverydelta .productData a {
+  color: #aaa;
+}
+.dataRecoverydelta .productData a:hover {
+  color: #f15a24;
+}
+.dataRecoverydelta .productData img.rightimg {
+  float: right;
+  width: 295px;
+  margin: 0 0 0 28px;
+}
+@media screen and (max-width: 767px) {
+  .dataRecoverydelta .productData img.rightimg {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+.dataRecoverydelta .productData h5 {
+  line-height: 26px;
+  color: #777;
+  font-family: "open_sansbold";
+}
+.dataRecoverydelta .productData p {
+  line-height: 24px;
+  color: #777;
+  margin: 0 0 10px;
+}
+@media screen and (max-width: 480px) {
+  .dataRecoverydelta .productData p {
+    text-align: justify;
+    line-height: 26px;
+  }
+}
+.dataRecoverydelta .productData h2 {
+  font-size: 26px;
+  margin: 0 0 16px 0;
+  font-family: "open_sansbold";
+  line-height: 26px;
+}
+@media screen and (max-width: 767px) {
+  .dataRecoverydelta .productData h2 {
+    font-size: 22px;
+  }
+}
+.dataRecoverydelta .productData h3 {
+  font-size: 18px;
+  line-height: 26px;
+  font-family: "poppinsmedium";
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #2d2d2d;
+}
+.dataRecoverydelta .productData h4 {
+  line-height: 26px;
+  color: #2d2d2d;
+  text-transform: uppercase;
+  font-family: "poppinsmedium";
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.dataRecoverydelta .productData .listing {
+  margin: 0 0 12px 0;
+}
+.dataRecoverydelta .productData .listing ul {
+  padding: 0px 0 0 38px;
+  list-style: none;
+  margin: 0;
+}
+.dataRecoverydelta .productData .listing ul li {
+  font-size: 14px;
+  line-height: 28px;
+  font-family: "open_sansregular";
+}
+.dataRecoverydelta .productData .listing ul li a::before {
+  content: "•";
+  color: #aaa;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.dataRecoverydelta .productData .listing ul li::before {
+  content: "•";
+  color: #f15a24;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.dataRecoverydelta .productData .baseButton {
+  padding: 6px 12px;
+}
+.dataRecoverydelta .productData .comments textarea {
+  display: block;
+  border: 1px solid #d9d9d9;
+  font-size: 14px;
+  padding: 10px;
+  color: #2d2d2d;
+  margin: 10px 0;
+  max-width: 77%;
+  width: 100%;
+  resize: none;
+}
+.dataRecoverydelta .productData .comments input {
+  border: 1px solid #d9d9d9;
+  color: #b8b8b8;
+  font-size: 14px;
+  padding: 10px;
+  margin: 10px 0;
+  max-width: 77%;
+  width: 100%;
+}
+.dataRecoverydelta .productData .comments input.checkbox {
+  width: unset !important;
+}
+.dataRecoverydelta .productData .comments .boldtext {
+  display: inline-block;
+  max-width: 100%;
+  margin: 10px 0;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777;
+  font-family: "open_sansbold";
+}
+.dataRecoverydelta .productData .comments h3 {
+  border-bottom: 1px solid #d9d9d9;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 48px;
+  margin-bottom: 15px;
+  position: relative;
 }

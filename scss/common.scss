@@ -69,6 +69,7 @@ h4 {
 
 h5,
 h6 {
+    font-size: 14px;
     margin: 0;
 }
 
@@ -133,4 +134,12 @@ p {
         padding: 10px 17px 15px;
         font-size: 12px;
     }
+}
+
+.map {
+    max-width: 800px;
+}
+
+.youtubeVideo {
+    max-width: 640px;
 }
