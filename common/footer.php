@@ -1,21 +1,20 @@
-<!-- Footer -->
-<section class="footer">
+<footer class="siteFooter">
     <div class="container">
         <div class="row">
             <div class="col-xl-3 col-lg-6 col-md-6 mb-4">
                 <h3 class="widgetTitle">COMPUTER REPAIR IN DELTA</h3>
                 <div class="footerLinks">
                     <ul class="menu">
-                        <li><a href="">MacBook Screen Replacement</a></li>
+                        <li><a href="javascript:void(0)">MacBook Screen Replacement</a></li>
                         <li>
-                            <a href="">MacBook Keyboard Replacement</a></li>
+                            <a href="javascript:void(0)">MacBook Keyboard Replacement</a></li>
                         <li>
-                            <a href="">MacBook Logicboard Repair</a>
+                            <a href="javascript:void(0)">MacBook Logicboard Repair</a>
                         </li>
-                        <li><a href="">MacBook Liquid Damage Repair</a></li>
-                        <li><a href="">Virus Removal Delta</a></li>
-                        <li><a href="">Laptop Screen Replacement Delta</a></li>
-                        <li><a href="">Data Recovery Services Delta</a></li>
+                        <li><a href="javascript:void(0)">MacBook Liquid Damage Repair</a></li>
+                        <li><a href="javascript:void(0)">Virus Removal Delta</a></li>
+                        <li><a href="javascript:void(0)">Laptop Screen Replacement Delta</a></li>
+                        <li><a href="javascript:void(0)">Data Recovery Services Delta</a></li>
                     </ul>
                 </div>
             </div>
@@ -23,16 +22,16 @@
                 <h3 class="widgetTitle">COMPUTER REPAIR IN SURREY</h3>
                 <div class="footerLinks">
                     <ul class="menu">
-                        <li><a href="">MacBook Screen Replacement</a></li>
+                        <li><a href="javascript:void(0)">MacBook Screen Replacement</a></li>
                         <li>
-                            <a href="">MacBook Logic Board Repair</a></li>
+                            <a href="javascript:void(0)">MacBook Logic Board Repair</a></li>
                         <li>
-                            <a href="">MacBook Liquid Damage Repair</a>
+                            <a href="javascript:void(0)">MacBook Liquid Damage Repair</a>
                         </li>
-                        <li><a href="">MacBook Keyboard Replacement</a></li>
-                        <li><a href="">Virus Removal Surrey</a></li>
-                        <li><a href="">Laptop Screen Replacement Surrey</a></li>
-                        <li><a href="">Data Recovery Surrey</a></li>
+                        <li><a href="javascript:void(0)">MacBook Keyboard Replacement</a></li>
+                        <li><a href="javascript:void(0)">Virus Removal Surrey</a></li>
+                        <li><a href="javascript:void(0)">Laptop Screen Replacement Surrey</a></li>
+                        <li><a href="javascript:void(0)">Data Recovery Surrey</a></li>
                     </ul>
                 </div>
             </div>
@@ -40,13 +39,13 @@
                 <h3 class="widgetTitle">GURU COMPUTERS SERVICES</h3>
                 <div class="footerLinks">
                     <ul class="menu">
-                        <li><a href="">Computer Repair Delta</a></li>
+                        <li><a href="javascript:void(0)">Computer Repair Delta</a></li>
                         <li>
-                            <a href="">Computer Repair Surrey</a></li>
+                            <a href="javascript:void(0)">Computer Repair Surrey</a></li>
                         <li>
-                            <a href="">MacBook Repair Delta</a>
+                            <a href="javascript:void(0)">MacBook Repair Delta</a>
                         </li>
-                        <li><a href="">MacBook Repair Surrey</a></li>
+                        <li><a href="javascript:void(0)">MacBook Repair Surrey</a></li>
                     </ul>
                 </div>
                 <h3 class="widgetTitle">GOOGLE REVIEWS</h3>
@@ -91,10 +90,23 @@
             </div>
         </div>
     </div>
-</section>
-<!--  -->
+</footer>
 <!-- Back to Top -->
 <div class="backToTop " title="Back to top">
     <a href="#"> <i class="fa fa-angle-up" aria-hidden="true"></i></a>
 </div>
 <!--  -->
+<div class="stickyContainer">
+    <ul class="sticky">
+        <li>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <p><a href="tel:+1 (604) 256-2193">+1 (604) 256-2193 </a></p>
+        </li>
+        <li>
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <p>
+                <a href="mailto:gururepairlab@gmail.com"> gururepairlab@gmail.com</a>
+            </p>
+        </li>
+    </ul>
+</div>
