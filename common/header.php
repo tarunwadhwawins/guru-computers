@@ -34,13 +34,13 @@
                          <!-- SubMenu -->
                          <ul class="subMenu dropdown-menu">
                                     <li><a href="./data-recovery-services-delta" class="dropdown-item">Data Recovery Delta</a></li>
-                                    <li><a href="./macbook-repair-surrey" class="dropdown-item">Data Recovery Surrey</a></li>
+                                    <li><a href="./hard-drive-data-recovery-in-surrey" class="dropdown-item">Data Recovery Surrey</a></li>
                                 </ul></li> 
                             <li class="nav-item dropdown subMenuDropdown"> <a href="" class=" nav-link dropdown-item"  aria-expanded="false">Virus Removal</a>
                          <!-- SubMenu -->
                          <ul class="subMenu dropdown-menu">
-                                    <li><a href="./macbook-repair-delta" class="dropdown-item">Virus Removal Delta</a></li>
-                                    <li><a href="./macbook-repair-surrey" class="dropdown-item">Virus Removal Surrey</a></li>
+                                    <li><a href="./virus-spyware-malware-adware-removal" class="dropdown-item">Virus Removal Delta</a></li>
+                                    <li><a href="./virus-malware-trojan-removal-surrey" class="dropdown-item">Virus Removal Surrey</a></li>
                                 </ul></li>
                             </ul></li>
                     <li class="nav-item dropdown repairDropdown">
