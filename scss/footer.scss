@@ -1,7 +1,7 @@
 @import './variables.scss';
 .siteFooter {
     padding-top: 60px;
-    background-color: #333333;
+    background-color: $solid-dark-color;
     .widgetTitle {
         text-align: left;
         font-size: 16px;
@@ -52,14 +52,11 @@
             color: $grey;
             font-size: 14px;
             font-family: 'open_sansregular';
-            // &:hover {
-            //     color: #f15a24;
-            // }
         }
         .contactLink {
             a {
                 text-decoration: none;
-                color: #aaa;
+                color: $grey3;
                 &:hover {
                     color: $primary-color;
                     .mailtext {
@@ -68,7 +65,7 @@
                 }
                 .mailtext {
                     font-size: 16px;
-                    color: #cbcbcb;
+                    color: $grey4;
                 }
             }
         }
@@ -83,7 +80,7 @@
         }
     }
     .copyright {
-        background-color: #3a3a3a;
+        background-color: $darkcolor;
         padding: 30px 0;
         @media only screen and (max-width: 767px) {
             text-align: center;
@@ -91,7 +88,7 @@
         }
         p {
             margin: 0;
-            color: rgba(255, 255, 255, .250);
+            color: $solid-lite-color;
             letter-spacing: 1px;
             font-size: 14px;
             font-family: 'open_sansregular';
@@ -110,7 +107,7 @@
                     &.facebook {
                         a {
                             &:hover {
-                                background: #3E5993;
+                                background: $facebook-color;
                             }
                         }
                     }
@@ -128,7 +125,7 @@
                     &.twitter {
                         a {
                             &:hover {
-                                background: #00C3F8;
+                                background: $twitter-color;
                             }
                         }
                     }
@@ -206,10 +203,11 @@
         ul {
             margin: 0;
             padding: 0;
+            list-style: disc;
             li {
                 list-style-type: none;
-                background-color: #000;
-                color: #efefef;
+                background-color: $primary-dark-color;
+                color: $secondary-contrast-color;
                 height: 43px;
                 padding: 0px;
                 transition: all 0.25s ease-in-out;
@@ -223,7 +221,7 @@
                     margin-right: 5px;
                     font-size: 21px;
                     padding: 6px;
-                    color: #fff;
+                    color: $primary-contrast-color;
                     text-align: center;
                 }
                 p {
@@ -232,13 +230,10 @@
                     line-height: 16px;
                     font-size: 13px;
                     a {
-                        color: #fff;
+                        color: $primary-contrast-color;
                     }
                 }
             }
         }
-    }
-    ul {
-        list-style: disc;
     }
 }

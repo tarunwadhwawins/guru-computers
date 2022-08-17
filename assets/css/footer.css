@@ -85,7 +85,7 @@
 }
 .siteFooter .copyright p {
   margin: 0;
-  color: rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.2509803922);
   letter-spacing: 1px;
   font-size: 14px;
   font-family: "open_sansregular";
@@ -184,6 +184,7 @@
   .stickyContainer ul {
     margin: 0;
     padding: 0;
+    list-style: disc;
   }
   .stickyContainer ul li {
     list-style-type: none;
@@ -215,7 +216,4 @@
   .stickyContainer ul li p a {
     color: #fff;
   }
-}
-.stickyContainer ul {
-  list-style: disc;
 }

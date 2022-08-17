@@ -17,7 +17,7 @@ header {
             img {
                 max-width: 240px;
                 @media(max-width: 767px) {
-                    max-width: 150px;
+                    max-width: 135px;
                 }
             }
         }
@@ -29,6 +29,10 @@ header {
                 border-radius: 5px;
                 color: $primary-color;
                 font-size: 20px;
+                @media(max-width: 767px) {
+                    padding: 6px 10px;
+                    font-size: 14px;
+                }
             }
         }
         li {

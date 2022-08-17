@@ -40,9 +40,20 @@ h1 {
   font-family: "open_sanssemibold";
   text-align: center;
 }
+@media (max-width: 900px) {
+  h1 {
+    font-size: 40px;
+  }
+}
 @media (max-width: 767px) {
   h1 {
-    font-size: 28px;
+    font-size: 30px;
+  }
+}
+@media (max-width: 640px) {
+  h1 {
+    font-size: 13px;
+    margin-bottom: 15px;
   }
 }
 

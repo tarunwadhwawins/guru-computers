@@ -10,11 +10,14 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
                 p {
-                    text-shadow: 0 1px 1px #333;
+                    text-shadow: 0 1px 1px $solid-dark-color;
                     line-height: 30px;
                     text-align: center;
                     color: $primary-contrast-color;
                     letter-spacing: 1px;
+                    @media(max-width: 680px) {
+                        display: none;
+                    }
                 }
             }
         }
@@ -450,13 +453,13 @@
                 width: 100% !important;
                 &:first-child {
                     border-right: none !important;
-                    border-bottom: 1px solid rgb(220, 220, 220);
+                    border-bottom: 1px solid $grey5;
                 }
             }
         }
         .callus {
             &:first-child {
-                border-right: 1px solid rgb(220, 220, 220);
+                border-right: 1px solid $grey5;
             }
             display: flex;
             padding: 15px;
@@ -488,7 +491,7 @@
         padding: 10px;
         border: 2px solid #ddd;
         border-radius: 4px;
-        background: #fff;
+        background: $primary-contrast-color;
         margin-bottom: 30px;
         .contactFeild {
             margin: 0 0 18px 0;
@@ -516,7 +519,7 @@
             h3 {
                 font-family: 'poppinsmedium';
                 text-transform: uppercase;
-                color: rgb(70, 69, 71);
+                color: #464547;
                 font-size: 20px;
                 line-height: 25px;
                 margin-bottom: 35px;
@@ -605,12 +608,12 @@
         }
         h5 {
             line-height: 26px;
-            color: #777;
+            color: $grey;
             font-family: 'open_sansbold';
         }
         p {
             line-height: 24px;
-            color: #777;
+            color: $grey;
             margin: 0 0 10px;
             @media screen and (max-width: 480px) {
                 text-align: justify;
@@ -682,7 +685,7 @@
                 border: 1px solid #d9d9d9;
                 font-size: 14px;
                 padding: 10px;
-                color: #2d2d2d;
+                color: $secondary-dark-color;
                 margin: 10px 0;
                 max-width: 77%;
                 width: 100%;
@@ -712,7 +715,7 @@
                 margin: 10px 0;
                 font-size: 14px;
                 line-height: 24px;
-                color: #777;
+                color: $grey;
                 font-family: 'open_sansbold';
             }
             h3 {

@@ -41,8 +41,15 @@ h1 {
     text-transform: uppercase;
     font-family: 'open_sanssemibold';
     text-align: center;
+    @media(max-width: 900px) {
+        font-size: 40px;
+    }
     @media(max-width: 767px) {
-        font-size: 28px;
+        font-size: 30px;
+    }
+    @media(max-width: 640px) {
+        font-size: 13px;
+        margin-bottom: 15px;
     }
 }
 

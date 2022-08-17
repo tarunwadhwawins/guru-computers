@@ -3,7 +3,7 @@
 
 <head>
     <!-- Title -->
-    <title>Guru Computers</title>
+    <title>MacBook Repair Services in Delta | Laptop Screen Replacement</title>
     <!-- Meta & Link Tags -->
     <?php include_once('common/common-css.php'); ?>
     <!--  -->
@@ -45,7 +45,7 @@
                 <div class="bannerText d-flex align-items-center flex-column">
                     <h1>cracked or shattered screens?</h1>
                     <p> Screen replacement starting at $200 onwards.</p>
-                    <a href=""> <button type="button" class=" primaryButton">Call Now!</button></a>
+                    <a href="javascript:void(0)"> <button type="button" class=" primaryButton">Call Now!</button></a>
                 </div>
             </div>
         </div>
@@ -73,26 +73,26 @@
     <section class="deltaSurrey">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="webIcon">
-                        <img src="./assets/images/applelogo.png" alt="">
+                        <img src="./assets/images/applelogo.png" alt="apple-logo">
                     </div>
                     <div class="webIcon">
-                        <img src="./assets/images/windowslogo.png" alt="">
+                        <img src="./assets/images/windowslogo.png" alt="window-logo">
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="buttonSection">
-                        <a href=""> <button type="button" class=" primaryButton">Macbook Repair in Delta</button></a>
+                        <a href="javascript:void(0)"> <button type="button" class=" primaryButton">Macbook Repair in Delta</button></a>
                     </div>
                     <div class="buttonSection">
-                        <a href=""> <button type="button" class=" primaryButton">Macbook Repair in Surrey</button></a>
+                        <a href="javascript:void(0)"> <button type="button" class=" primaryButton">Macbook Repair in Surrey</button></a>
                     </div>
                     <div class="buttonSection">
-                        <a href=""> <button type="button" class=" primaryButton">Computer Repair in Delta</button></a>
+                        <a href="javascript:void(0)"> <button type="button" class=" primaryButton">Computer Repair in Delta</button></a>
                     </div>
                     <div class="buttonSection">
-                        <a href=""> <button type="button" class=" primaryButton">Computer Repair in Surrey</button></a>
+                        <a href="javascript:void(0)"> <button type="button" class=" primaryButton">Computer Repair in Surrey</button></a>
                     </div>
                 </div>
             </div>
@@ -121,8 +121,6 @@
                                 <span class="title">Alberto Cirillo</span>
                             </div>
                         </div>
-
-
                         <div class="quickService">
                             <p class="text-center m-0">Excellent. Consistently pleased by prompt, effective service and fair prices. Highly recommend these true gurus.</p>
                             <div class="ratingIcon text-center">
@@ -134,7 +132,6 @@
                             </div>
                             <div class="testimonialProfile">
                                 <span class="title">David MacDuff</span>
-
                             </div>
                         </div>
                         <div class="quickService">
@@ -164,7 +161,6 @@
                             </div>
                             <div class="testimonialProfile">
                                 <span class="title">Mizan Rahman</span>
-
                             </div>
                         </div>
                         <div class="quickService">
@@ -217,7 +213,6 @@
                             </div>
                             <div class="testimonialProfile">
                                 <span class="title">Cindy Letain</span>
-
                             </div>
                         </div>
                         <div class="quickService">
