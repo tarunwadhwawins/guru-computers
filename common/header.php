@@ -53,9 +53,9 @@
                                     <li><a href="./imac-repair-delta" class="dropdown-item">iMac Repair</a></li>
                                 </ul>
                         </li>
-                            <li><a href="#" class="dropdown-item">ASUS Repair</a></li>
-                            <li><a href="#" class="dropdown-item">Acer Repair</a></li>
-                            <li><a href="#" class="dropdown-item">Lenovo Repair</a></li>
+                            <li><a href="./asus-laptop-repair-delta" class="dropdown-item">ASUS Repair</a></li>
+                            <li><a href="./acer-laptop-repair-delta" class="dropdown-item">Acer Repair</a></li>
+                            <li><a href="./lenovo-laptop-repair-delta" class="dropdown-item">Lenovo Repair</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">

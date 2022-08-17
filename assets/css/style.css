@@ -655,7 +655,7 @@
   width: 1em;
   margin-left: -1em;
 }
-.dataRecoverydelta .productData .baseButton {
+.dataRecoverydelta .productData .primaryButton {
   padding: 6px 12px;
 }
 .dataRecoverydelta .productData .comments textarea {
@@ -669,6 +669,11 @@
   width: 100%;
   resize: none;
 }
+@media screen and (max-width: 767px) {
+  .dataRecoverydelta .productData .comments textarea {
+    max-width: 100% !important;
+  }
+}
 .dataRecoverydelta .productData .comments input {
   border: 1px solid #d9d9d9;
   color: #b8b8b8;
@@ -680,6 +685,11 @@
 }
 .dataRecoverydelta .productData .comments input.checkbox {
   width: unset !important;
+}
+@media screen and (max-width: 767px) {
+  .dataRecoverydelta .productData .comments input {
+    max-width: 100% !important;
+  }
 }
 .dataRecoverydelta .productData .comments .boldtext {
   display: inline-block;
@@ -697,4 +707,11 @@
   line-height: 48px;
   margin-bottom: 15px;
   position: relative;
+}
+@media screen and (max-width: 767px) {
+  .dataRecoverydelta .productData .comments .saveCheckbox {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+  }
 }
