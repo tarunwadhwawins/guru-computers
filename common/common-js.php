@@ -1,7 +1,9 @@
 <!-- script -->
 <script src="./assets/js/jquery-min.js"></script>
+<script src="./assets/js/cloudflare_jquery.min.js"></script>
 <script src="./assets/js/bootstrap.bundle.min.js"></script>
 <script src="./assets/js/owl.carousel.min.js"></script>
+
 <!--  -->
 
 <script>
@@ -80,4 +82,38 @@ for (var i = 0; i < btns.length; i++) {2
   this.className += " active";
   });
 }
+</script>
+<!-- Form-Validations -->
+<script>
+    function validateName() {
+        // alert("xbxb")
+        var name = document.getElementById("contact-name").value
+        var email = document.getElementById("contactEmail").value
+        var number = document.getElementById("mobnumber").value
+
+        if (name == "") {
+            document.getElementById('nameerror').innerHTML = "Name is Required"
+                // return true;
+        } else {
+            document.getElementById('nameerror').innerHTML = ""
+        }
+
+        if (email == "") {
+            document.getElementById('emailerror').innerHTML = "Email is required"
+                // return false;
+        } else if (email != email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
+            document.getElementById("emailerror").innerHTML = "enter valid email";
+        } else {
+            document.getElementById('emailerror').innerHTML = ""
+        }
+
+        if (number == "") {
+            document.getElementById('numbererror').innerHTML = "Mobile Number is required"
+                // return true;
+        } else {
+            document.getElementById('numbererror').innerHTML = ""
+        }
+
+
+    }
 </script>

@@ -19,7 +19,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-sm-12">
-                    <h2 class="m-0">contact</h2>
+                    <h1 class="m-0">contact</h1>
                 </div>
             </div>
         </div>
@@ -30,13 +30,13 @@
                 <div class="col-sm-10 offset-sm-1">
                     <div class="textWigits">
                         <div class="callus">
-                            <img src="./assets/images/phoneimage.png" alt="">
+                            <img src="assets/images/phoneimage.png" alt="">
                             <h4>Call Us</h4>
                             <p>Guru Copmuters</p>
                             <a href="tel:+1 (604) 256-2193"><button class="primaryButton">+1 (604) 256-2193</button></a>
                         </div>
                         <div class="callus">
-                            <img src="./assets/images/clockimage.png" alt="">
+                            <img src="assets/images/clockimage.png" alt="">
                             <h4>SUPPORT HOURS</h4>
                             <p>Monday-Saturday : 10:00 am - 07:00 pm</p>
                             <p>Sunday : Closed</p>
@@ -53,19 +53,21 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="contactFeild">
+                            <div class="contactFeild">
                                     <h5>
                                         Your Name
                                     </h5>
-                                    <input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
+                                    <input type="text" id="contact-name" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
+                                    <span id="nameerror" class="text-danger"> </span>
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="contactFeild">
+                            <div class="contactFeild">
                                     <h5>
                                         Your Email
                                     </h5>
-                                    <input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
+                                    <input type="text" id="contactEmail" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
+                                    <span id="emailerror" class="text-danger"> </span>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -81,7 +83,9 @@
                                     <h5>
                                         Contact No
                                     </h5>
-                                    <input type="tel" name="your-tel" value="" class="wpcf7-form-control wpcf7mf-mask wpcf7-mask wpcf7-validates-as-required" size="40" aria-required="1" placeholder="(___)___-____" data-mask="(___)___-____">
+                                    <input type="number" maxlength="10" id="mobnumber" data-slots="_" name="your-tel" value="" class="wpcf7-form-control wpcf7mf-mask wpcf7-mask wpcf7-validates-as-required" size="40" aria-required="1" placeholder="(___)___-____" data-mask="(___)___-____"
+                                        oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" require>
+                                    <span id="numbererror" class="text-danger"></span>
                                 </div>
                             </div>
                             <div class="col-sm-12">
@@ -105,9 +109,8 @@
                                 </div>
                             </div>
                             <div class="col-sm-12">
-                                <div class="contactFeild">
-                                    <button class="primaryButton">Send</button>
-                                    <!-- <input type="submit" value="Send" class="wpcf7-form-control has-spinner wpcf7-submit"><span class="wpcf7-spinner"></span> -->
+                            <div class="contactFeild">
+                                    <button class="primaryButton" id="submit-error" onclick="validateName()">Send</button>
                                 </div>
                             </div>
                         </div>

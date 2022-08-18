@@ -17,7 +17,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-sm-12">
-                    <h2 class="m-0">macbook repair delta</h2>
+                    <h1 class="m-0">macbook repair delta</h1>
                 </div>
             </div>
         </div>
@@ -42,7 +42,7 @@
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="boardImage">
-                        <img src="./assets/images/macbook-with-apple-logo.png" alt="boardImage">
+                        <img src="assets/images/macbook-with-apple-logo.png" alt="boardImage">
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@
                         <a href="tel:+1 (604) 256-2193" class="primaryButton" target="_self">Call  +1 (604) 256-2193</a>
                     </div>
                     <div class="col-sm-12 ">
-                        <a href="#" class="primaryButton">Contact Us</a>
+                        <a href="javascript:void(0)" class="primaryButton">Contact Us</a>
                     </div>
                 </div>
             </div>

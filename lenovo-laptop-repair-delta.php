@@ -19,7 +19,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-sm-12">
-                    <h2 class="m-0">LENOVO REPAIR DELTA – LENOVO LAPTOP SERVICES</h2>
+                    <h1 class="m-0">Lenovo Repair Delta – Lenovo Laptop Services</h1>
                 </div>
             </div>
         </div>
@@ -33,7 +33,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <img class="rightimg" src="./assets/images/Lenovo-repair-Delta.jpg" alt="">
+                        <img class="rightimg" src="assets/images/Lenovo-repair-Delta.jpg" alt="">
                         <p>Lenovo is the industry leader in innovation and technology when it comes to laptops and smart devices. They offer a gamut of laptops and devices catering to a wide range of consumer needs. If you’re looking for Lenovo laptop repair
                             in Delta, then you must visit Guru Computers, a computer repair store in Delta, British Columbia.</p>
                         <h2>LENOVO REPAIR DELTA – LENOVO LAPTOP SERVICES </h2>
@@ -79,10 +79,10 @@
                                 <li><a href="javascript:void(0)">Acer laptop repair Delta</a></li>
                             </ul>
                         </div>
-                        <h4>
-                            <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer"> <button class="primaryButton"> Book Now
+                    
+                            <a href="./contact" target="_blank" rel="noopener noreferrer"> <button class="primaryButton"> Book Now
                         </button></a>
-                        </h4>
+                        
                         <?php include_once('common/youtubevideo.php'); ?>
                         <h4>GET DIRECTIONS fOR Lenovo Laptop Repair Delta</h4>
                         <?php include_once('common/map.php'); ?>

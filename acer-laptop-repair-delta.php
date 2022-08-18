@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-sm-12">
-                    <h2 class="m-0">ACER REPAIR DELTA – ACER LAPTOP SERVICES</h2>
+                    <h1 class="m-0">Acer Repair Delta – Acer Laptop Services</h1>
                 </div>
             </div>
         </div>
@@ -35,7 +35,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <img class="rightimg" src="./assets/images/Acer-repair-delta.jpg" alt="">
+                        <img class="rightimg" src="assets/images/Acer-repair-delta.jpg" alt="">
                         <p>Acer offers a wide variety of affordable laptop and desktop to cater to a wide range of consumers in home and small business segment. It is one of the leading laptop brands in North America and offers an affordable and durable
                             line of laptops like Acer Aspire, Acer Swift and Acer TravelMate.</p>
                         <h2>ACER REPAIR DELTA – ACER LAPTOP SERVICES</h2>
@@ -80,10 +80,8 @@
                                 <li><a href="javascript:void(0)">Acer Repair Delta</a></li>
                             </ul>
                         </div>
-                        <h4>
-                            <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer"> <button class="primaryButton"> Book Now
+                            <a href="./contact" target="_blank" rel="noopener noreferrer"> <button class="primaryButton"> Book Now
                         </button></a>
-                        </h4>
                         <?php include_once('common/youtubevideo.php'); ?>
                         <h4>GET DIRECTIONS fOR Acer Laptop Repair Delta</h4>
                         <?php include_once('common/map.php'); ?>

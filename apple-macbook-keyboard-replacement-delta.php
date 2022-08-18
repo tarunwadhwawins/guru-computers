@@ -17,7 +17,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-sm-12">
-                    <h2 class="m-0">MACBOOK KEYBOARD REPLACEMENT IN DELTA</h2>
+                    <h1 class="m-0">MacBook Keyboard Replacement In Delta</h1>
                 </div>
             </div>
         </div>
@@ -29,7 +29,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="./assets/images/keyboardrepairservices01.jpg" alt="productImage">
+                        <img src="assets/images/keyboardrepairservices01.jpg" alt="productImage">
                     </div>
                     <p>MacBook keys stop working? Guru Computers provide the best MacBook Keyboard Replacement service in <a href="javascript:void(0)"><span class="textt">Delta </span></a> , BC. We here at Guru Computers, repair all kind of MacBooks.</p>
                     <h2>BEST MACBOOK KEYBOARD REPLACEMENT IN DELTA</h2>
@@ -54,7 +54,7 @@
                         </ul>
                     </div>
                     <div class="productBook">
-                        <h4><a class="primaryButton" href="javascript:void(0)" target="_blank">Book Now</a></h4>
+                        <a class="primaryButton" href="./contact" target="_blank">Book Now</a>
                     </div>
                     <p><iframe loading="lazy" title="Best Apple MacBook Repair Service in Delta &amp; Surrey, BC - Guru Computers" width="640" height="360" src="https://www.youtube.com/embed/OhhJ6pcIUHY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen=""></iframe></p>

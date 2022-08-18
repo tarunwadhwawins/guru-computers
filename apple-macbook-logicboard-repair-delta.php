@@ -17,7 +17,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-sm-12">
-                    <h2 class="m-0">MACBOOK LOGICBOARD REPAIR IN DELTA</h2>
+                    <h1 class="m-0">MacBook Logicboard Repair In Delta</h1>
                 </div>
             </div>
         </div>
@@ -29,7 +29,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="./assets/images/logicboardservice.png" alt="productImage">
+                        <img src="assets/images/logicboardservice.png" alt="productImage">
                     </div>
                     <p>Looking for Apple MacBook Logicboard Repair in <a href="javascript:void(0)"><span class="textt">Delta </span></a> , BC? At Guru Computers, we repair Apple MacBooks of all generations.</p>
                     <h2>APPLE MACBOOK LOGICBOARD REPAIR IN DELTA</h2>
@@ -60,7 +60,7 @@
                         </ul>
                     </div>
                     <div class="productBook">
-                        <h4><a class="primaryButton" href="javascript:void(0)" target="_blank">Book Now</a></h4>
+                        <a class="primaryButton" href="./contact" target="_blank">Book Now</a>
                     </div>
                     <p><iframe loading="lazy" title="Best Apple MacBook Repair Service in Delta &amp; Surrey, BC - Guru Computers" width="640" height="360" src="https://www.youtube.com/embed/OhhJ6pcIUHY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen=""></iframe></p>

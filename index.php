@@ -22,10 +22,10 @@
                     <p> Keyboard replacement starting at $175 onwords.</p>
                     <button type="button" class="primaryButton">Call Now!</button>
                 </div>
-                <img src="./assets/images/keyboardreplacement.jpg" alt="banner-image">
+                <img src="assets/images/keyboardreplacement.jpg" alt="banner-image">
             </div>
             <div class="slider">
-                <img src="./assets/images/liquiddamage2.jpg" alt="">
+                <img src="assets/images/liquiddamage2.jpg" alt="">
                 <div class="bannerText d-flex align-items-center flex-column">
                     <h1>Spilled liquid?</h1>
                     <p>Liquid damage repair starting at $110 onwards. </p>
@@ -33,7 +33,7 @@
                 </div>
             </div>
             <div class="slider">
-                <img src="./assets/images/logicboard2.jpg" alt="">
+                <img src="assets/images/logicboard2.jpg" alt="">
                 <div class="bannerText d-flex align-items-center flex-column">
                     <h1>Need a Logicboard repair?</h1>
                     <p>Logicboard repair service comes with 90 days warranty.</p>
@@ -41,7 +41,7 @@
                 </div>
             </div>
             <div class="slider">
-                <img src="./assets/images/screenreplacement.jpg" alt="">
+                <img src="assets/images/screenreplacement.jpg" alt="">
                 <div class="bannerText d-flex align-items-center flex-column">
                     <h1>cracked or shattered screens?</h1>
                     <p> Screen replacement starting at $200 onwards.</p>
@@ -72,24 +72,24 @@
     <!-- Repair in Delta & Surrey -->
     <section class="deltaSurrey">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="webIcon">
-                        <img src="./assets/images/applelogo.png" alt="apple-logo">
+                        <img src="assets/images/applelogo.png" alt="apple-logo">
                     </div>
                     <div class="webIcon">
-                        <img src="./assets/images/windowslogo.png" alt="window-logo">
+                        <img src="assets/images/windowslogo.png" alt="window-logo">
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="buttonSection">
-                        <a href="javascript:void(0)"> <button type="button" class=" primaryButton">Macbook Repair in Delta</button></a>
+                        <a href="./macbook-repair-delta"> <button type="button" class=" primaryButton">Macbook Repair in Delta</button></a>
                     </div>
                     <div class="buttonSection">
-                        <a href="javascript:void(0)"> <button type="button" class=" primaryButton">Macbook Repair in Surrey</button></a>
+                        <a href="./macbook-repair-surrey"> <button type="button" class=" primaryButton">Macbook Repair in Surrey</button></a>
                     </div>
                     <div class="buttonSection">
-                        <a href="javascript:void(0)"> <button type="button" class=" primaryButton">Computer Repair in Delta</button></a>
+                        <a href="./computer-repair-delta"> <button type="button" class=" primaryButton">Computer Repair in Delta</button></a>
                     </div>
                     <div class="buttonSection">
                         <a href="javascript:void(0)"> <button type="button" class=" primaryButton">Computer Repair in Surrey</button></a>
@@ -253,6 +253,7 @@
     <!--  -->
     <!-- script -->
     <?php include_once('common/common-js.php'); ?>
+
     <!--  -->
 </body>
 

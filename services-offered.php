@@ -18,7 +18,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-sm-12">
-                    <h2 class="m-0">computer repair services in delta and surrey</h2>
+                    <h1 class="m-0">computer repair services in delta and surrey</h1>
                 </div>
             </div>
         </div>
@@ -30,10 +30,10 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="webIcon">
-                        <img src="./assets/images/applelogo.png" alt="">
+                        <img src="assets/images/applelogo.png" alt="">
                     </div>
                     <div class="webIcon">
-                        <img src="./assets/images/windowslogo.png" alt="">
+                        <img src="assets/images/windowslogo.png" alt="">
                     </div>
                 </div>
             </div>

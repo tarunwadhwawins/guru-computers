@@ -17,7 +17,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-sm-12">
-                    <h2 class="m-0">MACBOOK SCREEN REPLACEMENT SURREY</h2>
+                    <h1 class="m-0">MacBook Screen Replacement Surrey</h1>
                 </div>
             </div>
         </div>
@@ -29,7 +29,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="./assets/images/screen-replacementservice (1).jpg" alt="productImage">
+                        <img src="assets/images/screen-replacementservice (1).jpg" alt="productImage">
                     </div>
                     <p>Cracked MacBook screen? Guru Computers provide the best MacBook screen replacement service in <a href="javascript:void(0)"><span class="textt">Surrey </span></a> , BC. We repair all generations of MacBooks.</p>
                     <h2>APPLE MACBOOK SCREEN REPLACEMENT SURREY</h2>
@@ -37,11 +37,7 @@
                         vertical lines on the screen or it can go completely blank.</p>
                     <p> At Guru Computers we have high-quality OEM screens and display assemblies in stock, and we can restore your device to its original state within a short time frame. You can rely on Guru Computers to offer competitive pricing on OEM
                         parts that are most suitable for your device.</p>
-
-
-
                     <h3>WE CAN HELP WITH THE FOLLOWING REPAIRS:</h3>
-
                     <div class="product-listing">
                         <ul>
                             <li> Screen replacement for Lines in Apple MacBook <a href="javascript:void(0)"><span class="textt-theme">Retina display.</span></a></li>
@@ -55,11 +51,10 @@
                             <li><a href="javascript:void(0)"><span class="textt-theme"> MacBook Logic Board Repair Surrey </span></a></li>
                             <li><a href="javascript:void(0)"><span class="textt-theme"> MacBook Liquid Damage Repair Surrey </span></a></li>
                             <li><a href="javascript:void(0)"><span class="textt-theme"> Apple MacBook Keyboard Replacement Surrey </span></a></li>
-
                         </ul>
                     </div>
                     <div class="productBook">
-                        <h4><a class="primaryButton" href="javascript:void(0)" target="_blank">Book Now</a></h4>
+                        <a class="primaryButton" href="./contact" target="_blank">Book Now</a>
                     </div>
                     <p><iframe loading="lazy" title="Best Apple MacBook Repair Service in Delta &amp; Surrey, BC - Guru Computers" width="640" height="360" src="https://www.youtube.com/embed/OhhJ6pcIUHY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen=""></iframe></p>

@@ -81,9 +81,8 @@ h6 {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
-    color: $primary-dark-color;
 }
 
 // Span
@@ -149,4 +148,26 @@ p {
 
 .youtubeVideo {
     max-width: 640px;
+}
+
+// Animations
+@keyframes slideInUp {
+    0% {
+        transform: translateY(50px);
+    }
+    100% {
+        transform: translateY(0);
+        visibility: visible;
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -20%, 0);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
 }

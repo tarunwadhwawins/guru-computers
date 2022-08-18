@@ -17,7 +17,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-sm-12">
-                    <h2 class="m-0">MACBOOK LIQUID DAMAGE REPAIR IN DELTA</h2>
+                    <h1 class="m-0">MacBook Liquid Damage Repair In Delta</h1>
                 </div>
             </div>
         </div>
@@ -29,7 +29,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="./assets/images/liquid-damageservice.jpg" alt="productImage">
+                        <img src="assets/images/liquid-damageservice.jpg" alt="productImage">
                     </div>
                     <p>Spilled a coffee on your laptop? Guru Computers provide the best MacBook Liquid Damage Repair in <a href="javascript:void(0)"><span class="textt">Delta </span></a> , BC. We at Guru Computers, repair MacBooks of all generation.</p>
                     <h2>BEST APPLE MACBOOK LIQUID DAMAGE REPAIR IN DELTA</h2>
@@ -58,7 +58,7 @@
                         </ul>
                     </div>
                     <div class="productBook">
-                        <h4><a class="primaryButton" href="javascript:void(0)" target="_blank">Book Now</a></h4>
+                        <a class="primaryButton" href="./contact" target="_blank">Book Now</a>
                     </div>
                     <p><iframe loading="lazy" title="Best Apple MacBook Repair Service in Delta &amp; Surrey, BC - Guru Computers" width="640" height="360" src="https://www.youtube.com/embed/OhhJ6pcIUHY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen=""></iframe></p>

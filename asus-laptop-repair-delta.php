@@ -19,7 +19,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-sm-12">
-                    <h2 class="m-0">ASUS REPAIR DELTA – ASUS LAPTOP SERVICES</h2>
+                    <h1 class="m-0">Asus Repair Delta – Asus Laptop Services</h1>
                 </div>
             </div>
         </div>
@@ -34,7 +34,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <img class="rightimg" src="./assets/images/Asus.jpg" alt="">
+                        <img class="rightimg" src="assets/images/Asus.jpg" alt="">
                         <p>ASUS has built a solid reputation among leading laptop and desktop brands. Asus offers an affordable and durable line of VivoBook and the premium line ASUS ZenBook.</p>
                         <h2>ASUS REPAIR DELTA – ASUS LAPTOP SERVICES</h2>
                         <p>At Guru Computers, we offer repairs like Asus laptop screen replacement, motherboard level repair, dc jack replacement and Hard Drive upgrades to a Solid-State Drive. Most of these services are offered the same day and are backed
@@ -74,10 +74,10 @@
                                 <li><a href="javascript:void(0)">Acer laptop repair Delta</a></li>
                             </ul>
                         </div>
-                        <h4>
-                            <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer"> <button class="primaryButton"> Book Now
+ 
+                            <a href="./contact" target="_blank" rel="noopener noreferrer"> <button class="primaryButton"> Book Now
                         </button></a>
-                        </h4>
+                        
                         <?php include_once('common/youtubevideo.php'); ?>
                         <h4>GET DIRECTIONS fOR Asus Laptop Repair</h4>
                         <?php include_once('common/map.php'); ?>

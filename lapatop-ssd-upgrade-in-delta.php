@@ -17,7 +17,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-sm-12">
-                    <h2 class="m-0">MACBOOK & LAPTOP SSD UPGRADE SERVICES IN DELTA</h2>
+                    <h1 class="m-0">MacBook & Laptop SSD Upgarde Services In Delta</h1>
                 </div>
             </div>
         </div>
@@ -34,7 +34,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="./assets/images/Laptop-Screen-Replacement.jpg" alt="productImage">
+                        <img src="assets/images/Laptop-Screen-Replacement.jpg" alt="productImage">
                     </div>
                     <p>Let’s face it. Everyone needs a dependable computer to complete their assignments, reports, presentations and in many cases, their school work. A fast and steady computer makes your life so easy. However, if you have a slow-running
                         computer or a laptop, the regular task takes way longer to complete and results in inefficiency. </p>

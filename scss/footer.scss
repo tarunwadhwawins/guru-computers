@@ -1,6 +1,6 @@
 @import './variables.scss';
 .siteFooter {
-    padding-top: 60px;
+    padding: 30px 0 0;
     background-color: $solid-dark-color;
     .widgetTitle {
         text-align: left;
@@ -25,11 +25,14 @@
                 margin-bottom: 1rem;
                 padding: 0;
                 li {
-                    border-bottom: 1px DASHED $grey!important;
+                    border-bottom: 1px DASHED $grey;
                     padding: 5px 0;
                     list-style: none;
                     line-height: 24px;
                     font-family: 'open_sanslight';
+                    &:last-child {
+                        border: none;
+                    }
                     a {
                         text-decoration: none;
                         color: $grey;
@@ -55,8 +58,14 @@
         }
         .contactLink {
             a {
+                &.guruImagelink {
+                    margin: 6px 0 9px;
+                }
                 text-decoration: none;
                 color: $grey3;
+                img {
+                    max-width: 180px;
+                }
                 &:hover {
                     color: $primary-color;
                     .mailtext {
@@ -79,73 +88,75 @@
             }
         }
     }
-    .copyright {
-        background-color: $darkcolor;
-        padding: 30px 0;
+}
+
+// Copyright
+.copyright {
+    background-color: $darkcolor;
+    padding: 20px 0;
+    @media only screen and (max-width: 767px) {
+        text-align: center;
+        align-items: center;
+    }
+    p {
+        margin: 0;
+        color: $solid-lite-color;
+        letter-spacing: 1px;
+        font-size: 14px;
+        font-family: 'open_sansregular';
+    }
+    .textRight {
+        text-align: right;
         @media only screen and (max-width: 767px) {
+            margin-top: 10px;
             text-align: center;
-            align-items: center;
         }
-        p {
-            margin: 0;
-            color: $solid-lite-color;
-            letter-spacing: 1px;
-            font-size: 14px;
-            font-family: 'open_sansregular';
-        }
-        .textRight {
-            text-align: right;
-            @media only screen and (max-width: 767px) {
-                margin-top: 10px;
-                text-align: center;
-            }
-            .socials {
-                list-style: none;
-                margin: 0 0 10px 0;
-                padding: 0;
-                li {
-                    &.facebook {
-                        a {
-                            &:hover {
-                                background: $facebook-color;
-                            }
-                        }
-                    }
-                }
-                li {
-                    &.instagram {
-                        a {
-                            &:hover {
-                                background: linear-gradient( 45deg, #405de6, #5851db, #833ab4, #c13584, #fd1d1d);
-                            }
-                        }
-                    }
-                }
-                li {
-                    &.twitter {
-                        a {
-                            &:hover {
-                                background: $twitter-color;
-                            }
-                        }
-                    }
-                }
-                li {
-                    border: 0px solid;
-                    width: auto;
-                    display: inline-block;
-                    font-size: 16px;
+        .socials {
+            list-style: none;
+            margin: 0 0 10px 0;
+            padding: 0;
+            li {
+                &.facebook {
                     a {
-                        color: $primary-contrast-color;
-                        width: 32px;
-                        height: 32px;
-                        text-align: center;
-                        line-height: 32px;
-                        display: inline-block;
-                        border-radius: 4px;
-                        transition: all .5s;
-                        background: $grey;
+                        &:hover {
+                            background: $facebook-color;
+                        }
                     }
+                }
+            }
+            li {
+                &.instagram {
+                    a {
+                        &:hover {
+                            background: linear-gradient( 45deg, #405de6, #5851db, #833ab4, #c13584, #fd1d1d);
+                        }
+                    }
+                }
+            }
+            li {
+                &.twitter {
+                    a {
+                        &:hover {
+                            background: $twitter-color;
+                        }
+                    }
+                }
+            }
+            li {
+                border: 0px solid;
+                width: auto;
+                display: inline-block;
+                font-size: 16px;
+                a {
+                    color: $primary-contrast-color;
+                    width: 32px;
+                    height: 32px;
+                    text-align: center;
+                    line-height: 32px;
+                    display: inline-block;
+                    border-radius: 4px;
+                    transition: all .5s;
+                    background: $grey;
                 }
             }
         }

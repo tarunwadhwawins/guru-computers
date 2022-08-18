@@ -17,7 +17,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-sm-12">
-                    <h2 class="m-0">MACBOOK LOGIC BOARD REPAIR SURREY</h2>
+                    <h1 class="m-0">MacBook Logic Board Repair Surrey</h1>
                 </div>
             </div>
         </div>
@@ -29,7 +29,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="./assets/images/logicboardservice.png" alt="productImage">
+                        <img src="assets/images/logicboardservice.png" alt="productImage">
                     </div>
                     <p>You might be looking for Apple MacBook logic board repair service in <a href="javascript:void(0)"><span class="textt">Surrey </span></a> , BC? Then you must visit the Guru Computers. We here at Guru Computers, repair all kind of MacBooks.</p>
                     <h2>APPLE MACBOOK LOGIC BOARD REPAIR SURREY</h2>
@@ -48,7 +48,7 @@
                         </ul>
                     </div>
                     <div class="productBook">
-                        <h4><a class="primaryButton" href="javascript:void(0)" target="_blank">Book Now</a></h4>
+                        <a class="primaryButton" href="./contact" target="_blank">Book Now</a>
                     </div>
                     <p><iframe loading="lazy" title="Best Apple MacBook Repair Service in Delta &amp; Surrey, BC - Guru Computers" width="640" height="360" src="https://www.youtube.com/embed/OhhJ6pcIUHY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen=""></iframe></p>

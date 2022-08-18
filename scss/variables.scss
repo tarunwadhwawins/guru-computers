@@ -21,3 +21,31 @@ $grey5:#dcdcdc;
 $primary-font-family: 'poppinsregular';
 $secondary-font-family: 'open_sansregular';
 //
+// animation //
+@mixin fadeInDown {
+    animation-name: fadeInDown;
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+}
+
+@mixin slideInUp1 {
+    animation-name: slideInUp;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+}
+
+@mixin slideInUp2 {
+    animation-name: slideInUp;
+    animation-duration: 1.5s;
+    // / Chrome, Safari, Opera /
+    animation-delay: 0.3s;
+    animation-fill-mode: both;
+}
+
+@mixin slideInUp3 {
+    animation-name: slideInUp;
+    animation-duration: 1.5s;
+    // / Chrome, Safari, Opera /
+    animation-delay: 0.5s;
+    animation-fill-mode: both;
+}

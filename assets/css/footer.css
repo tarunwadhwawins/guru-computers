@@ -1,5 +1,5 @@
 .siteFooter {
-  padding-top: 60px;
+  padding: 30px 0 0;
   background-color: #333333;
 }
 .siteFooter .widgetTitle {
@@ -26,11 +26,14 @@
   padding: 0;
 }
 .siteFooter .footerLinks ul.menu li {
-  border-bottom: 1px DASHED #777 !important;
+  border-bottom: 1px DASHED #777;
   padding: 5px 0;
   list-style: none;
   line-height: 24px;
   font-family: "open_sanslight";
+}
+.siteFooter .footerLinks ul.menu li:last-child {
+  border: none;
 }
 .siteFooter .footerLinks ul.menu li a {
   text-decoration: none;
@@ -56,6 +59,12 @@
   text-decoration: none;
   color: #aaa;
 }
+.siteFooter .footerDetail .contactLink a.guruImagelink {
+  margin: 6px 0 9px;
+}
+.siteFooter .footerDetail .contactLink a img {
+  max-width: 180px;
+}
 .siteFooter .footerDetail .contactLink a:hover {
   color: #f15a24;
 }
@@ -73,53 +82,54 @@
   font-size: 14px;
   font-family: "open_sansregular";
 }
-.siteFooter .copyright {
+
+.copyright {
   background-color: #3a3a3a;
-  padding: 30px 0;
+  padding: 20px 0;
 }
 @media only screen and (max-width: 767px) {
-  .siteFooter .copyright {
+  .copyright {
     text-align: center;
     align-items: center;
   }
 }
-.siteFooter .copyright p {
+.copyright p {
   margin: 0;
   color: rgba(255, 255, 255, 0.2509803922);
   letter-spacing: 1px;
   font-size: 14px;
   font-family: "open_sansregular";
 }
-.siteFooter .copyright .textRight {
+.copyright .textRight {
   text-align: right;
 }
 @media only screen and (max-width: 767px) {
-  .siteFooter .copyright .textRight {
+  .copyright .textRight {
     margin-top: 10px;
     text-align: center;
   }
 }
-.siteFooter .copyright .textRight .socials {
+.copyright .textRight .socials {
   list-style: none;
   margin: 0 0 10px 0;
   padding: 0;
 }
-.siteFooter .copyright .textRight .socials li.facebook a:hover {
+.copyright .textRight .socials li.facebook a:hover {
   background: #3E5993;
 }
-.siteFooter .copyright .textRight .socials li.instagram a:hover {
+.copyright .textRight .socials li.instagram a:hover {
   background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #fd1d1d);
 }
-.siteFooter .copyright .textRight .socials li.twitter a:hover {
+.copyright .textRight .socials li.twitter a:hover {
   background: #00C3F8;
 }
-.siteFooter .copyright .textRight .socials li {
+.copyright .textRight .socials li {
   border: 0px solid;
   width: auto;
   display: inline-block;
   font-size: 16px;
 }
-.siteFooter .copyright .textRight .socials li a {
+.copyright .textRight .socials li a {
   color: #fff;
   width: 32px;
   height: 32px;

@@ -147,6 +147,9 @@ header {
             @media(max-width: 991px) {
                 text-align: center;
                 margin-top: 12px;
+                a {
+                    justify-content: center;
+                }
             }
             @media(max-width: 640px) {
                 display: none !important;
@@ -162,6 +165,13 @@ header {
                 &:hover {
                     color: $primary-color;
                     transition: all 0.4s;
+                }
+                &.guruImagelink {
+                    @media(max-width: 991px) {
+                        img {
+                            max-width: 180px;
+                        }
+                    }
                 }
             }
         }

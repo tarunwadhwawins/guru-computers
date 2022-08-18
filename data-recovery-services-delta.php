@@ -19,7 +19,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-sm-12">
-                        <h2 class="m-0"> DATA RECOVERY SERVICES DELTA – HARD DRIVE DATA RECOVERY</h2>
+                        <h1 class="m-0"> Data Recovery Services Delta – Hard Drive Data Recovery</h1>
                     </div>
                 </div>
             </div>
@@ -30,12 +30,11 @@
             <a href="tel:+1 (604) 256-2193" target="_self"><button class="primaryButton"> Call +1 (604) 256-2193</button> </a>
         </div>
         <!--  -->
-
         <div class="productData">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <img class="rightimg" src="./assets/images/Data-Recovery-Services-Delta.png" alt="">
+                        <img class="rightimg" src="assets/images/Data-Recovery-Services-Delta.png" alt="">
                         <h5>Data Recovery Services Delta – Can we recover your data from hard drive?</h5>
                         <p>That’s the first question that comes to mind when you learn that your hard drive has failed. If you are looking for Data Recovery Service in Delta, please visit us at <a href="https://www.gurucomputers.ca/">Guru Computers</a>.
                             We offer data recovery services and we have the equipment to professionally recover data from a failed hard drive.</p>
@@ -78,11 +77,8 @@
                                 <li><a href="javascript:void(0)">Apple MacBook Logic Board Repair</a></li>
                             </ul>
                         </div>
-                        <h4>
-                            <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer"> <button class="primaryButton"> Book Now
+                            <a href="./contact" target="_blank" rel="noopener noreferrer"> <button class="primaryButton"> Book Now
                         </button></a>
-                        </h4>
-
                         <?php include_once('common/youtubevideo.php'); ?>
                         <h4>GET DIRECTIONS fOR Data Recovery Services Delta</h4>
                         <?php include_once('common/map.php'); ?>

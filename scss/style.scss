@@ -32,7 +32,20 @@
     .owl-carousel {
         position: relative;
         .owl-item {
-            animation-duration: 0.9s !important;
+            &.active {
+                h1 {
+                    // animation //
+                    @include slideInUp1 // //
+                }
+                p {
+                    // animation //
+                    @include slideInUp2 // //
+                }
+                .primaryButton {
+                    // animation //
+                    @include slideInUp3 // //
+                }
+            }
         }
         .owl-prev {
             .fa {
@@ -113,13 +126,13 @@
     .buttonSection {
         width: auto;
         display: inline-block;
-        margin: 0 40px 0 0;
+        margin: 0 10px 0 0;
         .primaryButton {
             min-width: 215px;
             font-size: 14px;
         }
         @media(max-width: 991px) {
-            margin: 0 40px 35px 0;
+            margin: 0 20px 10px 0;
         }
     }
 }
@@ -198,13 +211,20 @@
     background-size: cover;
     height: 210px;
     position: relative;
-    h2 {
+    @media(max-width: 575px) {
+        height: 130px;
+    }
+    h1 {
         font-family: 'poppinsbold';
         position: absolute;
         color: $primary-contrast-color;
         bottom: 20px;
         font-size: 28px;
-        text-transform: uppercase;
+        @include slideInUp1;
+        @media(max-width: 575px) {
+            font-size: 18px;
+            text-transform: capitalize;
+        }
     }
 }
 
@@ -214,7 +234,15 @@
     .logicBoards {
         p {
             color: $grey;
-            text-align: left;
+        }
+        .repairBtton {
+            margin: 25px 0 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            @media(max-width: 991px) {
+                text-align: center;
+                margin: 30px 0 40px;
+            }
         }
     }
     .boardImage {
@@ -235,6 +263,15 @@
     background-color: $primary-dark-color;
     padding: 30px 0;
     .trustWorthy {
+        h2 {
+            font-size: 22px;
+            display: block;
+            font-family: 'poppinsregular';
+            color: $primary-contrast-color;
+            line-height: normal;
+            margin: 0 20px 0px 0;
+            text-transform: capitalize;
+        }
         ul {
             padding: 8px 0 0 20px;
             li {
@@ -248,6 +285,9 @@
                 font-family: 'open_sanslight';
             }
         }
+        p {
+            color: $primary-contrast-color;
+        }
     }
     .primaryButton {
         margin: 0 0 15px 0;
@@ -258,6 +298,10 @@
         @media(max-width: 991px) {
             margin: 15px 0 0 0;
         }
+    }
+    a {
+        display: inline-block;
+        margin: 10px 8px 0 0;
     }
 }
 
@@ -316,6 +360,10 @@
         float: right;
         width: 295px;
         margin: 0 0 0 28px;
+        @media(max-width: 991px) {
+            width: 100%;
+            margin-bottom: 18px;
+        }
     }
     strong {
         color: $grey;
@@ -342,15 +390,13 @@
     }
     .product-listing {
         width: 100%;
-        float: left;
-        margin: 0 0 12px 0;
+        margin: 0 0 12px -14px;
         ul {
             padding: 0px 0 0 38px;
             list-style: none;
             margin: 0;
             li {
                 width: 100%;
-                float: left;
                 color: $grey2;
                 &::before {
                     content: ".";
@@ -367,7 +413,7 @@
         font-family: 'poppinsbold';
     }
     .referLink {
-        margin: 0 0 18px 70px;
+        margin: 0 0 18px 30px;
         li {
             list-style: disc;
             font-size: 12px;
@@ -383,11 +429,9 @@
     }
     .productBook {
         margin: 22px 0 17px 0;
-        h4 {
-            .primaryButton {
-                padding: 6px 12px;
-                font-size: 13px;
-            }
+        .primaryButton {
+            padding: 6px 12px;
+            font-size: 13px;
         }
     }
     p {
@@ -421,6 +465,13 @@
 // SURAJ WORk
 //ABOUT-US//
 .aboutUs {
+    .aboutBanner {
+        @media(max-width: 575px) {
+            img {
+                margin: 35px 0 0 0;
+            }
+        }
+    }
     .productBanner {
         padding: 30px 0 60px 0;
         width: 100%;
@@ -687,6 +738,7 @@
         }
         .primaryButton {
             padding: 6px 12px;
+            font-size: 13px;
         }
         .comments {
             textarea {

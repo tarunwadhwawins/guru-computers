@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Laptop & Apple MacBook Screen Repair</title>
+    <title>Laptop Screen Repair Surrey - Computer Repair Surrey - Guru Computers</title>
     <!-- Meta & Link Tags -->
     <?php include_once('common/common-css.php'); ?>
     <!--  -->
@@ -17,7 +17,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-sm-12">
-                    <h1 class="m-0">laptop screen replacment in delta</h1>
+                    <h1 class="m-0">Laptop Screen Repair in Surrey</h1>
                 </div>
             </div>
         </div>
@@ -28,49 +28,51 @@
         <a href="tel:+1 (604) 256-2193" target="_self"><button class="primaryButton"> Call +1 (604) 256-2193</button></a>
     </div>
     <!--  -->
-    <!-- Laptop screen replacement In Delta – Can we repair your laptop screen? -->
+    <!-- Apple-Macbbok screen replacement In Delta – Can we repair your laptop screen? -->
     <section class="laptopProduct">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="assets/images/Laptop-Screen-Replacement.jpg" alt="productImage">
+                        <img src="assets/images/laptopscreenrepair.png" alt="productImage">
                     </div>
-                    <p class="text-left"><strong>Laptop screen replacement In Delta – Can we repair your laptop screen?</strong></p>
-                    <p>When you find any issues in your laptop screen, you can simply bring it to us at Guru Computers and we will fix it for you. We make sure that your computer is working perfectly again with OEM parts installed.</p>
-                    <h2>LOOKING FOR LAPTOP SCREEN REPLACEMENT IN DELTA?</h2>
-                    <p>At Guru Computers, we have technicians who are well trained to repair a computer of all generations. We carry all parts in stock and can repair your device within a short time frame. You can rely on us for your computer repairs as
-                        we will use OEM parts that are most suitable. Guru Computers use genuine A+ grade <a href="https://en.wikipedia.org/wiki/Liquid-crystal_display" target="_blank" rel="noopener dofollow noreferrer">LCD screens</a> for the replacement.
-                        We also carry a good inventory of previously enjoyed computers and laptops for sale.</p>
-                    <h3>We do the following types of laptop screen repair:</h3>
-                    <div class="product-listing">
-                        <ul>
-                            <li>Laptop cracked or shattered screens.</li>
-                            <li>Laptop LCD video cable replacement.</li>
-                            <li>Water/liquid damage.</li>
-                            <li>LCD Screen will not turn on</li>
-                            <li>Lines in LCD Screen</li>
-                            <li>Malfunctioning Digitizer</li>
-                            <li>Dim LCD screen</li>
-                            <li>Bad Pixels</li>
-                            <li>Any other software or hardware issue on your computer.</li>
-                        </ul>
-                    </div>
-                    <p>“The work is guaranteed for 90 days.”</p>
-                    <h4>Our Other Computer Repair Services:</h4>
+                    <p>The most common repair in a laptop is the screen replacement. Accidents happen and screens crack leaving your laptop in an unusable state.</p>
+                    <h2>LAPTOP SCREEN REPAIR IN SURREY – LAPTOP REPAIR SURREY</h2>
+                    <p> We have a huge inventory of OEM high definition screens to quickly bring your laptop to its original form. Most common 14” – 15” screen replacement costs around $125 – $145.</p>
+                    <p>Don’t risk missing the deadline and get your Laptop back in action by getting a quick screen replacement at Guru Computers in Surrey.<br> A usual screen replacement takes around 45 mins and you will be able to use your laptop again
+                        in no time.</p>
+                    <h3>When do you Need Laptop Screen services?</h3>
                     <ul class="referLink">
-                        <li><a href="javascript:void(0)">Data Recovery Services Delta – Hard Drive Data Recovery</a></li>
-                        <li><a href="javascript:void(0)">MacBook Screen Replacement</a></li>
-                        <li><a href="javascript:void(0)">MacBook Keyboard Repair</a></li>
-                        <li><a href="javascript:void(0)">Computer Malware Removal Delta – Trojan Removal</a></li>
+                        <li>When the screen is broken</li>
+                        <li>The laptop screen has blue or black lines</li>
+                        <li>Shattered Laptop Screen</li>
+                        <li>Liquid Damage</li>
+                    </ul>
+                    <h3>Why Should You Choose Guru Computers For Laptop Screen Services?</h3>
+                    <ul class="referLink">
+                        <li>Quality laptop screen repair service</li>
+                        <li>Certified technicians</li>
+                        <li>Low cost than the competitors</li>
+                        <li>Emergency services provided</li>
+                        <li>Trustworthy support and service</li>
+                        <li>Support for all kinds of<a href="javascript:void(0)"> computer repair services</a></li>
+                    </ul>
+                    <h3>Our Other Computer Repair Services In Surrey, British Columbia:</h3>
+                    <ul class="referLink">
+                        <li><a href="javascript:void(0)">Data Recovery Services Surrey</a></li>
+                        <li><a href="javascript:void(0)">Laptop Screen Replacement</a></li>
                         <li><a href="javascript:void(0)">Apple MacBook Logic Board Repair</a></li>
+                        <li><a href="javascript:void(0)">Virus Removal In Surrey</a></li>
+                        <li><a href="javascript:void(0)">MacBook Screen Replacement</a></li>
+                        <li><a href="javascript:void(0)">Liquid Damage Repair</a></li>
+                        <li><a href="javascript:void(0)">MacBook Keyboard Repair</a></li>
                     </ul>
                     <div class="productBook">
                         <a class="primaryButton" href="./contact" target="_blank">Book Now</a>
                     </div>
                     <p><iframe loading="lazy" title="Best Apple MacBook Repair Service in Delta &amp; Surrey, BC - Guru Computers" width="640" height="360" src="https://www.youtube.com/embed/OhhJ6pcIUHY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen=""></iframe></p>
-                    <h4>GET DIRECTIONS fOR Laptop Screen replacement in Delta</h4>
+                    <h4>Get Directions fOR Laptop Screen replacement in Delta</h4>
                     <p><iframe loading="lazy" style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83492.78682539408!2d-122.96089053075539!3d49.15976882074675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d909135b5a27%3A0x42caa7bde48e26b9!2sGuru+Computers+-+Apple+MacBook+and+PC+Repair!5e0!3m2!1sen!2sca!4v1560834708665!5m2!1sen!2sca"
                             width="800" height="400" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
                 </div>
