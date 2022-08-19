@@ -9,7 +9,7 @@ session_start();
 // For Local
 $servername = "localhost";
 $username = "root";
-$password = "Ditstek1234!";
+$password = "";
 $dbname = "gurucomputer";
 $url = "http://localhost/gurucomputer/";
 // Create connection
