@@ -537,7 +537,7 @@
             }
             p {
                 line-height: 20px;
-                color: #464547;
+                color: $grey6;
                 margin: 0 0 10px;
             }
             .primaryButton {
@@ -549,7 +549,7 @@
     }
     .question {
         padding: 10px;
-        border: 2px solid #ddd;
+        border: 2px solid $white-color2;
         border-radius: 4px;
         background: $primary-contrast-color;
         margin-bottom: 30px;
@@ -579,7 +579,7 @@
             h3 {
                 font-family: 'poppinsmedium';
                 text-transform: uppercase;
-                color: #464547;
+                color: $grey6;
                 font-size: 20px;
                 line-height: 25px;
                 margin-bottom: 35px;
@@ -605,8 +605,8 @@
                 padding: 5px;
                 font-size: 15px;
                 width: 100%;
-                background-color: #f8f8f8;
-                border: 2px solid #ddd;
+                background-color: $white-color1;
+                border: 2px solid $white-color2;
                 border-radius: 4px;
                 height: 44px;
                 color: $primary-dark-color;
@@ -615,24 +615,24 @@
             select {
                 font-size: 15px;
                 width: 100%;
-                background-color: #f8f8f8;
-                border: 2px solid #ddd;
+                background-color: $white-color1;
+                border: 2px solid $white-color2;
                 border-radius: 4px;
                 height: 44px;
                 color: $grey2 !important;
-                padding: 8px 15px;
+                padding: 5px;
                 font-size: 15px;
             }
             textarea {
                 font-size: 15px;
                 width: 100%;
-                background-color: #f8f8f8;
-                border: 2px solid #ddd;
+                background-color: $white-color1;
+                border: 2px solid $white-color2;
                 border-radius: 4px;
                 color: $grey2 !important;
                 font-size: 15px;
-                resize: none;
                 padding: 5px;
+                resize: none;
                 height: 200px;
                 &:focus {
                     outline: none;
@@ -743,7 +743,7 @@
         .comments {
             textarea {
                 display: block;
-                border: 1px solid #d9d9d9;
+                border: 1px solid $grey-boder;
                 font-size: 14px;
                 padding: 10px;
                 color: $secondary-dark-color;
@@ -756,7 +756,7 @@
                 }
             }
             input {
-                border: 1px solid #d9d9d9;
+                border: 1px solid $grey-boder;
                 color: #b8b8b8;
                 font-size: 14px;
                 padding: 10px;
@@ -780,7 +780,7 @@
                 font-family: 'open_sansbold';
             }
             h3 {
-                border-bottom: 1px solid #d9d9d9;
+                border-bottom: 1px solid $grey-boder;
                 font-size: 16px;
                 font-weight: 500;
                 line-height: 48px;

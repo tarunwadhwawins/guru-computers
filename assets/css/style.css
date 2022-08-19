@@ -617,7 +617,7 @@
   border-radius: 4px;
   height: 44px;
   color: #666 !important;
-  padding: 8px 15px;
+  padding: 5px;
   font-size: 15px;
 }
 .contact .question .contactFeild textarea {
@@ -628,8 +628,8 @@
   border-radius: 4px;
   color: #666 !important;
   font-size: 15px;
-  resize: none;
   padding: 5px;
+  resize: none;
   height: 200px;
 }
 .contact .question .contactFeild textarea:focus {
