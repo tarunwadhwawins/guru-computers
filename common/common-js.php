@@ -14,7 +14,7 @@
             nav: true,
             navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
             autoplay: true,
-            autoplayTimeout: 3000000,
+            autoplayTimeout: 3000,
             smartSpeed: 800,
             loop: true,
             responsive: {
@@ -56,7 +56,9 @@
                         $messageDiv.addClass('alert alert-danger').fadeIn(1500);
                     }
                     setTimeout(function() {
-                        $messageDiv.fadeOut(1500,function(){ $(this).removeClass('alert alert-success alert-danger');});
+                        $messageDiv.fadeOut(1500, function() {
+                            $(this).removeClass('alert alert-success alert-danger');
+                        });
                     }, 3000);
                 }
             });

@@ -52,11 +52,12 @@
             <div class="col-xl-3 col-lg-6 col-md-6 mb-3">
                 <h3 class="widgetTitle">CONTACT US</h3>
                 <div class="footerDetail">
-                    <p class="p-0">
-                        <i class="fa fa-map-marker" aria-hidden="true"></i> Guru Computers,</p>
-                    <p class="p-0">8609-8611, 120th street,</p>
-                    <p class="p-0">Scott Rd, Delta, BC V4C 6R4,</p>
-                    <p class="p-0"> Canada</p>
+                    <a href="https://g.page/GuruComputersDelta?share" target="_blank">
+                        <p class="p-0"> <i class="fa fa-map-marker" aria-hidden="true"></i> Guru Computers,</p>
+                        <p class="p-0">8609-8611, 120th street,</p>
+                        <p class="p-0">Scott Rd, Delta, BC V4C 6R4,</p>
+                        <p class="p-0"> Canada</p>
+                    </a>
                     <div class="contactLink">
                         <p class="p-0"> <a href="tel:+1 (604) 256-2193"><i class="fa fa-phone" aria-hidden="true"></i><b> +1 (604) 256-2193 </b></a></p>
                         <a href="mailto:abs@gmail.com " data-bs-toggle="tooltip" data-bs-placement="top" title="to-mail" class="guruImagelink d-flex"> <i class="fa fa-envelope" aria-hidden="true"></i><img src="assets/images/Guru-Top-img.png" alt="guruimagelink"></a>

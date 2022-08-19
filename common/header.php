@@ -1,21 +1,27 @@
+
+  <?php
+   $current_page = $_SERVER['REQUEST_URI']; 
+   //	echo $current_page; die;
+   ?>
 <!-- header -->
-<header>
+<header >
     <!-- Navbar -->
     <div class="container-fluid-lg">
         <nav class="navbar navbar-expand-xl">
             <a class="navbar-brand" href="index">
                 <img src="assets/images/logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
               <div class="menuBar">
                  <i class="fa fa-bars menuBars" aria-hidden="true"></i>
+                 <i class="fa fa-times" aria-hidden="true"></i>
               </div>
            </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <ul class="d-flex align-items-center navbar-nav m-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item  ">
                         <a class="nav-link " href="index">Home</a>
                     </li>
-                    <li class="nav-item dropdown mainDropdown">
+                    <li class="nav-item  dropdown mainDropdown">
                         <a href="./services-offered" class="nav-link ">Computer Repair <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                         <ul class="dropdown-menu mainMenu">
                             <li class="nav-item dropdown subMenuDropdown"><a href="" class=" nav-link dropdown-item" aria-expanded="false">MacBook Repair </a>
@@ -48,7 +54,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown repairDropdown">
+                    <li class="nav-item  dropdown repairDropdown">
                         <a href="#" class="nav-link" data-bs-toggle="dropdown">Repair By Brands <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                         <ul class="dropdown-menu repairMenu">
                             <li class="nav-item dropdown subMenuDropdown"> <a href="" class=" nav-link dropdown-item" aria-expanded="false">Apple</a>
@@ -63,10 +69,10 @@
                             <li><a href="./lenovo-laptop-repair-delta" class="dropdown-item">Lenovo Repair</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item <?php echo $current_page == '/index' ? 'active':'' ?>">
                         <a class="nav-link" href="./about-us">About Us</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item <?php echo $current_page == '/index' ? 'active':'' ?>">
                         <a class="nav-link" href="./contact">Contact Us</a>
                     </li>
                 </ul>
