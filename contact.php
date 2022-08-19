@@ -52,67 +52,68 @@
                                     <h3> We would love to hear from you! </h3>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                            <div class="contactFeild">
-                                    <h5>
-                                        Your Name
-                                    </h5>
-                                    <input type="text" id="contact-name" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
-                                    <span id="nameerror" class="text-danger"> </span>
+                            <form method="post" id="contactForm">
+                                <div class="col-md-6">
+                                    <div class="contactFeild">
+                                        <h5>
+                                            Your Name
+                                        </h5>
+                                        <input type="text" id="contact-name" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" data-validation="required">
+                                        <span id="nameerror" class="text-danger"> </span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-md-6">
-                            <div class="contactFeild">
-                                    <h5>
-                                        Your Email
-                                    </h5>
-                                    <input type="text" id="contactEmail" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
-                                    <span id="emailerror" class="text-danger"> </span>
+                                <div class="col-md-6">
+                                    <div class="contactFeild">
+                                        <h5>
+                                            Your Email
+                                        </h5>
+                                        <input type="text" id="contactEmail" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" data-validation="required">
+                                        <span id="emailerror" class="text-danger"> </span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-md-6">
+                                <div class="col-md-6">
+                                    <div class="contactFeild">
+                                        <h5>
+                                            Services
+                                        </h5>
+                                        <select name="menu-517" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" data-validation="required"><option value="Apple MacBook Screen Replacement">Apple MacBook Screen Replacement</option><option value="Apple MacBook Logicboard Repair">Apple MacBook Logicboard Repair</option><option value="Apple MacBook liquid damage repair">Apple MacBook liquid damage repair</option><option value="Apple MacBook keyboard replacement.">Apple MacBook keyboard replacement.</option><option value="Other Parts">Other Parts</option></select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="contactFeild">
+                                        <h5>
+                                            Contact No
+                                        </h5>
+                                        <input type="text" id="contact_no" name="your-tel" value="" class="wpcf7-form-control wpcf7mf-mask wpcf7-mask wpcf7-validates-as-required"  data-validation="required">
+                                        <span id="numbererror" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="contactFeild">
+                                        <h5>Your Message</h5>
+                                        <textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" data-validation="required"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="contactFeild ">
+                                        <span class="wpcf7-form-control-wrap recaptcha"><span data-sitekey="6Ld3V4IUAAAAADsW9FHVJ8Shz0qHDzS45ObTpOAS" class="wpcf7-form-control g-recaptcha wpcf7-recaptcha google-captcha"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Ld3V4IUAAAAADsW9FHVJ8Shz0qHDzS45ObTpOAS&amp;co=aHR0cHM6Ly93d3cuZ3VydWNvbXB1dGVycy5jYTo0NDM.&amp;hl=en&amp;v=mq0-U1BHZ5YTcoDC-CvsLPNc&amp;size=normal&amp;cb=8vdoutlxnczo" width="304" height="78" role="presentation" name="a-yt8o0xu1aj0t" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></span>
+                                        <noscript>
+                                            <div class="grecaptcha-noscript">
+                                                <iframe src="https://www.google.com/recaptcha/api/fallback?k=6Ld3V4IUAAAAADsW9FHVJ8Shz0qHDzS45ObTpOAS" frameborder="0" scrolling="no" width="310" height="430">
+                                                </iframe>
+                                                <textarea name="g-recaptcha-response" rows="3" cols="40" placeholder="reCaptcha Response Here">
+                                                </textarea>
+                                            </div>
+                                        </noscript>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
                                 <div class="contactFeild">
-                                    <h5>
-                                        Services
-                                    </h5>
-                                    <select name="menu-517" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false"><option value="Apple MacBook Screen Replacement">Apple MacBook Screen Replacement</option><option value="Apple MacBook Logicboard Repair">Apple MacBook Logicboard Repair</option><option value="Apple MacBook liquid damage repair">Apple MacBook liquid damage repair</option><option value="Apple MacBook keyboard replacement.">Apple MacBook keyboard replacement.</option><option value="Other Parts">Other Parts</option></select>
+                                        <button class="primaryButton" type="submit" >Send</button>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="contactFeild">
-                                    <h5>
-                                        Contact No
-                                    </h5>
-                                    <input type="number" maxlength="10" id="mobnumber" data-slots="_" name="your-tel" value="" class="wpcf7-form-control wpcf7mf-mask wpcf7-mask wpcf7-validates-as-required" size="40" aria-required="1" placeholder="(___)___-____" data-mask="(___)___-____"
-                                        oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" require>
-                                    <span id="numbererror" class="text-danger"></span>
-                                </div>
-                            </div>
-                            <div class="col-sm-12">
-                                <div class="contactFeild">
-                                    <h5>Your Message</h5>
-                                    <textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea>
-                                </div>
-                            </div>
-                            <div class="col-sm-12">
-                                <div class="contactFeild ">
-                                    <span class="wpcf7-form-control-wrap recaptcha"><span data-sitekey="6Ld3V4IUAAAAADsW9FHVJ8Shz0qHDzS45ObTpOAS" class="wpcf7-form-control g-recaptcha wpcf7-recaptcha google-captcha"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Ld3V4IUAAAAADsW9FHVJ8Shz0qHDzS45ObTpOAS&amp;co=aHR0cHM6Ly93d3cuZ3VydWNvbXB1dGVycy5jYTo0NDM.&amp;hl=en&amp;v=mq0-U1BHZ5YTcoDC-CvsLPNc&amp;size=normal&amp;cb=8vdoutlxnczo" width="304" height="78" role="presentation" name="a-yt8o0xu1aj0t" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></span>
-                                    <noscript>
-                                        <div class="grecaptcha-noscript">
-                                            <iframe src="https://www.google.com/recaptcha/api/fallback?k=6Ld3V4IUAAAAADsW9FHVJ8Shz0qHDzS45ObTpOAS" frameborder="0" scrolling="no" width="310" height="430">
-                                            </iframe>
-                                            <textarea name="g-recaptcha-response" rows="3" cols="40" placeholder="reCaptcha Response Here">
-                                            </textarea>
-                                        </div>
-                                    </noscript>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="col-sm-12">
-                            <div class="contactFeild">
-                                    <button class="primaryButton" id="submit-error" onclick="validateName()">Send</button>
-                                </div>
-                            </div>
+                            </form>
                         </div>
 
                     </div>

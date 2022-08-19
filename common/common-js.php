@@ -3,8 +3,8 @@
 <script src="./assets/js/cloudflare_jquery.min.js"></script>
 <script src="./assets/js/bootstrap.bundle.min.js"></script>
 <script src="./assets/js/owl.carousel.min.js"></script>
-
-<!--  -->
+<script src="./assets/form-validator/jquery.form-validator.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/jquery.inputmask.bundle.min.js"></script>
 
 <script>
     // <!-- Banner-craousel -->
@@ -34,6 +34,10 @@
 <!-- testimonialContent -->
 <script>
     $(document).ready(function() {
+        $.validate({
+            modules: 'security'
+        }); 
+        $("#contact_no").inputmask("(999) 999-9999");
         $(".testimonialContent").owlCarousel({
             items: 1,
             autoplay: true,
