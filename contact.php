@@ -52,7 +52,7 @@
                                     <h3> We would love to hear from you! </h3>
                                 </div>
                             </div>
-                            <form method="post" id="contactForm">
+                            <form method="post" id="contactForm" class="row">
                                 <div id='quotesmessage'></div>
                                 <div class="col-md-6">
                                     <div class="contactFeild">
