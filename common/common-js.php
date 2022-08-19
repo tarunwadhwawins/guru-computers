@@ -37,7 +37,7 @@
         $.validate({
             modules: 'security'
         }); 
-        $("#contact_no").inputmask("(999) 999-9999");
+        $(".contact_no").inputmask("(999) 999-9999");
         $(".testimonialContent").owlCarousel({
             items: 1,
             autoplay: true,

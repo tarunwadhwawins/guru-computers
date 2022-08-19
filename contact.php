@@ -58,7 +58,7 @@
                                         <h5>
                                             Your Name
                                         </h5>
-                                        <input type="text" id="contact-name" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" data-validation="required">
+                                        <input type="text"  name="name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" data-validation="required">
                                         <span id="nameerror" class="text-danger"> </span>
                                     </div>
                                 </div>
@@ -67,7 +67,7 @@
                                         <h5>
                                             Your Email
                                         </h5>
-                                        <input type="text" id="contactEmail" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" data-validation="required">
+                                        <input type="text" name="email" value=""  class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" data-validation="required">
                                         <span id="emailerror" class="text-danger"> </span>
                                     </div>
                                 </div>
@@ -76,7 +76,13 @@
                                         <h5>
                                             Services
                                         </h5>
-                                        <select name="menu-517" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" data-validation="required"><option value="Apple MacBook Screen Replacement">Apple MacBook Screen Replacement</option><option value="Apple MacBook Logicboard Repair">Apple MacBook Logicboard Repair</option><option value="Apple MacBook liquid damage repair">Apple MacBook liquid damage repair</option><option value="Apple MacBook keyboard replacement.">Apple MacBook keyboard replacement.</option><option value="Other Parts">Other Parts</option></select>
+                                        <select name="service" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" data-validation="required">
+                                            <option value="Apple MacBook Screen Replacement">Apple MacBook Screen Replacement</option>
+                                            <option value="Apple MacBook Logicboard Repair">Apple MacBook Logicboard Repair</option>
+                                            <option value="Apple MacBook liquid damage repair">Apple MacBook liquid damage repair</option>
+                                            <option value="Apple MacBook keyboard replacement.">Apple MacBook keyboard replacement.</option>
+                                            <option value="Other Parts">Other Parts</option>
+                                        </select>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -84,14 +90,14 @@
                                         <h5>
                                             Contact No
                                         </h5>
-                                        <input type="text" id="contact_no" name="your-tel" value="" class="wpcf7-form-control wpcf7mf-mask wpcf7-mask wpcf7-validates-as-required"  data-validation="required">
+                                        <input type="text" name="contact_no" value="" class="wpcf7-form-control wpcf7mf-mask wpcf7-mask wpcf7-validates-as-required contact_no" placeholder="(___)___-____"  data-validation="required">
                                         <span id="numbererror" class="text-danger"></span>
                                     </div>
                                 </div>
                                 <div class="col-sm-12">
                                     <div class="contactFeild">
                                         <h5>Your Message</h5>
-                                        <textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" data-validation="required"></textarea>
+                                        <textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" data-validation="required"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-sm-12">
