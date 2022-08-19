@@ -92,7 +92,7 @@
                         <a href="./computer-repair-delta"> <button type="button" class=" primaryButton">Computer Repair in Delta</button></a>
                     </div>
                     <div class="buttonSection">
-                        <a href="javascript:void(0)"> <button type="button" class=" primaryButton">Computer Repair in Surrey</button></a>
+                        <a href="./computer-repair-surrey"> <button type="button" class=" primaryButton">Computer Repair in Surrey</button></a>
                     </div>
                 </div>
             </div>
