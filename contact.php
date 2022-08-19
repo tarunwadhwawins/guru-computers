@@ -68,7 +68,7 @@
                                         <h5>
                                             Your Email
                                         </h5>
-                                        <input type="text" name="email" value=""  class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" data-validation="required">
+                                        <input type="text" name="email" value=""  class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" data-validation="required email">
                                         <span id="emailerror" class="text-danger"> </span>
                                     </div>
                                 </div>
