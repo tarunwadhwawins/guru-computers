@@ -1,4 +1,6 @@
-<!-- Meta-Tags -->
+<?php
+require_once('core/dbconnection.php');
+?>
 <meta charset="UTF-8">
 <meta http-equiv="pragma" content="no-cache" />
 <meta name="description" content="Free Web tutorials">

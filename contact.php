@@ -53,6 +53,7 @@
                                 </div>
                             </div>
                             <form method="post" id="contactForm">
+                                <div id='quotesmessage'></div>
                                 <div class="col-md-6">
                                     <div class="contactFeild">
                                         <h5>

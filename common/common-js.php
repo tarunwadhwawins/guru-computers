@@ -33,10 +33,34 @@
 </script>
 <!-- testimonialContent -->
 <script>
+    var base_url = '<?php echo $url; ?>';
     $(document).ready(function() {
         $.validate({
             modules: 'security'
-        }); 
+        });
+        $("#contactForm").submit(function(e) {
+            e.preventDefault();
+            $.ajax({
+                url: base_url + "core/general?action=ConactFormSave",
+                type: "POST",
+                data: $(this).serialize(),
+                success: function(response) {
+                    var $messageDiv = $('#quotesmessage')
+                    $messageDiv.hide().html(response.Message);
+                    if (response.Success == true) {
+                        $messageDiv.text('Thank You! Our Team Will Get Back To You Soon!!');
+                        document.getElementById("contactForm").reset();
+                        $messageDiv.addClass('alert alert-success').fadeIn(1500);
+                    } else {
+                        $messageDiv.text('Error');
+                        $messageDiv.addClass('alert alert-danger').fadeIn(1500);
+                    }
+                    setTimeout(function() {
+                        $messageDiv.fadeOut(1500,function(){ $(this).removeClass('alert alert-success alert-danger');});
+                    }, 3000);
+                }
+            });
+        });
         $(".contact_no").inputmask("(999) 999-9999");
         $(".testimonialContent").owlCarousel({
             items: 1,
@@ -74,51 +98,4 @@
             $(".backToTop ").removeClass("show");
         }
     });
-</script>
-<script>
-// Add active class to the current button (highlight it)
-// var header = document.getElementById("navActive");
-// var btns = header.getElementsByClassName("nav-item");
-// for (var i = 0; i < btns.length; i++) {2
-//   btns[i].addEventListener("click", function() {
-//   var current = document.getElementsByClassName("active");
-//   current[0].className = current[0].className.replace(" active", "");
-//   this.className += " active";
-//   });
-// }
-
-</script>
-<!-- Form-Validations -->
-<script>
-    function validateName() {
-        // alert("xbxb")
-        var name = document.getElementById("contact-name").value
-        var email = document.getElementById("contactEmail").value
-        var number = document.getElementById("mobnumber").value
-
-        if (name == "") {
-            document.getElementById('nameerror').innerHTML = "Name is Required"
-                // return true;
-        } else {
-            document.getElementById('nameerror').innerHTML = ""
-        }
-
-        if (email == "") {
-            document.getElementById('emailerror').innerHTML = "Email is required"
-                // return false;
-        } else if (email != email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
-            document.getElementById("emailerror").innerHTML = "enter valid email";
-        } else {
-            document.getElementById('emailerror').innerHTML = ""
-        }
-
-        if (number == "") {
-            document.getElementById('numbererror').innerHTML = "Mobile Number is required"
-                // return true;
-        } else {
-            document.getElementById('numbererror').innerHTML = ""
-        }
-
-
-    }
 </script>
