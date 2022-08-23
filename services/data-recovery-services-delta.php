@@ -33,11 +33,11 @@
             <a href="tel:+1 (604) 256-2193" target="_self"><button class="primaryButton"> Call +1 (604) 256-2193</button> </a>
         </div>
         <!--  -->
-        <div class="productData">
+        <div class="laptopProduct">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <img class="rightimg" src="<?php echo $url; ?>assets/images/Data-Recovery-Services-Delta.png" alt="">
+                         <div class="productContent"><img src="<?php echo $url; ?>assets/images/Data-Recovery-Services-Delta.png" alt=""></div>
                         <h5>Data Recovery Services Delta – Can we recover your data from hard drive?</h5>
                         <p>That’s the first question that comes to mind when you learn that your hard drive has failed. If you are looking for Data Recovery Service in Delta, please visit us at <a href="https://www.gurucomputers.ca/">Guru Computers</a>.
                             We offer data recovery services and we have the equipment to professionally recover data from a failed hard drive.</p>
@@ -48,8 +48,8 @@
                         <p>Even a thought of a failed hard drive sends a chill down our spine, especially when sensitive data is at high risk of losing it forever. While there are many options to recover data, not all are equally secure and cost-effective.</p>
                         <p>Hard drives are the main storage area of all your data including your pictures, files, music, and whatnot. Most of your computer’s components are electronic and can only be damaged by electronic means such as a power surge.</p>
                         <p>Hard drives are the main storage area of all your data including your pictures, files, music, and whatnot. Most of your computer’s components are electronic and can only be damaged by electronic means such as a power surge.</p>
-                        <h3>HARD DRIVE/DISK FAILURE MIGHT OCCUR DUE TO:</h3>
-                        <div class="listing">
+                        <h3>Hard Drive/disk Failure Might Occur Due To</h3>
+                        <div class="product-listing">
                             <ul>
                                 <li>Your computer has dropped while it is running causing a shock to the hard drive.</li>
                                 <li>The electric motor fails which allows the platter to spin</li>
@@ -60,7 +60,7 @@
                         <p>If the hard disk has S.M.A.R.T. technology (Self-Monitoring, Analysis, and Reporting Technology), log files can be checked to identify the probability of failure in the future. S.M.A.R.T. monitors a wide range of hard disk symptoms
                             and logs the condition of the disk at each interruption. It aims to provide a predictable failure date for the disk.</p>
                         <h4>Types of Data Recovery We Offer:</h4>
-                        <div class="listing">
+                        <div class="product-listing">
                             <ul>
                                 <li>External hard drive data recovery</li>
                                 <li>Data recovery from hard drive making a clicking noise</li>
@@ -70,17 +70,18 @@
                         <h4>Guru Computers tip:</h4>
                         <p>In order to prevent data loss in the case of a hard drive failure, bi-weekly backups recommended always. If you’re a heavy or business computer user, a weekly or more frequent backups recommended.</p>
                         <h4>Our Other Computer Repair Services:</h4>
-                        <div class="listing">
+                        <div class="product-listing">
                             <ul>
-                                <li><a href="laptop-screen-replacement-in-delta">Laptop Screen Replacement</a></li>
-                                <li><a href="virus-spyware-malware-adware-removal">Computer Malware Removal Delta – Trojan Removal – Virus Clean</a></li>
-                                <li><a href="apple-macbook-keyboard-replacement-delta">MacBook Screen Replacement</a></li>
-                                <li><a href="apple-macbook-keyboard-replacement-delta">MacBook Keyboard Repair</a></li>
-                                <li><a href="apple-macbook-logicboard-repair-delta.php">Apple MacBook Logic Board Repair</a></li>
+                                <li><a href="laptop-screen-replacement-in-delta"><span class="textt-theme">Laptop Screen Replacement</span></a></li>
+                                <li><a href="virus-spyware-malware-adware-removal"><span class="textt-theme">Computer Malware Removal Delta – Trojan Removal – Virus Clean</span></a></li>
+                                <li><a href="apple-macbook-keyboard-replacement-delta"><span class="textt-theme">MacBook Screen Replacement</span></a></li>
+                                <li><a href="apple-macbook-keyboard-replacement-delta"><span class="textt-theme">MacBook Keyboard Repair</span></a></li>
+                                <li><a href="apple-macbook-logicboard-repair-delta.php"><span class="textt-theme">Apple MacBook Logic Board Repair</span></a></li>
                             </ul>
                         </div>
-                        <a href="<?php echo $url; ?>contact" target="_self" rel="noopener noreferrer"> <button class="primaryButton"> Book Now
-                        </button></a>
+                        <div class="productBook">
+                        <a class="primaryButton" href="<?php echo $url; ?>contact" target="_self">Book Now</a>
+                    </div>
                         <?php include_once('../common/youtubevideo.php'); ?>
                         <h4>GET DIRECTIONS fOR Data Recovery Services Delta</h4>
                         <?php include_once('../common/map.php'); ?>

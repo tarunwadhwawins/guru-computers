@@ -101,7 +101,7 @@ p {
     border: 1px solid $primary-color;
     border-radius: 4px;
     font-family: 'open_sansregular';
-    margin: 0 0 18px 0;
+    display: inline-block;
     &:hover {
         background: $baseblue;
         color: $primary-contrast-color;
@@ -118,6 +118,7 @@ p {
     font-family: 'open_sansbold';
     border-radius: 4px;
     font-size: 13px;
+    display: inline-block;
     &:hover {
         background: transparent;
         border: 2px solid $secondary-contrast-color;

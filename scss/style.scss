@@ -16,22 +16,22 @@
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
-                @media(max-width: 480px) {
+                @media (max-width: 480px) {
                     top: 75%;
                 }
                 label {
                     font-size: 50px;
                     color: $primary-contrast-color;
                     text-transform: uppercase;
-                    font-family: 'open_sanssemibold';
+                    font-family: "open_sanssemibold";
                     text-align: center;
-                    @media(max-width: 991px) {
+                    @media (max-width: 991px) {
                         font-size: 40px;
                     }
-                    @media(max-width: 767px) {
+                    @media (max-width: 767px) {
                         font-size: 30px;
                     }
-                    @media(max-width: 640px) {
+                    @media (max-width: 640px) {
                         font-size: 13px;
                         margin-bottom: 15px;
                     }
@@ -42,7 +42,7 @@
                     text-align: center;
                     color: $primary-contrast-color;
                     letter-spacing: 1px;
-                    @media(max-width: 680px) {
+                    @media (max-width: 680px) {
                         display: none;
                     }
                 }
@@ -56,14 +56,17 @@
                 h1 {
                     // animation //
                     @include slideInUp1 // //
+                    ;
                 }
                 p {
                     // animation //
                     @include slideInUp2 // //
+                    ;
                 }
                 .primaryButton {
                     // animation //
                     @include slideInUp3 // //
+                    ;
                 }
             }
         }
@@ -85,7 +88,7 @@
                     background: $primary-color;
                     transition: all 0.8s;
                 }
-                @media(max-width: 991px) {
+                @media (max-width: 991px) {
                     display: none;
                 }
             }
@@ -108,7 +111,7 @@
                     background: $primary-color;
                     transition: all 0.8s;
                 }
-                @media(max-width: 991px) {
+                @media (max-width: 991px) {
                     display: none;
                 }
             }
@@ -142,25 +145,25 @@
         width: 10%;
         display: inline-block;
         margin: 0 90px 30px 0px;
-        @media(max-width: 991px) {
+        @media (max-width: 991px) {
             margin: 0 50px 60px 0;
         }
     }
-    .buttonSection {
-        width: auto;
-        display: inline-block;
-        margin: 0 10px 0 0;
-        .primaryButton {
-            min-width: 215px;
-            font-size: 14px;
-        }
-        @media(max-width: 991px) {
-            margin: 0 20px 10px 0;
+    .buttonContainer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+        .buttonSection {
+            min-width: 250px;
+            a {
+                width: 100%;
+            }
         }
     }
 }
 
-// TESTIMONIALS 
+// TESTIMONIALS
 .testimonials {
     padding: 30px 0;
     h2 {
@@ -209,13 +212,13 @@
             line-height: normal;
             text-transform: none;
             margin: 0 20px 0px 0;
-            font-family: 'open_sansregular';
-            @media(max-width: 991px) {
+            font-family: "open_sansregular";
+            @media (max-width: 991px) {
                 font-size: 17px;
                 margin: 5px 0 15px 0;
             }
         }
-        @media(max-width: 991px) {
+        @media (max-width: 991px) {
             display: flex;
             flex-direction: column;
             text-align: center;
@@ -234,17 +237,17 @@
     background-size: cover;
     height: 210px;
     position: relative;
-    @media(max-width: 575px) {
+    @media (max-width: 575px) {
         height: 130px;
     }
     h1 {
-        font-family: 'poppinsbold';
+        font-family: "poppinsbold";
         position: absolute;
         color: $primary-contrast-color;
-        bottom: 20px;
-        font-size: 28px;
+        bottom: 30px;
+        font-size: 26px;
         @include slideInUp1;
-        @media(max-width: 575px) {
+        @media (max-width: 575px) {
             font-size: 18px;
             text-transform: capitalize;
         }
@@ -262,7 +265,7 @@
             margin: 25px 0 0;
             text-transform: uppercase;
             letter-spacing: 1px;
-            @media(max-width: 991px) {
+            @media (max-width: 991px) {
                 text-align: center;
                 margin: 30px 0 40px;
             }
@@ -272,7 +275,7 @@
         text-align: right;
         img {
             max-width: 360px;
-            @media(max-width: 991px) {
+            @media (max-width: 991px) {
                 max-width: 400px;
                 margin: 0 auto;
                 display: flex;
@@ -289,7 +292,7 @@
         h2 {
             font-size: 22px;
             display: block;
-            font-family: 'poppinsregular';
+            font-family: "poppinsregular";
             color: $primary-contrast-color;
             line-height: normal;
             margin: 0 20px 0px 0;
@@ -304,7 +307,7 @@
                 float: left;
                 list-style: initial;
                 padding-bottom: 5px;
-                font-family: 'open_sanslight';
+                font-family: "open_sanslight";
             }
         }
         p {
@@ -317,7 +320,7 @@
         display: block;
         font-size: 16px;
         text-align: center;
-        @media(max-width: 991px) {
+        @media (max-width: 991px) {
             margin: 15px 0 0 0;
         }
     }
@@ -340,7 +343,7 @@
         .repairButtonn {
             .primaryButton {
                 padding: 7px 12px;
-                font-family: 'open_sansbold';
+                font-family: "open_sansbold";
                 font-size: 13px;
                 line-height: 26px;
             }
@@ -349,14 +352,14 @@
 }
 
 // Computer Repair Services-----------------------------
-// Computer Reapir Services Delta & Surrey 
+// Computer Reapir Services Delta & Surrey
 .deltaBg {
     background: transparent;
     .sectionHead {
         width: auto;
         display: inline-block;
         margin: 0 40px 20px 0;
-        @media(max-width: 991px) {
+        @media (max-width: 991px) {
             margin-bottom: 30px;
         }
         h2 {
@@ -364,8 +367,6 @@
         }
         .primaryButton {
             padding: 12px 60px;
-            font-size: 14px;
-            margin: 0 0 18px 0;
         }
     }
     p {
@@ -381,7 +382,7 @@
         float: right;
         width: 295px;
         margin: 0 0 0 28px;
-        @media(max-width: 991px) {
+        @media (max-width: 991px) {
             width: 100%;
             margin-bottom: 18px;
         }
@@ -408,7 +409,7 @@
     }
     .product-listing {
         width: 100%;
-        margin: 0 0 12px -14px;
+        margin: 0 0 15px 0px;
         ul {
             padding: 0px 0 0 38px;
             list-style: none;
@@ -418,16 +419,13 @@
                 &::before {
                     content: ".";
                     color: $primary-color;
-                    font-family: 'poppinsbold';
+                    font-family: "poppinsbold";
                     display: inline-block;
                     width: 1em;
                     margin-left: -1em;
                 }
             }
         }
-    }
-    h4 {
-        font-family: 'poppinsbold';
     }
     .referLink {
         margin: 0 0 18px 30px;
@@ -445,7 +443,7 @@
         }
     }
     .productBook {
-        margin: 22px 0 17px 0;
+        margin: 0px 0 15px 0;
         .primaryButton {
             padding: 6px 12px;
             font-size: 13px;
@@ -453,7 +451,7 @@
     }
     p {
         iframe {
-            @media(max-width: 991px) {
+            @media (max-width: 991px) {
                 width: 100%;
             }
         }
@@ -468,7 +466,7 @@
     text-align: center;
     display: none;
     margin-top: 25px;
-    @media(max-width: 575px) {
+    @media (max-width: 575px) {
         display: block;
     }
     .primaryButton {
@@ -483,7 +481,7 @@
 //ABOUT-US//
 .aboutUs {
     .aboutBanner {
-        @media(max-width: 575px) {
+        @media (max-width: 575px) {
             img {
                 margin: 35px 0 0 0;
             }
@@ -495,14 +493,14 @@
         h2 {
             font-size: 26px;
             margin: 0 0 16px 0;
-            font-family: 'poppinsmedium';
+            font-family: "poppinsmedium";
         }
         img {
             &.rightimg {
                 float: right;
                 width: 295px;
                 margin: 0 0 0 28px;
-                @media(max-width: 575px) {
+                @media (max-width: 575px) {
                     width: 100%;
                 }
             }
@@ -512,7 +510,7 @@
             line-height: 24px;
             color: $grey;
             margin: 0 0 10px;
-            font-family: 'open_sansregular';
+            font-family: "open_sansregular";
         }
     }
 }
@@ -543,13 +541,13 @@
             text-align: center;
             flex-direction: column;
             align-items: center;
-            width:50%;
+            width: 50%;
             img {
                 width: auto;
             }
             h4 {
                 margin: 20px 0 16px;
-                font-family: 'poppinsmedium';
+                font-family: "poppinsmedium";
                 color: $secondary-dark-color;
             }
             p {
@@ -560,7 +558,7 @@
             .primaryButton {
                 padding: 12px 35px;
                 font-size: 13px;
-                font-family: 'open_sansregular';
+                font-family: "open_sansregular";
             }
         }
     }
@@ -594,7 +592,7 @@
                 line-height: normal;
                 margin-bottom: 10px;
                 margin-top: 16px;
-                font-family: 'poppinsmedium';
+                font-family: "poppinsmedium";
                 text-transform: uppercase;
                 @media screen and (max-width: 1199px) {
                     font-size: 35px;
@@ -610,7 +608,7 @@
                 }
             }
             h3 {
-                font-family: 'poppinsmedium';
+                font-family: "poppinsmedium";
                 text-transform: uppercase;
                 color: $grey6;
                 font-size: 20px;
@@ -631,7 +629,7 @@
             }
             h5 {
                 color: $primary-color;
-                font-family: 'open_sansbold';
+                font-family: "open_sansbold";
                 margin: 0 0 7px 0;
             }
             input {
@@ -669,7 +667,7 @@
                 height: 200px;
             }
             .primaryButton {
-                width: 200px
+                width: 200px;
             }
         }
     }
@@ -699,7 +697,7 @@
         h5 {
             line-height: 26px;
             color: $grey;
-            font-family: 'open_sansbold';
+            font-family: "open_sansbold";
         }
         p {
             line-height: 24px;
@@ -710,28 +708,10 @@
                 line-height: 26px;
             }
         }
-        h2 {
-            font-size: 26px;
-            margin: 0 0 16px 0;
-            font-family: 'open_sansbold';
-            line-height: 26px;
-            @media screen and (max-width: 767px) {
-                font-size: 22px;
-            }
-        }
         h3 {
-            font-size: 18px;
-            line-height: 26px;
-            font-family: 'poppinsmedium';
-            margin-top: 20px;
-            margin-bottom: 10px;
             color: $secondary-dark-color;
         }
         h4 {
-            line-height: 26px;
-            color: $secondary-dark-color;
-            text-transform: uppercase;
-            font-family: 'poppinsmedium';
             margin-top: 10px;
             margin-bottom: 10px;
         }
@@ -744,7 +724,7 @@
                 li {
                     font-size: 14px;
                     line-height: 28px;
-                    font-family: 'open_sansregular';
+                    font-family: "open_sansregular";
                     a {
                         &::before {
                             content: "\2022";
@@ -807,7 +787,7 @@
                 font-size: 14px;
                 line-height: 24px;
                 color: $grey;
-                font-family: 'open_sansbold';
+                font-family: "open_sansbold";
             }
             h3 {
                 border-bottom: 1px solid $grey-boder;

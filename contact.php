@@ -2,10 +2,13 @@
 <html lang="en">
 
 <head>
-    <!-- Title -->
-    <title>Contact - Guru Computers</title>
     <!-- Meta & Link Tags -->
-    <?php include_once('common/common-css.php'); ?>
+   <?php
+    $title = '';
+    $keyword  = '';
+    $description  = "";
+    
+    include_once('common/common-css.php'); ?>
     <!--  -->
 </head>
 

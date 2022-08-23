@@ -151,19 +151,17 @@
     margin: 0 50px 60px 0;
   }
 }
-.deltaSurrey .buttonSection {
-  width: auto;
-  display: inline-block;
-  margin: 0 10px 0 0;
+.deltaSurrey .buttonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
 }
-.deltaSurrey .buttonSection .primaryButton {
-  min-width: 215px;
-  font-size: 14px;
+.deltaSurrey .buttonContainer .buttonSection {
+  min-width: 250px;
 }
-@media (max-width: 991px) {
-  .deltaSurrey .buttonSection {
-    margin: 0 20px 10px 0;
-  }
+.deltaSurrey .buttonContainer .buttonSection a {
+  width: 100%;
 }
 
 .testimonials {
@@ -242,8 +240,8 @@
   font-family: "poppinsbold";
   position: absolute;
   color: #fff;
-  bottom: 20px;
-  font-size: 28px;
+  bottom: 30px;
+  font-size: 26px;
   animation-name: slideInUp;
   animation-duration: 1.5s;
   animation-fill-mode: both;
@@ -365,8 +363,6 @@
 }
 .deltaBg .sectionHead .primaryButton {
   padding: 12px 60px;
-  font-size: 14px;
-  margin: 0 0 18px 0;
 }
 .deltaBg p {
   color: #777;
@@ -409,7 +405,7 @@
 }
 .laptopProduct .product-listing {
   width: 100%;
-  margin: 0 0 12px -14px;
+  margin: 0 0 15px 0px;
 }
 .laptopProduct .product-listing ul {
   padding: 0px 0 0 38px;
@@ -427,9 +423,6 @@
   width: 1em;
   margin-left: -1em;
 }
-.laptopProduct h4 {
-  font-family: "poppinsbold";
-}
 .laptopProduct .referLink {
   margin: 0 0 18px 30px;
 }
@@ -446,7 +439,7 @@
   color: #f15a24;
 }
 .laptopProduct .productBook {
-  margin: 22px 0 17px 0;
+  margin: 0px 0 15px 0;
 }
 .laptopProduct .productBook .primaryButton {
   padding: 6px 12px;
@@ -709,30 +702,10 @@
     line-height: 26px;
   }
 }
-.dataRecoverydelta .productData h2 {
-  font-size: 26px;
-  margin: 0 0 16px 0;
-  font-family: "open_sansbold";
-  line-height: 26px;
-}
-@media screen and (max-width: 767px) {
-  .dataRecoverydelta .productData h2 {
-    font-size: 22px;
-  }
-}
 .dataRecoverydelta .productData h3 {
-  font-size: 18px;
-  line-height: 26px;
-  font-family: "poppinsmedium";
-  margin-top: 20px;
-  margin-bottom: 10px;
   color: #2d2d2d;
 }
 .dataRecoverydelta .productData h4 {
-  line-height: 26px;
-  color: #2d2d2d;
-  text-transform: uppercase;
-  font-family: "poppinsmedium";
   margin-top: 10px;
   margin-bottom: 10px;
 }

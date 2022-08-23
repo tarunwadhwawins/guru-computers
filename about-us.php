@@ -22,7 +22,7 @@
         </div>
         <div class="productBanner">
             <div class="container">
-                <h2>WHO WE ARE</h2>
+                <h2>Who we are</h2>
                 <img class="rightimg" src="<?php echo $url; ?>assets/images/about_us.jpg" alt="aboutimage">
                 <p>Guru Computers was established in the summer of 2013. Sukh, the owner has over 15 years of experience in fixing computers. He has worked with world-leading computer manufacturing companies like DELL and has a lot of customer service experience
                     under his belt. Since its inception, Guru Computers has built a huge market of satisfied clients by offering a reliable computer repair service and data backup solutions at an affordable cost. We are patient listeners and we fix things

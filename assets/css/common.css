@@ -98,7 +98,7 @@ p {
   border: 1px solid #f15a24;
   border-radius: 4px;
   font-family: "open_sansregular";
-  margin: 0 0 18px 0;
+  display: inline-block;
 }
 .primaryButton:hover {
   background: #002858;
@@ -115,6 +115,7 @@ p {
   font-family: "open_sansbold";
   border-radius: 4px;
   font-size: 13px;
+  display: inline-block;
 }
 .secondaryButton:hover {
   background: transparent;
