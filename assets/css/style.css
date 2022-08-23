@@ -20,6 +20,29 @@
     top: 75%;
   }
 }
+.banner .replacement .slider .bannerText label {
+  font-size: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "open_sanssemibold";
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .banner .replacement .slider .bannerText label {
+    font-size: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .banner .replacement .slider .bannerText label {
+    font-size: 30px;
+  }
+}
+@media (max-width: 640px) {
+  .banner .replacement .slider .bannerText label {
+    font-size: 13px;
+    margin-bottom: 15px;
+  }
+}
 .banner .replacement .slider .bannerText p {
   text-shadow: 0 1px 1px #333333;
   line-height: 30px;
@@ -105,6 +128,9 @@
 .repairService {
   padding: 30px 0;
 }
+.repairService .computerMacbook h1 {
+  margin: 0 0 40px 0;
+}
 .repairService .computerMacbook p {
   color: #777;
   padding: 0 0 10px;
@@ -144,7 +170,7 @@
   padding: 30px 0;
 }
 .testimonials h2 {
-  font-size: 24px;
+  margin: 0 0 40px 0;
 }
 .testimonials .testimonialContent .quickService p {
   font-size: 16px;
@@ -283,7 +309,6 @@
   float: left;
   list-style: initial;
   padding-bottom: 5px;
-  font-size: 14px;
   font-family: "open_sanslight";
 }
 .chooseComputer .trustWorthy p {
@@ -322,29 +347,28 @@
   line-height: 26px;
 }
 
-#deltaBg {
+.deltaBg {
   background: transparent;
 }
-#deltaBg .sectionHead {
+.deltaBg .sectionHead {
   width: auto;
   display: inline-block;
   margin: 0 40px 20px 0;
 }
 @media (max-width: 991px) {
-  #deltaBg .sectionHead {
+  .deltaBg .sectionHead {
     margin-bottom: 30px;
   }
 }
-#deltaBg .sectionHead h2 {
+.deltaBg .sectionHead h2 {
   margin: 0 0 24px 0;
-  font-family: "poppinsmedium";
 }
-#deltaBg .sectionHead .primaryButton {
+.deltaBg .sectionHead .primaryButton {
   padding: 12px 60px;
   font-size: 14px;
   margin: 0 0 18px 0;
 }
-#deltaBg p {
+.deltaBg p {
   color: #777;
   text-align: left;
 }
@@ -378,12 +402,9 @@
 }
 .laptopProduct h2 {
   margin: 0 0 18px 0;
-  font-family: "poppinsbold";
-  font-size: 26px;
   color: #000;
 }
 .laptopProduct h3 {
-  font-family: "poppinssemibold";
   color: #2d2d2d;
 }
 .laptopProduct .product-listing {
@@ -393,7 +414,6 @@
 .laptopProduct .product-listing ul {
   padding: 0px 0 0 38px;
   list-style: none;
-  margin: 0;
 }
 .laptopProduct .product-listing ul li {
   width: 100%;

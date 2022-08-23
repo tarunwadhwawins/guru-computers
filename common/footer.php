@@ -12,9 +12,9 @@
                             <a href="<?php echo $url; ?>delta/apple-macbook-logicboard-repair-delta">MacBook Logicboard Repair</a>
                         </li>
                         <li><a href="<?php echo $url; ?>delta/apple-macbook-liquid-damage-repair-delta">MacBook Liquid Damage Repair</a></li>
-                        <li><a href="<?php echo $url; ?>delta/virus-spyware-malware-adware-removal">Virus Removal Delta</a></li>
-                        <li><a href="<?php echo $url; ?>delta/laptop-screen-replacement-in-delta">Laptop Screen Replacement Delta</a></li>
-                        <li><a href="<?php echo $url; ?>delta/data-recovery-services-delta">Data Recovery Services Delta</a></li>
+                        <li><a href="<?php echo $url; ?>services/virus-spyware-malware-adware-removal">Virus Removal Delta</a></li>
+                        <li><a href="<?php echo $url; ?>services/laptop-screen-replacement-in-delta">Laptop Screen Replacement Delta</a></li>
+                        <li><a href="<?php echo $url; ?>services/data-recovery-services-delta">Data Recovery Services Delta</a></li>
                     </ul>
                 </div>
             </div>
@@ -29,9 +29,9 @@
                             <a href="<?php echo $url; ?>surrey/macbook-liquid-damage-repair-surrey">MacBook Liquid Damage Repair</a>
                         </li>
                         <li><a href="<?php echo $url; ?>surrey/macbook-keyboard-replacement-surrey">MacBook Keyboard Replacement</a></li>
-                        <li><a href="<?php echo $url; ?>surrey/virus-malware-trojan-removal-surrey">Virus Removal Surrey</a></li>
-                        <li><a href="<?php echo $url; ?>surrey/fix-laptop-screen-repair-surrey">Laptop Screen Replacement Surrey</a></li>
-                        <li><a href="<?php echo $url; ?>surrey/hard-drive-data-recovery-in-surrey">Data Recovery Surrey</a></li>
+                        <li><a href="<?php echo $url; ?>services/virus-malware-trojan-removal-surrey">Virus Removal Surrey</a></li>
+                        <li><a href="<?php echo $url; ?>services/fix-laptop-screen-repair-surrey">Laptop Screen Replacement Surrey</a></li>
+                        <li><a href="<?php echo $url; ?>services/hard-drive-data-recovery-in-surrey">Data Recovery Surrey</a></li>
                     </ul>
                 </div>
             </div>

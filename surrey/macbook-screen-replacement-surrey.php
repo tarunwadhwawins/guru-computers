@@ -33,10 +33,10 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="<?php echo $url; ?>assets/images/screen-replacementservice (1).jpg" alt="productImage">
+                        <img src="<?php echo $url; ?>assets/images/delta/screen-replacementservice.jpg" alt="productImage">
                     </div>
                     <p>Cracked MacBook screen? Guru Computers provide the best MacBook screen replacement service in <a href="./macbook-repair-surrey"><span class="textt">Surrey </span></a> , BC. We repair all generations of MacBooks.</p>
-                    <h2>APPLE MACBOOK SCREEN REPLACEMENT SURREY</h2>
+                    <h2>Apple MacBook Screen Replacement Surrey</h2>
                     <p>The most common repair for Apple <a href="https://www.apple.com/in/macbook-pro/"><span class="textt">MacBook </span></a> is LCD screen replacement. These are high-quality screens, however, are susceptible to accidental damages. Accidental
                         drops may cause vertical lines on the screen or it can go completely blank.</p>
                     <p> At Guru Computers we have high-quality OEM screens and display assemblies in stock, and we can restore your device to its original state within a short time frame. You can rely on Guru Computers to offer competitive pricing on OEM

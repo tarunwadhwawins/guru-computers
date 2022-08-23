@@ -16,11 +16,25 @@
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
-                // @media(max-width: 575px) {
-                //     top: 75%;
-                // }
                 @media(max-width: 480px) {
                     top: 75%;
+                }
+                label {
+                    font-size: 50px;
+                    color: $primary-contrast-color;
+                    text-transform: uppercase;
+                    font-family: 'open_sanssemibold';
+                    text-align: center;
+                    @media(max-width: 991px) {
+                        font-size: 40px;
+                    }
+                    @media(max-width: 767px) {
+                        font-size: 30px;
+                    }
+                    @media(max-width: 640px) {
+                        font-size: 13px;
+                        margin-bottom: 15px;
+                    }
                 }
                 p {
                     text-shadow: 0 1px 1px $solid-dark-color;
@@ -109,6 +123,9 @@
 .repairService {
     padding: 30px 0;
     .computerMacbook {
+        h1 {
+            margin: 0 0 40px 0;
+        }
         p {
             color: $grey;
             padding: 0 0 10px;
@@ -147,7 +164,7 @@
 .testimonials {
     padding: 30px 0;
     h2 {
-        font-size: 24px;
+        margin: 0 0 40px 0;
     }
     .testimonialContent {
         .quickService {
@@ -287,7 +304,6 @@
                 float: left;
                 list-style: initial;
                 padding-bottom: 5px;
-                font-size: 14px;
                 font-family: 'open_sanslight';
             }
         }
@@ -334,7 +350,7 @@
 
 // Computer Repair Services-----------------------------
 // Computer Reapir Services Delta & Surrey 
-#deltaBg {
+.deltaBg {
     background: transparent;
     .sectionHead {
         width: auto;
@@ -345,7 +361,6 @@
         }
         h2 {
             margin: 0 0 24px 0;
-            font-family: 'poppinsmedium';
         }
         .primaryButton {
             padding: 12px 60px;
@@ -386,12 +401,9 @@
     }
     h2 {
         margin: 0 0 18px 0;
-        font-family: 'poppinsbold';
-        font-size: 26px;
         color: $primary-dark-color;
     }
     h3 {
-        font-family: 'poppinssemibold';
         color: $secondary-dark-color;
     }
     .product-listing {
@@ -400,7 +412,6 @@
         ul {
             padding: 0px 0 0 38px;
             list-style: none;
-            margin: 0;
             li {
                 width: 100%;
                 color: $grey2;

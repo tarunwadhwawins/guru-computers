@@ -36,47 +36,34 @@ a {
 
 // Heading
 h1 {
-    font-size: 50px;
-    color: $primary-contrast-color;
-    text-transform: uppercase;
+    font-size: 28px;
+    text-transform: capitalize;
     font-family: 'open_sanssemibold';
-    text-align: center;
-    @media(max-width: 991px) {
-        font-size: 40px;
-    }
-    @media(max-width: 767px) {
-        font-size: 30px;
-    }
-    @media(max-width: 640px) {
-        font-size: 13px;
-        margin-bottom: 15px;
-    }
 }
 
 h2 {
-    text-transform: uppercase;
-    font-size: 20px;
-    font-family: 'poppinssemibold';
-    margin: 0 0 40px 0;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-family: 'open_sanssemibold';
 }
 
 h3 {
-    text-transform: uppercase;
-    font-size: 18px;
-    font-family: 'poppinsmedium';
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: 'open_sanssemibold';
     color: $primary-contrast-color;
 }
 
 h4 {
-    font-size: 16px;
-    text-transform: uppercase;
-    font-family: 'poppinsmedium';
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: 'open_sanssemibold';
     color: $secondary-dark-color;
 }
 
 h5,
 h6 {
-    font-size: 14px;
+    font-size: 16px;
     margin: 0;
 }
 

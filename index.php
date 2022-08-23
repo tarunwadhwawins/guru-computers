@@ -18,34 +18,34 @@
         <div class="owl-carousel replacement">
             <div class="slider">
                 <div class="bannerText d-flex align-items-center flex-column">
-                    <h1>Need a keyboard replacement?</h1>
+                    <label>Need a keyboard replacement?</label>
                     <p> Keyboard replacement starting at $175 onwords.</p>
-                    <button type="button" class="primaryButton">Call Now!</button>
+                    <a href="<?php echo $url; ?>contact" class=" primaryButton">Call Now!</a>
                 </div>
                 <img src="assets/images/keyboardreplacement.jpg" alt="banner-image">
             </div>
             <div class="slider">
                 <img src="assets/images/liquiddamage2.jpg" alt="">
                 <div class="bannerText d-flex align-items-center flex-column">
-                    <h1>Spilled liquid?</h1>
+                    <label>Spilled liquid?</label>
                     <p>Liquid damage repair starting at $110 onwards. </p>
-                    <button type="button" class="primaryButton">Call Now!</button>
+                    <a href="<?php echo $url; ?>contact" class=" primaryButton">Call Now!</a>
                 </div>
             </div>
             <div class="slider">
                 <img src="assets/images/logicboard2.jpg" alt="">
                 <div class="bannerText d-flex align-items-center flex-column">
-                    <h1>Need a Logicboard repair?</h1>
+                    <label>Need a Logicboard repair?</label>
                     <p>Logicboard repair service comes with 90 days warranty.</p>
-                    <button type="button" class=" primaryButton">Call Now!</button>
+                    <a href="<?php echo $url; ?>contact" class=" primaryButton">Call Now!</a>
                 </div>
             </div>
             <div class="slider">
                 <img src="assets/images/screenreplacement.jpg" alt="">
                 <div class="bannerText d-flex align-items-center flex-column">
-                    <h1>cracked or shattered screens?</h1>
+                    <label>cracked or shattered screens?</label>
                     <p> Screen replacement starting at $200 onwards.</p>
-                    <a href="./contact"> <button type="button" class=" primaryButton">Call Now!</button></a>
+                    <a href="<?php echo $url; ?>contact" class=" primaryButton">Call Now!</a>
                 </div>
             </div>
         </div>
@@ -57,7 +57,7 @@
             <div class="row">
                 <div class="col-lg-12 col-sm-12">
                     <div class="computerMacbook">
-                        <h2 class="text-center">computer repair <span class="underline"> & macbook</span> repair service</h2>
+                        <h1 class="text-center">computer repair <span class="underline"> & macbook</span> repair service</h1>
                         <p class="text-center">At Guru Computers we aim to help our customers with the most effective solution at a very affordable cost. We are passionate about fixing problems and we have the experience to fix any problem with your Apple or Windows computer.
                             Centrally located on Scott Road and 86th Ave in Delta, we are recognized as a well reputed Macbook, laptop and computer repair service that is consistently reliable.</p>
                         <p class="text-center"> We have made a difference by restoring interrupted business routine for an average mom or dad to a small/medium business owner. Our 4.9 star google rating speaks volume about a range of satisfied customers. We are quiet frankly

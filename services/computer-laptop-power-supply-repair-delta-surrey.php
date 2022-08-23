@@ -53,17 +53,17 @@
                     <ul class="referLink">
                         <li><a href="<?php echo $url; ?>delta/apple-macbook-keyboard-replacement-delta">MacBook keyboard replacement</a></li>
                         <li><a href="<?php echo $url; ?>delta/apple-macbook-liquid-damage-repair-delta">MacBook Liquid Damage Repair Delta</a></li>
-                        <li><a href="<?php echo $url; ?>delta/laptop-screen-replacement-in-delta">Laptop Screen Replacement in Delta</a></li>
-                        <li><a href="<?php echo $url; ?>delta/virus-spyware-malware-adware-removal">Virus Removal in Delta</a></li>
+                        <li><a href="<?php echo $url; ?>services/laptop-screen-replacement-in-delta">Laptop Screen Replacement in Delta</a></li>
+                        <li><a href="<?php echo $url; ?>services/virus-spyware-malware-adware-removal">Virus Removal in Delta</a></li>
                         <li><a href="<?php echo $url; ?>services/acer-laptop-repair-delta">Acer Laptop Repair Delta</a></li>
                     </ul>
                     <h3>Computer Repair Services In Surrey:</h3>
                     <ul class="referLink">
                         <li><a href="<?php echo $url; ?>surrey/macbook-screen-replacement-surrey">MacBook Screen Replacement</a></li>
                         <li><a href="<?php echo $url; ?>surrey/macbook-logic-board-repair-surrey">Apple MacBook Logic Board Repair</a></li>
-                        <li><a href="<?php echo $url; ?>surrey/hard-drive-data-recovery-in-surrey">Data Recovery Surrey</a></li>
-                        <li><a href="<?php echo $url; ?>surrey/virus-malware-trojan-removal-surrey">Virus Removal Surrey</a></li>
-                        <li><a href="<?php echo $url; ?>surrey/Laptop Screen Repair In Surrey">Laptop Screen Repair In Surrey</a></li>
+                        <li><a href="<?php echo $url; ?>services/hard-drive-data-recovery-in-surrey">Data Recovery Surrey</a></li>
+                        <li><a href="<?php echo $url; ?>services/virus-malware-trojan-removal-surrey">Virus Removal Surrey</a></li>
+                        <li><a href="<?php echo $url; ?>services/Laptop Screen Repair In Surrey">Laptop Screen Repair In Surrey</a></li>
                     </ul>
                     <div class="productBook">
                         <a class="primaryButton" href="<?php echo $url; ?>contact" target="_blank">Book Now</a>

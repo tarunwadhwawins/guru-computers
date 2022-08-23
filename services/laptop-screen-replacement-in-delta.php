@@ -63,11 +63,11 @@
                     <p>“The work is guaranteed for 90 days.”</p>
                     <h4>Our Other Computer Repair Services:</h4>
                     <ul class="referLink">
-                        <li><a href="data-recovery-services-delta">Data Recovery Services Delta – Hard Drive Data Recovery</a></li>
-                        <li><a href="apple-macbook-screen-replacement-in-delta">MacBook Screen Replacement</a></li>
-                        <li><a href="apple-macbook-keyboard-replacement-delta">MacBook Keyboard Repair</a></li>
-                        <li><a href="virus-spyware-malware-adware-removal">Computer Malware Removal Delta – Trojan Removal</a></li>
-                        <li><a href="apple-macbook-logicboard-repair-delta">Apple MacBook Logic Board Repair</a></li>
+                        <li><a href="<?php echo $url; ?>delta/data-recovery-services-delta">Data Recovery Services Delta – Hard Drive Data Recovery</a></li>
+                        <li><a href="<?php echo $url; ?>delta/apple-macbook-screen-replacement-in-delta">MacBook Screen Replacement</a></li>
+                        <li><a href="<?php echo $url; ?>delta/apple-macbook-keyboard-replacement-delta">MacBook Keyboard Repair</a></li>
+                        <li><a href="<?php echo $url; ?>delta/virus-spyware-malware-adware-removal">Computer Malware Removal Delta – Trojan Removal</a></li>
+                        <li><a href="<?php echo $url; ?>delta/apple-macbook-logicboard-repair-delta">Apple MacBook Logic Board Repair</a></li>
                     </ul>
                     <div class="productBook">
                         <a class="primaryButton" href="<?php echo $url; ?>contact" target="_self">Book Now</a>

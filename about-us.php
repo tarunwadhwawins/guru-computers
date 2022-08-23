@@ -8,7 +8,7 @@
     $keyword  = '';
     $description  = "";
     
-    include_once('../common/common-css.php'); ?>
+    include_once('common/common-css.php'); ?>
     <!--  -->
 </head>
 

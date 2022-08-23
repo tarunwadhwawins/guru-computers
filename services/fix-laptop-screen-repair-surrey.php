@@ -63,13 +63,13 @@
                     </ul>
                     <h3>Our Other Computer Repair Services In Surrey, British Columbia:</h3>
                     <ul class="referLink">
-                        <li><a href="hard-drive-data-recovery-in-surrey">Data Recovery Services Surrey</a></li>
-                        <li><a href="fix-laptop-screen-repair-surrey">Laptop Screen Replacement</a></li>
-                        <li><a href="macbook-logic-board-repair-surrey">Apple MacBook Logic Board Repair</a></li>
-                        <li><a href="virus-malware-trojan-removal-surrey">Virus Removal In Surrey</a></li>
-                        <li><a href="macbook-screen-replacement-surrey">MacBook Screen Replacement</a></li>
-                        <li><a href="macbook-liquid-damage-repair-surrey">Liquid Damage Repair</a></li>
-                        <li><a href="macbook-keyboard-replacement-surrey">MacBook Keyboard Repair</a></li>
+                        <li><a href="<?php echo $url; ?>surrey/hard-drive-data-recovery-in-surrey">Data Recovery Services Surrey</a></li>
+                        <li><a href="<?php echo $url; ?>surrey/fix-laptop-screen-repair-surrey">Laptop Screen Replacement</a></li>
+                        <li><a href="<?php echo $url; ?>surrey/macbook-logic-board-repair-surrey">Apple MacBook Logic Board Repair</a></li>
+                        <li><a href="<?php echo $url; ?>surrey/virus-malware-trojan-removal-surrey">Virus Removal In Surrey</a></li>
+                        <li><a href="<?php echo $url; ?>surrey/macbook-screen-replacement-surrey">MacBook Screen Replacement</a></li>
+                        <li><a href="<?php echo $url; ?>surrey/macbook-liquid-damage-repair-surrey">Liquid Damage Repair</a></li>
+                        <li><a href="<?php echo $url; ?>surrey/macbook-keyboard-replacement-surrey">MacBook Keyboard Repair</a></li>
 
                     </ul>
                     <div class="productBook">

@@ -71,13 +71,13 @@
                         <h3>Our Other Computer Repair Services</h3>
                         <div class="listing">
                             <ul>
-                                <li><a href="<?php echo $url; ?>delta/macbook-repair-delta">MacBook Repair In Delta</a></li>
+                                <li><a href="<?php echo $url; ?>services/macbook-repair-delta">MacBook Repair In Delta</a></li>
                                 <li><a href="<?php echo $url; ?>delta/apple-macbook-screen-replacement-in-delta">MacBook Screen Repair Delta</a></li>
-                                <li><a href="<?php echo $url; ?>delta/acer-laptop-repair-delta">Acer laptop repair Delta</a></li>
-                                <li><a href="<?php echo $url; ?>delta/asus-laptop-repair-delta">Asus Repair Delta</a></li>
-                                <li><a href="<?php echo $url; ?>delta/virus-spyware-malware-adware-removal">Virus Removal in Delta</a></li>
-                                <li><a href="<?php echo $url; ?>delta/imac-repair-delta">iMac Repair Delta</a></li>
-                                <li><a href="<?php echo $url; ?>delta/imac-repair-surrey">iMac Repair Surrey</a></li>
+                                <li><a href="<?php echo $url; ?>services/acer-laptop-repair-delta">Acer laptop repair Delta</a></li>
+                                <li><a href="<?php echo $url; ?>services/asus-laptop-repair-delta">Asus Repair Delta</a></li>
+                                <li><a href="<?php echo $url; ?>services/virus-spyware-malware-adware-removal">Virus Removal in Delta</a></li>
+                                <li><a href="<?php echo $url; ?>services/imac-repair-delta">iMac Repair Delta</a></li>
+                                <li><a href="<?php echo $url; ?>services/imac-repair-surrey">iMac Repair Surrey</a></li>
                             </ul>
                         </div>
 
