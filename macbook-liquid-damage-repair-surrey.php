@@ -31,8 +31,9 @@
                     <div class="productContent">
                         <img src="assets/images/liquid-damageservice.jpg" alt="productImage">
                     </div>
-                    <p>Spilled a coffee/liquid on your laptop? Guru Computers provide the best MacBook liquid damage repair service in <a href="javascript:void(0)"><span class="textt">Surrey </span></a> , BC. We repair all generations of MacBooks.</p>
-                    <h2>APPLE MACBOOK LIQUID DAMAGE REPAIR SURREY</h2>
+                    <p>Spilled a coffee/liquid on your laptop? Guru Computers provide the best MacBook liquid damage repair service in <a href="./macbook-liquid-damage-repair-surrey"><span class="textt">Surrey </span></a> , BC. We repair all generations
+                        of MacBooks.</p>
+                    <h2>Apple Macbook Liquid Damage Repair Surrey</h2>
                     <p> Liquid damage is the worst damage to any electronic device. If you have spilled liquid don’t use a hair dryer or dump your device in a box full of rice to dry it out. Liquid damage must be cleaned immediately at a component level to
                         improve the chances of restoring your device. Do not try to turn it ON.</p>
                     <p> OApplying power may cause irreversible damage to the logic board. There are a lot of integrated circuits, capacitors, and coils regulating the power to different components on a logic board. If you have been told it is unfixable or
@@ -40,7 +41,7 @@
                     <h3>We specialize in these liquid damage repairs:</h3>
                     <div class="product-listing">
                         <ul>
-                            <li> Apple <a href="javascript:void(0)"><span class="textt-theme">MacBook</span> </a>not turning ON due to liquid damage.</li>
+                            <li> Apple <a href="./macbook-liquid-damage-repair-surrey"><span class="textt-theme">MacBook</span> </a>not turning ON due to liquid damage.</li>
                             <li>MacBook fan spinning at high speed after liquid damage.</li>
                             <li>Apple MacBook is not charging after liquid damage.</li>
                         </ul>
@@ -49,14 +50,14 @@
                     <h3>Our Other Computer Repair Services In Surrey</h3>
                     <div class="product-listing">
                         <ul>
-                            <li><a href="javascript:void(0)"><span class="textt-theme"> MacBook Logic Board Repair Surrey </span></a></li>
-                            <li><a href="javascript:void(0)"><span class="textt-theme"> MacBook Screen Replacement Surrey </span></a></li>
-                            <li><a href="javascript:void(0)"><span class="textt-theme"> Apple MacBook Keyboard Replacement Surrey </span></a></li>
+                            <li><a href="./macbook-logic-board-repair-surrey"><span class="textt-theme"> MacBook Logic Board Repair Surrey </span></a></li>
+                            <li><a href="./macbook-screen-replacement-surrey"><span class="textt-theme"> MacBook Screen Replacement Surrey </span></a></li>
+                            <li><a href="./macbook-keyboard-replacement-surrey"><span class="textt-theme"> Apple MacBook Keyboard Replacement Surrey </span></a></li>
 
                         </ul>
                     </div>
                     <div class="productBook">
-                     <a class="primaryButton" href="./contact" target="_blank">Book Now</a>
+                        <a class="primaryButton" href="./contact" target="_self">Book Now</a>
                     </div>
                     <p><iframe loading="lazy" title="Best Apple MacBook Repair Service in Delta &amp; Surrey, BC - Guru Computers" width="640" height="360" src="https://www.youtube.com/embed/OhhJ6pcIUHY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen=""></iframe></p>

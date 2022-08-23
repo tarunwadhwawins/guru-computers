@@ -70,14 +70,14 @@
                         <h4>Our Other Computer Repair Services:</h4>
                         <div class="listing">
                             <ul>
-                                <li><a href="javascript:void(0)">Laptop Screen Replacement</a></li>
-                                <li><a href="javascript:void(0)">Computer Malware Removal Delta – Trojan Removal – Virus Clean</a></li>
-                                <li><a href="javascript:void(0)">MacBook Screen Replacement</a></li>
-                                <li><a href="javascript:void(0)">MacBook Keyboard Repair</a></li>
-                                <li><a href="javascript:void(0)">Apple MacBook Logic Board Repair</a></li>
+                                <li><a href="./laptop-screen-replacement-in-delta">Laptop Screen Replacement</a></li>
+                                <li><a href="./virus-spyware-malware-adware-removal">Computer Malware Removal Delta – Trojan Removal – Virus Clean</a></li>
+                                <li><a href="./apple-macbook-keyboard-replacement-delta">MacBook Screen Replacement</a></li>
+                                <li><a href="./apple-macbook-keyboard-replacement-delta">MacBook Keyboard Repair</a></li>
+                                <li><a href="./apple-macbook-logicboard-repair-delta.php">Apple MacBook Logic Board Repair</a></li>
                             </ul>
                         </div>
-                            <a href="./contact" target="_blank" rel="noopener noreferrer"> <button class="primaryButton"> Book Now
+                        <a href="./contact" target="_self" rel="noopener noreferrer"> <button class="primaryButton"> Book Now
                         </button></a>
                         <?php include_once('common/youtubevideo.php'); ?>
                         <h4>GET DIRECTIONS fOR Data Recovery Services Delta</h4>

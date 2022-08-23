@@ -39,11 +39,11 @@
             </div>
             <div class="sectionHead">
                 <h2 class="">Computer Repair in Delta</h2>
-                <a class="primaryButton" href="./computer-repair-delta" target="_blank">Computer Repair Delta</a>
+                <a class="primaryButton" href="./computer-repair-delta" target="_self">Computer Repair Delta</a>
             </div>
             <div class="sectionHead">
                 <h2 class="">Computer Repair in Surrey</h2>
-                <a class="primaryButton" href="./computer-repair-surrey" target="_blank">Computer Repair Surrey</a>
+                <a class="primaryButton" href="./computer-repair-surrey" target="_self">Computer Repair Surrey</a>
             </div>
             <br>
             <br>

@@ -70,7 +70,7 @@
                         <a href="tel:+1 (604) 256-2193" class="primaryButton" target="_self">Call  +1 (604) 256-2193</a>
                     </div>
                     <div class="col-sm-12 ">
-                        <a href="javascript:void(0)" class="primaryButton">Contact Us</a>
+                        <a href="./contact" class="primaryButton">Contact Us</a>
                     </div>
                 </div>
             </div>

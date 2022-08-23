@@ -59,7 +59,7 @@
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="col-sm-12 ">
-                        <a class="secondaryButton" href="https://g.page/GuruComputersDelta?share" target="_blank">Get Directions</a>
+                        <a class="secondaryButton" href="https://g.page/GuruComputersDelta?share" target="_self">Get Directions</a>
                         <a class="secondaryButton" href="tel:+1 (604) 256-2193" target="_self">Call  +1 (604) 256-2193</a>
                     </div>
                 </div>
