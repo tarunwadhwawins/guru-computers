@@ -1,10 +1,9 @@
-
-  <?php
+<?php
    $current_page = $_SERVER['REQUEST_URI']; 
    //	echo $current_page; die;
    ?>
 <!-- header -->
-<header >
+<header>
     <!-- Navbar -->
     <div class="container-fluid-lg">
         <nav class="navbar navbar-expand-xl">
@@ -21,7 +20,7 @@
                     <li class="nav-item  ">
                         <a class="nav-link " href="<?php echo $url; ?>">Home</a>
                     </li>
-                    <li class="nav-item  dropdown mainDropdown">
+                    <li class="nav-item <?php echo $current_page == '/index' ? 'active':'' ?> dropdown mainDropdown">
                         <a href="./services-offered" class="nav-link ">Computer Repair <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                         <ul class="dropdown-menu mainMenu">
                             <li class="nav-item dropdown subMenuDropdown"><a href="" class=" nav-link dropdown-item" aria-expanded="false">MacBook Repair </a>
@@ -54,7 +53,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item  dropdown repairDropdown">
+                    <li class="nav-item <?php echo $current_page == '/index' ? 'active':'' ?> dropdown repairDropdown">
                         <a href="#" class="nav-link" data-bs-toggle="dropdown">Repair By Brands <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                         <ul class="dropdown-menu repairMenu">
                             <li class="nav-item dropdown subMenuDropdown"> <a href="" class=" nav-link dropdown-item" aria-expanded="false">Apple</a>
@@ -83,6 +82,7 @@
 
                 </div>
             </div>
+            
         </nav>
     </div>
 </header>

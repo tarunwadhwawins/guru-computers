@@ -19,6 +19,9 @@ header {
         .navbar-brand {
             img {
                 max-width: 240px;
+                @media(max-width: 767px) {
+                    max-width: 125px;
+                }
             }
         }
         .navbar-toggler {
@@ -29,6 +32,10 @@ header {
                 border-radius: 5px;
                 color: $primary-color;
                 font-size: 20px;
+                @media(max-width: 767px) {
+                    padding: 6px 12px;
+                    font-size: 14px;
+                }
                 .fa-times {
                     display: block;
                 }
@@ -58,6 +65,11 @@ header {
                     overflow: auto;
                     right: -400px;
                     transition: all .5s;
+                    @media(max-width: 767px) {
+                        top: 52px;
+                        width: 320px;
+                        height: calc(100vh - 52px);
+                    }
                 }
                 &.show {
                     .navbar-nav {
@@ -71,6 +83,9 @@ header {
                     width: 100%;
                     height: calc(100vh - 90px);
                     transition: all .5s;
+                    @media(max-width: 767px) {
+                        height: calc(100vh - 52px);
+                    }
                 }
             }
         }
@@ -183,6 +198,20 @@ header {
                 position: initial;
                 left: initial;
                 border: none;
+                li {
+                    position: relative;
+                    &::before {
+                        content: "\2022";
+                        color: $primary-color;
+                        font-weight: bold;
+                        display: inline-block;
+                        margin-left: -1em;
+                        position: absolute;
+                        top: 50%;
+                        transform: translate(-50%, -50%);
+                        left: 18px;
+                    }
+                }
             }
         }
         .detailed {

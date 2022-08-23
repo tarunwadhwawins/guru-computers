@@ -16,6 +16,12 @@
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
+                // @media(max-width: 575px) {
+                //     top: 75%;
+                // }
+                @media(max-width: 480px) {
+                    top: 75%;
+                }
                 p {
                     text-shadow: 0 1px 1px $solid-dark-color;
                     line-height: 30px;
@@ -554,7 +560,23 @@
         background: $primary-contrast-color;
         margin-bottom: 30px;
         .contactFeild {
-            margin: 0 0 18px 0;
+            span {
+                position: relative;
+                &.help-block {
+                    &.form-error {
+                        color: #dc3232;
+                        font-size: 12px;
+                        position: absolute;
+                    }
+                }
+            }
+            .form-control {
+                &:focus {
+                    box-shadow: none;
+                }
+            }
+            margin: 0 0 25px 0;
+            position: relative;
             h2 {
                 color: rgb(0, 0, 0);
                 font-size: 44px;
@@ -634,9 +656,6 @@
                 padding: 5px;
                 resize: none;
                 height: 200px;
-                &:focus {
-                    outline: none;
-                }
             }
             .primaryButton {
                 width: 200px

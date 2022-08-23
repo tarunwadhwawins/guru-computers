@@ -55,7 +55,7 @@
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="col-sm-12 ">
-                        <a class="secondaryButton" href="https://g.page/GuruComputersDelta?share" target="_blank">Get Directions</a>
+                        <a class="secondaryButton" href="https://g.page/GuruComputersDelta?share" target="_self">Get Directions</a>
                         <a class="secondaryButton" href="tel:+1 (604) 256-2193" target="_self">Call  +1 (604) 256-2193</a>
                     </div>
                 </div>
@@ -110,7 +110,7 @@
                         <p class="text-left">Dell doesn’t need any introduction as it is well-accepted PC manufacturing brand in North America and offers an impressive lineup of Inspiron laptops, XPS gaming laptops and Latitude series for the home and small business segment. At Guru Computers, we repair all versions of Dell laptops/computers here.
                         Dell Laptop Repair in ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="./lapatop-ssd-upgrade-in-delta">Dell Laptop Repair</a>
+                            <a class="primaryButton read-more" href="./dell-laptop-repair-delta-surrey">Dell Laptop Repair</a>
                         </div>
                     </div>
                 </div>
@@ -119,7 +119,7 @@
                         <h3>iMac Repair Surrey</h3>
                         <p class="text-left">Apple iMac is a popular choice for a lot of home and business users. Needless to say, these are powerful and very well-built machines with a sleek and elegant design. It has everything you want in a beautiful looking computer.iMac repairs in surrey - iMac Repair Service Just like any other ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="imac-repair-delta">iMac Repair Surrey</a>
+                            <a class="primaryButton read-more" href="./imac-repair-surrey">iMac Repair Surrey</a>
                         </div>
                     </div>
                 </div>
@@ -129,7 +129,7 @@
                         <p class="text-left">Looking for computer power supply repair in Delta and Surrey? Guru Computers can help you with that. A power supply unit is the backbone of a computer. It supplies specific voltage to various components of a computer or a laptop.
                             If a power supply malfunctions, you may have a non-working ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="./lapatop-ssd-upgrade-in-delta">Power Supply Repair </a>
+                            <a class="primaryButton read-more" href="./computer-laptop-power-supply-repair-delta-surrey">Power Supply Repair </a>
                         </div>
                     </div>
                 </div> 

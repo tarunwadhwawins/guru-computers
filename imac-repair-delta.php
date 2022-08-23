@@ -25,7 +25,7 @@
     <!--  -->
     <!-- Callus-Button -->
     <div class="callButtn">
-        <a  href="tel:+1 (604) 256-2193" target="_self"><button class="primaryButton"> Call +1 (604) 256-2193</button></a>
+        <a href="tel:+1 (604) 256-2193" target="_self"><button class="primaryButton"> Call +1 (604) 256-2193</button></a>
     </div>
     <!--  -->
     <!-- iMac Repair Delta - iMac Parts Replacement -->
@@ -36,11 +36,11 @@
                     <div class="productContent">
                         <img src="assets/images/iMac-Repair-Delta-Surrey-1.png" alt="productImage">
                     </div>
-                    <p>Looking for iMac repair Delta? At Guru Computers, we repair all iMac generations. Apple <a href="javascript:void(0)"><span class="textt">iMac </span></a>is a very well-built machine. It’s a marvel of technology inside a solid aluminium chassis with
-                        a sleek and elegant design. It has almost all the things you need to in a power machine. However, the parts inside may require repairs occasionally. </p>
+                    <p>Looking for iMac repair Delta? At Guru Computers, we repair all iMac generations. Apple <a href="https://en.wikipedia.org/wiki/IMac"><span class="textt">iMac </span></a>is a very well-built machine. It’s a marvel of technology inside
+                        a solid aluminium chassis with a sleek and elegant design. It has almost all the things you need to in a power machine. However, the parts inside may require repairs occasionally. </p>
                     <p>Especially, the fan and traditional hard drives tend to fail after good use. At times, these units stop working due to a short in the power supply. The repairs are expensive because of the design, and some models are not even designed
                         to be opened and repaired.</p>
-                    <h2>IMAC REPAIR DELTA</h2>
+                    <h2>imac repair delta</h2>
                     <p>The good news is that you don’t have to spend too much money on making that work again. At <a href="javascript:void(0)"><span class="textt">Guru Computers  </span></a> , we are always true to our customers no matter what. We are experts in repairing
                         iMac machines for more than 5 years now and also provide affordable computer configuration upgrading services. </p>
                     <h3>iMac Repair Services Includes:</h3>
@@ -54,16 +54,16 @@
                     <p> Come visit us at the intersection of Scott Rd and 86th Ave in Delta, British Columbia. We carry OEM parts for most manufacturers, and we can provide same-day repair services for common issues.</p>
                     <h3>Other Computer Repair Services In Delta:</h3>
                     <ul class="referLink">
-                        <li><a href="javascript:void(0)">MacBook repair in Delta</a></li>
-                        <li><a href="javascript:void(0)">Virus Removal in Delta</a></li>
-                        <li><a href="javascript:void(0)">MacBook screen replacement</a></li>
-                        <li><a href="javascript:void(0)">Computer Power Supply Replacement</a></li>
-                        <li><a href="javascript:void(0)">MacBook Logicboard Repair Delta</a></li>
-                        <li><a href="javascript:void(0)">Data Recovery Services Delta</a></li>
-                        <li><a href="javascript:void(0)">Acer laptop repair Delta</a></li>
+                        <li><a href="./macbook-repair-delta">MacBook repair in Delta</a></li>
+                        <li><a href="./virus-spyware-malware-adware-removal">Virus Removal in Delta</a></li>
+                        <li><a href="./apple-macbook-screen-replacement-in-delta">MacBook screen replacement</a></li>
+                      <li><a href="./computer-laptop-power-supply-repair-delta-surrey">Computer Power Supply Replacement</a></li>
+                        <li><a href="./apple-macbook-logicboard-repair-delta">MacBook Logicboard Repair Delta</a></li>
+                        <li><a href="./data-recovery-services-delta">Data Recovery Services Delta</a></li>
+                        <li><a href="./acer-laptop-repair-delta">Acer laptop repair Delta</a></li>
                     </ul>
                     <div class="productBook">
-                        <a class="primaryButton" href="./contact" target="_blank">Book Now</a>
+                        <a class="primaryButton" href="./contact" target="_self">Book Now</a>
                     </div>
                     <p><iframe loading="lazy" title="Best Apple MacBook Repair Service in Delta &amp; Surrey, BC - Guru Computers" width="640" height="360" src="https://www.youtube.com/embed/OhhJ6pcIUHY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen=""></iframe></p>

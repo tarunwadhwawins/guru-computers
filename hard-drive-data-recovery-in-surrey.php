@@ -14,7 +14,7 @@
     <?php include_once('common/header.php'); ?>
     <!--  -->
     <section class="dataRecoverydelta">
-             <!-- Banner -->
+        <!-- Banner -->
         <div class="repairBanner">
             <div class="container">
                 <div class="row">
@@ -45,26 +45,26 @@
                         <p>Are you getting a S.M.A.R.T. error when booting up your computer? Is your computer really slow accessing files? Your hard drive may be failing and needs a replacement.</p>
                         <p>This puts your valuable data at significant risk. We store everything on the computers and laptops including your pictures, files, music, and whatnot. Hard disks are susceptible to damage due to shock/drop, physical damage and
                             they wear out, even if you treat them good with timely maintenance.</p>
-                        <p>Visit us at <a href="https://www.gurucomputers.ca/computer-repair-surrey/">Guru Computers in Surrey</a> if you are looking for Data Recovery Service. We offer data recovery services and we have the equipment to professionally recover
-                            data from a failed hard drive. Our technicians are trained in hard drive data recovery process to recover data from your hard disk and we ensure the integrity of your data when we recover it.</p>
-                        <h3>OUR OTHER COMPUTER REPAIR SERVICES:</h3>
+                        <p>Visit us at <a href="./computer-repair-surrey">Guru Computers in Surrey</a> if you are looking for Data Recovery Service. We offer data recovery services and we have the equipment to professionally recover data from a failed hard
+                            drive. Our technicians are trained in hard drive data recovery process to recover data from your hard disk and we ensure the integrity of your data when we recover it.</p>
+                        <h3>Our Other Computer Repair Services:</h3>
                         <div class="listing">
                             <ul>
-                                <li><a href="javascript:void(0)">Liquid Damage Repair</a></li>
-                                <li><a href="javascript:void(0)">MacBook Keyboard Repair</a></li>
-                                <li><a href="javascript:void(0)">Apple MacBook Logic Board Repair</a></li>
-                                <li><a href="javascript:void(0)">Virus Removal In Surrey</a></li>
-                                <li><a href="javascript:void(0)">MacBook Screen Replacement</a></li>
-                                <li><a href="javascript:void(0)">Data Recovery Services Surrey</a></li>
-                                <li><a href="javascript:void(0)">Laptop Screen Replacement</a></li>
+                                <li><a href="macbook-liquid-damage-repair-surrey">Liquid Damage Repair</a></li>
+                                <li><a href="./macbook-keyboard-replacement-surrey">MacBook Keyboard Repair</a></li>
+                                <li><a href="./macbook-logic-board-repair-surrey">Apple MacBook Logic Board Repair</a></li>
+                                <li><a href="./virus-malware-trojan-removal-surrey">Virus Removal In Surrey</a></li>
+                                <li><a href="./macbook-screen-replacement-surrey">MacBook Screen Replacement</a></li>
+                                <li><a href="./hard-drive-data-recovery-in-surrey">Data Recovery Services Surrey</a></li>
+                                <li><a href="./fix-laptop-screen-repair-surrey">Laptop Screen Replacement</a></li>
                             </ul>
                         </div>
-                        
-                            <a href="./contact" target="_blank" rel="noopener noreferrer"> <button class="primaryButton"> Book Now
+
+                        <a href="./contact" target="_self" rel="noopener noreferrer"> <button class="primaryButton"> Book Now
                         </button></a>
-                        
+
                         <?php include_once('common/youtubevideo.php'); ?>
-                        <h4>GET DIRECTIONS fOR Hard Drive Data Recovery Surrey</h4>
+                        <h4>Get Directions For Hard Drive Data Recovery Surrey</h4>
                         <?php include_once('common/map.php'); ?>
                     </div>
                 </div>

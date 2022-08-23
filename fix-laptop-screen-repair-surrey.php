@@ -55,20 +55,21 @@
                         <li>Low cost than the competitors</li>
                         <li>Emergency services provided</li>
                         <li>Trustworthy support and service</li>
-                        <li>Support for all kinds of<a href="javascript:void(0)"> computer repair services</a></li>
+                        <li>Support for all kinds of<a href="./computer-repair-surrey"> computer repair services</a></li>
                     </ul>
                     <h3>Our Other Computer Repair Services In Surrey, British Columbia:</h3>
                     <ul class="referLink">
-                        <li><a href="javascript:void(0)">Data Recovery Services Surrey</a></li>
-                        <li><a href="javascript:void(0)">Laptop Screen Replacement</a></li>
-                        <li><a href="javascript:void(0)">Apple MacBook Logic Board Repair</a></li>
-                        <li><a href="javascript:void(0)">Virus Removal In Surrey</a></li>
-                        <li><a href="javascript:void(0)">MacBook Screen Replacement</a></li>
-                        <li><a href="javascript:void(0)">Liquid Damage Repair</a></li>
-                        <li><a href="javascript:void(0)">MacBook Keyboard Repair</a></li>
+                        <li><a href="./hard-drive-data-recovery-in-surrey">Data Recovery Services Surrey</a></li>
+                        <li><a href="./fix-laptop-screen-repair-surrey">Laptop Screen Replacement</a></li>
+                        <li><a href="./macbook-logic-board-repair-surrey">Apple MacBook Logic Board Repair</a></li>
+                        <li><a href="./virus-malware-trojan-removal-surrey">Virus Removal In Surrey</a></li>
+                        <li><a href="./macbook-screen-replacement-surrey">MacBook Screen Replacement</a></li>
+                        <li><a href="./macbook-liquid-damage-repair-surrey">Liquid Damage Repair</a></li>
+                        <li><a href="./macbook-keyboard-replacement-surrey">MacBook Keyboard Repair</a></li>
+
                     </ul>
                     <div class="productBook">
-                        <a class="primaryButton" href="./contact" target="_blank">Book Now</a>
+                        <a class="primaryButton" href="./contact" target="_self">Book Now</a>
                     </div>
                     <p><iframe loading="lazy" title="Best Apple MacBook Repair Service in Delta &amp; Surrey, BC - Guru Computers" width="640" height="360" src="https://www.youtube.com/embed/OhhJ6pcIUHY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen=""></iframe></p>
