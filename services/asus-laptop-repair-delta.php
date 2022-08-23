@@ -30,14 +30,14 @@
         <!--  -->
         <!-- Callus-Button -->
         <div class="callButtn">
-            <a href="tel:+1 (604) 256-2193" target="_self"><button class="primaryButton"> Call +1 (604) 256-2193</button></a>
+            <a href="tel:+1 (604) 256-2193" target="_self" class="primaryButton"> Call +1 (604) 256-2193 </a>
         </div>
         <!--  -->
-        <div class="productData">
+        <div class="laptopProduct">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <img class="rightimg" src="<?php echo $url; ?>assets/images/Asus.jpg" alt="">
+                    <div class="productContent">  <img class="rightimg" src="<?php echo $url; ?>assets/images/Asus.jpg" alt="laptopimage"></div>
                         <p>ASUS has built a solid reputation among leading laptop and desktop brands. Asus offers an affordable and durable line of VivoBook and the premium line ASUS ZenBook.</p>
                         <h2>Asus Repair Delta – Asus Laptop Services</h2>
                         <p>At Guru Computers, we offer repairs like Asus laptop screen replacement, motherboard level repair, dc jack replacement and Hard Drive upgrades to a Solid-State Drive. Most of these services are offered the same day and are backed
@@ -68,19 +68,18 @@
                             is not repairable, we always help you recover your data.
                         </p>
                         <h3>Other Computer Repair Services Delta, British Columbia</h3>
-                        <div class="listing">
-                            <ul>
+                       
+                        <ul class="referLink">
                                 <li><a href="<?php echo $url; ?>services/macbook-repair-delta">MacBook repair in Delta</a></li>
                                 <li><a href="<?php echo $url; ?>delta/laptop-screen-replacement-in-delta">Laptop Screen Replacement in Delta</a></li>
                                 <li><a href="<?php echo $url; ?>delta/virus-spyware-malware-adware-removal">Virus Removal in Delta</a></li>
                                 <li><a href="<?php echo $url; ?>delta/macbook-repair-delta">MacBook Screen Repair</a></li>
                                 <li><a href="<?php echo $url; ?>services/acer-laptop-repair-delta">Acer laptop repair Delta</a></li>
                             </ul>
-                        </div>
-
-                        <a href="<?php echo $url; ?>contact" target="_self" rel="noopener noreferrer"> <button class="primaryButton"> Book Now
-                        </button></a>
-
+                        
+                        <div class="productBook">
+                        <a class="primaryButton" href="<?php echo $url; ?>contact" target="_self">Book Now</a>
+                    </div>
                         <div class="map"><iframe loading="lazy" src="https://www.youtube.com/embed/H7y0IDbR2XM" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
                         <h4>Get Directions For Asus Laptop Repair</h4>
                         <?php include_once('../common/map.php'); ?>

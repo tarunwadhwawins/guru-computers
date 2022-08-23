@@ -30,14 +30,14 @@
         <!--  -->
         <!-- Callus-Button -->
         <div class="callButtn">
-            <a href="tel:+1 (604) 256-2193" target="_self"><button class="primaryButton"> Call +1 (604) 256-2193</button> </a>
+            <a href="tel:+1 (604) 256-2193" target="_self" class="primaryButton"> Call +1 (604) 256-2193 </a>
         </div>
         <!--  -->
         <div class="laptopProduct">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                         <div class="productContent"><img src="<?php echo $url; ?>assets/images/Data-Recovery-Services-Delta.png" alt=""></div>
+                         <div class="productContent"><img src="<?php echo $url; ?>assets/images/Data-Recovery-Services-Delta.png" alt="laptopimage"></div>
                         <h5>Data Recovery Services Delta – Can we recover your data from hard drive?</h5>
                         <p>That’s the first question that comes to mind when you learn that your hard drive has failed. If you are looking for Data Recovery Service in Delta, please visit us at <a href="https://www.gurucomputers.ca/">Guru Computers</a>.
                             We offer data recovery services and we have the equipment to professionally recover data from a failed hard drive.</p>
@@ -59,7 +59,7 @@
                         </div>
                         <p>If the hard disk has S.M.A.R.T. technology (Self-Monitoring, Analysis, and Reporting Technology), log files can be checked to identify the probability of failure in the future. S.M.A.R.T. monitors a wide range of hard disk symptoms
                             and logs the condition of the disk at each interruption. It aims to provide a predictable failure date for the disk.</p>
-                        <h4>Types of Data Recovery We Offer:</h4>
+                        <h3>Types of Data Recovery We Offer:</h3>
                         <div class="product-listing">
                             <ul>
                                 <li>External hard drive data recovery</li>
@@ -67,23 +67,21 @@
                                 <li>Corrupted Hard Drive or RAW partition</li>
                             </ul>
                         </div>
-                        <h4>Guru Computers tip:</h4>
+                        <h3>Guru Computers tip:</h3>
                         <p>In order to prevent data loss in the case of a hard drive failure, bi-weekly backups recommended always. If you’re a heavy or business computer user, a weekly or more frequent backups recommended.</p>
-                        <h4>Our Other Computer Repair Services:</h4>
-                        <div class="product-listing">
-                            <ul>
-                                <li><a href="laptop-screen-replacement-in-delta"><span class="textt-theme">Laptop Screen Replacement</span></a></li>
-                                <li><a href="virus-spyware-malware-adware-removal"><span class="textt-theme">Computer Malware Removal Delta – Trojan Removal – Virus Clean</span></a></li>
-                                <li><a href="apple-macbook-keyboard-replacement-delta"><span class="textt-theme">MacBook Screen Replacement</span></a></li>
-                                <li><a href="apple-macbook-keyboard-replacement-delta"><span class="textt-theme">MacBook Keyboard Repair</span></a></li>
-                                <li><a href="apple-macbook-logicboard-repair-delta.php"><span class="textt-theme">Apple MacBook Logic Board Repair</span></a></li>
-                            </ul>
-                        </div>
+                        <h3>Our Other Computer Repair Services:</h3>
+                            <ul class="referLink">
+                                <li><a href="laptop-screen-replacement-in-delta">Laptop Screen Replacement</a></li>
+                                <li><a href="virus-spyware-malware-adware-removal">Computer Malware Removal Delta – Trojan Removal – Virus Clean</a></li>
+                                <li><a href="apple-macbook-keyboard-replacement-delta">MacBook Screen Replacement</a></li>
+                                <li><a href="apple-macbook-keyboard-replacement-delta">MacBook Keyboard Repair</a></li>
+                                <li><a href="apple-macbook-logicboard-repair-delta.php">Apple MacBook Logic Board Repair</a></li>
+                            </ul>  
                         <div class="productBook">
                         <a class="primaryButton" href="<?php echo $url; ?>contact" target="_self">Book Now</a>
                     </div>
                         <?php include_once('../common/youtubevideo.php'); ?>
-                        <h4>GET DIRECTIONS fOR Data Recovery Services Delta</h4>
+                        <h4>Get Directions For Data Recovery Services Delta</h4>
                         <?php include_once('../common/map.php'); ?>
                     </div>
                 </div>

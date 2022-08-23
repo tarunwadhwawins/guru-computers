@@ -30,14 +30,14 @@
         <!--  -->
         <!-- Callus-Button -->
         <div class="callButtn">
-            <a href="tel:+1 (604) 256-2193" target="_self"><button class="primaryButton"> Call +1 (604) 256-2193</button> </a>
+            <a href="tel:+1 (604) 256-2193" target="_self" class="primaryButton"> Call +1 (604) 256-2193 </a>
         </div>
         <!--  -->
-        <div class="productData">
+        <div class="laptopProduct">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <img class="rightimg" src="<?php echo $url; ?>assets/images/Data-Recovery_new.png" alt="">
+                    <div class="productContent">  <img class="rightimg" src="<?php echo $url; ?>assets/images/Data-Recovery_new.png" alt=""></div>
                         <p>Computer or Laptop not working due to damage? Need that data transferred to a new computer or an <a href="https://www.amazon.com/External-Hard-Drives-Storage-Add-Ons/b?ie=UTF8&amp;node=595048" target="_blank" rel="noopener nofollow noreferrer">external storage drive</a>?
                             Trust us at Guru Computers in Surrey to handle your data securely and efficiently.</p>
                         <p>From home users to small businesses, Guru Computers is a trusted name for <a href="https://en.wikipedia.org/wiki/Data_recovery" target="_blank" rel="noopener dofollow noreferrer">hard drive recovery</a> when your business is interrupted
@@ -51,8 +51,7 @@
                         <p>Visit us at <a href="computer-repair-surrey">Guru Computers in Surrey</a> if you are looking for Data Recovery Service. We offer data recovery services and we have the equipment to professionally recover data from a failed hard
                             drive. Our technicians are trained in hard drive data recovery process to recover data from your hard disk and we ensure the integrity of your data when we recover it.</p>
                         <h3>Our Other Computer Repair Services:</h3>
-                        <div class="listing">
-                            <ul>
+                        <ul class="referLink">
                                 <li><a href="macbook-liquid-damage-repair-surrey">Liquid Damage Repair</a></li>
                                 <li><a href="macbook-keyboard-replacement-surrey">MacBook Keyboard Repair</a></li>
                                 <li><a href="macbook-logic-board-repair-surrey">Apple MacBook Logic Board Repair</a></li>
@@ -61,10 +60,11 @@
                                 <li><a href="hard-drive-data-recovery-in-surrey">Data Recovery Services Surrey</a></li>
                                 <li><a href="fix-laptop-screen-repair-surrey">Laptop Screen Replacement</a></li>
                             </ul>
-                        </div>
+                    
 
-                        <a href="<?php echo $url; ?>contact" target="_self" rel="noopener noreferrer"> <button class="primaryButton"> Book Now
-                        </button></a>
+                        <div class="productBook">
+                        <a class="primaryButton" href="<?php echo $url; ?>contact" target="_self">Book Now</a>
+                    </div>
 
                         <?php include_once('../common/youtubevideo.php'); ?>
                         <h4>Get Directions For Hard Drive Data Recovery Surrey</h4>

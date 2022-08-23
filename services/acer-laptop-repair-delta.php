@@ -31,14 +31,14 @@
         <!--  -->
         <!-- Callus-Button -->
         <div class="callButtn">
-            <a href="tel:+1 (604) 256-2193" target="_self"><button class="primaryButton"> Call +1 (604) 256-2193</button></a>
+            <a href="tel:+1 (604) 256-2193" target="_self" class="primaryButton"> Call +1 (604) 256-2193 </a>
         </div>
         <!--  -->
-        <div class="productData">
+        <div class="laptopProduct">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <img class="rightimg" src="<?php echo $url; ?>assets/images/Acer-repair-delta.jpg" alt="">
+                    <div class="productContent"><img class="rightimg" src="<?php echo $url; ?>assets/images/Acer-repair-delta.jpg" alt="laptopimage"></div>
                         <p>Acer offers a wide variety of affordable laptop and desktop to cater to a wide range of consumers in home and small business segment. It is one of the leading laptop brands in North America and offers an affordable and durable
                             line of laptops like Acer Aspire, Acer Swift and Acer TravelMate.</p>
                         <h2>Acer Repair Delta – Acer Laptop Services</h2>
@@ -74,22 +74,23 @@
                             The motherboard is a very delicate part of a computer system and if this gets in problem then your computer will stop in between after some beeps or sometimes not even such indications. We at Guru Computers repair Acer laptop motherboards and make sure
                             that your PC/laptop/computer starts working again.</p>
                         <h3>Other Computer Repair Services In Delta, British Columbia:</h3>
-                        <div class="listing">
-                            <ul>
-                                <li><a href="<?php echo $url; ?>delta/macbook-repair-delta">MacBook repair in Delta</a></li>
+                        
+                        <ul class="referLink">
+                                <li><a href="<?php echo $url; ?>services/macbook-repair-delta">MacBook repair in Delta</a></li>
                                 <li><a href="<?php echo $url; ?>delta/apple-macbook-screen-replacement-in-delta">MacBook Screen Repair</a></li>
-                                <li><a href="<?php echo $url; ?>delta/laptop-screen-replacement-in-delta">Laptop Screen Replacement in Delta</a></li>
-                                <li><a href="<?php echo $url; ?>delta/virus-spyware-malware-adware-removal">Virus Removal in Delta</a></li>
+                                <li><a href="<?php echo $url; ?>services/laptop-screen-replacement-in-delta">Laptop Screen Replacement in Delta</a></li>
+                                <li><a href="<?php echo $url; ?>services/virus-spyware-malware-adware-removal">Virus Removal in Delta</a></li>
                                 <li><a href="<?php echo $url; ?>services/acer-laptop-repair-delta">Acer Repair Delta</a></li>
                             </ul>
-                        </div>
-                        <a href="<?php echo $url; ?>contact" target="_self" rel="noopener noreferrer"> <button class="primaryButton"> Book Now
-                        </button></a>
+                        
+                        <div class="productBook">
+                        <a class="primaryButton" href="<?php echo $url; ?>contact" target="_self">Book Now</a>
+                    </div>
                         <div class="map"><iframe loading="lazy" src="https://www.youtube.com/embed/H7y0IDbR2XM" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
                         <h4>Get Directions For Acer Laptop Repair Delta</h4>
                         <?php include_once('../common/map.php'); ?>
-                    </div>
                 </div>
+            </div>
     </section>
     <!--  -->
     <!-- any query -->

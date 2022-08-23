@@ -397,7 +397,6 @@
   color: #f15a24;
 }
 .laptopProduct h2 {
-  margin: 0 0 18px 0;
   color: #000;
 }
 .laptopProduct h3 {
@@ -408,7 +407,7 @@
   margin: 0 0 15px 0px;
 }
 .laptopProduct .product-listing ul {
-  padding: 0px 0 0 38px;
+  padding: 0 0 0 38px;
   list-style: none;
 }
 .laptopProduct .product-listing ul li {
@@ -424,7 +423,7 @@
   margin-left: -1em;
 }
 .laptopProduct .referLink {
-  margin: 0 0 18px 30px;
+  margin: 0 0 18px 40px;
 }
 .laptopProduct .referLink li {
   list-style: disc;
@@ -449,6 +448,9 @@
   .laptopProduct p iframe {
     width: 100%;
   }
+}
+.laptopProduct h4 {
+  padding: 10px 0 8px;
 }
 
 .callButtn {
