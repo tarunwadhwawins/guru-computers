@@ -17,7 +17,7 @@
            </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <ul class="d-flex align-items-center navbar-nav m-auto">
-                    <li class="nav-item  ">
+                    <li class="nav-item   <?php echo $current_page == '/index.php' ? 'active':'' ?>">
                         <a class="nav-link " href="<?php echo $url; ?>">Home</a>
                     </li>
                     <li class="nav-item <?php echo $current_page == '/index' ? 'active':'' ?> dropdown mainDropdown">
