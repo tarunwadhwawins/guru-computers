@@ -31,36 +31,34 @@
                     <div class="productContent">
                         <img src="assets/images/logicboardservice.png" alt="productImage">
                     </div>
-                    <p>Looking for Apple MacBook Logicboard Repair in <a href="javascript:void(0)"><span class="textt">Delta </span></a> , BC? At Guru Computers, we repair Apple MacBooks of all generations.</p>
-                    <h2>APPLE MACBOOK LOGICBOARD REPAIR IN DELTA</h2>
+                    <p>Looking for Apple MacBook Logicboard Repair in <a href="./macbook-repair-delta"><span class="textt">Delta </span></a> , BC? At Guru Computers, we repair Apple MacBooks of all generations.</p>
+                    <h2>Apple Macbook Logicboard Repair In Delta</h2>
                     <p>Apple Macs are powerful machines in a metallic chassis. They handle a lot of processing and it is made possible by a state-of-the-art logic board. It takes proper handling and maintenance for the logic board to perform at its peak.
                         Accidental drops, liquid spills and overheating are common issues with these machines. This is where we offer our experience and expertise. </p>
 
 
-                    <h3>WE CAN HELP WITH THE FOLLOWING REPAIRS:</h3>
+                    <h3>We Can Help With The Following Repairs:</h3>
                     <div class="product-listing">
                         <ul>
-                            <li><a href="javascript:void(0)"><span class="textt-theme">  MacBook </span></a> or iMac not turning ON.</li>
+                            <li><a href="https://gurucomputers.ca/delta/apple-macbook-liquid-damage-repair-delta/"><span class="textt-theme">  MacBook </span></a> or iMac not turning ON.</li>
                             <li>Macbook not charging.</li>
                             <li>Apple MacBook Keyboard not responding.</li>
                         </ul>
                     </div>
-                    <p>At Guru Computers, we have professional tools required to deal with such situations. The Apple MacBook or iMac logic board is assessed for damage under a <a href="javascript:void(0)"><span class="textt">microscope </span></a> . The
-                        values of various components are then measured, and bad components are replaced with the new ones to ensure your Apple MacBook or iMac is working as nothing has happened. This service comes with a 90 days warranty.</p>
+                    <p>At Guru Computers, we have professional tools required to deal with such situations. The Apple MacBook or iMac logic board is assessed for damage under a <a href="https://en.wikipedia.org/wiki/Microscope"><span class="textt">microscope </span></a>                        . The values of various components are then measured, and bad components are replaced with the new ones to ensure your Apple MacBook or iMac is working as nothing has happened. This service comes with a 90 days warranty.</p>
                     <h3>OUR OTHER COMPUTER REPAIR SERVICES IN DELTA</h3>
                     <div class="product-listing">
                         <ul>
-                            <li><a href="javascript:void(0)"><span class="textt-theme"> MacBook Liquid Damage Repair Delta </span></a></li>
-                            <li><a href="javascript:void(0)"><span class="textt-theme"> Apple MacBook Keyboard Replacement Delta </span></a></li>
-                            <li><a href="javascript:void(0)"><span class="textt-theme"> MacBook Screen Replacement in Delta </span></a></li>
-                            <li><a href="javascript:void(0)"><span class="textt-theme"> Data Recovery Services Delta </span></a></li>
-                            <li><a href="javascript:void(0)"><span class="textt-theme"> Laptop Screen Replacement In Delta </span></a></li>
-                            <li><a href="javascript:void(0)"><span class="textt-theme"> Virus Removal Delta </span></a></li>
-
+                            <li><a href="./apple-macbook-liquid-damage-repair-delta"><span class="textt-theme"> MacBook Liquid Damage Repair Delta </span></a></li>
+                            <li><a href="./apple-macbook-logicboard-repair-delta"><span class="textt-theme"> Apple MacBook Logicboard Repair Delta </span></a></li>
+                            <li><a href="./apple-macbook-keyboard-replacement-delta"><span class="textt-theme"> MacBook Keyboard Replacement Delta </span></a></li>
+                            <li><a href="./data-recovery-services-delta"><span class="textt-theme"> Data Recovery Services Delta </span></a></li>
+                            <li><a href="./laptop-screen-replacement-in-delta"><span class="textt-theme"> Laptop Screen Replacement In Delta </span></a></li>
+                            <li><a href="./virus-spyware-malware-adware-removal"><span class="textt-theme">  Virus Removal Delta </span></a></li>
                         </ul>
                     </div>
                     <div class="productBook">
-                        <a class="primaryButton" href="./contact" target="_blank">Book Now</a>
+                        <a class="primaryButton" href="./contact" target="_self">Book Now</a>
                     </div>
                     <p><iframe loading="lazy" title="Best Apple MacBook Repair Service in Delta &amp; Surrey, BC - Guru Computers" width="640" height="360" src="https://www.youtube.com/embed/OhhJ6pcIUHY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen=""></iframe></p>

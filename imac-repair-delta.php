@@ -25,7 +25,7 @@
     <!--  -->
     <!-- Callus-Button -->
     <div class="callButtn">
-        <a  href="tel:+1 (604) 256-2193" target="_self"><button class="primaryButton"> Call +1 (604) 256-2193</button></a>
+        <a href="tel:+1 (604) 256-2193" target="_self"><button class="primaryButton"> Call +1 (604) 256-2193</button></a>
     </div>
     <!--  -->
     <!-- iMac Repair Delta - iMac Parts Replacement -->
@@ -36,8 +36,8 @@
                     <div class="productContent">
                         <img src="assets/images/iMac-Repair-Delta-Surrey-1.png" alt="productImage">
                     </div>
-                    <p>Looking for iMac repair Delta? At Guru Computers, we repair all iMac generations. Apple <a href="javascript:void(0)"><span class="textt">iMac </span></a>is a very well-built machine. It’s a marvel of technology inside a solid aluminium chassis with
-                        a sleek and elegant design. It has almost all the things you need to in a power machine. However, the parts inside may require repairs occasionally. </p>
+                    <p>Looking for iMac repair Delta? At Guru Computers, we repair all iMac generations. Apple <a href="https://en.wikipedia.org/wiki/IMac"><span class="textt">iMac </span></a>is a very well-built machine. It’s a marvel of technology inside
+                        a solid aluminium chassis with a sleek and elegant design. It has almost all the things you need to in a power machine. However, the parts inside may require repairs occasionally. </p>
                     <p>Especially, the fan and traditional hard drives tend to fail after good use. At times, these units stop working due to a short in the power supply. The repairs are expensive because of the design, and some models are not even designed
                         to be opened and repaired.</p>
                     <h2>imac repair delta</h2>
@@ -63,7 +63,7 @@
                         <li><a href="./acer-laptop-repair-delta">Acer laptop repair Delta</a></li>
                     </ul>
                     <div class="productBook">
-                        <a class="primaryButton" href="./contact" target="_blank">Book Now</a>
+                        <a class="primaryButton" href="./contact" target="_self">Book Now</a>
                     </div>
                     <p><iframe loading="lazy" title="Best Apple MacBook Repair Service in Delta &amp; Surrey, BC - Guru Computers" width="640" height="360" src="https://www.youtube.com/embed/OhhJ6pcIUHY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen=""></iframe></p>

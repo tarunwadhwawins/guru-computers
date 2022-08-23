@@ -45,7 +45,7 @@
                 <div class="bannerText d-flex align-items-center flex-column">
                     <h1>cracked or shattered screens?</h1>
                     <p> Screen replacement starting at $200 onwards.</p>
-                    <a href="javascript:void(0)"> <button type="button" class=" primaryButton">Call Now!</button></a>
+                    <a href="./contact"> <button type="button" class=" primaryButton">Call Now!</button></a>
                 </div>
             </div>
         </div>
