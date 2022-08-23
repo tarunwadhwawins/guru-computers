@@ -30,13 +30,13 @@
                 <div class="col-sm-10 offset-sm-1">
                     <div class="textWigits">
                         <div class="callus">
-                            <img src="assets/images/phoneimage.png" alt="">
+                            <img src="<?php echo $url; ?>assets/images/phoneimage.png" alt="">
                             <h4>Call Us</h4>
                             <p>Guru Copmuters</p>
                             <a href="tel:+1 (604) 256-2193"><button class="primaryButton">+1 (604) 256-2193</button></a>
                         </div>
                         <div class="callus">
-                            <img src="assets/images/clockimage.png" alt="">
+                            <img src="<?php echo $url; ?>assets/images/clockimage.png" alt="">
                             <h4>SUPPORT HOURS</h4>
                             <p>Monday-Saturday : 10:00 am - 07:00 pm</p>
                             <p>Sunday : Closed</p>
