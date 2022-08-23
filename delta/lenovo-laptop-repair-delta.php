@@ -2,16 +2,19 @@
 <html lang="en">
 
 <head>
-    <!-- Title -->
-    <title>Lenovo Screen Replacement - Guru Computers</title>
     <!-- Meta & Link Tags -->
-    <?php include_once('common/common-css.php'); ?>
+  <?php
+    $title = '';
+    $keyword  = '';
+    $description  = "";
+    
+    include_once('../common/common-css.php'); ?>
     <!--  -->
 </head>
 
 <body>
     <!-- header -->
-    <?php include_once('common/header.php'); ?>
+    <?php include_once('../common/header.php'); ?>
     <!--  -->
     <section class="dataRecoverydelta">
         <!-- Banner -->
@@ -33,7 +36,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <img class="rightimg" src="assets/images/Lenovo-repair-Delta.jpg" alt="">
+                        <img class="rightimg" src="<?php echo $url; ?>assets/images/Lenovo-repair-Delta.jpg" alt="">
                         <p>Lenovo is the industry leader in innovation and technology when it comes to laptops and smart devices. They offer a gamut of laptops and devices catering to a wide range of consumer needs. If you’re looking for Lenovo laptop repair
                             in Delta, then you must visit Guru Computers, a computer repair store in Delta, British Columbia.</p>
                         <h2>Lenovo Repair Delta – Lenovo Laptop Services </h2>
@@ -57,7 +60,7 @@
                             perform at an optimum level. At Guru Computers, we have memory in stock, and we can offer on the spot upgrade. The price varies with the brand and the amount of RAM you need to upgrade. Please bring in your device for a quick
                             assessment and a quote.</p>
                         <h3>Lenovo Keyboard Replacement/repair</h3>
-                        <p>You may have broken keys or non-working keys due to <a href="./apple-macbook-liquid-damage-repair-delta" target="_self" rel="noopener noreferrer">liquid spillage</a> on your keyboard. This will require a keyboard replacement for
+                        <p>You may have broken keys or non-working keys due to <a href="apple-macbook-liquid-damage-repair-delta" target="_self" rel="noopener noreferrer">liquid spillage</a> on your keyboard. This will require a keyboard replacement for
                             the keyboard to function properly. Don’t worry, we have you covered. You can bring your Lenovo Laptop to our store on Scott road and Delta for a quick assessment and a quote. We are fully equipped to replace the keyboard on
                             your Lenovo IdeaPad, Lenovo ThinkPad or Lenovo X series laptop and to its original condition. This service is backed by a 90-days no hassle warranty.</p>
                         <h3>Lenovo No Power Supply Repair</h3>
@@ -72,19 +75,19 @@
                         <h3>Our Other Computer Repair Services In Delta</h3>
                         <div class="listing">
                             <ul>
-                                <li><a href="./macbook-repair-delta">MacBook Repair In Delta</a></li>
-                                <li><a href="./asus-laptop-repair-delta">Asus Repair Delta</a></li>
-                                <li><a href="./virus-spyware-malware-adware-removal">Virus Removal in Delta</a></li>
-                                <li><a href="./apple-macbook-screen-replacement-in-delta">MacBook Screen Repair Delta</a></li>
-                                <li><a href="./acer-laptop-repair-delta">Acer laptop repair Delta</a></li>
+                                <li><a href="macbook-repair-delta">MacBook Repair In Delta</a></li>
+                                <li><a href="asus-laptop-repair-delta">Asus Repair Delta</a></li>
+                                <li><a href="virus-spyware-malware-adware-removal">Virus Removal in Delta</a></li>
+                                <li><a href="apple-macbook-screen-replacement-in-delta">MacBook Screen Repair Delta</a></li>
+                                <li><a href="acer-laptop-repair-delta">Acer laptop repair Delta</a></li>
                             </ul>
                         </div>
 
-                        <a href="./contact" target="_self" rel="noopener noreferrer"> <button class="primaryButton"> Book Now
+                        <a href="<?php echo $url; ?>contact" target="_self" rel="noopener noreferrer"> <button class="primaryButton"> Book Now
                         </button></a>
                         <div class="map"><iframe loading="lazy" src="https://www.youtube.com/embed/H7y0IDbR2XM" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
                         <h4>Get Directions For Lenovo Laptop Repair Delta</h4>
-                        <?php include_once('common/map.php'); ?>
+                        <?php include_once('../common/map.php'); ?>
                     </div>
                 </div>
             </div>
@@ -92,13 +95,13 @@
     </section>
     <!--  -->
     <!-- any query -->
-    <?php include_once('common/any-query.php'); ?>
+    <?php include_once('../common/any-query.php'); ?>
     <!--  -->
     <!-- footer -->
-    <?php include_once('common/footer.php'); ?>
+    <?php include_once('../common/footer.php'); ?>
     <!--  -->
     <!-- script -->
-    <?php include_once('common/common-js.php'); ?>
+    <?php include_once('../common/common-js.php'); ?>
     <!--  -->
 </body>
 

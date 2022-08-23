@@ -2,15 +2,19 @@
 <html lang="en">
 
 <head>
-    <title>Laptop SSD Upgrade | MacBook SSD Repair</title>
     <!-- Meta & Link Tags -->
-    <?php include_once('common/common-css.php'); ?>
+  <?php
+    $title = '';
+    $keyword  = '';
+    $description  = "";
+    
+    include_once('../common/common-css.php'); ?>
     <!--  -->
 </head>
 
 <body>
     <!-- header -->
-    <?php include_once('common/header.php'); ?>
+    <?php include_once('../common/header.php'); ?>
     <!--  -->
     <!-- Banner -->
     <div class="repairBanner">
@@ -34,7 +38,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="assets/images/Laptop-Screen-Replacement.jpg" alt="productImage">
+                        <img src="<?php echo $url; ?>assets/images/Laptop-Screen-Replacement.jpg" alt="productImage">
                     </div>
                     <p>Let’s face it. Everyone needs a dependable computer to complete their assignments, reports, presentations and in many cases, their school work. A fast and steady computer makes your life so easy. However, if you have a slow-running
                         computer or a laptop, the regular task takes way longer to complete and results in inefficiency. </p>
@@ -71,10 +75,10 @@
     </section>
     <!--  -->
     <!-- footer -->
-    <?php include_once('common/footer.php'); ?>
+    <?php include_once('../common/footer.php'); ?>
     <!--  -->
     <!-- script -->
-    <?php include_once('common/common-js.php'); ?>
+    <?php include_once('../common/common-js.php'); ?>
     <!--  -->
 </body>
 

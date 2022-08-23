@@ -5,16 +5,16 @@
                 <h3 class="widgetTitle">COMPUTER REPAIR IN DELTA</h3>
                 <div class="footerLinks">
                     <ul class="menu">
-                        <li><a href="./apple-macbook-screen-replacement-in-delta">MacBook Screen Replacement</a></li>
+                        <li><a href="<?php echo $url; ?>delta/apple-macbook-screen-replacement-in-delta">MacBook Screen Replacement</a></li>
                         <li>
-                            <a href="./apple-macbook-keyboard-replacement-delta">MacBook Keyboard Replacement</a></li>
+                            <a href="<?php echo $url; ?>delta/apple-macbook-keyboard-replacement-delta">MacBook Keyboard Replacement</a></li>
                         <li>
-                            <a href="./apple-macbook-logicboard-repair-delta">MacBook Logicboard Repair</a>
+                            <a href="<?php echo $url; ?>delta/apple-macbook-logicboard-repair-delta">MacBook Logicboard Repair</a>
                         </li>
-                        <li><a href="./apple-macbook-liquid-damage-repair-delta">MacBook Liquid Damage Repair</a></li>
-                        <li><a href="./virus-spyware-malware-adware-removal">Virus Removal Delta</a></li>
-                        <li><a href="./laptop-screen-replacement-in-delta">Laptop Screen Replacement Delta</a></li>
-                        <li><a href="./data-recovery-services-delta">Data Recovery Services Delta</a></li>
+                        <li><a href="<?php echo $url; ?>delta/apple-macbook-liquid-damage-repair-delta">MacBook Liquid Damage Repair</a></li>
+                        <li><a href="<?php echo $url; ?>delta/virus-spyware-malware-adware-removal">Virus Removal Delta</a></li>
+                        <li><a href="<?php echo $url; ?>delta/laptop-screen-replacement-in-delta">Laptop Screen Replacement Delta</a></li>
+                        <li><a href="<?php echo $url; ?>delta/data-recovery-services-delta">Data Recovery Services Delta</a></li>
                     </ul>
                 </div>
             </div>
@@ -22,16 +22,16 @@
                 <h3 class="widgetTitle">COMPUTER REPAIR IN SURREY</h3>
                 <div class="footerLinks">
                     <ul class="menu">
-                        <li><a href="./macbook-screen-replacement-surrey">MacBook Screen Replacement</a></li>
+                        <li><a href="<?php echo $url; ?>surrey/macbook-screen-replacement-surrey">MacBook Screen Replacement</a></li>
                         <li>
-                            <a href="./macbook-logic-board-repair-surrey">MacBook Logic Board Repair</a></li>
+                            <a href="<?php echo $url; ?>surrey/macbook-logic-board-repair-surrey">MacBook Logic Board Repair</a></li>
                         <li>
-                            <a href="./macbook-liquid-damage-repair-surrey">MacBook Liquid Damage Repair</a>
+                            <a href="<?php echo $url; ?>surrey/macbook-liquid-damage-repair-surrey">MacBook Liquid Damage Repair</a>
                         </li>
-                        <li><a href="macbook-keyboard-replacement-surrey">MacBook Keyboard Replacement</a></li>
-                        <li><a href="./virus-malware-trojan-removal-surrey">Virus Removal Surrey</a></li>
-                        <li><a href="./fix-laptop-screen-repair-surrey">Laptop Screen Replacement Surrey</a></li>
-                        <li><a href="./hard-drive-data-recovery-in-surrey">Data Recovery Surrey</a></li>
+                        <li><a href="<?php echo $url; ?>surrey/macbook-keyboard-replacement-surrey">MacBook Keyboard Replacement</a></li>
+                        <li><a href="<?php echo $url; ?>surrey/virus-malware-trojan-removal-surrey">Virus Removal Surrey</a></li>
+                        <li><a href="<?php echo $url; ?>surrey/fix-laptop-screen-repair-surrey">Laptop Screen Replacement Surrey</a></li>
+                        <li><a href="<?php echo $url; ?>surrey/hard-drive-data-recovery-in-surrey">Data Recovery Surrey</a></li>
                     </ul>
                 </div>
             </div>
@@ -39,13 +39,13 @@
                 <h3 class="widgetTitle">GURU COMPUTERS SERVICES</h3>
                 <div class="footerLinks">
                     <ul class="menu">
-                        <li><a href="./computer-repair-delta">Computer Repair Delta</a></li>
+                        <li><a href="<?php echo $url; ?>services/computer-repair-delta">Computer Repair Delta</a></li>
                         <li>
-                            <a href="./computer-repair-surrey">Computer Repair Surrey</a></li>
+                            <a href="<?php echo $url; ?>services/computer-repair-surrey">Computer Repair Surrey</a></li>
                         <li>
-                            <a href="./macbook-repair-delta">MacBook Repair Delta</a>
+                            <a href="<?php echo $url; ?>services/macbook-repair-delta">MacBook Repair Delta</a>
                         </li>
-                        <li><a href="./macbook-repair-surrey">MacBook Repair Surrey</a></li>
+                        <li><a href="<?php echo $url; ?>services/macbook-repair-surrey">MacBook Repair Surrey</a></li>
                     </ul>
                 </div>
             </div>

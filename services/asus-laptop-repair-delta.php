@@ -2,16 +2,19 @@
 <html lang="en">
 
 <head>
-    <!-- Title -->
-    <title>ASUS Repair Delta - Guru Computers</title>
     <!-- Meta & Link Tags -->
-    <?php include_once('common/common-css.php'); ?>
+  <?php
+    $title = '';
+    $keyword  = '';
+    $description  = "";
+    
+    include_once('../common/common-css.php'); ?>
     <!--  -->
 </head>
 
 <body>
     <!-- header -->
-    <?php include_once('common/header.php'); ?>
+    <?php include_once('../common/header.php'); ?>
     <!--  -->
     <section class="dataRecoverydelta">
         <!-- Banner -->
@@ -34,7 +37,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <img class="rightimg" src="assets/images/Asus.jpg" alt="">
+                        <img class="rightimg" src="<?php echo $url; ?>assets/images/Asus.jpg" alt="">
                         <p>ASUS has built a solid reputation among leading laptop and desktop brands. Asus offers an affordable and durable line of VivoBook and the premium line ASUS ZenBook.</p>
                         <h2>Asus Repair Delta – Asus Laptop Services</h2>
                         <p>At Guru Computers, we offer repairs like Asus laptop screen replacement, motherboard level repair, dc jack replacement and Hard Drive upgrades to a Solid-State Drive. Most of these services are offered the same day and are backed
@@ -67,20 +70,20 @@
                         <h3>Other Computer Repair Services Delta, British Columbia</h3>
                         <div class="listing">
                             <ul>
-                                <li><a href="./macbook-repair-delta">MacBook repair in Delta</a></li>
-                                <li><a href="./laptop-screen-replacement-in-delta">Laptop Screen Replacement in Delta</a></li>
-                                <li><a href="./virus-spyware-malware-adware-removal">Virus Removal in Delta</a></li>
-                                <li><a href="macbook-repair-delta">MacBook Screen Repair</a></li>
-                                <li><a href="acer-laptop-repair-delta">Acer laptop repair Delta</a></li>
+                                <li><a href="<?php echo $url; ?>services/macbook-repair-delta">MacBook repair in Delta</a></li>
+                                <li><a href="<?php echo $url; ?>delta/laptop-screen-replacement-in-delta">Laptop Screen Replacement in Delta</a></li>
+                                <li><a href="<?php echo $url; ?>delta/virus-spyware-malware-adware-removal">Virus Removal in Delta</a></li>
+                                <li><a href="<?php echo $url; ?>delta/macbook-repair-delta">MacBook Screen Repair</a></li>
+                                <li><a href="<?php echo $url; ?>services/acer-laptop-repair-delta">Acer laptop repair Delta</a></li>
                             </ul>
                         </div>
 
-                        <a href="./contact" target="_self" rel="noopener noreferrer"> <button class="primaryButton"> Book Now
+                        <a href="<?php echo $url; ?>contact" target="_self" rel="noopener noreferrer"> <button class="primaryButton"> Book Now
                         </button></a>
 
                         <div class="map"><iframe loading="lazy" src="https://www.youtube.com/embed/H7y0IDbR2XM" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
                         <h4>Get Directions For Asus Laptop Repair</h4>
-                        <?php include_once('common/map.php'); ?>
+                        <?php include_once('../common/map.php'); ?>
                     </div>
                 </div>
             </div>
@@ -88,13 +91,13 @@
     </section>
     <!--  -->
     <!-- any query -->
-    <?php include_once('common/any-query.php'); ?>
+    <?php include_once('../common/any-query.php'); ?>
     <!--  -->
     <!-- footer -->
-    <?php include_once('common/footer.php'); ?>
+    <?php include_once('../common/footer.php'); ?>
     <!--  -->
     <!-- script -->
-    <?php include_once('common/common-js.php'); ?>
+    <?php include_once('../common/common-js.php'); ?>
     <!--  -->
 </body>
 

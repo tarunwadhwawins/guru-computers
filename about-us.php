@@ -2,10 +2,13 @@
 <html lang="en">
 
 <head>
-    <!-- Title -->
-    <title>About Us - Guru Computers</title>
     <!-- Meta & Link Tags -->
-    <?php include_once('common/common-css.php'); ?>
+   <?php
+    $title = '';
+    $keyword  = '';
+    $description  = "";
+    
+    include_once('../common/common-css.php'); ?>
     <!--  -->
 </head>
 
@@ -15,12 +18,12 @@
     <!--  -->
     <section class="aboutUs">
         <div class="aboutBanner">
-            <img src="assets/images/about_banner.jpg" alt="">
+            <img src="<?php echo $url; ?>assets/images/about_banner.jpg" alt="aboutimage">
         </div>
         <div class="productBanner">
             <div class="container">
                 <h2>WHO WE ARE</h2>
-                <img class="rightimg" src="assets/images/about_us.jpg" alt="">
+                <img class="rightimg" src="<?php echo $url; ?>assets/images/about_us.jpg" alt="aboutimage">
                 <p>Guru Computers was established in the summer of 2013. Sukh, the owner has over 15 years of experience in fixing computers. He has worked with world-leading computer manufacturing companies like DELL and has a lot of customer service experience
                     under his belt. Since its inception, Guru Computers has built a huge market of satisfied clients by offering a reliable computer repair service and data backup solutions at an affordable cost. We are patient listeners and we fix things
                     right the first time as we never cut corners in our repairs. You can depend on us to give you the most economical choice to fix your device. We are the computer experts and we guarantee a memorable experience with all your Apple and

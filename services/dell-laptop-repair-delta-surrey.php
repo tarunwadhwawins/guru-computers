@@ -2,16 +2,19 @@
 <html lang="en">
 
 <head>
-    <!-- Title -->
-    <title>Dell Laptop Repair In Delta & Surrey - Reliable Dell Service</title>
     <!-- Meta & Link Tags -->
-    <?php include_once('common/common-css.php'); ?>
+  <?php
+    $title = '';
+    $keyword  = '';
+    $description  = "";
+    
+    include_once('../common/common-css.php'); ?>
     <!--  -->
 </head>
 
 <body>
     <!-- header -->
-    <?php include_once('common/header.php'); ?>
+    <?php include_once('../common/header.php'); ?>
     <!--  -->
     <section class="dataRecoverydelta">
         <!-- Banner -->
@@ -33,7 +36,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <img class="rightimg" src="assets/images/Dell-Laptop-Repair-1.jpg" alt="">
+                        <img class="rightimg" src="<?php echo $url; ?>assets/images/Dell-Laptop-Repair-1.jpg" alt="">
                         <p>Dell doesn’t need any introduction as it is well-accepted PC manufacturing brand in North America and offers an impressive lineup of Inspiron laptops, XPS gaming laptops and Latitude series for the home and small business segment
                             . At Guru Computers, we repair all versions of Dell laptops/computers here.</p>
                         <h2>Dell Laptop Repair in Delta and Surrey – Dell Repair Service </h2>
@@ -68,21 +71,21 @@
                         <h3>Our Other Computer Repair Services</h3>
                         <div class="listing">
                             <ul>
-                                <li><a href="./macbook-repair-delta">MacBook Repair In Delta</a></li>
-                                <li><a href="./apple-macbook-screen-replacement-in-delta">MacBook Screen Repair Delta</a></li>
-                                <li><a href="./acer-laptop-repair-delta">Acer laptop repair Delta</a></li>
-                                <li><a href="./asus-laptop-repair-delta">Asus Repair Delta</a></li>
-                                <li><a href="./virus-spyware-malware-adware-removal">Virus Removal in Delta</a></li>
-                                <li><a href="./imac-repair-delta">iMac Repair Delta</a></li>
-                                <li><a href="./imac-repair-surrey">iMac Repair Surrey</a></li>
+                                <li><a href="<?php echo $url; ?>delta/macbook-repair-delta">MacBook Repair In Delta</a></li>
+                                <li><a href="<?php echo $url; ?>delta/apple-macbook-screen-replacement-in-delta">MacBook Screen Repair Delta</a></li>
+                                <li><a href="<?php echo $url; ?>delta/acer-laptop-repair-delta">Acer laptop repair Delta</a></li>
+                                <li><a href="<?php echo $url; ?>delta/asus-laptop-repair-delta">Asus Repair Delta</a></li>
+                                <li><a href="<?php echo $url; ?>delta/virus-spyware-malware-adware-removal">Virus Removal in Delta</a></li>
+                                <li><a href="<?php echo $url; ?>delta/imac-repair-delta">iMac Repair Delta</a></li>
+                                <li><a href="<?php echo $url; ?>delta/imac-repair-surrey">iMac Repair Surrey</a></li>
                             </ul>
                         </div>
 
                         <a href="./contact" target="_blank" rel="noopener noreferrer"> <button class="primaryButton"> Book Now
                         </button></a>
-                        <?php include_once('common/youtubevideo.php'); ?>
+                        <?php include_once('../common/youtubevideo.php'); ?>
                         <h4>GET DIRECTIONS fOR Lenovo Laptop Repair Delta</h4>
-                        <?php include_once('common/map.php'); ?>
+                        <?php include_once('../common/map.php'); ?>
                     </div>
                 </div>
             </div>
@@ -90,13 +93,13 @@
     </section>
     <!--  -->
     <!-- any query -->
-    <?php include_once('common/any-query.php'); ?>
+    <?php include_once('../common/any-query.php'); ?>
     <!--  -->
     <!-- footer -->
-    <?php include_once('common/footer.php'); ?>
+    <?php include_once('../common/footer.php'); ?>
     <!--  -->
     <!-- script -->
-    <?php include_once('common/common-js.php'); ?>
+    <?php include_once('../common/common-js.php'); ?>
     <!--  -->
 </body>
 

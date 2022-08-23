@@ -2,15 +2,19 @@
 <html lang="en">
 
 <head>
-    <title>MacBook Screen Replacement in Surrey</title>
     <!-- Meta & Link Tags -->
-    <?php include_once('common/common-css.php'); ?>
+  <?php
+    $title = '';
+    $keyword  = '';
+    $description  = "";
+    
+    include_once('../common/common-css.php'); ?>
     <!--  -->
 </head>
 
 <body>
     <!-- header -->
-    <?php include_once('common/header.php'); ?>
+    <?php include_once('../common/header.php'); ?>
     <!--  -->
     <!-- Banner -->
     <div class="repairBanner">
@@ -29,7 +33,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="assets/images/screen-replacementservice (1).jpg" alt="productImage">
+                        <img src="<?php echo $url; ?>assets/images/screen-replacementservice (1).jpg" alt="productImage">
                     </div>
                     <p>Cracked MacBook screen? Guru Computers provide the best MacBook screen replacement service in <a href="./macbook-repair-surrey"><span class="textt">Surrey </span></a> , BC. We repair all generations of MacBooks.</p>
                     <h2>APPLE MACBOOK SCREEN REPLACEMENT SURREY</h2>
@@ -48,9 +52,9 @@
                     <h3>OUR OTHER COMPUTER REPAIR SERVICES IN SURREY</h3>
                     <div class="product-listing">
                         <ul>
-                            <li><a href="./macbook-logic-board-repair-surrey"><span class="textt-theme"> MacBook Logic Board Repair Surrey </span></a></li>
-                            <li><a href="./macbook-liquid-damage-repair-surrey"><span class="textt-theme"> MacBook Liquid Damage Repair Surrey </span></a></li>
-                            <li><a href="./macbook-keyboard-replacement-surrey"><span class="textt-theme"> Apple MacBook Keyboard Replacement Surrey </span></a></li>
+                            <li><a href="macbook-logic-board-repair-surrey"><span class="textt-theme"> MacBook Logic Board Repair Surrey </span></a></li>
+                            <li><a href="macbook-liquid-damage-repair-surrey"><span class="textt-theme"> MacBook Liquid Damage Repair Surrey </span></a></li>
+                            <li><a href="macbook-keyboard-replacement-surrey"><span class="textt-theme"> Apple MacBook Keyboard Replacement Surrey </span></a></li>
                         </ul>
                     </div>
                     <div class="productBook">
@@ -80,10 +84,10 @@
     </section>
     <!--  -->
     <!-- footer -->
-    <?php include_once('common/footer.php'); ?>
+    <?php include_once('../common/footer.php'); ?>
     <!--  -->
     <!-- script -->
-    <?php include_once('common/common-js.php'); ?>
+    <?php include_once('../common/common-js.php'); ?>
     <!--  -->
 </body>
 

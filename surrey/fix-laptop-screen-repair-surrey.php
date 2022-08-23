@@ -2,15 +2,19 @@
 <html lang="en">
 
 <head>
-    <title>Laptop Screen Repair Surrey - Computer Repair Surrey - Guru Computers</title>
-    <!-- Meta & Link Tags -->
-    <?php include_once('common/common-css.php'); ?>
+   <!-- Meta & Link Tags -->
+   <?php
+    $title = '';
+    $keyword  = '';
+    $description  = "";
+    
+    include_once('../common/common-css.php'); ?>
     <!--  -->
 </head>
 
 <body>
     <!-- header -->
-    <?php include_once('common/header.php'); ?>
+    <?php include_once('../common/header.php'); ?>
     <!--  -->
     <!-- Banner -->
     <div class="repairBanner">
@@ -34,10 +38,10 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="assets/images/laptopscreenrepair.png" alt="productImage">
+                        <img src="<?php echo $url; ?>assets/images/laptopscreenrepair.png" alt="productImage">
                     </div>
                     <p>The most common repair in a laptop is the screen replacement. Accidents happen and screens crack leaving your laptop in an unusable state.</p>
-                    <h2>LAPTOP SCREEN REPAIR IN SURREY – LAPTOP REPAIR SURREY</h2>
+                    <h2>Laptop Screen Repair In Surrey – Laptop Repair Sureey</h2>
                     <p> We have a huge inventory of OEM high definition screens to quickly bring your laptop to its original form. Most common 14” – 15” screen replacement costs around $125 – $145.</p>
                     <p>Don’t risk missing the deadline and get your Laptop back in action by getting a quick screen replacement at Guru Computers in Surrey.<br> A usual screen replacement takes around 45 mins and you will be able to use your laptop again
                         in no time.</p>
@@ -55,21 +59,21 @@
                         <li>Low cost than the competitors</li>
                         <li>Emergency services provided</li>
                         <li>Trustworthy support and service</li>
-                        <li>Support for all kinds of<a href="./computer-repair-surrey"> computer repair services</a></li>
+                        <li>Support for all kinds of<a href="computer-repair-surrey"> computer repair services</a></li>
                     </ul>
                     <h3>Our Other Computer Repair Services In Surrey, British Columbia:</h3>
                     <ul class="referLink">
-                        <li><a href="./hard-drive-data-recovery-in-surrey">Data Recovery Services Surrey</a></li>
-                        <li><a href="./fix-laptop-screen-repair-surrey">Laptop Screen Replacement</a></li>
-                        <li><a href="./macbook-logic-board-repair-surrey">Apple MacBook Logic Board Repair</a></li>
-                        <li><a href="./virus-malware-trojan-removal-surrey">Virus Removal In Surrey</a></li>
-                        <li><a href="./macbook-screen-replacement-surrey">MacBook Screen Replacement</a></li>
-                        <li><a href="./macbook-liquid-damage-repair-surrey">Liquid Damage Repair</a></li>
-                        <li><a href="./macbook-keyboard-replacement-surrey">MacBook Keyboard Repair</a></li>
+                        <li><a href="hard-drive-data-recovery-in-surrey">Data Recovery Services Surrey</a></li>
+                        <li><a href="fix-laptop-screen-repair-surrey">Laptop Screen Replacement</a></li>
+                        <li><a href="macbook-logic-board-repair-surrey">Apple MacBook Logic Board Repair</a></li>
+                        <li><a href="virus-malware-trojan-removal-surrey">Virus Removal In Surrey</a></li>
+                        <li><a href="macbook-screen-replacement-surrey">MacBook Screen Replacement</a></li>
+                        <li><a href="macbook-liquid-damage-repair-surrey">Liquid Damage Repair</a></li>
+                        <li><a href="macbook-keyboard-replacement-surrey">MacBook Keyboard Repair</a></li>
 
                     </ul>
                     <div class="productBook">
-                        <a class="primaryButton" href="./contact" target="_self">Book Now</a>
+                        <a class="primaryButton" href="<?php echo $url; ?>contact" target="_self">Book Now</a>
                     </div>
                     <p><iframe loading="lazy" title="Best Apple MacBook Repair Service in Delta &amp; Surrey, BC - Guru Computers" width="640" height="360" src="https://www.youtube.com/embed/OhhJ6pcIUHY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen=""></iframe></p>
@@ -95,10 +99,10 @@
     </section>
     <!--  -->
     <!-- footer -->
-    <?php include_once('common/footer.php'); ?>
+    <?php include_once('../common/footer.php'); ?>
     <!--  -->
     <!-- script -->
-    <?php include_once('common/common-js.php'); ?>
+    <?php include_once('../common/common-js.php'); ?>
     <!--  -->
 </body>
 

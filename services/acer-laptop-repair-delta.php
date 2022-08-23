@@ -2,16 +2,19 @@
 <html lang="en">
 
 <head>
-    <!-- Title -->
-    <title>Acer Repair Delta - Guru Computers</title>
     <!-- Meta & Link Tags -->
-    <?php include_once('common/common-css.php'); ?>
+  <?php
+    $title = '';
+    $keyword  = '';
+    $description  = "";
+    
+    include_once('../common/common-css.php'); ?>
     <!--  -->
 </head>
 
 <body>
     <!-- header -->
-    <?php include_once('common/header.php'); ?>
+    <?php include_once('../common/header.php'); ?>
     <!--  -->
 
     <section class="dataRecoverydelta">
@@ -35,7 +38,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <img class="rightimg" src="assets/images/Acer-repair-delta.jpg" alt="">
+                        <img class="rightimg" src="<?php echo $url; ?>assets/images/Acer-repair-delta.jpg" alt="">
                         <p>Acer offers a wide variety of affordable laptop and desktop to cater to a wide range of consumers in home and small business segment. It is one of the leading laptop brands in North America and offers an affordable and durable
                             line of laptops like Acer Aspire, Acer Swift and Acer TravelMate.</p>
                         <h2>Acer Repair Delta – Acer Laptop Services</h2>
@@ -73,30 +76,30 @@
                         <h3>Other Computer Repair Services In Delta, British Columbia:</h3>
                         <div class="listing">
                             <ul>
-                                <li><a href="./macbook-repair-delta">MacBook repair in Delta</a></li>
-                                <li><a href="./apple-macbook-screen-replacement-in-delta">MacBook Screen Repair</a></li>
-                                <li><a href="./laptop-screen-replacement-in-delta">Laptop Screen Replacement in Delta</a></li>
-                                <li><a href="./virus-spyware-malware-adware-removal">Virus Removal in Delta</a></li>
-                                <li><a href="./acer-laptop-repair-delta">Acer Repair Delta</a></li>
+                                <li><a href="<?php echo $url; ?>delta/macbook-repair-delta">MacBook repair in Delta</a></li>
+                                <li><a href="<?php echo $url; ?>delta/apple-macbook-screen-replacement-in-delta">MacBook Screen Repair</a></li>
+                                <li><a href="<?php echo $url; ?>delta/laptop-screen-replacement-in-delta">Laptop Screen Replacement in Delta</a></li>
+                                <li><a href="<?php echo $url; ?>delta/virus-spyware-malware-adware-removal">Virus Removal in Delta</a></li>
+                                <li><a href="<?php echo $url; ?>services/acer-laptop-repair-delta">Acer Repair Delta</a></li>
                             </ul>
                         </div>
-                        <a href="./contact" target="_self" rel="noopener noreferrer"> <button class="primaryButton"> Book Now
+                        <a href="<?php echo $url; ?>contact" target="_self" rel="noopener noreferrer"> <button class="primaryButton"> Book Now
                         </button></a>
                         <div class="map"><iframe loading="lazy" src="https://www.youtube.com/embed/H7y0IDbR2XM" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
                         <h4>Get Directions For Acer Laptop Repair Delta</h4>
-                        <?php include_once('common/map.php'); ?>
+                        <?php include_once('../common/map.php'); ?>
                     </div>
                 </div>
     </section>
     <!--  -->
     <!-- any query -->
-    <?php include_once('common/any-query.php'); ?>
+    <?php include_once('../common/any-query.php'); ?>
     <!--  -->
     <!-- footer -->
-    <?php include_once('common/footer.php'); ?>
+    <?php include_once('../common/footer.php'); ?>
     <!--  -->
     <!-- script -->
-    <?php include_once('common/common-js.php'); ?>
+    <?php include_once('../common/common-js.php'); ?>
     <!--  -->
 </body>
 

@@ -2,15 +2,19 @@
 <html lang="en">
 
 <head>
-    <title>MacBook Keyboard Replacement in Delta</title>
     <!-- Meta & Link Tags -->
-    <?php include_once('common/common-css.php'); ?>
+  <?php
+    $title = '';
+    $keyword  = '';
+    $description  = "";
+    
+    include_once('../common/common-css.php'); ?>
     <!--  -->
 </head>
 
 <body>
     <!-- header -->
-    <?php include_once('common/header.php'); ?>
+    <?php include_once('../common/header.php'); ?>
     <!--  -->
     <!-- Banner -->
     <div class="repairBanner">
@@ -29,9 +33,9 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="assets/images/keyboardrepairservices01.jpg" alt="productImage">
+                        <img src="<?php echo $url; ?>assets/images/keyboardrepairservices01.jpg" alt="productImage">
                     </div>
-                    <p>MacBook keys stop working? Guru Computers provide the best MacBook Keyboard Replacement service in <a href="./macbook-repair-delta"><span class="textt">Delta </span></a> , BC. We here at Guru Computers, repair all kind of MacBooks.</p>
+                    <p>MacBook keys stop working? Guru Computers provide the best MacBook Keyboard Replacement service in <a href="macbook-repair-delta"><span class="textt">Delta </span></a> , BC. We here at Guru Computers, repair all kind of MacBooks.</p>
                     <h2>Best Macbook Keyboard Replacement In Delta</h2>
                     <p>At Guru Computers, we replace a lot of keyboards where customers have accidentally spilled a drink on their <a href="https://www.apple.com/in/macbook/"><span class="textt">MacBook </span></a> keyboard while working on it. liquid spills
                         can cause a lot of damage if it penetrates to the MacBook logic board. The device continues to work for a while and eventually, it becomes unusable.</p>
@@ -42,12 +46,12 @@
                     <h3>Our Other Computer Repair Services In Delta</h3>
                     <div class="product-listing">
                         <ul>
-                            <li><a href="./apple-macbook-liquid-damage-repair-delta"><span class="textt-theme"> MacBook Liquid Damage Repair Delta </span></a></li>
-                            <li><a href="./apple-macbook-logicboard-repair-delta"><span class="textt-theme"> Apple MacBook Logicboard Repair Delta </span></a></li>
-                            <li><a href="./apple-macbook-keyboard-replacement-delta"><span class="textt-theme"> MacBook Keyboard Replacement Delta </span></a></li>
-                            <li><a href="./data-recovery-services-delta"><span class="textt-theme"> Data Recovery Services Delta </span></a></li>
-                            <li><a href="./laptop-screen-replacement-in-delta"><span class="textt-theme"> Laptop Screen Replacement In Delta </span></a></li>
-                            <li><a href="./virus-spyware-malware-adware-removal"><span class="textt-theme">  Virus Removal Delta </span></a></li>
+                            <li><a href="apple-macbook-liquid-damage-repair-delta"><span class="textt-theme"> MacBook Liquid Damage Repair Delta </span></a></li>
+                            <li><a href="apple-macbook-logicboard-repair-delta"><span class="textt-theme"> Apple MacBook Logicboard Repair Delta </span></a></li>
+                            <li><a href="apple-macbook-keyboard-replacement-delta"><span class="textt-theme"> MacBook Keyboard Replacement Delta </span></a></li>
+                            <li><a href="data-recovery-services-delta"><span class="textt-theme"> Data Recovery Services Delta </span></a></li>
+                            <li><a href="laptop-screen-replacement-in-delta"><span class="textt-theme"> Laptop Screen Replacement In Delta </span></a></li>
+                            <li><a href="virus-spyware-malware-adware-removal"><span class="textt-theme">  Virus Removal Delta </span></a></li>
 
                         </ul>
                     </div>
@@ -78,10 +82,10 @@
     </section>
     <!--  -->
     <!-- footer -->
-    <?php include_once('common/footer.php'); ?>
+    <?php include_once('../common/footer.php'); ?>
     <!--  -->
     <!-- script -->
-    <?php include_once('common/common-js.php'); ?>
+    <?php include_once('../common/common-js.php'); ?>
     <!--  -->
 </body>
 

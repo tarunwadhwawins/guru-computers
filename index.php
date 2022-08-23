@@ -29,7 +29,7 @@
                 <div class="bannerText d-flex align-items-center flex-column">
                     <h1>Spilled liquid?</h1>
                     <p>Liquid damage repair starting at $110 onwards. </p>
-                    <button type="button" class=" primaryButton">Call Now!</button>
+                    <button type="button" class="primaryButton">Call Now!</button>
                 </div>
             </div>
             <div class="slider">

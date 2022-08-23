@@ -2,15 +2,19 @@
 <html lang="en">
 
 <head>
-    <title>Macbook Screen Replacment in Delta</title>
-    <!-- Meta & Link Tags -->
-    <?php include_once('common/common-css.php'); ?>
+  <!-- Meta & Link Tags -->
+  <?php
+    $title = '';
+    $keyword  = '';
+    $description  = "";
+    
+    include_once('../common/common-css.php'); ?>
     <!--  -->
 </head>
 
 <body>
     <!-- header -->
-    <?php include_once('common/header.php'); ?>
+    <?php include_once('../common/header.php'); ?>
     <!--  -->
     <!-- Banner -->
     <div class="repairBanner">
@@ -29,9 +33,9 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="assets/images/screen-replacementservice (1).jpg" alt="productImage">
+                        <img src="<?php echo $url; ?>assets/images/delta/screen-replacementservice.jpg" alt="productImage">
                     </div>
-                    <p>MacBook screen cracked or shattered? Guru Computers provide the best MacBook Screen Replacement in <a href="./apple-macbook-screen-replacement-in-delta"><span class="textt">Delta </span></a> , BC. At Guru Computers, we repair MacBooks
+                    <p>MacBook screen cracked or shattered? Guru Computers provide the best MacBook Screen Replacement in <a href="apple-macbook-screen-replacement-in-delta"><span class="textt">Delta </span></a> , BC. At Guru Computers, we repair MacBooks
                         of all generations.</p>
                     <h2>Apple Macbook Screen Replacement In Delta</h2>
                     <p>At Guru Computers, we do things the right way. The most common repair on an Apple <a href="https://www.apple.com/in/macbook-pro/"><span class="textt"> MacBook</span></a> or a Windows laptop is LCD retina replacement. It may have cracked,
@@ -50,17 +54,17 @@
                     <h3>Our Other Computer Repair Services In Delta</h3>
                     <div class="product-listing">
                         <ul>
-                            <li><a href="./apple-macbook-liquid-damage-repair-delta"><span class="textt-theme"> MacBook Liquid Damage Repair Delta </span></a></li>
-                            <li><a href="./apple-macbook-logicboard-repair-delta"><span class="textt-theme"> Apple MacBook Logicboard Repair Delta </span></a></li>
-                            <li><a href="./apple-macbook-keyboard-replacement-delta"><span class="textt-theme"> MacBook Keyboard Replacement Delta </span></a></li>
-                            <li><a href="./data-recovery-services-delta"><span class="textt-theme"> Data Recovery Services Delta </span></a></li>
-                            <li><a href="./laptop-screen-replacement-in-delta"><span class="textt-theme"> Laptop Screen Replacement In Delta </span></a></li>
-                            <li><a href="./virus-spyware-malware-adware-removal"><span class="textt-theme">  Virus Removal Delta </span></a></li>
+                            <li><a href="apple-macbook-liquid-damage-repair-delta"><span class="textt-theme"> MacBook Liquid Damage Repair Delta </span></a></li>
+                            <li><a href="apple-macbook-logicboard-repair-delta"><span class="textt-theme"> Apple MacBook Logicboard Repair Delta </span></a></li>
+                            <li><a href="apple-macbook-keyboard-replacement-delta"><span class="textt-theme"> MacBook Keyboard Replacement Delta </span></a></li>
+                            <li><a href="data-recovery-services-delta"><span class="textt-theme"> Data Recovery Services Delta </span></a></li>
+                            <li><a href="laptop-screen-replacement-in-delta"><span class="textt-theme"> Laptop Screen Replacement In Delta </span></a></li>
+                            <li><a href="virus-spyware-malware-adware-removal"><span class="textt-theme">  Virus Removal Delta </span></a></li>
 
                         </ul>
                     </div>
                     <div class="productBook">
-                        <a class="primaryButton" href="./contact" target="_self">Book Now</a>
+                        <a class="primaryButton" href="<?php echo $url; ?>contact" target="_self">Book Now</a>
                     </div>
                     <p><iframe loading="lazy" title="Best Apple MacBook Repair Service in Delta &amp; Surrey, BC - Guru Computers" width="640" height="360" src="https://www.youtube.com/embed/OhhJ6pcIUHY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen=""></iframe></p>
@@ -86,10 +90,10 @@
     </section>
     <!--  -->
     <!-- footer -->
-    <?php include_once('common/footer.php'); ?>
+    <?php include_once('../common/footer.php'); ?>
     <!--  -->
     <!-- script -->
-    <?php include_once('common/common-js.php'); ?>
+    <?php include_once('../common/common-js.php'); ?>
     <!--  -->
 </body>
 

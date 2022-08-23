@@ -30,20 +30,20 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="webIcon">
-                        <img src="assets/images/applelogo.png" alt="">
+                        <img src="<?php echo $url; ?>assets/images/applelogo.png" alt="">
                     </div>
                     <div class="webIcon">
-                        <img src="assets/images/windowslogo.png" alt="">
+                        <img src="<?php echo $url; ?>assets/images/windowslogo.png" alt="">
                     </div>
                 </div>
             </div>
             <div class="sectionHead">
                 <h2 class="">Computer Repair in Delta</h2>
-                <a class="primaryButton" href="./computer-repair-delta" target="_self">Computer Repair Delta</a>
+                <a class="primaryButton" href="<?php echo $url; ?>services/computer-repair-delta" target="_self">Computer Repair Delta</a>
             </div>
             <div class="sectionHead">
                 <h2 class="">Computer Repair in Surrey</h2>
-                <a class="primaryButton" href="./computer-repair-surrey" target="_self">Computer Repair Surrey</a>
+                <a class="primaryButton" href="<?php echo $url; ?>services/computer-repair-surrey" target="_self">Computer Repair Surrey</a>
             </div>
             <br>
             <br>

@@ -2,15 +2,19 @@
 <html lang="en">
 
 <head>
-    <title>MacBook Repair in Surrey</title>
     <!-- Meta & Link Tags -->
-    <?php include_once('common/common-css.php'); ?>
+  <?php
+    $title = '';
+    $keyword  = '';
+    $description  = "";
+    
+    include_once('../common/common-css.php'); ?>
     <!--  -->
 </head>
 
 <body>
     <!-- header -->
-    <?php include_once('common/header.php'); ?>
+    <?php include_once('../common/header.php'); ?>
     <!--  -->
     <!-- Banner -->
     <div class="repairBanner">
@@ -39,7 +43,7 @@
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="boardImage">
-                        <img src="assets/images/macbook-with-apple-logo.png" alt="boardImage">
+                        <img src="<?php echo $url; ?>assets/images/macbook-with-apple-logo.png" alt="boardImage">
                     </div>
                 </div>
             </div>
@@ -67,7 +71,7 @@
                         <a href="tel:+1 (604) 256-2193" class="primaryButton" target="_self">Call  +1 (604) 256-2193</a>
                     </div>
                     <div class="col-sm-12 ">
-                        <a href="./contact" class="primaryButton">Contact Us</a>
+                        <a href="<?php echo $url; ?>contact" class="primaryButton">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -85,7 +89,7 @@
 Apple MacBook Screen Replacement Surrey
 The most common repair for Apple MacBook is LCD screen replacement. These are high-quality screens, however, are susceptible to accidental damages. Accidental drops may cause vertical ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="./macbook-screen-replacement-surrey">MacBook Screen Replacement Surrey</a>
+                            <a class="primaryButton read-more" href="<?php echo $url; ?>surrey/macbook-screen-replacement-surrey">MacBook Screen Replacement Surrey</a>
                         </div>
                     </div>
                 </div>
@@ -96,7 +100,7 @@ The most common repair for Apple MacBook is LCD screen replacement. These are hi
 Apple Macbook Logic Board Repair Surrey
 Apple MacBook is a powerful machine in a metallic chassis. They handle a lot of ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="./macbook-logic-board-repair-surrey">MacBook Motherboard Repair Surrey</a>
+                            <a class="primaryButton read-more" href="<?php echo $url; ?>surrey/macbook-logic-board-repair-surrey">MacBook Motherboard Repair Surrey</a>
                         </div>
                     </div>
                 </div>
@@ -107,7 +111,7 @@ Apple MacBook is a powerful machine in a metallic chassis. They handle a lot of 
 Apple MacBook liquid Damage Repair Surrey
 Liquid damage is the worst damage to any electronic device. If you have spilled liquid don’t use a hair dryer or ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="./macbook-liquid-damage-repair-surrey">MacBook Water Damage Repair Surrey</a>
+                            <a class="primaryButton read-more" href="<?php echo $url; ?>surrey/macbook-liquid-damage-repair-surrey">MacBook Water Damage Repair Surrey</a>
                         </div>
                     </div>
                 </div>
@@ -118,7 +122,7 @@ Liquid damage is the worst damage to any electronic device. If you have spilled 
 Apple MacBook Keyboard Replacement Surrey
 Apple MacBook is designed with great quality keyboard however, sometimes a liquid spill can cause damage and ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="./macbook-keyboard-replacement-surrey">MacBook Keyboard Replacement Surrey</a>
+                            <a class="primaryButton read-more" href="<?php echo $url; ?>surrey/macbook-keyboard-replacement-surrey">MacBook Keyboard Replacement Surrey</a>
                         </div>
                     </div>
                 </div>
@@ -141,10 +145,10 @@ Apple MacBook is designed with great quality keyboard however, sometimes a liqui
     </section>
     <!--  -->
     <!-- footer -->
-    <?php include_once('common/footer.php'); ?>
+    <?php include_once('../common/footer.php'); ?>
     <!--  -->
     <!-- script -->
-    <?php include_once('common/common-js.php'); ?>
+    <?php include_once('../common/common-js.php'); ?>
     <!--  -->
 
 </body>

@@ -2,15 +2,19 @@
 <html lang="en">
 
 <head>
-    <title>Computer Power Supply Repair in Delta and Surrey - PSU Replacement</title>
     <!-- Meta & Link Tags -->
-    <?php include_once('common/common-css.php'); ?>
+  <?php
+    $title = '';
+    $keyword  = '';
+    $description  = "";
+    
+    include_once('../common/common-css.php'); ?>
     <!--  -->
 </head>
 
 <body>
     <!-- header -->
-    <?php include_once('common/header.php'); ?>
+    <?php include_once('../common/header.php'); ?>
     <!--  -->
     <!-- Banner -->
     <div class="repairBanner">
@@ -34,7 +38,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="assets/images/Computer-Power-Supply-Replacement.jpg" alt="productImage">
+                        <img src="<?php echo $url; ?>assets/images/Computer-Power-Supply-Replacement.jpg" alt="productImage">
                     </div>
                     <p>Looking for computer power supply repair in Delta and Surrey? Guru Computers can help you with that. A <a href="https://en.wikipedia.org/wiki/Power_supply_unit_(computer)" target="_blank" rel="noopener noreferrer dofollow">power supply</a>                        unit is the backbone of a computer. It supplies specific voltage to various components of a computer or a laptop. If a power supply malfunctions, you may have a non-working computer. Many times, a failing power supply is the only
                         reason for a dead/non-working computer. Fortunately, these are easy to repair or replace. </p>
@@ -47,22 +51,22 @@
 
                     <h3>Other Computer Repair Services In Delta:</h3>
                     <ul class="referLink">
-                        <li><a href="./apple-macbook-keyboard-replacement-delta">MacBook keyboard replacement</a></li>
-                        <li><a href="./apple-macbook-liquid-damage-repair-delta">MacBook Liquid Damage Repair Delta</a></li>
-                        <li><a href="./laptop-screen-replacement-in-delta">Laptop Screen Replacement in Delta</a></li>
-                        <li><a href="./virus-spyware-malware-adware-removal">Virus Removal in Delta</a></li>
-                        <li><a href="./acer-laptop-repair-delta">Acer Laptop Repair Delta</a></li>
+                        <li><a href="<?php echo $url; ?>delta/apple-macbook-keyboard-replacement-delta">MacBook keyboard replacement</a></li>
+                        <li><a href="<?php echo $url; ?>delta/apple-macbook-liquid-damage-repair-delta">MacBook Liquid Damage Repair Delta</a></li>
+                        <li><a href="<?php echo $url; ?>delta/laptop-screen-replacement-in-delta">Laptop Screen Replacement in Delta</a></li>
+                        <li><a href="<?php echo $url; ?>delta/virus-spyware-malware-adware-removal">Virus Removal in Delta</a></li>
+                        <li><a href="<?php echo $url; ?>services/acer-laptop-repair-delta">Acer Laptop Repair Delta</a></li>
                     </ul>
                     <h3>Computer Repair Services In Surrey:</h3>
                     <ul class="referLink">
-                        <li><a href="./macbook-screen-replacement-surrey">MacBook Screen Replacement</a></li>
-                        <li><a href="./macbook-logic-board-repair-surrey">Apple MacBook Logic Board Repair</a></li>
-                        <li><a href="./hard-drive-data-recovery-in-surrey">Data Recovery Surrey</a></li>
-                        <li><a href="./virus-malware-trojan-removal-surrey">Virus Removal Surrey</a></li>
-                        <li><a href="./Laptop Screen Repair In Surrey">Laptop Screen Repair In Surrey</a></li>
+                        <li><a href="<?php echo $url; ?>surrey/macbook-screen-replacement-surrey">MacBook Screen Replacement</a></li>
+                        <li><a href="<?php echo $url; ?>surrey/macbook-logic-board-repair-surrey">Apple MacBook Logic Board Repair</a></li>
+                        <li><a href="<?php echo $url; ?>surrey/hard-drive-data-recovery-in-surrey">Data Recovery Surrey</a></li>
+                        <li><a href="<?php echo $url; ?>surrey/virus-malware-trojan-removal-surrey">Virus Removal Surrey</a></li>
+                        <li><a href="<?php echo $url; ?>surrey/Laptop Screen Repair In Surrey">Laptop Screen Repair In Surrey</a></li>
                     </ul>
                     <div class="productBook">
-                        <a class="primaryButton" href="./contact" target="_blank">Book Now</a>
+                        <a class="primaryButton" href="<?php echo $url; ?>contact" target="_blank">Book Now</a>
                     </div>
                     <p><iframe loading="lazy" title="Best Apple MacBook Repair Service in Delta &amp; Surrey, BC - Guru Computers" width="640" height="360" src="https://www.youtube.com/embed/OhhJ6pcIUHY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen=""></iframe></p>
@@ -89,10 +93,10 @@
     </section>
     <!--  -->
     <!-- footer -->
-    <?php include_once('common/footer.php'); ?>
+    <?php include_once('../common/footer.php'); ?>
     <!--  -->
     <!-- script -->
-    <?php include_once('common/common-js.php'); ?>
+    <?php include_once('../common/common-js.php'); ?>
     <!--  -->
 </body>
 

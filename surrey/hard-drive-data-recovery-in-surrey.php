@@ -2,16 +2,19 @@
 <html lang="en">
 
 <head>
-    <!-- Title -->
-    <title>Data Recovery Expert in surrey - Guru Computers</title>
     <!-- Meta & Link Tags -->
-    <?php include_once('common/common-css.php'); ?>
+   <?php
+    $title = '';
+    $keyword  = '';
+    $description  = "";
+    
+    include_once('../common/common-css.php'); ?>
     <!--  -->
 </head>
 
 <body>
     <!-- header -->
-    <?php include_once('common/header.php'); ?>
+    <?php include_once('../common/header.php'); ?>
     <!--  -->
     <section class="dataRecoverydelta">
         <!-- Banner -->
@@ -34,7 +37,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <img class="rightimg" src="assets/images/Data-Recovery_new.png" alt="">
+                        <img class="rightimg" src="<?php echo $url; ?>assets/images/Data-Recovery_new.png" alt="">
                         <p>Computer or Laptop not working due to damage? Need that data transferred to a new computer or an <a href="https://www.amazon.com/External-Hard-Drives-Storage-Add-Ons/b?ie=UTF8&amp;node=595048" target="_blank" rel="noopener nofollow noreferrer">external storage drive</a>?
                             Trust us at Guru Computers in Surrey to handle your data securely and efficiently.</p>
                         <p>From home users to small businesses, Guru Computers is a trusted name for <a href="https://en.wikipedia.org/wiki/Data_recovery" target="_blank" rel="noopener dofollow noreferrer">hard drive recovery</a> when your business is interrupted
@@ -45,27 +48,27 @@
                         <p>Are you getting a S.M.A.R.T. error when booting up your computer? Is your computer really slow accessing files? Your hard drive may be failing and needs a replacement.</p>
                         <p>This puts your valuable data at significant risk. We store everything on the computers and laptops including your pictures, files, music, and whatnot. Hard disks are susceptible to damage due to shock/drop, physical damage and
                             they wear out, even if you treat them good with timely maintenance.</p>
-                        <p>Visit us at <a href="./computer-repair-surrey">Guru Computers in Surrey</a> if you are looking for Data Recovery Service. We offer data recovery services and we have the equipment to professionally recover data from a failed hard
+                        <p>Visit us at <a href="computer-repair-surrey">Guru Computers in Surrey</a> if you are looking for Data Recovery Service. We offer data recovery services and we have the equipment to professionally recover data from a failed hard
                             drive. Our technicians are trained in hard drive data recovery process to recover data from your hard disk and we ensure the integrity of your data when we recover it.</p>
                         <h3>Our Other Computer Repair Services:</h3>
                         <div class="listing">
                             <ul>
                                 <li><a href="macbook-liquid-damage-repair-surrey">Liquid Damage Repair</a></li>
-                                <li><a href="./macbook-keyboard-replacement-surrey">MacBook Keyboard Repair</a></li>
-                                <li><a href="./macbook-logic-board-repair-surrey">Apple MacBook Logic Board Repair</a></li>
-                                <li><a href="./virus-malware-trojan-removal-surrey">Virus Removal In Surrey</a></li>
-                                <li><a href="./macbook-screen-replacement-surrey">MacBook Screen Replacement</a></li>
-                                <li><a href="./hard-drive-data-recovery-in-surrey">Data Recovery Services Surrey</a></li>
-                                <li><a href="./fix-laptop-screen-repair-surrey">Laptop Screen Replacement</a></li>
+                                <li><a href="macbook-keyboard-replacement-surrey">MacBook Keyboard Repair</a></li>
+                                <li><a href="macbook-logic-board-repair-surrey">Apple MacBook Logic Board Repair</a></li>
+                                <li><a href="virus-malware-trojan-removal-surrey">Virus Removal In Surrey</a></li>
+                                <li><a href="macbook-screen-replacement-surrey">MacBook Screen Replacement</a></li>
+                                <li><a href="hard-drive-data-recovery-in-surrey">Data Recovery Services Surrey</a></li>
+                                <li><a href="fix-laptop-screen-repair-surrey">Laptop Screen Replacement</a></li>
                             </ul>
                         </div>
 
-                        <a href="./contact" target="_self" rel="noopener noreferrer"> <button class="primaryButton"> Book Now
+                        <a href="<?php echo $url; ?>contact" target="_self" rel="noopener noreferrer"> <button class="primaryButton"> Book Now
                         </button></a>
 
-                        <?php include_once('common/youtubevideo.php'); ?>
+                        <?php include_once('../common/youtubevideo.php'); ?>
                         <h4>Get Directions For Hard Drive Data Recovery Surrey</h4>
-                        <?php include_once('common/map.php'); ?>
+                        <?php include_once('../common/map.php'); ?>
                     </div>
                 </div>
             </div>
@@ -74,15 +77,15 @@
     <!--  -->
 
     <!-- any query -->
-    <?php include_once('common/any-query.php'); ?>
+    <?php include_once('../common/any-query.php'); ?>
     <!--  -->
 
     <!-- footer -->
-    <?php include_once('common/footer.php'); ?>
+    <?php include_once('../common/footer.php'); ?>
     <!--  -->
 
     <!-- script -->
-    <?php include_once('common/common-js.php'); ?>
+    <?php include_once('../common/common-js.php'); ?>
     <!--  -->
 </body>
 

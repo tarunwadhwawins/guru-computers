@@ -2,15 +2,19 @@
 <html lang="en">
 
 <head>
-    <title>iMac Repair Surrey - All Genuine Parts Replacement - Guru Computers</title>
-    <!-- Meta & Link Tags -->
-    <?php include_once('common/common-css.php'); ?>
+  <!-- Meta & Link Tags -->
+  <?php
+    $title = '';
+    $keyword  = '';
+    $description  = "";
+    
+    include_once('../common/common-css.php'); ?>
     <!--  -->
 </head>
 
 <body>
     <!-- header -->
-    <?php include_once('common/header.php'); ?>
+    <?php include_once('../common/header.php'); ?>
     <!--  -->
     <!-- Banner -->
     <div class="repairBanner">
@@ -34,7 +38,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="assets/images/iMac-Repair-Delta-Surrey-1.png" alt="productImage">
+                        <img src="<?php echo $url; ?>assets/images/iMac-Repair-Delta-Surrey-1.png" alt="productImage">
                     </div>
                     <p>Apple <a href="https://en.wikipedia.org/wiki/IMac"><span class="textt">iMac </span></a>
                         is a popular choice for a lot of home and business users. Needless to say, these are powerful and  very well-built machines   with a sleek and elegant design.  It has everything you want in a beautiful looking computer </p>
@@ -45,14 +49,14 @@
                     <p>We have a high success rate and have managed hundreds of repairs without damaging the screens. For us, it is not just about fixing computers, it is about making a difference. We take pride in suggesting the most affordable value for money options available at the time. Our recommendations are based on your requirements and computer usage and our customer’s satisfaction scores vouch for that.</p>
                     <h3>Other Computer Repair Services In Surrey:</h3>
                     <ul class="referLink">
-                        <li><a href="./fix-laptop-screen-repair-surrey">Laptop Screen Replacement Surrey</a></li>
-                        <li><a href="./macbook-liquid-damage-repair-surrey">Apple MacBook Liquid Damage Repair</a></li>
-                        <li><a href="./macbook-keyboard-replacement-surrey">MacBook Keyboard Replacement</a></li>
-                        <li><a href="./macbook-logic-board-repair-surrey">MacBook Logicboard Repair</a></li>
-                        <li><a href="./hard-drive-data-recovery-in-surrey">Data Recovery Surrey</a></li>
+                        <li><a href="fix-laptop-screen-repair-surrey">Laptop Screen Replacement Surrey</a></li>
+                        <li><a href="macbook-liquid-damage-repair-surrey">Apple MacBook Liquid Damage Repair</a></li>
+                        <li><a href="macbook-keyboard-replacement-surrey">MacBook Keyboard Replacement</a></li>
+                        <li><a href="macbook-logic-board-repair-surrey">MacBook Logicboard Repair</a></li>
+                        <li><a href="hard-drive-data-recovery-in-surrey">Data Recovery Surrey</a></li>
                     </ul>
                     <div class="productBook">
-                        <a class="primaryButton" href="./contact" target="_blank">Book Now</a>
+                        <a class="primaryButton" href="<?php echo $url; ?>contact" target="_blank">Book Now</a>
                     </div>
                     <p><iframe loading="lazy" title="Best Apple MacBook Repair Service in Delta &amp; Surrey, BC - Guru Computers" width="640" height="360" src="https://www.youtube.com/embed/OhhJ6pcIUHY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen=""></iframe></p>
@@ -79,10 +83,10 @@
     </section>
     <!--  -->
     <!-- footer -->
-    <?php include_once('common/footer.php'); ?>
+    <?php include_once('../common/footer.php'); ?>
     <!--  -->
     <!-- script -->
-    <?php include_once('common/common-js.php'); ?>
+    <?php include_once('../common/common-js.php'); ?>
     <!--  -->
 </body>
 

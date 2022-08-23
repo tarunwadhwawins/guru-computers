@@ -2,15 +2,19 @@
 <html lang="en">
 
 <head>
-    <title>MacBook Repair Service</title>
     <!-- Meta & Link Tags -->
-    <?php include_once('common/common-css.php'); ?>
+  <?php
+    $title = '';
+    $keyword  = '';
+    $description  = "";
+    
+    include_once('../common/common-css.php'); ?>
     <!--  -->
 </head>
 
 <body>
     <!-- header -->
-    <?php include_once('common/header.php'); ?>
+    <?php include_once('../common/header.php'); ?>
     <!--  -->
     <!-- Banner -->
     <div class="repairBanner">
@@ -42,7 +46,7 @@
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="boardImage">
-                        <img src="assets/images/macbook-with-apple-logo.png" alt="boardImage">
+                        <img src="<?php echo $url; ?>assets/images/macbook-with-apple-logo.png" alt="boardImage">
                     </div>
                 </div>
             </div>
@@ -70,7 +74,7 @@
                         <a href="tel:+1 (604) 256-2193" class="primaryButton" target="_self">Call  +1 (604) 256-2193</a>
                     </div>
                     <div class="col-sm-12 ">
-                        <a href="./contact" class="primaryButton">Contact Us</a>
+                        <a href="<?php echo $url; ?>contact" class="primaryButton">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -87,7 +91,7 @@
                         <p class="text-left">MacBook screen cracked or shattered? Guru Computers provide the best MacBook Screen Replacement in Delta, BC. At Guru Computers, we repair MacBooks of all generations. Apple MacBook Screen Replacement IN Delta At Guru Computers,
                             we do things the right way. The most common repair on an Apple MacBook or a Windows laptop ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="./apple-macbook-screen-replacement-in-delta">MacBook Screen Repair Delta</a>
+                            <a class="primaryButton read-more" href="<?php echo $url; ?>delta/apple-macbook-screen-replacement-in-delta">MacBook Screen Repair Delta</a>
                         </div>
                     </div>
                 </div>
@@ -97,7 +101,7 @@
                         <p class="text-left">Spilled a coffee on your laptop? Guru Computers provide the best MacBook Liquid Damage Repair in Delta, BC. We at Guru Computers, repair MacBooks of all generation. Best Apple MacBook liquid damage repair in Delta The worst kind
                             of damage to any computer is a liquid spill. If you have spilled liquid ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="./apple-macbook-liquid-damage-repair-delta">MacBook Liquid Damage Repair Delta</a>
+                            <a class="primaryButton read-more" href="<?php echo $url; ?>delta/apple-macbook-liquid-damage-repair-delta">MacBook Liquid Damage Repair Delta</a>
                         </div>
                     </div>
                 </div>
@@ -107,7 +111,7 @@
                         <p class="text-left">Looking for Apple MacBook Logicboard Repair in Delta, BC? At Guru Computers, we repair Apple MacBooks of all generations. Apple MacBook LogicBoard Repair IN Delta Apple Macs are powerful machines in a metallic chassis. They handle
                             a lot of processing and it is made possible by a state-of-the-art logic board. It takes ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="./apple-macbook-logicboard-repair-delta">MacBook Logicboard Repair Delta</a>
+                            <a class="primaryButton read-more" href="<?php echo $url; ?>delta/apple-macbook-logicboard-repair-delta">MacBook Logicboard Repair Delta</a>
                         </div>
                     </div>
                 </div>
@@ -117,7 +121,7 @@
                         <p class="text-left">MacBook keys stop working? Guru Computers provide the best MacBook Keyboard Replacement service in Delta, BC. We here at Guru Computers, repair all kind of MacBooks. Best MacBook keyboard Replacement in Delta At Guru Computers,
                             we replace a lot of keyboards where customers have accidentally spilled a drink on their MacBook keyboard ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="./apple-macbook-keyboard-replacement-delta">MacBook Keyboard Repair Delta</a>
+                            <a class="primaryButton read-more" href="<?php echo $url; ?>delta/apple-macbook-keyboard-replacement-delta">MacBook Keyboard Repair Delta</a>
                         </div>
                     </div>
                 </div>
@@ -140,10 +144,10 @@
     </section>
     <!--  -->
     <!-- footer -->
-    <?php include_once('common/footer.php'); ?>
+    <?php include_once('../common/footer.php'); ?>
     <!--  -->
     <!-- script -->
-    <?php include_once('common/common-js.php'); ?>
+    <?php include_once('../common/common-js.php'); ?>
     <!--  -->
 
 </body>

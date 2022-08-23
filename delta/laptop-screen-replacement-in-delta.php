@@ -2,15 +2,19 @@
 <html lang="en">
 
 <head>
-    <title>Laptop & Apple MacBook Screen Repair</title>
     <!-- Meta & Link Tags -->
-    <?php include_once('common/common-css.php'); ?>
+  <?php
+    $title = '';
+    $keyword  = '';
+    $description  = "";
+    
+    include_once('../common/common-css.php'); ?>
     <!--  -->
 </head>
 
 <body>
     <!-- header -->
-    <?php include_once('common/header.php'); ?>
+    <?php include_once('../common/header.php'); ?>
     <!--  -->
     <!-- Banner -->
     <div class="repairBanner">
@@ -34,11 +38,11 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="assets/images/Laptop-Screen-Replacement.jpg" alt="productImage">
+                        <img src="<?php echo $url; ?>assets/images/Laptop-Screen-Replacement.jpg" alt="productImage">
                     </div>
-                    <p class="text-left"><strong>Laptop screen replacement In Delta – Can we repair your laptop screen?</strong></p>
+                    <p class="text-left">Laptop screen replacement In Delta – Can we repair your laptop screen?</p>
                     <p>When you find any issues in your laptop screen, you can simply bring it to us at Guru Computers and we will fix it for you. We make sure that your computer is working perfectly again with OEM parts installed.</p>
-                    <h2>LOOKING FOR LAPTOP SCREEN REPLACEMENT IN DELTA?</h2>
+                    <h2>Looking For Laptop Screen Replacment In Delta?</h2>
                     <p>At Guru Computers, we have technicians who are well trained to repair a computer of all generations. We carry all parts in stock and can repair your device within a short time frame. You can rely on us for your computer repairs as
                         we will use OEM parts that are most suitable. Guru Computers use genuine A+ grade <a href="https://en.wikipedia.org/wiki/Liquid-crystal_display" target="_blank" rel="noopener dofollow noreferrer">LCD screens</a> for the replacement.
                         We also carry a good inventory of previously enjoyed computers and laptops for sale.</p>
@@ -59,14 +63,14 @@
                     <p>“The work is guaranteed for 90 days.”</p>
                     <h4>Our Other Computer Repair Services:</h4>
                     <ul class="referLink">
-                        <li><a href="./data-recovery-services-delta">Data Recovery Services Delta – Hard Drive Data Recovery</a></li>
-                        <li><a href="./apple-macbook-screen-replacement-in-delta">MacBook Screen Replacement</a></li>
+                        <li><a href="data-recovery-services-delta">Data Recovery Services Delta – Hard Drive Data Recovery</a></li>
+                        <li><a href="apple-macbook-screen-replacement-in-delta">MacBook Screen Replacement</a></li>
                         <li><a href="apple-macbook-keyboard-replacement-delta">MacBook Keyboard Repair</a></li>
-                        <li><a href="./virus-spyware-malware-adware-removal">Computer Malware Removal Delta – Trojan Removal</a></li>
-                        <li><a href="./apple-macbook-logicboard-repair-delta">Apple MacBook Logic Board Repair</a></li>
+                        <li><a href="virus-spyware-malware-adware-removal">Computer Malware Removal Delta – Trojan Removal</a></li>
+                        <li><a href="apple-macbook-logicboard-repair-delta">Apple MacBook Logic Board Repair</a></li>
                     </ul>
                     <div class="productBook">
-                        <a class="primaryButton" href="./contact" target="_self">Book Now</a>
+                        <a class="primaryButton" href="<?php echo $url; ?>contact" target="_self">Book Now</a>
                     </div>
                     <p><iframe loading="lazy" title="Best Apple MacBook Repair Service in Delta &amp; Surrey, BC - Guru Computers" width="640" height="360" src="https://www.youtube.com/embed/OhhJ6pcIUHY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen=""></iframe></p>
@@ -92,10 +96,10 @@
     </section>
     <!--  -->
     <!-- footer -->
-    <?php include_once('common/footer.php'); ?>
+    <?php include_once('../common/footer.php'); ?>
     <!--  -->
     <!-- script -->
-    <?php include_once('common/common-js.php'); ?>
+    <?php include_once('../common/common-js.php'); ?>
     <!--  -->
 </body>
 

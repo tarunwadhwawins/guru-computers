@@ -2,16 +2,19 @@
 <html lang="en">
 
 <head>
-    <!-- Title -->
-    <title>Data Recovery Services Delta - Guru Computers</title>
-    <!-- Meta & Link Tags -->
-    <?php include_once('common/common-css.php'); ?>
+     <!-- Meta & Link Tags -->
+  <?php
+    $title = '';
+    $keyword  = '';
+    $description  = "";
+    
+    include_once('../common/common-css.php'); ?>
     <!--  -->
 </head>
 
 <body>
     <!-- header -->
-    <?php include_once('common/header.php'); ?>
+    <?php include_once('../common/header.php'); ?>
     <!--  -->
     <section class="dataRecoverydelta">
         <!-- Banner -->
@@ -34,15 +37,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <img class="rightimg" src="assets/images/Data-Recovery-Services-Delta.png" alt="">
+                        <img class="rightimg" src="<?php echo $url; ?>assets/images/Data-Recovery-Services-Delta.png" alt="">
                         <h5>Data Recovery Services Delta – Can we recover your data from hard drive?</h5>
                         <p>That’s the first question that comes to mind when you learn that your hard drive has failed. If you are looking for Data Recovery Service in Delta, please visit us at <a href="https://www.gurucomputers.ca/">Guru Computers</a>.
                             We offer data recovery services and we have the equipment to professionally recover data from a failed hard drive.</p>
                         <p>Our technicians are trained in hard drive data recovery process to&nbsp;<a href="https://en.wikipedia.org/wiki/Data_recovery" target="_blank" rel="noopener dofollow noreferrer">recover data</a> from your hard disk and we ensure
                             the integrity of your data when we recover it. It isn’t a simple task hence professional expertise is required. The cost of recovery may vary depending on the extent of the failure, size of the data and the time required to
                             recover it.</p>
-                        <h2>DATA RECOVERY SERVICES DELTA – HARD DRIVE/DISK DATA RECOVERY
-                        </h2>
+                        <h2>Data Recovery Services Delta – Hard Drive/Disk Data Recovery</h2>
                         <p>Even a thought of a failed hard drive sends a chill down our spine, especially when sensitive data is at high risk of losing it forever. While there are many options to recover data, not all are equally secure and cost-effective.</p>
                         <p>Hard drives are the main storage area of all your data including your pictures, files, music, and whatnot. Most of your computer’s components are electronic and can only be damaged by electronic means such as a power surge.</p>
                         <p>Hard drives are the main storage area of all your data including your pictures, files, music, and whatnot. Most of your computer’s components are electronic and can only be damaged by electronic means such as a power surge.</p>
@@ -70,31 +72,31 @@
                         <h4>Our Other Computer Repair Services:</h4>
                         <div class="listing">
                             <ul>
-                                <li><a href="./laptop-screen-replacement-in-delta">Laptop Screen Replacement</a></li>
-                                <li><a href="./virus-spyware-malware-adware-removal">Computer Malware Removal Delta – Trojan Removal – Virus Clean</a></li>
-                                <li><a href="./apple-macbook-keyboard-replacement-delta">MacBook Screen Replacement</a></li>
-                                <li><a href="./apple-macbook-keyboard-replacement-delta">MacBook Keyboard Repair</a></li>
-                                <li><a href="./apple-macbook-logicboard-repair-delta.php">Apple MacBook Logic Board Repair</a></li>
+                                <li><a href="laptop-screen-replacement-in-delta">Laptop Screen Replacement</a></li>
+                                <li><a href="virus-spyware-malware-adware-removal">Computer Malware Removal Delta – Trojan Removal – Virus Clean</a></li>
+                                <li><a href="apple-macbook-keyboard-replacement-delta">MacBook Screen Replacement</a></li>
+                                <li><a href="apple-macbook-keyboard-replacement-delta">MacBook Keyboard Repair</a></li>
+                                <li><a href="apple-macbook-logicboard-repair-delta.php">Apple MacBook Logic Board Repair</a></li>
                             </ul>
                         </div>
-                        <a href="./contact" target="_self" rel="noopener noreferrer"> <button class="primaryButton"> Book Now
+                        <a href="<?php echo $url; ?>contact" target="_self" rel="noopener noreferrer"> <button class="primaryButton"> Book Now
                         </button></a>
-                        <?php include_once('common/youtubevideo.php'); ?>
+                        <?php include_once('../common/youtubevideo.php'); ?>
                         <h4>GET DIRECTIONS fOR Data Recovery Services Delta</h4>
-                        <?php include_once('common/map.php'); ?>
+                        <?php include_once('../common/map.php'); ?>
                     </div>
                 </div>
             </div>
     </section>
     <!--  -->
     <!-- any query -->
-    <?php include_once('common/any-query.php'); ?>
+    <?php include_once('../common/any-query.php'); ?>
     <!--  -->
     <!-- footer -->
-    <?php include_once('common/footer.php'); ?>
+    <?php include_once('../common/footer.php'); ?>
     <!--  -->
     <!-- script -->
-    <?php include_once('common/common-js.php'); ?>
+    <?php include_once('../common/common-js.php'); ?>
     <!--  -->
 </body>
 
