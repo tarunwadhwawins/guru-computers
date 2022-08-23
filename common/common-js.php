@@ -1,9 +1,9 @@
 <!-- script -->
-<script src="./assets/js/jquery-min.js"></script>
-<script src="./assets/js/cloudflare_jquery.min.js"></script>
-<script src="./assets/js/bootstrap.bundle.min.js"></script>
-<script src="./assets/js/owl.carousel.min.js"></script>
-<script src="./assets/form-validator/jquery.form-validator.js"></script>
+<script src="<?php echo $url; ?>assets/js/jquery-min.js"></script>
+<script src="<?php echo $url; ?>assets/js/cloudflare_jquery.min.js"></script>
+<script src="<?php echo $url; ?>assets/js/bootstrap.bundle.min.js"></script>
+<script src="<?php echo $url; ?>assets/js/owl.carousel.min.js"></script>
+<script src="<?php echo $url; ?>assets/form-validator/jquery.form-validator.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/jquery.inputmask.bundle.min.js"></script>
 
 <script>
