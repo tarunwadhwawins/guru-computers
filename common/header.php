@@ -1,10 +1,9 @@
-
-  <?php
+<?php
    $current_page = $_SERVER['REQUEST_URI']; 
    //	echo $current_page; die;
    ?>
 <!-- header -->
-<header >
+<header>
     <!-- Navbar -->
     <div class="container-fluid-lg">
         <nav class="navbar navbar-expand-xl">
@@ -18,10 +17,10 @@
            </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <ul class="d-flex align-items-center navbar-nav m-auto">
-                    <li class="nav-item  ">
-                        <a class="nav-link " href="index">Home</a>
+                    <li class="nav-item  <?php echo $current_page == '/index.php' ? 'active':'' ?>">
+                        <a class="nav-link" href="index">Home</a>
                     </li>
-                    <li class="nav-item  dropdown mainDropdown">
+                    <li class="nav-item <?php echo $current_page == '/index' ? 'active':'' ?> dropdown mainDropdown">
                         <a href="./services-offered" class="nav-link ">Computer Repair <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                         <ul class="dropdown-menu mainMenu">
                             <li class="nav-item dropdown subMenuDropdown"><a href="" class=" nav-link dropdown-item" aria-expanded="false">MacBook Repair </a>
@@ -54,7 +53,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item  dropdown repairDropdown">
+                    <li class="nav-item <?php echo $current_page == '/index' ? 'active':'' ?> dropdown repairDropdown">
                         <a href="#" class="nav-link" data-bs-toggle="dropdown">Repair By Brands <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                         <ul class="dropdown-menu repairMenu">
                             <li class="nav-item dropdown subMenuDropdown"> <a href="" class=" nav-link dropdown-item" aria-expanded="false">Apple</a>
@@ -78,11 +77,10 @@
                 </ul>
                 <div class="detailed d-flex flex-column">
                     <a href="tel:+91-708-708-7356" data-bs-toggle="tooltip" data-bs-placement="top" title="On-Call"> <i class="fa fa-phone" aria-hidden="true"></i> +1 (604) 256-2193</a>
-
                     <a href="mailto:abs@gmail.com " data-bs-toggle="tooltip" data-bs-placement="top" title="to-mail" class="guruImagelink d-flex"> <i class="fa fa-envelope" aria-hidden="true"></i><img src="assets/images/Guru-Top-img.png" alt="guruimagelink"></a>
-
                 </div>
             </div>
+            
         </nav>
     </div>
 </header>

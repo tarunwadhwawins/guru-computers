@@ -229,6 +229,163 @@
                                 <span class="title">Pardeep Sahota</span>
                             </div>
                         </div>
+                        <!-- ---------------- -->
+                        <div class="quickService">
+                            <p class="text-center m-0">Amazing customer service! Prior to going to Guru Computers. I had&nbsp; taken my coffee damaged laptop to another repair shop, where they did not only lie to me on several occasions but also over-charged me. Once Sukh heard about how i was treated at the OTHER establishment, he made sure that i was given great and affordable service. He did not charge me for his labour(even when repairs ended up taking much longer) and was great at staying in contact and keeping me updated. Without a doubt i will be recommending Guru Computers to all my friends. </p>
+                            <div class="ratingIcon text-center">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="testimonialProfile">
+                                <span class="title">Tegan</span>
+                            </div>
+                        </div>
+                        <div class="quickService">
+                            <p class="text-center m-0">Desktop had a memory leak. It was time to get SSD anyways to improve speed. Guru Computers put in an SSD, setup Windows 10 and restored my data very quickly. They followed up with a tip to further improve performance after I had picked it up. Boosted my boot speeds even further. Reasonable price, great service! </p>
+                            <div class="ratingIcon text-center">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="testimonialProfile">
+                                <span class="title">Harj Sangha</span>
+                            </div>
+                        </div>
+                        <div class="quickService">
+                            <p class="text-center m-0">Sukh went an extra mile to help me! Great people and great services. Charges are reasonable </p>
+                            <div class="ratingIcon text-center">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="testimonialProfile">
+                                <span class="title">Sakshi Gogia</span>
+                            </div>
+                        </div>
+                        <div class="quickService">
+                            <p class="text-center m-0">I can't believe my MacBook Pro is working after water damage. Apple wanted $850 to fix it and Guru Computers fixed it in half the price . Very affordable and quick service .Thanks a lot Guru. </p>
+                            <div class="ratingIcon text-center">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="testimonialProfile">
+                                <span class="title">Bipneet Singh</span>
+                            </div>
+                        </div>
+                        <div class="quickService">
+                            <p class="text-center m-0">I can see why they have good reviews. I brought my old Apple Macbook Pro 13" with failing to boot issue. Apple told me this cannot be fixed and pitched in a $1600 Macbook Retina. My friend referred me to Guru Computers and I found them to be very honest people willing to help me and save money. Not only they upgraded my Macbook with a fast storage drive, I am able to use the same machine and it only costed me $250. Seriously...go see these guys. You'll be glad you did. I couldn't remember the gentleman's name that I dealt with but he is the big and tall guy. Thank you for your good work. </p>
+                            <div class="ratingIcon text-center">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="testimonialProfile">
+                                <span class="title">Ammy Deol</span>
+                            </div>
+                        </div>
+                        <div class="quickService">
+                            <p class="text-center m-0">I took in a laptop that had hot chocolate spilled on it. I was expecting the worst case scenario however Guru Computers was able to clean it out and get it working again. They also repaired a broken hinge for&nbsp; the screen. I am most impressed with the level of honesty and service that were provided. Will be going back there when the time comes. </p>
+                            <div class="ratingIcon text-center">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="testimonialProfile">
+                                <span class="title">Aaron Turner</span>
+                            </div>
+                        </div>
+                        <div class="quickService">
+                            <p class="text-center m-0">I needed my son's pictures which were stuck in my water damaged laptop. I&nbsp; can't believe they fixed it !! . I have all my pictures now. I got my life back . I can't thank them enough. Thank&nbsp; you for everything. </p>
+                            <div class="ratingIcon text-center">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="testimonialProfile">
+                                <span class="title">T J Kaur</span>
+                            </div>
+                        </div>
+                        <div class="quickService">
+                            <p class="text-center m-0">They went the extra mile to help me with my broken laptop! Im so greatful for there excellent customer service! And thankful for there kindness. </p>
+                            <div class="ratingIcon text-center">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="testimonialProfile">
+                                <span class="title">Ann Anderson</span>
+                            </div>
+                        </div>
+                        <div class="quickService">
+                            <p class="text-center m-0">Chose to try out Guru Computers based on online reviews, and i'm glad i did . Saved me So&nbsp; much money from what Apple were charging and completed the work super fast&nbsp; - Apple only replace don't repair and take much longer . Very happy with my experiences with this store. Not Planning to use them again as i hape for no more accidents ! But have already recommended them to others.</p>
+                            <div class="ratingIcon text-center">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="testimonialProfile">
+                                <span class="title">Mary Hart</span>
+                            </div>
+                        </div>
+                        <div class="quickService">
+                            <p class="text-center m-0">I run a security business where I am constantly updating schedules. Last weekend, my MacBook choked out on me. It would have cost me a lot of grief if I was not able to get my MacBook repaired. Guru Computers came to my rescue. Not only they replaced the hard drive and restored my data, they enabled me to complete payroll for 35 employees on time. Thank you for your expertise and affordable service.</p>
+                            <div class="ratingIcon text-center">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="testimonialProfile">
+                                <span class="title">Manraj</span>
+                            </div>
+                        </div>
+                        <div class="quickService">
+                            <p class="text-center m-0">Had problems with two laptops the guys at the shop fixed for such a great deal but most of all were honest thank you for the amazing service will highly recommend to anyone with computer issues to come here first.</p>
+                            <div class="ratingIcon text-center">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="testimonialProfile">
+                                <span class="title">Suki D</span>
+                            </div>
+                        </div>
+                        <div class="quickService">
+                            <p class="text-center m-0">I spoke with and met with Sukh at Guru Computers and Cell Phones about my dead computer hard drive. He at all times treated me with great respect and even friendliness . Not only did he quickly replace the dead hard drive with a brand new blisteringly fast solid state drive,but he also repeatedly went beyond the call of duty to try to recorrect the data from the old drive (and he didn't charge for any of it) . I unreservedly recommend them to you . You will not&nbsp; be disappointed.Great Service !!</p>
+                            <div class="ratingIcon text-center">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="testimonialProfile">
+                                <span class="title">ian wylie</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
