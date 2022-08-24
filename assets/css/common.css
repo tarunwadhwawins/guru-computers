@@ -95,6 +95,13 @@ p {
   color: #f15a24;
 }
 
+.textt {
+  color: #aaa;
+}
+.textt:hover {
+  color: #f15a24;
+}
+
 .primaryButton {
   font-size: 16px;
   padding: 10px 18px;

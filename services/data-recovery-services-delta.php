@@ -39,7 +39,7 @@
                     <div class="col-sm-12">
                          <div class="productContent"><img src="<?php echo $url; ?>assets/images/Data-Recovery-Services-Delta.png" alt="laptopimage"></div>
                         <h5>Data Recovery Services Delta – Can we recover your data from hard drive?</h5>
-                        <p>That’s the first question that comes to mind when you learn that your hard drive has failed. If you are looking for Data Recovery Service in Delta, please visit us at <a href="https://www.gurucomputers.ca/">Guru Computers</a>.
+                        <p>That’s the first question that comes to mind when you learn that your hard drive has failed. If you are looking for Data Recovery Service in Delta, please visit us at <a href="<?php echo $url; ?>">Guru Computers</a>.
                             We offer data recovery services and we have the equipment to professionally recover data from a failed hard drive.</p>
                         <p>Our technicians are trained in hard drive data recovery process to&nbsp;<a href="https://en.wikipedia.org/wiki/Data_recovery" target="_blank" rel="noopener dofollow noreferrer">recover data</a> from your hard disk and we ensure
                             the integrity of your data when we recover it. It isn’t a simple task hence professional expertise is required. The cost of recovery may vary depending on the extent of the failure, size of the data and the time required to

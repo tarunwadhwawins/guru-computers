@@ -25,10 +25,10 @@
                     <p> Keyboard replacement starting at $175 onwords.</p>
                     <a href="<?php echo $url; ?>contact" class=" primaryButton">Call Now!</a>
                 </div>
-                <img src="assets/images/keyboardreplacement.jpg" alt="bannerimage">
+                <img src="<?php echo $url; ?>assets/images/keyboardreplacement.jpg" alt="bannerimage">
             </div>
             <div class="slider">
-                <img src="assets/images/liquiddamage2.jpg" alt="bannerimage">
+                <img src="<?php echo $url; ?>assets/images/liquiddamage2.jpg" alt="bannerimage">
                 <div class="bannerText d-flex align-items-center flex-column">
                     <label>Spilled liquid?</label>
                     <p>Liquid damage repair starting at $110 onwards. </p>
@@ -36,7 +36,7 @@
                 </div>
             </div>
             <div class="slider">
-                <img src="assets/images/logicboard2.jpg" alt="bannerimage">
+                <img src="<?php echo $url; ?>assets/images/logicboard2.jpg" alt="bannerimage">
                 <div class="bannerText d-flex align-items-center flex-column">
                     <label>Need a Logicboard repair?</label>
                     <p>Logicboard repair service comes with 90 days warranty.</p>
@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="slider">
-                <img src="assets/images/screenreplacement.jpg" alt="bannerimage">
+                <img src="<?php echo $url; ?>assets/images/screenreplacement.jpg" alt="bannerimage">
                 <div class="bannerText d-flex align-items-center flex-column">
                     <label>cracked or shattered screens?</label>
                     <p> Screen replacement starting at $200 onwards.</p>

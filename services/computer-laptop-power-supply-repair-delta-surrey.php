@@ -43,7 +43,7 @@
                     <p>Looking for computer power supply repair in Delta and Surrey? Guru Computers can help you with that. A <a href="https://en.wikipedia.org/wiki/Power_supply_unit_(computer)" target="_blank" rel="noopener noreferrer dofollow">power supply</a>                        unit is the backbone of a computer. It supplies specific voltage to various components of a computer or a laptop. If a power supply malfunctions, you may have a non-working computer. Many times, a failing power supply is the only
                         reason for a dead/non-working computer. Fortunately, these are easy to repair or replace. </p>
                     <h2>Computer Power Supply Repair in Delta and Surrey</h2>
-                    <p>At <a href="https://www.gurucomputers.ca/">Guru Computers</a> , we repair almost any type of computer, laptops, <a href="https://www.apple.com/in/imac/" target="_blank" rel="noopener noreferrer">iMacs</a> , and MacBooks. We are located
+                    <p>At <a href="<?php echo $url; ?>" >Guru Computers</a> , we repair almost any type of computer, laptops, <a href="https://www.apple.com/in/imac/" target="_blank" rel="noopener noreferrer">iMacs</a> , and MacBooks. We are located
                         on 86<sup>th</sup> Avenue, Scott Rd in Delta. Guru Computers also provide same day repair services for common issues. If your laptop is having a power supply unit problem, then visit Guru Computers for quick repair service. </p>
                     <h3>Why should you choose Guru Computers For Power Supply Replacement?</h3>
                     <p>Guru Computers specializes in repair with liquid damage, low-performance PCs, Screen repairs, DC power jack replacement, recovery of data, OS installations, virus and malware removals, and upgrading configurations. We also provide
@@ -66,7 +66,7 @@
                         <li><a href="<?php echo $url; ?>services/Laptop Screen Repair In Surrey">Laptop Screen Repair In Surrey</a></li>
                     </ul>
                     <div class="productBook">
-                        <a class="primaryButton" href="<?php echo $url; ?>contact" target="_blank">Book Now</a>
+                        <a class="primaryButton" href="<?php echo $url; ?>contact" target="_self">Book Now</a>
                     </div>
                     <?php include_once('../common/youtubevideo.php'); ?>
                     <h4>Get Directions For iMac Repair in Delta</h4>

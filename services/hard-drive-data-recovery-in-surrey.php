@@ -52,9 +52,9 @@
                             drive. Our technicians are trained in hard drive data recovery process to recover data from your hard disk and we ensure the integrity of your data when we recover it.</p>
                         <h3>Our Other Computer Repair Services:</h3>
                         <ul class="referLink">
-                                <li><a href="macbook-liquid-damage-repair-surrey">Liquid Damage Repair</a></li>
-                                <li><a href="macbook-keyboard-replacement-surrey">MacBook Keyboard Repair</a></li>
-                                <li><a href="macbook-logic-board-repair-surrey">Apple MacBook Logic Board Repair</a></li>
+                                <li><a href="<?php echo $url; ?>surrey/macbook-liquid-damage-repair-surrey">Liquid Damage Repair</a></li>
+                                <li><a href="<?php echo $url; ?>surrey/macbook-keyboard-replacement-surrey">MacBook Keyboard Repair</a></li>
+                                <li><a href="<?php echo $url; ?>surrey/macbook-logic-board-repair-surrey">Apple MacBook Logic Board Repair</a></li>
                                 <li><a href="virus-malware-trojan-removal-surrey">Virus Removal In Surrey</a></li>
                                 <li><a href="macbook-screen-replacement-surrey">MacBook Screen Replacement</a></li>
                                 <li><a href="hard-drive-data-recovery-in-surrey">Data Recovery Services Surrey</a></li>

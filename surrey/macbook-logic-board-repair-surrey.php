@@ -35,10 +35,10 @@
                     <div class="productContent">
                         <img src="<?php echo $url; ?>assets/images/logicboardservice.png" alt="productImage">
                     </div>
-                    <p>You might be looking for Apple MacBook logic board repair service in <a href="https://gurucomputers.ca/macbook-repair-surrey/"><span class="textt">Surrey </span></a> , BC? Then you must visit the Guru Computers. We here at Guru Computers,
+                    <p>You might be looking for Apple MacBook logic board repair service in <a href="https://gurucomputers.ca/macbook-repair-surrey/" target="_blank"><span class="textt">Surrey </span></a> , BC? Then you must visit the Guru Computers. We here at Guru Computers,
                         repair all kind of MacBooks.</p>
                     <h2>Apple Macbook Logic Board Repair Surrey</h2>
-                    <p> Apple <a href="https://www.apple.com/in/macbook/"><span class="textt">MacBook </span></a> is a powerful machine in a metallic chassis. They handle a lot of processing and it is made possible by a state-of-the-art logic board and ventilation
+                    <p> Apple <a href="https://www.apple.com/in/macbook/" target="_blank"><span class="textt">MacBook </span></a> is a powerful machine in a metallic chassis. They handle a lot of processing and it is made possible by a state-of-the-art logic board and ventilation
                         system. It takes a lot for the logic board to perform at its peak. Accidental drops, liquid spills and overheating are common issues with these machines. If your MacBook or iMac is not working and you have been told it is unfixable
                         or it costs too much money, we got you covered.</p>
                     <p> Our experts at <a href="<?php echo $url; ?>contact"><span class="textt">Guru Computers</span></a> have all the tools required to deal with logic board repairs. We check the Apple logic board under a microscope and measure the values of various components.

@@ -37,11 +37,11 @@
                     </div>
                     <p>MacBook keys stop working? Guru Computers provide the best MacBook Keyboard Replacement service in <a href="macbook-repair-delta"><span class="textt">Delta </span></a> , BC. We here at Guru Computers, repair all kind of MacBooks.</p>
                     <h2>Best Macbook Keyboard Replacement In Delta</h2>
-                    <p>At Guru Computers, we replace a lot of keyboards where customers have accidentally spilled a drink on their <a href="https://www.apple.com/in/macbook/"><span class="textt">MacBook </span></a> keyboard while working on it. liquid spills
+                    <p>At Guru Computers, we replace a lot of keyboards where customers have accidentally spilled a drink on their <a href="https://www.apple.com/in/macbook/" target="_blank"><span class="textt">MacBook </span></a> keyboard while working on it. liquid spills
                         can cause a lot of damage if it penetrates to the MacBook logic board. The device continues to work for a while and eventually, it becomes unusable.</p>
                     <p> Accidental spillage must be cleaned properly. Besides water damage, our little ones can sometimes decide to play with the laptop and rip some keys apart. Those tiny keys are very hard to put back and would require a complete keyboard
                         replacement. Not to worry, we have you covered for that.</p>
-                    <p>We have a huge inventory of OEM <a href="https://en.wikipedia.org/wiki/Computer_keyboard"><span class="textt">keyboards</span> </a> for most models of Apple MacBook and we offer same day service. Most keyboard replacements cost less
+                    <p>We have a huge inventory of OEM <a href="https://en.wikipedia.org/wiki/Computer_keyboard" target="_blank"><span class="textt">keyboards</span> </a> for most models of Apple MacBook and we offer same day service. Most keyboard replacements cost less
                         than $200 except a few higher-end models which require a battery to be taken apart. For an exact quote, please bring the device to the store or call one of our experts with a model no and a serial no of the device. </p>
                     <h3>Our Other Computer Repair Services In Delta</h3>
                     <div class="product-listing">

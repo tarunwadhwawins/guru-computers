@@ -34,7 +34,7 @@
                     <div class="logicBoards">
              <p> Computer not working? You are at risk of not meeting a deadline because of a non-working computer? Stop searching further and call Guru Computers at 604-256-2193. Our team of experts is by far the most experienced team when it comes to computer repairs. From non-working computers to windows error codes or slow performance we are Surrey’s number 1 choice for computer repairs.  Get back into the business without breaking a bank. We are able to fix most of the computers in a timely manner and eventually help our customers save thousands of dollars invested in new computers.</p>
                         <div class="repairBtton">
-                            <a class="primaryButton" href="javascript:void(0)">Computer Repair Services</a>
+                            <a class="primaryButton" href="#services">Computer Repair Services</a>
                         </div>
                     </div>
                 </div>
@@ -109,7 +109,7 @@
                 </div>
                 <!-- ----------------------------------------- -->
                 <div class="col-lg-6 col-md-12 col-sm-12 pb-5">
-                    <div class="logicboardRepair">
+                    <div class="logicboardRepair" id="services">
                         <h3>Dell Laptop Repair</h3>
                         <p class="text-left">Dell doesn’t need any introduction as it is well-accepted PC manufacturing brand in North America and offers an impressive lineup of Inspiron laptops, XPS gaming laptops and Latitude series for the home and small business segment. At Guru Computers, we repair all versions of Dell laptops/computers here.
                         Dell Laptop Repair in ...</p>

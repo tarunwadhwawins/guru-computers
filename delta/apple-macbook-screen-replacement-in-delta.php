@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-  <!-- Meta & Link Tags -->
-  <?php
+    <!-- Meta & Link Tags -->
+    <?php
     $title = '';
     $keyword  = '';
     $description  = "";
     
     include_once('../common/common-css.php'); ?>
-    <!--  -->
+        <!--  -->
 </head>
 
 <body>
@@ -38,17 +38,17 @@
                     <p>MacBook screen cracked or shattered? Guru Computers provide the best MacBook Screen Replacement in <a href="apple-macbook-screen-replacement-in-delta"><span class="textt">Delta </span></a> , BC. At Guru Computers, we repair MacBooks
                         of all generations.</p>
                     <h2>Apple Macbook Screen Replacement In Delta</h2>
-                    <p>At Guru Computers, we do things the right way. The most common repair on an Apple <a href="https://www.apple.com/in/macbook-pro/"><span class="textt"> MacBook</span></a> or a Windows laptop is LCD retina replacement. It may have cracked,
-                        or you see vertical lines on it. </p>
+                    <p>At Guru Computers, we do things the right way. The most common repair on an Apple <a href="https://www.apple.com/in/macbook-pro/" target="_blank"><span class="textt"> MacBook</span></a> or a Windows laptop is LCD retina replacement.
+                        It may have cracked, or you see vertical lines on it. </p>
                     <p>Do not worry as we have the tools and experience to restore your device to its original state within a short time frame. You can rely on Guru Computers to offer competitive pricing on
-                        <a href="https://en.wikipedia.org/wiki/Original_equipment_manufacturer"><span class="textt"> OEM </span></a> parts that are most suitable for your device. </p>
+                        <a href="https://en.wikipedia.org/wiki/Original_equipment_manufacturer" target="_blank"><span class="textt"> OEM </span></a> parts that are most suitable for your device. </p>
 
                     <h3>We Can Help With The Following Repairs:</h3>
                     <div class="product-listing">
                         <ul>
                             <li>Screen repair for the cracked screen on Apple Macbook.</li>
                             <li>Display repair for Lines in MacBook Screen.</li>
-                            <li>Dim <a href="https://en.wikipedia.org/wiki/Liquid-crystal_display"><span class="textt-theme"> LCD screen </span></a> due to liquid damage.</li>
+                            <li>Dim <a href="https://en.wikipedia.org/wiki/Liquid-crystal_display" target="_blank"><span class="textt-theme"> LCD screen </span></a> due to liquid damage.</li>
                         </ul>
                     </div>
                     <h3>Our Other Computer Repair Services In Delta</h3>

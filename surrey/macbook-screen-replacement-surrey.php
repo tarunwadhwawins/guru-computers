@@ -35,21 +35,21 @@
                     <div class="productContent">
                         <img src="<?php echo $url; ?>assets/images/delta/screen-replacementservice.jpg" alt="productImage">
                     </div>
-                    <p>Cracked MacBook screen? Guru Computers provide the best MacBook screen replacement service in <a href="./macbook-repair-surrey"><span class="textt">Surrey </span></a> , BC. We repair all generations of MacBooks.</p>
+                    <p>Cracked MacBook screen? Guru Computers provide the best MacBook screen replacement service in <a href="<?php echo $url; ?>services/macbook-repair-surrey"><span class="textt">Surrey </span></a> , BC. We repair all generations of MacBooks.</p>
                     <h2>Apple MacBook Screen Replacement Surrey</h2>
-                    <p>The most common repair for Apple <a href="https://www.apple.com/in/macbook-pro/"><span class="textt">MacBook </span></a> is LCD screen replacement. These are high-quality screens, however, are susceptible to accidental damages. Accidental
+                    <p>The most common repair for Apple <a href="https://www.apple.com/in/macbook-pro/" target="_blank"><span class="textt">MacBook </span></a> is LCD screen replacement. These are high-quality screens, however, are susceptible to accidental damages. Accidental
                         drops may cause vertical lines on the screen or it can go completely blank.</p>
                     <p> At Guru Computers we have high-quality OEM screens and display assemblies in stock, and we can restore your device to its original state within a short time frame. You can rely on Guru Computers to offer competitive pricing on OEM
                         parts that are most suitable for your device.</p>
-                    <h3>WE CAN HELP WITH THE FOLLOWING REPAIRS:</h3>
+                    <h3>We Can Help With The Following Repairs:</h3>
                     <div class="product-listing">
                         <ul>
-                            <li> Screen replacement for Lines in Apple MacBook <a href="https://en.wikipedia.org/wiki/Retina_display"><span class="textt-theme">Retina display.</span></a></li>
+                            <li> Screen replacement for Lines in Apple MacBook <a href="https://en.wikipedia.org/wiki/Retina_display" target="_blank"><span class="textt-theme">Retina display.</span></a></li>
                             <li>Screen replacement for a cracked screen on Apple Macbook.</li>
                             <li>Dim LCD screen due to liquid damage.</li>
                         </ul>
                     </div>
-                    <h3>OUR OTHER COMPUTER REPAIR SERVICES IN SURREY</h3>
+                    <h3>Our Other Computer Repair Services In Surrey</h3>
                     <div class="product-listing">
                         <ul>
                             <li><a href="macbook-logic-board-repair-surrey"><span class="textt-theme"> MacBook Logic Board Repair Surrey </span></a></li>

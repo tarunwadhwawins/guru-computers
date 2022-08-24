@@ -39,7 +39,7 @@
                         fix all generations of MacBooks.
                     </p>
                     <h2>apple macbook keyboard replacement surrey</h2>
-                    <p> Apple <a href="https://www.apple.com/in/macbook-pro/"><span class="textt">MacBook </span></a> is designed with great quality keyboard however, sometimes a liquid spill can cause damage and leave it completely unusable or partially
+                    <p> Apple <a href="https://www.apple.com/in/macbook-pro/" target="_blank"><span class="textt">MacBook </span></a> is designed with great quality keyboard however, sometimes a liquid spill can cause damage and leave it completely unusable or partially
                         usable. A
                         <a href="macbook-liquid-damage-repair-surrey"><span class="textt">liquid spill </span></a> can also cause damage if it penetrates to the MacBook logic board so it must be cleaned immediately. Besides liquid damage, our little
                         ones can rip some keys apart. Those tiny keys are very hard to put back and would require a complete keyboard replacement.</p>

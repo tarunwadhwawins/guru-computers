@@ -39,14 +39,14 @@
                     <h2>Best Apple Macbook Liquid Damage Repair In Delta</h2>
                     <p>The worst kind of damage to any computer is a liquid spill. If you have spilled liquid and have been told it is unfixable or it costs too much money, we got your covered. Don’t use a hair dryer or dump it in a box full of rice to dry
                         it out. Liquid damage should be dealt with immediately to improve the chances of restoring your device. </p>
-                    <p>Whatever you do, do not turn it ON. Applying power may cause irreversible damage to the <a href="https://en.wikipedia.org/wiki/Motherboard"><span class="textt"> logic board </span></a> . There are a lot of integrated circuits, capacitors,
+                    <p>Whatever you do, do not turn it ON. Applying power may cause irreversible damage to the <a href="https://en.wikipedia.org/wiki/Motherboard" target="_blank"><span class="textt"> logic board </span></a> . There are a lot of integrated circuits, capacitors,
                         and coils regulating the power to different components on a logic board. Each component requires a different range of voltage to operate ranging from 1.5 volts to 20+ volts. This is where we offer our experience and expertise and
                         we specialize in liquid damage repairs. </p>
 
                     <h3>We Can Help With The Following Repairs:</h3>
                     <div class="product-listing">
                         <ul>
-                            <li>Apple <a href="https://www.apple.com/in/macbook/"><span class="textt-theme">  MacBook </span></a> not turning ON due to liquid damage.</li>
+                            <li>Apple <a href="https://www.apple.com/in/macbook/" target="_blank"><span class="textt-theme">  MacBook </span></a> not turning ON due to liquid damage.</li>
                             <li>MacBook fan spinning at high speed after liquid damage.</li>
                             <li>Apple MacBook is not charging after liquid damage.</li>
                         </ul>

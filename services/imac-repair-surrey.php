@@ -40,12 +40,12 @@
                     <div class="productContent">
                         <img src="<?php echo $url; ?>assets/images/iMac-Repair-Delta-Surrey-1.png" alt="productImage">
                     </div>
-                    <p>Apple <a href="https://en.wikipedia.org/wiki/IMac"><span class="textt">iMac </span></a>
+                    <p>Apple <a href="https://en.wikipedia.org/wiki/IMac" target="_blank"><span class="textt">iMac </span></a>
                         is a popular choice for a lot of home and business users. Needless to say, these are powerful and  very well-built machines   with a sleek and elegant design.  It has everything you want in a beautiful looking computer </p>
                     <h2>iMac repairs in surrey – iMac Repair Service</h2>
                     <p>Just like any other computer, iMacs require repairs after they are put to good use. The most common repairs are power supply not working, memory and SSD upgrade and fan replacement. Most of the new generation Apple iMacs are not designed to be opened and repaired. However, we have a solution for you. </p>
                     <h3>Why Guru Computers?</h3>
-                    <p> At Guru Computers in Surrey, you don’t have to spend thousands of dollars  on memory and  <a href="https://en.wikipedia.org/wiki/Solid-state_drive" rel="">SSD upgrades.</a> We keep customers first in everything we do, and we have the tools and expertise to repair your iMac machine. Our SSD and memory upgrade services are very affordable and we go through a lot of them on a weekly basis.</p>
+                    <p> At Guru Computers in Surrey, you don’t have to spend thousands of dollars  on memory and  <a href="https://en.wikipedia.org/wiki/Solid-state_drive" target="_blank" rel="">SSD upgrades.</a> We keep customers first in everything we do, and we have the tools and expertise to repair your iMac machine. Our SSD and memory upgrade services are very affordable and we go through a lot of them on a weekly basis.</p>
                     <p>We have a high success rate and have managed hundreds of repairs without damaging the screens. For us, it is not just about fixing computers, it is about making a difference. We take pride in suggesting the most affordable value for money options available at the time. Our recommendations are based on your requirements and computer usage and our customer’s satisfaction scores vouch for that.</p>
                     <h3>Other Computer Repair Services In Surrey:</h3>
                     <ul class="referLink">

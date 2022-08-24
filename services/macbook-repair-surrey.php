@@ -86,8 +86,8 @@
                     <div class="logicboardRepair">
                         <h3>MacBook Screen Replacement In Surrey</h3>
                         <p class="text-left">Cracked MacBook screen? Guru Computers provide the best MacBook screen replacement service in Surrey, BC. We repair all generations of MacBooks.
-Apple MacBook Screen Replacement Surrey
-The most common repair for Apple MacBook is LCD screen replacement. These are high-quality screens, however, are susceptible to accidental damages. Accidental drops may cause vertical ...</p>
+                        Apple MacBook Screen Replacement Surrey
+                        The most common repair for Apple MacBook is LCD screen replacement. These are high-quality screens, however, are susceptible to accidental damages. Accidental drops may cause vertical ...</p>
                         <div class="repairButtonn">
                             <a class="primaryButton read-more" href="<?php echo $url; ?>surrey/macbook-screen-replacement-surrey">MacBook Screen Replacement Surrey</a>
                         </div>
@@ -97,8 +97,8 @@ The most common repair for Apple MacBook is LCD screen replacement. These are hi
                     <div class="logicboardRepair">
                         <h3>MacBook Logic Board Repair Surrey</h3>
                         <p class="text-left">You might be looking for Apple MacBook logic board repair service in Surrey, BC? Then you must visit the Guru Computers. We here at Guru Computers, repair all kind of MacBooks.
-Apple Macbook Logic Board Repair Surrey
-Apple MacBook is a powerful machine in a metallic chassis. They handle a lot of ...</p>
+                        Apple Macbook Logic Board Repair Surrey
+                        Apple MacBook is a powerful machine in a metallic chassis. They handle a lot of ...</p>
                         <div class="repairButtonn">
                             <a class="primaryButton read-more" href="<?php echo $url; ?>surrey/macbook-logic-board-repair-surrey">MacBook Motherboard Repair Surrey</a>
                         </div>
@@ -108,8 +108,8 @@ Apple MacBook is a powerful machine in a metallic chassis. They handle a lot of 
                     <div class="logicboardRepair">
                         <h3>MacBook Liquid Damage Repair Surrey</h3>
                         <p class="text-left">Spilled a coffee/liquid on your laptop? Guru Computers provide the best MacBook liquid damage repair service in Surrey, BC. We repair all generations of MacBooks.
-Apple MacBook liquid Damage Repair Surrey
-Liquid damage is the worst damage to any electronic device. If you have spilled liquid don’t use a hair dryer or ...</p>
+                                    Apple MacBook liquid Damage Repair Surrey
+                        Liquid damage is the worst damage to any electronic device. If you have spilled liquid don’t use a hair dryer or ...</p>
                         <div class="repairButtonn">
                             <a class="primaryButton read-more" href="<?php echo $url; ?>surrey/macbook-liquid-damage-repair-surrey">MacBook Water Damage Repair Surrey</a>
                         </div>
@@ -119,8 +119,8 @@ Liquid damage is the worst damage to any electronic device. If you have spilled 
                     <div class="logicboardRepair">
                         <h3>MacBook Keyboard Replacement In Surrey</h3>
                         <p class="text-left">Did your laptop keys just stop working? Guru Computers provide the best Apple MacBook Keyboard Replacement service in Surrey, BC. We here at Guru Computers, fix all generations of MacBooks.
-Apple MacBook Keyboard Replacement Surrey
-Apple MacBook is designed with great quality keyboard however, sometimes a liquid spill can cause damage and ...</p>
+                            Apple MacBook Keyboard Replacement Surrey
+                            Apple MacBook is designed with great quality keyboard however, sometimes a liquid spill can cause damage and ...</p>
                         <div class="repairButtonn">
                             <a class="primaryButton read-more" href="<?php echo $url; ?>surrey/macbook-keyboard-replacement-surrey">MacBook Keyboard Replacement Surrey</a>
                         </div>

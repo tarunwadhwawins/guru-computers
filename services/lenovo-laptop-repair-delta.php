@@ -61,7 +61,7 @@
                             perform at an optimum level. At Guru Computers, we have memory in stock, and we can offer on the spot upgrade. The price varies with the brand and the amount of RAM you need to upgrade. Please bring in your device for a quick
                             assessment and a quote.</p>
                         <h3>Lenovo Keyboard Replacement/Repair</h3>
-                        <p>You may have broken keys or non-working keys due to <a href="apple-macbook-liquid-damage-repair-delta" target="_self" rel="noopener noreferrer">liquid spillage</a> on your keyboard. This will require a keyboard replacement for
+                        <p>You may have broken keys or non-working keys due to <a href="<?php echo $url; ?>delta/apple-macbook-liquid-damage-repair-delta" rel="noopener noreferrer">liquid spillage</a> on your keyboard. This will require a keyboard replacement for
                             the keyboard to function properly. Don’t worry, we have you covered. You can bring your Lenovo Laptop to our store on Scott road and Delta for a quick assessment and a quote. We are fully equipped to replace the keyboard on
                             your Lenovo IdeaPad, Lenovo ThinkPad or Lenovo X series laptop and to its original condition. This service is backed by a 90-days no hassle warranty.</p>
                         <h3>Lenovo No Power Supply Repair</h3>

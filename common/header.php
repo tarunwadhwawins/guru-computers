@@ -12,7 +12,7 @@
             <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
               <div class="menuBar">
                  <i class="fa fa-bars menuBars" aria-hidden="true"></i>
-                 <i class="fa fa-times" aria-hidden="true"></i>
+                 <i class="fa fa-times menuClose" aria-hidden="true"></i>
               </div>
            </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">

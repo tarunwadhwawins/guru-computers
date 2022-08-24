@@ -42,12 +42,12 @@
                     <h3>We Can Help With The Following Repairs:</h3>
                     <div class="product-listing">
                         <ul>
-                            <li><a href="https://gurucomputers.ca/delta/apple-macbook-liquid-damage-repair-delta/"><span class="textt-theme">  MacBook </span></a> or iMac not turning ON.</li>
+                            <li><a href="apple-macbook-liquid-damage-repair-delta/"><span class="textt-theme">  MacBook </span></a> or iMac not turning ON.</li>
                             <li>Macbook not charging.</li>
                             <li>Apple MacBook Keyboard not responding.</li>
                         </ul>
                     </div>
-                    <p>At Guru Computers, we have professional tools required to deal with such situations. The Apple MacBook or iMac logic board is assessed for damage under a <a href="https://en.wikipedia.org/wiki/Microscope"><span class="textt">microscope </span></a>                        . The values of various components are then measured, and bad components are replaced with the new ones to ensure your Apple MacBook or iMac is working as nothing has happened. This service comes with a 90 days warranty.</p>
+                    <p>At Guru Computers, we have professional tools required to deal with such situations. The Apple MacBook or iMac logic board is assessed for damage under a <a href="https://en.wikipedia.org/wiki/Microscope" target="_blank"><span class="textt">microscope </span></a>                        . The values of various components are then measured, and bad components are replaced with the new ones to ensure your Apple MacBook or iMac is working as nothing has happened. This service comes with a 90 days warranty.</p>
                     <h3>Our Other Computer Repair Services In Delta</h3>
                     <div class="product-listing">
                         <ul>
