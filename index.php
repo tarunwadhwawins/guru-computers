@@ -25,10 +25,10 @@
                     <p> Keyboard replacement starting at $175 onwords.</p>
                     <a href="<?php echo $url; ?>contact" class=" primaryButton">Call Now!</a>
                 </div>
-                <img src="assets/images/keyboardreplacement.jpg" alt="banner-image">
+                <img src="assets/images/keyboardreplacement.jpg" alt="bannerimage">
             </div>
             <div class="slider">
-                <img src="assets/images/liquiddamage2.jpg" alt="">
+                <img src="assets/images/liquiddamage2.jpg" alt="bannerimage">
                 <div class="bannerText d-flex align-items-center flex-column">
                     <label>Spilled liquid?</label>
                     <p>Liquid damage repair starting at $110 onwards. </p>
@@ -36,7 +36,7 @@
                 </div>
             </div>
             <div class="slider">
-                <img src="assets/images/logicboard2.jpg" alt="">
+                <img src="assets/images/logicboard2.jpg" alt="bannerimage">
                 <div class="bannerText d-flex align-items-center flex-column">
                     <label>Need a Logicboard repair?</label>
                     <p>Logicboard repair service comes with 90 days warranty.</p>
@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="slider">
-                <img src="assets/images/screenreplacement.jpg" alt="">
+                <img src="assets/images/screenreplacement.jpg" alt="bannerimage">
                 <div class="bannerText d-flex align-items-center flex-column">
                     <label>cracked or shattered screens?</label>
                     <p> Screen replacement starting at $200 onwards.</p>
@@ -87,16 +87,16 @@
                 <div class="col-lg-6 col-md-12 col-sm-12">
                    <div class="buttonContainer">
                         <div class="buttonSection">
-                                <a href="<?php echo $url; ?>macbook-repair-delta" class=" primaryButton"> Macbook Repair in Delta</a>
+                                <a href="<?php echo $url; ?>services/macbook-repair-delta" class=" primaryButton"> Macbook Repair in Delta</a>
                             </div>
                             <div class="buttonSection">
-                                <a href="<?php echo $url; ?>macbook-repair-surrey" class=" primaryButton"> Macbook Repair in Surrey</a>
+                                <a href="<?php echo $url; ?>services/macbook-repair-surrey" class=" primaryButton"> Macbook Repair in Surrey</a>
                             </div>
                             <div class="buttonSection">
-                                <a href="<?php echo $url; ?>computer-repair-delta" class=" primaryButton"> Computer Repair in Delta</a>
+                                <a href="<?php echo $url; ?>services/computer-repair-delta" class=" primaryButton"> Computer Repair in Delta</a>
                             </div>
                             <div class="buttonSection">
-                                <a href="<?php echo $url; ?>computer-repair-surrey" class=" primaryButton"> Computer Repair in Surrey</a>
+                                <a href="<?php echo $url; ?>services/computer-repair-surrey" class=" primaryButton"> Computer Repair in Surrey</a>
                             </div>
                    </div>
                 </div>
@@ -109,7 +109,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
-                    <h2 class="text-center"><span class="underline">testimonials</span></h2>
+                    <h2 class="text-center"><span class="underline">Testimonials</span></h2>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="owl-carousel testimonialContent">

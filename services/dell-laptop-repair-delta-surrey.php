@@ -30,13 +30,14 @@
         <!--  -->
         <!-- Callus-Button -->
         <div class="callButtn">
-            <a href="tel:+1 (604) 256-2193" target="_self"><button class="primaryButton"> Call +1 (604) 256-2193</button></a>
+            <a href="tel:+1 (604) 256-2193" target="_self" class="primaryButton"> Call +1 (604) 256-2193 </a>
         </div>
+        <!--  -->
         <div class="productData">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <img class="rightimg" src="<?php echo $url; ?>assets/images/Dell-Laptop-Repair-1.jpg" alt="">
+                        <img class="rightimg" src="<?php echo $url; ?>assets/images/Dell-Laptop-Repair-1.jpg" alt="dellimage">
                         <p>Dell doesn’t need any introduction as it is well-accepted PC manufacturing brand in North America and offers an impressive lineup of Inspiron laptops, XPS gaming laptops and Latitude series for the home and small business segment
                             . At Guru Computers, we repair all versions of Dell laptops/computers here.</p>
                         <h2>Dell Laptop Repair in Delta and Surrey – Dell Repair Service </h2>
@@ -71,20 +72,21 @@
                         <h3>Our Other Computer Repair Services</h3>
                         <div class="listing">
                             <ul>
-                                <li><a href="<?php echo $url; ?>services/macbook-repair-delta">MacBook Repair In Delta</a></li>
+                                <li><a href="macbook-repair-delta">MacBook Repair In Delta</a></li>
                                 <li><a href="<?php echo $url; ?>delta/apple-macbook-screen-replacement-in-delta">MacBook Screen Repair Delta</a></li>
-                                <li><a href="<?php echo $url; ?>services/acer-laptop-repair-delta">Acer laptop repair Delta</a></li>
-                                <li><a href="<?php echo $url; ?>services/asus-laptop-repair-delta">Asus Repair Delta</a></li>
-                                <li><a href="<?php echo $url; ?>services/virus-spyware-malware-adware-removal">Virus Removal in Delta</a></li>
-                                <li><a href="<?php echo $url; ?>services/imac-repair-delta">iMac Repair Delta</a></li>
-                                <li><a href="<?php echo $url; ?>services/imac-repair-surrey">iMac Repair Surrey</a></li>
+                                <li><a href="acer-laptop-repair-delta">Acer laptop repair Delta</a></li>
+                                <li><a href="asus-laptop-repair-delta">Asus Repair Delta</a></li>
+                                <li><a href="virus-spyware-malware-adware-removal">Virus Removal in Delta</a></li>
+                                <li><a href="imac-repair-delta">iMac Repair Delta</a></li>
+                                <li><a href="imac-repair-surrey">iMac Repair Surrey</a></li>
                             </ul>
                         </div>
 
-                        <a href="./contact" target="_blank" rel="noopener noreferrer"> <button class="primaryButton"> Book Now
-                        </button></a>
+                       <div class="productBook">
+                        <a class="primaryButton" href="<?php echo $url; ?>contact" target="_self">Book Now</a>
+                    </div>
                         <?php include_once('../common/youtubevideo.php'); ?>
-                        <h4>GET DIRECTIONS fOR Lenovo Laptop Repair Delta</h4>
+                        <h4>Get Directions For Lenovo Laptop Repair Delta</h4>
                         <?php include_once('../common/map.php'); ?>
                     </div>
                 </div>

@@ -21,7 +21,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-sm-12">
-                    <h1 class="m-0">macbook repair delta</h1>
+                    <h1 class="m-0">Macbook Repair Delta</h1>
                 </div>
             </div>
         </div>
@@ -29,8 +29,8 @@
     <!--  -->
     <!-- Callus-Button -->
     <div class="callButtn">
-        <a  href="tel:+1 (604) 256-2193" target="_self"><button class="primaryButton"> Call +1 (604) 256-2193</button></a>
-    </div>
+            <a href="tel:+1 (604) 256-2193" target="_self" class="primaryButton"> Call +1 (604) 256-2193 </a>
+        </div>
     <!--  -->
     <!-- We also repair MacBook logic boards for common repairs. -->
     <section class="commonRepair">

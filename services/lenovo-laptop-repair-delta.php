@@ -32,11 +32,12 @@
         <div class="callButtn">
             <a href="tel:+1 (604) 256-2193" target="_self" class="primaryButton"> Call +1 (604) 256-2193 </a>
         </div>
+        <!--  -->
         <div class="laptopProduct">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                    <div class="productContent"><img class="rightimg" src="<?php echo $url; ?>assets/images/Lenovo-repair-Delta.jpg" alt=""></div>
+                    <div class="productContent"><img class="rightimg" src="<?php echo $url; ?>assets/images/Lenovo-repair-Delta.jpg" alt="lenovoimage"></div>
                         <p>Lenovo is the industry leader in innovation and technology when it comes to laptops and smart devices. They offer a gamut of laptops and devices catering to a wide range of consumer needs. If you’re looking for Lenovo laptop repair
                             in Delta, then you must visit Guru Computers, a computer repair store in Delta, British Columbia.</p>
                         <h2>Lenovo Repair Delta – Lenovo Laptop Services </h2>

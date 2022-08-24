@@ -67,15 +67,15 @@
                                 <li>Corrupted Hard Drive or RAW partition</li>
                             </ul>
                         </div>
-                        <h3>Guru Computers tip:</h3>
+                        <h3>Guru Computers Tip:</h3>
                         <p>In order to prevent data loss in the case of a hard drive failure, bi-weekly backups recommended always. If you’re a heavy or business computer user, a weekly or more frequent backups recommended.</p>
                         <h3>Our Other Computer Repair Services:</h3>
                             <ul class="referLink">
                                 <li><a href="laptop-screen-replacement-in-delta">Laptop Screen Replacement</a></li>
                                 <li><a href="virus-spyware-malware-adware-removal">Computer Malware Removal Delta – Trojan Removal – Virus Clean</a></li>
-                                <li><a href="apple-macbook-keyboard-replacement-delta">MacBook Screen Replacement</a></li>
-                                <li><a href="apple-macbook-keyboard-replacement-delta">MacBook Keyboard Repair</a></li>
-                                <li><a href="apple-macbook-logicboard-repair-delta.php">Apple MacBook Logic Board Repair</a></li>
+                                <li><a href="<?php echo $url; ?>delta/apple-macbook-keyboard-replacement-delta">MacBook Screen Replacement</a></li>
+                                <li><a href="<?php echo $url; ?>delta/apple-macbook-keyboard-replacement-delta">MacBook Keyboard Repair</a></li>
+                                <li><a href="<?php echo $url; ?>delta/apple-macbook-logicboard-repair-delta.php">Apple MacBook Logic Board Repair</a></li>
                             </ul>  
                         <div class="productBook">
                         <a class="primaryButton" href="<?php echo $url; ?>contact" target="_self">Book Now</a>

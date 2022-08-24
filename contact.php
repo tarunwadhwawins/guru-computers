@@ -22,7 +22,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-sm-12">
-                        <h1 class="m-0">contact</h1>
+                        <h1 class="m-0">Contact</h1>
                     </div>
                 </div>
             </div>
@@ -33,14 +33,14 @@
                 <div class="col-sm-10 offset-sm-1">
                     <div class="textWigits">
                         <div class="callus">
-                            <img src="<?php echo $url; ?>assets/images/phoneimage.png" alt="">
+                            <img src="<?php echo $url; ?>assets/images/phoneimage.png" alt="contactimage">
                             <h4>Call Us</h4>
-                            <p>Guru Copmuters</p>
-                            <a href="tel:+1 (604) 256-2193"><button class="primaryButton">+1 (604) 256-2193</button></a>
+                            <p>Guru Computers</p>
+                            <a href="tel:+1 (604) 256-2193" class="primaryButton">+1 (604) 256-2193</a>
                         </div>
                         <div class="callus">
-                            <img src="<?php echo $url; ?>assets/images/clockimage.png" alt="">
-                            <h4>SUPPORT HOURS</h4>
+                            <img src="<?php echo $url; ?>assets/images/clockimage.png" alt="contactimage">
+                            <h4>Support Hours</h4>
                             <p>Monday-Saturday : 10:00 am - 07:00 pm</p>
                             <p>Sunday : Closed</p>
                         </div>

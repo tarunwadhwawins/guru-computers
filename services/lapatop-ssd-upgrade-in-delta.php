@@ -29,7 +29,7 @@
     <!--  -->
     <!-- Callus-Button -->
     <div class="callButtn">
-        <a  href="tel:+1 (604) 256-2193" target="_self"><button class="primaryButton"> Call +1 (604) 256-2193</button></a>
+        <a  href="tel:+1 (604) 256-2193" target="_self" class="primaryButton"> Call +1 (604) 256-2193</a>
     </div>
     <!--  -->
     <!-- Laptop screen replacement In Delta – Can we repair your laptop screen? -->
