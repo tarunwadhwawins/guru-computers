@@ -1,6 +1,9 @@
 @import "./variables.scss";
 // Banner
 .banner {
+    @media (max-width: 991px) {
+     margin:52px 0 0 0;
+    }
     .replacement {
         .slider {
             position: relative;
@@ -16,9 +19,7 @@
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
-                @media (max-width: 480px) {
-                    top: 70%;
-                }
+                width:100%;
                 label {
                     font-size: 50px;
                     color: $primary-contrast-color;
@@ -32,7 +33,7 @@
                         font-size: 30px;
                     }
                     @media (max-width: 640px) {
-                        font-size: 13px;
+                        font-size:16px;
                         margin-bottom: 15px;
                     }
                 }

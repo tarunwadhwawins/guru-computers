@@ -1,4 +1,9 @@
 @charset "UTF-8";
+@media (max-width: 991px) {
+  .banner {
+    margin: 52px 0 0 0;
+  }
+}
 .banner .replacement .slider {
   position: relative;
 }
@@ -14,11 +19,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-@media (max-width: 480px) {
-  .banner .replacement .slider .bannerText {
-    top: 70%;
-  }
+  width: 100%;
 }
 .banner .replacement .slider .bannerText label {
   font-size: 50px;
@@ -39,7 +40,7 @@
 }
 @media (max-width: 640px) {
   .banner .replacement .slider .bannerText label {
-    font-size: 13px;
+    font-size: 16px;
     margin-bottom: 15px;
   }
 }
