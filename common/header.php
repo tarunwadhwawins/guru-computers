@@ -9,13 +9,14 @@
         <nav class="navbar navbar-expand-xl">
             <a class="navbar-brand" href="<?php echo $url; ?>">
                 <img src="<?php echo $url; ?>assets/images/logo.png" alt="logoimage"></a>
-            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
               <div class="menuBar">
                  <i class="fa fa-bars menuBars" aria-hidden="true"></i>
                  <i class="fa fa-times menuClose" aria-hidden="true"></i>
               </div>
            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <div class="navbar-collapse" >
+                <div class="section-bg"></div>
                 <ul class="d-flex align-items-center navbar-nav m-auto">
                     <li class="nav-item   <?php echo $current_page == '/index.php' ? 'active':'' ?>">
                         <a class="nav-link " href="<?php echo $url; ?>">Home</a>
@@ -86,4 +87,6 @@
         </nav>
     </div>
 </header>
+
+
 <!--  -->

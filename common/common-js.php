@@ -100,4 +100,17 @@
             $(".backToTop ").removeClass("show");
         }
     });
+
+    $(".navbar-toggler").click(function(){ 
+     $(".navbar-toggler").toggleClass("active");
+     $("body").toggleClass("overflow-hidden");
+     $(".navbar-collapse").toggleClass("active");
+     $(".section-bg").toggleClass("active");
+    });
+    $(".section-bg").click(function(){ 
+     $(".navbar-toggler").removeClass("active");
+     $("body").removeClass("overflow-hidden");
+     $(".navbar-collapse").removeClass("active");
+     $(".section-bg").removeClass("active");
+    });
 </script>
