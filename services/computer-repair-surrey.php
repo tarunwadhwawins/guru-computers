@@ -34,7 +34,7 @@
                     <div class="logicBoards">
              <p> Computer not working? You are at risk of not meeting a deadline because of a non-working computer? Stop searching further and call Guru Computers at 604-256-2193. Our team of experts is by far the most experienced team when it comes to computer repairs. From non-working computers to windows error codes or slow performance we are Surrey’s number 1 choice for computer repairs.  Get back into the business without breaking a bank. We are able to fix most of the computers in a timely manner and eventually help our customers save thousands of dollars invested in new computers.</p>
                         <div class="repairBtton">
-                            <a class="primaryButton" href="">Computer Repair Services</a>
+                            <a class="primaryButton" href="javascript:void(0)">Computer Repair Services</a>
                         </div>
                     </div>
                 </div>

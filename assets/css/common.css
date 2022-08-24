@@ -68,6 +68,11 @@ p {
   font-size: 16px;
   line-height: 24px;
 }
+@media (max-width: 767px) {
+  p {
+    font-size: 14px;
+  }
+}
 
 .underline {
   border-bottom: 2px solid #f15a24;

@@ -38,7 +38,7 @@
                             for an affordable and trustworthy computer repair service in Delta, you have ended your search. Our 4.9 google rating speaks volumes about how our customers have trusted us over the last 6 years and we have delivered results.
                         </p>
                         <div class="repairBtton">
-                            <a class="primaryButton" href="computer-repair-delta">Computer Repair Services</a>
+                            <a class="primaryButton" href="#logicPath">Computer Repair Services</a>
                         </div>
                     </div>
                 </div>
@@ -117,7 +117,7 @@
                 </div>
                 <!-- ----------------------------------------- -->
                 <div class="col-lg-6 col-md-12 col-sm-12 pb-5">
-                    <div class="logicboardRepair">
+                    <div class="logicboardRepair" id="logicPath">
                         <h3>Macbook & Laptop SSD Upgrade Services in Delta</h3>
                         <p class="text-left">Let’s face it. Everyone needs a dependable computer to complete their assignments, reports, presentations and in many cases, their school work. A fast and steady computer makes your life so easy. However, if you have a slow-running
                             computer or a laptop, the regular task takes way longer to complete and ...</p>
