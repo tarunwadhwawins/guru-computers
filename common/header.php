@@ -27,8 +27,8 @@
                             <li class="nav-item dropdown subMenuDropdown"><a href="javascript:void(0)" class=" nav-link dropdown-item" aria-expanded="false">MacBook Repair </a>
                                 <!-- SubMenu -->
                                 <ul class="subMenu dropdown-menu">
-                                    <li><a href="<?php echo $url; ?>services/macbook-repair-delta" class="dropdown-item">MacBook Repair Delta</a></li>
-                                    <li><a href="<?php echo $url; ?>services/macbook-repair-surrey" class="dropdown-item">MacBook Repair Surrey</a></li>
+                                    <li><a href="<?php echo $url; ?>macbook-repair-delta" class="dropdown-item">MacBook Repair Delta</a></li>
+                                    <li><a href="<?php echo $url; ?>macbook-repair-surrey" class="dropdown-item">MacBook Repair Surrey</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown subMenuDropdown"> <a href="javascript:void(0)" class=" nav-link dropdown-item" aria-expanded="false">Laptop Repair</a>
