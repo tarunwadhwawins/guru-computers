@@ -16,7 +16,6 @@
     <!-- header -->
     <?php include_once('../common/header.php'); ?>
     <!--  -->
-
     <section class="dataRecoverydelta">
         <!-- Banner -->
         <div class="repairBanner">
@@ -29,7 +28,6 @@
             </div>
         </div>
         <!--  -->
-        <!-- Callus-Button -->
         <div class="callButtn">
             <a href="tel:+1 (604) 256-2193" target="_self" class="primaryButton"> Call +1 (604) 256-2193 </a>
         </div>
@@ -93,13 +91,10 @@
             </div>
     </section>
     <!--  -->
-    <!-- any query -->
     <?php include_once('../common/any-query.php'); ?>
     <!--  -->
-    <!-- footer -->
     <?php include_once('../common/footer.php'); ?>
     <!--  -->
-    <!-- script -->
     <?php include_once('../common/common-js.php'); ?>
     <!--  -->
 </body>

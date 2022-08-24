@@ -13,10 +13,9 @@
 </head>
 
 <body>
-    <!-- header -->
+    <!-- -->
     <?php include_once('common/header.php'); ?>
     <!--  -->
-    <!-- Banner -->
     <div class="repairBanner">
         <div class="container">
             <div class="row">
@@ -27,7 +26,6 @@
         </div>
     </div>
     <!--  -->
-    <!-- Computer Reapir Services Delta & Surrey -->
     <section class="deltaSurrey deltaBg">
         <div class="container">
             <div class="row">
@@ -60,13 +58,10 @@
         </div>
     </section>
     <!--  -->
-    <!-- queries about your Computer/MacBook repair? -->
     <?php include_once('common/any-query.php'); ?>
     <!--  -->
-    <!-- footer -->
     <?php include_once('common/footer.php'); ?>
     <!--  -->
-    <!-- script -->
     <?php include_once('common/common-js.php'); ?>
     <!--  -->
 </body>

@@ -13,10 +13,9 @@
 </head>
 
 <body>
-    <!-- header -->
+    <!-- -->
     <?php include_once('common/header.php'); ?>
     <!--  -->
-    <!-- Banner -->
     <div class="repairBanner">
         <div class="container">
             <div class="row">
@@ -27,12 +26,10 @@
         </div>
     </div>
     <!--  -->
-    <!-- Callus-Button -->
     <div class="callButtn">
             <a href="tel:+1 (604) 256-2193" target="_self" class="primaryButton"> Call +1 (604) 256-2193 </a>
         </div>
     <!--  -->
-    <!-- We also repair MacBook logic boards for common repairs. -->
     <section class="commonRepair">
         <div class="container">
             <div class="row">
@@ -50,7 +47,6 @@
         </div>
     </section>
     <!--  -->
-    <!-- WHY SHOULD YOU CHOOSE GURU COMPUTERS -->
     <section class="chooseComputer">
         <div class="container">
             <div class="row">
@@ -78,7 +74,6 @@
         </div>
     </section>
     <!-- -->
-    <!-- Macbook Replacement & Repair Keyboard LogicBoard -->
     <section class="replacmentMacbook">
         <div class="container">
             <div class="row">
@@ -130,13 +125,10 @@
         </div>
     </section>
     <!--  -->
-    <!-- queries about your Computer/MacBook repair? -->
     <?php include_once('common/any-query.php'); ?>
     <!--  -->
-    <!-- footer -->
     <?php include_once('common/footer.php'); ?>
     <!--  -->
-    <!-- script -->
     <?php include_once('common/common-js.php'); ?>
     <!--  -->
 

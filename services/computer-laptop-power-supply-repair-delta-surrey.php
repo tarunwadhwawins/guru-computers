@@ -27,12 +27,10 @@
         </div>
     </div>
     <!--  -->
-    <!-- Callus-Button -->
     <div class="callButtn">
             <a href="tel:+1 (604) 256-2193" target="_self" class="primaryButton"> Call +1 (604) 256-2193 </a>
         </div>
     <!--  -->
-    <!-- iMac Repair Delta - iMac Parts Replacement -->
     <section class="laptopProduct">
         <div class="container">
             <div class="row">
@@ -76,13 +74,10 @@
         </div>
     </section>
     <!--  -->
-    <!-- queries about your Computer/MacBook repair? -->
     <?php include_once('../common/any-query.php'); ?>
     <!--  -->
-    <!-- footer -->
     <?php include_once('../common/footer.php'); ?>
     <!--  -->
-    <!-- script -->
     <?php include_once('../common/common-js.php'); ?>
     <!--  -->
 </body>

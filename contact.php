@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <!-- header -->
+    <!--  -->
     <?php include_once('common/header.php'); ?>
     <!--  -->
     <section class="contact">

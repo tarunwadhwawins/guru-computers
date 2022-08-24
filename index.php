@@ -13,10 +13,9 @@
 </head>
 
 <body>
-    <!-- header -->
+    <!-- -->
     <?php include_once('common/header.php'); ?>
     <!--  -->
-    <!-- Banner -->
     <section class="banner">
         <div class="owl-carousel replacement">
             <div class="slider">
@@ -54,7 +53,6 @@
         </div>
     </section>
     <!--  -->
-    <!-- COMPUTER REPAIR & MACBOOK REPAIR SERVICE -->
     <section class="repairService">
         <div class="container">
             <div class="row">
@@ -72,7 +70,6 @@
         </div>
     </section>
     <!--  -->
-    <!-- Repair in Delta & Surrey -->
     <section class="deltaSurrey">
         <div class="container">
             <div class="row align-items-center">
@@ -104,7 +101,6 @@
         </div>
     </section>
     <!--  -->
-    <!-- TESTIMONIALS -->
     <section class="testimonials">
         <div class="container">
             <div class="row">
@@ -396,15 +392,11 @@
             </div>
     </section>
     <!--  -->
-    <!-- queries about your Computer/MacBook repair? -->
     <?php include_once('common/any-query.php'); ?>
     <!--  -->
-    <!-- footer -->
     <?php include_once('common/footer.php'); ?>
     <!--  -->
-    <!-- script -->
     <?php include_once('common/common-js.php'); ?>
-
     <!--  -->
 </body>
 

@@ -15,7 +15,6 @@
     <!-- header -->
     <?php include_once('common/header.php'); ?>
     <!--  -->
-    <!-- Banner -->
     <div class="repairBanner">
         <div class="container">
             <div class="row">
@@ -26,7 +25,6 @@
         </div>
     </div>
     <!--  -->
-    <!-- Guru Computers in Delta is the most trusted computer repair service  -->
     <section class="commonRepair">
         <div class="container">
             <div class="row">
@@ -47,7 +45,6 @@
         </div>
     </section>
     <!--  -->
-    <!-- WHY SHOULD YOU CHOOSE GURU COMPUTERS -->
     <section class="chooseComputer">
         <div class="container">
             <div class="row">
@@ -67,7 +64,6 @@
         </div>
     </section>
     <!-- -->
-    <!-- Macbook Replacement & Repair Keyboard LogicBoard -->
     <section class="replacmentMacbook">
         <div class="container">
             <div class="row">
@@ -107,7 +103,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- ----------------------------------------- -->
                 <div class="col-lg-6 col-md-12 col-sm-12 pb-5">
                     <div class="logicboardRepair" id="services">
                         <h3>Dell Laptop Repair</h3>
@@ -169,13 +164,10 @@
         </div>
     </section>
     <!--  -->
-    <!-- queries about your Computer/MacBook repair? -->
     <?php include_once('common/any-query.php'); ?>
     <!--  -->
-    <!-- footer -->
     <?php include_once('common/footer.php'); ?>
     <!--  -->
-    <!-- script -->
     <?php include_once('common/common-js.php'); ?>
     <!--  -->
 

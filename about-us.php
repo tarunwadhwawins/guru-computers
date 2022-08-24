@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <!-- header -->
+    <!-- -->
     <?php include_once('common/header.php'); ?>
     <!--  -->
     <section class="aboutUs">
@@ -35,10 +35,9 @@
             </div>
         </div>
     </section>
-    <!-- footer -->
+    <!--  -->
     <?php include_once('common/footer.php'); ?>
     <!--  -->
-    <!-- script -->
     <?php include_once('common/common-js.php'); ?>
     <!--  -->
 </body>
