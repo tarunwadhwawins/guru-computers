@@ -141,10 +141,6 @@
   background: #777;
 }
 
-.show {
-  display: block !important;
-}
-
 .backToTop {
   position: fixed;
   right: 3px;
@@ -175,6 +171,9 @@
 }
 .backToTop:hover a {
   color: #f15a24;
+}
+.backToTop.show {
+  display: block !important;
 }
 
 .stickyContainer {

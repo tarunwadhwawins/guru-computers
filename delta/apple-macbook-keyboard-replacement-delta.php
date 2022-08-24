@@ -4,9 +4,9 @@
 <head>
     <!-- Meta & Link Tags -->
   <?php
-    $title = '';
+    $title = 'MacBook Keyboard Replacement In Delta - Guru Computers';
     $keyword  = '';
-    $description  = "";
+    $description  = "You might be looking for MacBook Keyboard Replacement service in Delta, BC? We repair all kind of MacBooks and satisfy our customers...";
     
     include_once('../common/common-css.php'); ?>
     <!--  -->

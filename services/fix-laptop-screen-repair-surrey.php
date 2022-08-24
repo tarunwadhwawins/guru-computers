@@ -4,9 +4,9 @@
 <head>
    <!-- Meta & Link Tags -->
    <?php
-    $title = '';
+    $title = 'Laptop Screen Repair Surrey - Computer Repair Surrey - Guru Computers';
     $keyword  = '';
-    $description  = "";
+    $description  = "Looking for the laptop screen repair in Surrey? We Guru Computer can fix any laptop screen easily with the help of certified technicians and right tools.";
     
     include_once('../common/common-css.php'); ?>
     <!--  -->

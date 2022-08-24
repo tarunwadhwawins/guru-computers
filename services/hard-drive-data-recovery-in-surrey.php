@@ -4,9 +4,9 @@
 <head>
     <!-- Meta & Link Tags -->
    <?php
-    $title = '';
+    $title = 'Data Recovery Expert in Surrey - Hard Drive Data Recovery - Trusted Service';
     $keyword  = '';
-    $description  = "";
+    $description  = "Are you looking for data recovery expert in Surrey, BC? Guru Computers can repair your hard drive and recover your data easily, securely and efficiently.";
     
     include_once('../common/common-css.php'); ?>
     <!--  -->

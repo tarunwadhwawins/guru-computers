@@ -4,9 +4,9 @@
 <head>
       <!-- Meta & Link Tags -->
   <?php
-    $title = '';
+    $title = 'MacBook Logicboard Repair In Delta, BC - Guru Computers';
     $keyword  = '';
-    $description  = "";
+    $description  = "Looking for Apple MacBook Logicboard Repair in Delta, BC? At Guru Computers, we repair Apple MacBook of all generations and satisfy our customers...";
     
     include_once('../common/common-css.php'); ?>
     <!--  -->

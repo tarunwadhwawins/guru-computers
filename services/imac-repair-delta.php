@@ -5,9 +5,9 @@
    
     <!-- Meta & Link Tags -->
     <?php
-    $title = '';
+    $title = 'iMac Repair Delta - iMac Parts Replacement - Guru Computers';
     $keyword  = '';
-    $description  = "";
+    $description  = "We do iMac Repair as well as MacBook Repair in Delta, British Columbia. We at Guru Computers are expert in repairing all kinds of Apple products.";
     
     include_once('../common/common-css.php'); ?>
     <!--  -->

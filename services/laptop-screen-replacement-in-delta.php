@@ -4,9 +4,9 @@
 <head>
     <!-- Meta & Link Tags -->
   <?php
-    $title = '';
+    $title = 'Laptop &amp; Apple MacBook Screen Repair or Replacement in Delta | Guru Computers Delta';
     $keyword  = '';
-    $description  = "";
+    $description  = "Cracked your laptop or apple Macbook screen? At Guru Computers we offer laptop and Apple Macbook screen repair or replacement services in Delta at affordable prices.";
     
     include_once('../common/common-css.php'); ?>
     <!--  -->

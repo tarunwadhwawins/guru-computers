@@ -39,13 +39,13 @@
                 <h3 class="widgetTitle">GURU COMPUTERS SERVICES</h3>
                 <div class="footerLinks">
                     <ul class="menu">
-                        <li><a href="<?php echo $url; ?>services/computer-repair-delta">Computer Repair Delta</a></li>
+                        <li><a href="<?php echo $url; ?>computer-repair-delta">Computer Repair Delta</a></li>
                         <li>
-                            <a href="<?php echo $url; ?>services/computer-repair-surrey">Computer Repair Surrey</a></li>
+                            <a href="<?php echo $url; ?>computer-repair-surrey">Computer Repair Surrey</a></li>
                         <li>
-                            <a href="<?php echo $url; ?>services/macbook-repair-delta">MacBook Repair Delta</a>
+                            <a href="<?php echo $url; ?>macbook-repair-delta">MacBook Repair Delta</a>
                         </li>
-                        <li><a href="<?php echo $url; ?>services/macbook-repair-surrey">MacBook Repair Surrey</a></li>
+                        <li><a href="<?php echo $url; ?>macbook-repair-surrey">MacBook Repair Surrey</a></li>
                     </ul>
                 </div>
             </div>

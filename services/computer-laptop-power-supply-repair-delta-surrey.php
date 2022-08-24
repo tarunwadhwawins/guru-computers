@@ -4,9 +4,9 @@
 <head>
     <!-- Meta & Link Tags -->
   <?php
-    $title = '';
+    $title = 'Computer Power Supply Repair in Delta and Surrey - PSU Replacement';
     $keyword  = '';
-    $description  = "";
+    $description  = "Computer/Laptop power supply is an essential unit of any CPU. Visit Guru Computers for quick computer power supply repair in Delta and Surrey.";
     
     include_once('../common/common-css.php'); ?>
     <!--  -->

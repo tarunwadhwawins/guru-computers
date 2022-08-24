@@ -4,9 +4,9 @@
 <head>
   <!-- Meta & Link Tags -->
   <?php
-    $title = '';
+    $title = 'iMac Repair Surrey - All Genuine Parts Replacement - Guru Computers';
     $keyword  = '';
-    $description  = "";
+    $description  = "Are you looking for computer repair store in Surrey for iMac Repair? Then you must visit Guru Computers. We are expert in repairing all kinds of laptops.";
     
     include_once('../common/common-css.php'); ?>
     <!--  -->

@@ -4,9 +4,9 @@
 <head>
     <!-- Meta & Link Tags -->
   <?php
-    $title = '';
+    $title = 'Dell Laptop Repair In Delta &amp; Surrey - Reliable Dell Service';
     $keyword  = '';
-    $description  = "";
+    $description  = "If you are looking for an expert Dell Laptop Repair Delta &amp; Surrey? Guru Computers is the Dell repair service you can rely upon with 100% trust.";
     
     include_once('../common/common-css.php'); ?>
     <!--  -->

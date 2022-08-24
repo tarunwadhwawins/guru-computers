@@ -4,9 +4,9 @@
 <head>
     <!-- Meta & Link Tags -->
    <?php
-    $title = '';
-    $keyword  = '';
-    $description  = "";
+    $title = "Computer Repair Services In Delta and Surrey - We Repair PCs/Laptops";
+    $keyword  = "";
+    $description  = "Computer repair services in Delta and Surrey by Guru Computers. The best PC/Laptop repair and MacBook repair store in British Columbia.";
     
     include_once('common/common-css.php'); ?>
     <!--  -->
@@ -42,11 +42,11 @@
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="sectionHead">
                         <h2 class="">Computer Repair in Delta</h2>
-                        <a class="primaryButton" href="<?php echo $url; ?>services/computer-repair-delta" target="_self">Computer Repair Delta</a>
+                        <a class="primaryButton" href="<?php echo $url; ?>computer-repair-delta" target="_self">Computer Repair Delta</a>
                     </div>
                     <div class="sectionHead">
                         <h2 class="">Computer Repair in Surrey</h2>
-                        <a class="primaryButton" href="<?php echo $url; ?>services/computer-repair-surrey" target="_self">Computer Repair Surrey</a>
+                        <a class="primaryButton" href="<?php echo $url; ?>computer-repair-surrey" target="_self">Computer Repair Surrey</a>
                     </div>
               </div>
                 <div class="col-lg-12 col-md-12 col-sm-12">

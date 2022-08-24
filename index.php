@@ -4,9 +4,9 @@
 <head>
     <!-- Meta & Link Tags -->
    <?php
-    $title = '';
-    $keyword  = '';
-    $description  = "";
+    $title = "MacBook Repair Services in Delta | Laptop Screen Replacement";
+    $keyword  = "";
+    $description = "Guru Computers is a leading platform that provides best IT Solutions or MacBook Repair Services in Delta. Visit us and get your computers fixed at affordable prices.";
     
     include_once('common/common-css.php'); ?>
     <!--  -->
@@ -87,16 +87,16 @@
                 <div class="col-lg-6 col-md-12 col-sm-12">
                    <div class="buttonContainer">
                         <div class="buttonSection">
-                                <a href="<?php echo $url; ?>services/macbook-repair-delta" class=" primaryButton"> Macbook Repair in Delta</a>
+                                <a href="<?php echo $url; ?>macbook-repair-delta" class=" primaryButton"> Macbook Repair in Delta</a>
                             </div>
                             <div class="buttonSection">
-                                <a href="<?php echo $url; ?>services/macbook-repair-surrey" class=" primaryButton"> Macbook Repair in Surrey</a>
+                                <a href="<?php echo $url; ?>macbook-repair-surrey" class=" primaryButton"> Macbook Repair in Surrey</a>
                             </div>
                             <div class="buttonSection">
-                                <a href="<?php echo $url; ?>services/computer-repair-delta" class=" primaryButton"> Computer Repair in Delta</a>
+                                <a href="<?php echo $url; ?>computer-repair-delta" class=" primaryButton"> Computer Repair in Delta</a>
                             </div>
                             <div class="buttonSection">
-                                <a href="<?php echo $url; ?>services/computer-repair-surrey" class=" primaryButton"> Computer Repair in Surrey</a>
+                                <a href="<?php echo $url; ?>computer-repair-surrey" class=" primaryButton"> Computer Repair in Surrey</a>
                             </div>
                    </div>
                 </div>

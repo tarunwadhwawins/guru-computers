@@ -4,9 +4,9 @@
 <head>
     <!-- Meta & Link Tags -->
   <?php
-    $title = '';
+    $title = 'Lenovo Screen Replacement | Lenovo Laptop Repair | Lenovo Computer';
     $keyword  = '';
-    $description  = "";
+    $description  = "Looking for the highest quality of Lenovo Screen Replacement? Get the best deals on Lenovo Laptop Repair. We offer the lowest cost on Lenovo Computer Repair in Delta";
     
     include_once('../common/common-css.php'); ?>
     <!--  -->

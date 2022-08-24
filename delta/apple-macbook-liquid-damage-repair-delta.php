@@ -4,9 +4,9 @@
 <head>
     <!-- Meta & Link Tags -->
   <?php
-    $title = '';
+    $title = 'MacBook Liquid Damage Repair In Delta, BC - Guru Computers';
     $keyword  = '';
-    $description  = "";
+    $description  = "You might be looking for MacBook Liquid Damage Repair in Delta. We at Guru Computers, repair MacBook&#039;s of all generation.";
     
     include_once('../common/common-css.php'); ?>
     <!--  -->

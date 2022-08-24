@@ -4,9 +4,9 @@
 <head>
     <!-- Meta & Link Tags -->
   <?php
-    $title = '';
+    $title = 'MacBook Screen Replacement In Surrey, Air LCD, BC - Guru Computers';
     $keyword  = '';
-    $description  = "";
+    $description  = "You might be looking for Apple MacBook Screen Replacement service in Surrey, BC? We here at Guru Computers, repair all kind of MacBook and satisfy.";
     
     include_once('../common/common-css.php'); ?>
     <!--  -->

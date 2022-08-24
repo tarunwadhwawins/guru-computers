@@ -4,9 +4,9 @@
 <head>
    <!-- Meta & Link Tags -->
    <?php
-    $title = '';
+    $title = 'MacBook Keyboard Replacement Surrey - Guru Computers';
     $keyword  = '';
-    $description  = "";
+    $description  = "You might be looking for Apple MacBook Keyboard Replacement service in Surrey, BC?We here at Guru Computers, fix all kind of MacBook...";
     
     include_once('../common/common-css.php'); ?>
     <!--  -->

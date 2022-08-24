@@ -163,9 +163,7 @@
     }
 }
 
-.show {
-    display: block !important;
-}
+
 
 .backToTop {
     position: fixed;
@@ -196,6 +194,9 @@
         a {
             color: $primary-color;
         }
+    }
+    &.show {
+        display: block !important;
     }
 }
 

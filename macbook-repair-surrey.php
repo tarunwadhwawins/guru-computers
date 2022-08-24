@@ -4,17 +4,17 @@
 <head>
     <!-- Meta & Link Tags -->
   <?php
-    $title = '';
+    $title = 'MacBook Repair in Surrey, BC - Quality Repair Service - Guru Computers';
     $keyword  = '';
-    $description  = "";
+    $description  = "Looking for MacBook Repair in Surrey? Guru Computers provide the best MacBook Repair Service in Surrey, BC. We do Screen Replacement, Keyboard Repair.";
     
-    include_once('../common/common-css.php'); ?>
+    include_once('common/common-css.php'); ?>
     <!--  -->
 </head>
 
 <body>
     <!-- header -->
-    <?php include_once('../common/header.php'); ?>
+    <?php include_once('common/header.php'); ?>
     <!--  -->
     <!-- Banner -->
     <div class="repairBanner">
@@ -131,13 +131,13 @@
     </section>
     <!--  -->
     <!-- queries about your Computer/MacBook repair? -->
-    <?php include_once('../common/any-query.php'); ?>
+    <?php include_once('common/any-query.php'); ?>
     <!--  -->
     <!-- footer -->
-    <?php include_once('../common/footer.php'); ?>
+    <?php include_once('common/footer.php'); ?>
     <!--  -->
     <!-- script -->
-    <?php include_once('../common/common-js.php'); ?>
+    <?php include_once('common/common-js.php'); ?>
     <!--  -->
 
 </body>

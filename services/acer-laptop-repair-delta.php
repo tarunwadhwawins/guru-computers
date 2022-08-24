@@ -4,9 +4,9 @@
 <head>
     <!-- Meta & Link Tags -->
   <?php
-    $title = '';
+    $title = 'Acer Repair Delta - Acer Laptop Services - Guru Computers';
     $keyword  = '';
-    $description  = "";
+    $description  = "If you are looking for an expert Acer laptop repair in Delta, British Columbia? Guru Computers is the Acer repair service you can rely upon with 100% trust.";
     
     include_once('../common/common-css.php'); ?>
     <!--  -->

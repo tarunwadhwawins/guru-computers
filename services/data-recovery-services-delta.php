@@ -4,9 +4,9 @@
 <head>
      <!-- Meta & Link Tags -->
   <?php
-    $title = '';
+    $title = 'Data Recovery Services Delta - Hard Drive/Disk Data Recovery - Trusted';
     $keyword  = '';
-    $description  = "";
+    $description  = "Data Recovery Services Delta: If you are looking for Data Recovery Service in Delta, please visit us at Guru Computers. We offer data recovery services and";
     
     include_once('../common/common-css.php'); ?>
     <!--  -->

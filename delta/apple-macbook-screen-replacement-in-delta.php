@@ -4,9 +4,9 @@
 <head>
     <!-- Meta & Link Tags -->
     <?php
-    $title = '';
+    $title = 'MacBook Screen Replacement In Delta - Guru Computers';
     $keyword  = '';
-    $description  = "";
+    $description  = "MacBook Screen Replacement in Delta, BC? At Guru Computers, we repair Apple MacBook of all generations. The most common repair is screen replacement.";
     
     include_once('../common/common-css.php'); ?>
         <!--  -->

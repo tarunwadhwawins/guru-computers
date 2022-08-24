@@ -4,9 +4,9 @@
 <head>
       <!-- Meta & Link Tags -->
   <?php
-    $title = '';
+    $title = 'Macbook Logic Board Repair Surrey - Guru Computers';
     $keyword  = '';
-    $description  = "";
+    $description  = "If you are looking for Apple MacBook logic board repair service in Surrey, BC? Then you must visit the Guru Computers. We repair all kind of MacBooks...";
     
     include_once('../common/common-css.php'); ?>
     <!--  -->

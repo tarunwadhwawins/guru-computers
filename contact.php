@@ -4,7 +4,7 @@
 <head>
     <!-- Meta & Link Tags -->
    <?php
-    $title = '';
+    $title = 'Contact - Guru Computers';
     $keyword  = '';
     $description  = "";
     

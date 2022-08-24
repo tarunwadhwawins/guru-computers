@@ -4,17 +4,17 @@
 <head>
     <!-- Meta & Link Tags -->
   <?php
-    $title = '';
+    $title = 'MacBook Repair Service | MacBook Screen Replacement';
     $keyword  = '';
-    $description  = "";
+    $description  = "Get the most affordable MacBook Repair services with Guru Computers or on the same day repair services and also get 90 days warranty on these services. Visit us or contact us now";
     
-    include_once('../common/common-css.php'); ?>
+    include_once('common/common-css.php'); ?>
     <!--  -->
 </head>
 
 <body>
     <!-- header -->
-    <?php include_once('../common/header.php'); ?>
+    <?php include_once('common/header.php'); ?>
     <!--  -->
     <!-- Banner -->
     <div class="repairBanner">
@@ -130,13 +130,13 @@
     </section>
     <!--  -->
     <!-- queries about your Computer/MacBook repair? -->
-    <?php include_once('../common/any-query.php'); ?>
+    <?php include_once('common/any-query.php'); ?>
     <!--  -->
     <!-- footer -->
-    <?php include_once('../common/footer.php'); ?>
+    <?php include_once('common/footer.php'); ?>
     <!--  -->
     <!-- script -->
-    <?php include_once('../common/common-js.php'); ?>
+    <?php include_once('common/common-js.php'); ?>
     <!--  -->
 
 </body>

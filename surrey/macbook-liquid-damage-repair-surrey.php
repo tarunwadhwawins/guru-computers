@@ -4,9 +4,9 @@
 <head>
      <!-- Meta & Link Tags -->
      <?php
-    $title = '';
+    $title = 'MacBook Liquid Damage Repair and Cost Surrey - Guru Computers';
     $keyword  = '';
-    $description  = "";
+    $description  = "You might be looking for Affordable cost of Apple MacBook liquid damage repair service in Surrey, BC? We here at Guru Computers, repair all kind of MacBook.";
     
     include_once('../common/common-css.php'); ?>
     <!--  -->

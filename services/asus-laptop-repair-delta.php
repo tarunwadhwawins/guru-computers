@@ -4,9 +4,9 @@
 <head>
     <!-- Meta & Link Tags -->
   <?php
-    $title = '';
+    $title = 'ASUS Repair Delta - ASUS Laptop Services - Guru Computers';
     $keyword  = '';
-    $description  = "";
+    $description  = "Looking for the ASUS repair Delta? At Guru Computers, we help our customers with ASUS laptop repair services. We do ASUS screen repair, keyboard repair...";
     
     include_once('../common/common-css.php'); ?>
     <!--  -->
