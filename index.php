@@ -78,10 +78,10 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="webIcon">
-                        <img src="assets/images/applelogo.png" alt="apple-logo">
+                        <img src="<?php echo $url; ?>assets/images/applelogo.png" alt="apple-logo">
                     </div>
                     <div class="webIcon">
-                        <img src="assets/images/windowslogo.png" alt="window-logo">
+                        <img src="<?php echo $url; ?>assets/images/windowslogo.png" alt="window-logo">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12">

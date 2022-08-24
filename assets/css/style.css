@@ -17,7 +17,7 @@
 }
 @media (max-width: 480px) {
   .banner .replacement .slider .bannerText {
-    top: 75%;
+    top: 70%;
   }
 }
 .banner .replacement .slider .bannerText label {
@@ -299,15 +299,20 @@
 }
 .chooseComputer .trustWorthy ul {
   padding: 8px 0 0 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .chooseComputer .trustWorthy ul li {
-  text-align: left;
   color: #fff;
   width: 30%;
-  float: left;
   list-style: initial;
   padding-bottom: 5px;
   font-family: "open_sanslight";
+}
+@media (max-width: 575px) {
+  .chooseComputer .trustWorthy ul li {
+    width: 50%;
+  }
 }
 .chooseComputer .trustWorthy p {
   color: #fff;
@@ -557,22 +562,22 @@
   background: #fff;
   margin-bottom: 30px;
 }
-.contact .question .contactFeild {
+.contact .question .contactField {
   margin: 0 0 25px 0;
   position: relative;
 }
-.contact .question .contactFeild span {
+.contact .question .contactField span {
   position: relative;
 }
-.contact .question .contactFeild span.help-block.form-error {
+.contact .question .contactField span.help-block.form-error {
   color: #dc3232;
   font-size: 12px;
   position: absolute;
 }
-.contact .question .contactFeild .form-control:focus {
+.contact .question .contactField .form-control:focus {
   box-shadow: none;
 }
-.contact .question .contactFeild h2 {
+.contact .question .contactField h2 {
   color: rgb(0, 0, 0);
   font-size: 44px;
   line-height: normal;
@@ -582,26 +587,26 @@
   text-transform: uppercase;
 }
 @media screen and (max-width: 1199px) {
-  .contact .question .contactFeild h2 {
+  .contact .question .contactField h2 {
     font-size: 35px;
   }
 }
 @media screen and (max-width: 991px) {
-  .contact .question .contactFeild h2 {
+  .contact .question .contactField h2 {
     font-size: 28px;
   }
 }
 @media screen and (max-width: 767px) {
-  .contact .question .contactFeild h2 {
+  .contact .question .contactField h2 {
     font-size: 24px;
   }
 }
 @media screen and (max-width: 575px) {
-  .contact .question .contactFeild h2 {
+  .contact .question .contactField h2 {
     font-size: 20px;
   }
 }
-.contact .question .contactFeild h3 {
+.contact .question .contactField h3 {
   font-family: "poppinsmedium";
   text-transform: uppercase;
   color: #464547;
@@ -610,7 +615,7 @@
   margin-bottom: 35px;
 }
 @media screen and (max-width: 1199px) {
-  .contact .question .contactFeild h3 {
+  .contact .question .contactField h3 {
     font-size: 18px;
     line-height: 14px;
     margin-bottom: 13px;
@@ -618,19 +623,19 @@
   }
 }
 @media screen and (max-width: 575px) {
-  .contact .question .contactFeild h3 {
+  .contact .question .contactField h3 {
     font-size: 14px;
     line-height: 14px;
     margin-bottom: 13px;
     margin-top: 0;
   }
 }
-.contact .question .contactFeild h5 {
+.contact .question .contactField h5 {
   color: #f15a24;
   font-family: "open_sansbold";
   margin: 0 0 7px 0;
 }
-.contact .question .contactFeild input {
+.contact .question .contactField input {
   padding: 5px;
   font-size: 15px;
   width: 100%;
@@ -641,7 +646,7 @@
   color: #000;
   font-size: 15px;
 }
-.contact .question .contactFeild select {
+.contact .question .contactField select {
   font-size: 15px;
   width: 100%;
   background-color: #f8f8f8;
@@ -652,7 +657,7 @@
   padding: 5px;
   font-size: 15px;
 }
-.contact .question .contactFeild textarea {
+.contact .question .contactField textarea {
   font-size: 15px;
   width: 100%;
   background-color: #f8f8f8;
@@ -664,7 +669,7 @@
   resize: none;
   height: 200px;
 }
-.contact .question .contactFeild .primaryButton {
+.contact .question .contactField .primaryButton {
   width: 200px;
 }
 

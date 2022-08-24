@@ -50,7 +50,7 @@
                     <div class="question boxShadow">
                         <div class="row">
                             <div class="col-sm-12 ">
-                                <div class="contactFeild">
+                                <div class="contactField">
                                     <h2> Have a question or query? </h2>
                                     <h3> We would love to hear from you! </h3>
                                 </div>
@@ -58,7 +58,7 @@
                             <form method="post" id="contactForm" class="row">
                                 <div id='quotesmessage'></div>
                                 <div class="col-md-6">
-                                    <div class="contactFeild">
+                                    <div class="contactField">
                                         <h5>
                                             Your Name
                                         </h5>
@@ -67,7 +67,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="contactFeild">
+                                    <div class="contactField">
                                         <h5>
                                             Your Email
                                         </h5>
@@ -76,7 +76,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="contactFeild">
+                                    <div class="contactField">
                                         <h5>
                                             Services
                                         </h5>
@@ -90,7 +90,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="contactFeild">
+                                    <div class="contactField">
                                         <h5>
                                             Contact No
                                         </h5>
@@ -99,27 +99,13 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-12">
-                                    <div class="contactFeild">
+                                    <div class="contactField">
                                         <h5>Your Message</h5>
                                         <textarea name="message" cols="40" rows="10" class="form-control" data-validation="required"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-sm-12">
-                                    <div class="contactFeild ">
-                                        <span class="wpcf7-form-control-wrap recaptcha"><span data-sitekey="6Ld3V4IUAAAAADsW9FHVJ8Shz0qHDzS45ObTpOAS" class="wpcf7-form-control g-recaptcha wpcf7-recaptcha google-captcha"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Ld3V4IUAAAAADsW9FHVJ8Shz0qHDzS45ObTpOAS&amp;co=aHR0cHM6Ly93d3cuZ3VydWNvbXB1dGVycy5jYTo0NDM.&amp;hl=en&amp;v=mq0-U1BHZ5YTcoDC-CvsLPNc&amp;size=normal&amp;cb=8vdoutlxnczo" width="304" height="78" role="presentation" name="a-yt8o0xu1aj0t" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></span>
-                                        <noscript>
-                                            <div class="grecaptcha-noscript">
-                                                <iframe src="https://www.google.com/recaptcha/api/fallback?k=6Ld3V4IUAAAAADsW9FHVJ8Shz0qHDzS45ObTpOAS" frameborder="0" scrolling="no" width="310" height="430">
-                                                </iframe>
-                                                <textarea name="g-recaptcha-response" rows="3" cols="40" placeholder="reCaptcha Response Here">
-                                                </textarea>
-                                            </div>
-                                        </noscript>
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12">
-                                    <div class="contactFeild">
+                                    <div class="contactField">
                                         <button class="primaryButton" type="submit">Send</button>
                                     </div>
                                 </div>

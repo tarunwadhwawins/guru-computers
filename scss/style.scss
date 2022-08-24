@@ -17,7 +17,7 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
                 @media (max-width: 480px) {
-                    top: 75%;
+                    top: 70%;
                 }
                 label {
                     font-size: 50px;
@@ -300,14 +300,17 @@
         }
         ul {
             padding: 8px 0 0 20px;
+            display: flex;
+            flex-wrap: wrap;
             li {
-                text-align: left;
                 color: $primary-contrast-color;
                 width: 30%;
-                float: left;
                 list-style: initial;
                 padding-bottom: 5px;
                 font-family: "open_sanslight";
+                @media (max-width: 575px) {
+                    width: 50%;
+                }
             }
         }
         p {
@@ -570,7 +573,7 @@
         border-radius: 4px;
         background: $primary-contrast-color;
         margin-bottom: 30px;
-        .contactFeild {
+        .contactField {
             span {
                 position: relative;
                 &.help-block {

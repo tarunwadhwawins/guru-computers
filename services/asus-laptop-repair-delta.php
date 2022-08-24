@@ -80,7 +80,7 @@
                         <div class="productBook">
                         <a class="primaryButton" href="<?php echo $url; ?>contact" target="_self">Book Now</a>
                     </div>
-                        <div class="map"><iframe loading="lazy" src="https://www.youtube.com/embed/H7y0IDbR2XM" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+                        <div class="youtubeVideo"><iframe loading="lazy" src="https://www.youtube.com/embed/H7y0IDbR2XM" width="100%" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
                         <h4>Get Directions For Asus Laptop Repair</h4>
                         <?php include_once('../common/map.php'); ?>
                     </div>
