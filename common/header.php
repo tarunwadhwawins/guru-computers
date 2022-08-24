@@ -54,13 +54,13 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item <?php echo $current_page == '/index' ? 'active':'' ?> dropdown repairDropdown">
-                        <a href="#" class="nav-link" data-bs-toggle="dropdown">Repair By Brands <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                    <li class="nav-item dropdown repairDropdown">
+                        <a href="javascript:void(0)" class="nav-link" data-bs-toggle="dropdown">Repair By Brands <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                         <ul class="dropdown-menu repairMenu">
                             <li class="nav-item dropdown subMenuDropdown"> <a href="javascript:void(0)" class=" nav-link dropdown-item" aria-expanded="false">Apple</a>
                                 <!-- SubMenu -->
                                 <ul class="subMenu dropdown-menu">
-                                    <li><a href="<?php echo $url; ?>services/macbook-repair-delta" class="dropdown-item">MacBook Repair</a></li>
+                                    <li><a href="<?php echo $url; ?>macbook-repair-delta" class="dropdown-item">MacBook Repair</a></li>
                                     <li><a href="<?php echo $url; ?>services/imac-repair-delta" class="dropdown-item">iMac Repair</a></li>
                                 </ul>
                             </li>
@@ -80,13 +80,9 @@
                     <a href="tel:+91-708-708-7356" data-bs-toggle="tooltip" data-bs-placement="top" title="On-Call"> <i class="fa fa-phone" aria-hidden="true"></i> +1 (604) 256-2193</a>
 
                     <a href="mailto:abs@gmail.com " data-bs-toggle="tooltip" data-bs-placement="top" title="to-mail" class="guruImagelink d-flex"> <i class="fa fa-envelope" aria-hidden="true"></i><img src="<?php echo $url; ?>assets/images/Guru-Top-img.png" alt="guruimagelink"></a>
-
                 </div>
             </div>
-            
         </nav>
     </div>
 </header>
-
-
 <!--  -->

@@ -21,7 +21,7 @@ header .navbar {
   padding: 0 !important;
 }
 header .navbar .navbar-brand img {
-  max-width: 240px;
+  max-width: 250px;
 }
 @media (max-width: 767px) {
   header .navbar .navbar-brand img {

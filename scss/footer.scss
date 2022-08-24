@@ -6,6 +6,7 @@
         text-align: left;
         font-size: 16px;
         color: $primary-contrast-color;
+        text-transform: uppercase;
         font-family: 'poppinsmedium';
         position: relative;
         &::after {
@@ -162,8 +163,6 @@
         }
     }
 }
-
-
 
 .backToTop {
     position: fixed;
