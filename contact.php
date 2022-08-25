@@ -116,7 +116,8 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-12">
-                                    <div class="contactField">
+                                    <div class="contactField captchField">
+
                                         <input data-validation="recaptcha"
                                             data-validation-recaptcha-sitekey="6LdmI44hAAAAAPLZHO9DaTyvHoP0e5mpRZsjEX0S">
                                     </div>
@@ -142,6 +143,11 @@
     <!--  -->
     <!-- script -->
     <?php include_once('common/common-js.php'); ?>
+    <script>
+        function grecaptchSucces(){
+            $(".captchField").find(".form-error").remove();
+        }
+    </script>
     <!--  -->
 </body>
 
