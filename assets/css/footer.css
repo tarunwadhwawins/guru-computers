@@ -182,7 +182,8 @@
 }
 @media screen and (max-width: 1199px) {
   .stickyContainer {
-    display: block !important;
+    flex-direction: column;
+    display: flex !important;
     padding: 0px;
     margin: 0px;
     position: fixed;
@@ -191,24 +192,22 @@
     width: 210px;
     z-index: 1100;
   }
-  .stickyContainer ul {
-    margin: 0;
-    padding: 0;
-    list-style: disc;
-  }
-  .stickyContainer ul li {
-    list-style-type: none;
+  .stickyContainer .sideContactLinks {
+    color: #fff;
     background-color: #000;
     color: #efefef;
     height: 43px;
     padding: 0px;
-    transition: all 0.25s ease-in-out;
     cursor: pointer;
+    transition: all 0.25s ease-in-out;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
   }
-  .stickyContainer ul li:hover {
+  .stickyContainer .sideContactLinks:hover {
     margin-left: -185px;
   }
-  .stickyContainer ul li i {
+  .stickyContainer .sideContactLinks i {
     float: left;
     margin: 5px 4px;
     margin-right: 5px;
@@ -216,14 +215,5 @@
     padding: 6px;
     color: #fff;
     text-align: center;
-  }
-  .stickyContainer ul li p {
-    padding-top: 13px;
-    margin: 0px;
-    line-height: 16px;
-    font-size: 13px;
-  }
-  .stickyContainer ul li p a {
-    color: #fff;
   }
 }

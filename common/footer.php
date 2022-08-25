@@ -102,17 +102,14 @@
     <a href="#"> <i class="fa fa-angle-up" aria-hidden="true"></i></a>
 </div>
 <!--  -->
+
 <div class="stickyContainer">
-    <ul class="sticky">
-        <li>
-            <i class="fa fa-phone" aria-hidden="true"></i>
-            <p><a href="tel:+1 (604) 256-2193">+1 (604) 256-2193 </a></p>
-        </li>
-        <li>
-            <i class="fa fa-envelope" aria-hidden="true"></i>
-            <p>
-                <a href="mailto:gururepairlab@gmail.com"> gururepairlab@gmail.com</a>
-            </p>
-        </li>
-    </ul>
+    <a href="tel:+1 (604) 256-2193" class="sideContactLinks">
+        <i class="fa fa-phone" aria-hidden="true"></i> +1 (604) 256-2193
+    </a>
+    <a href="mailto:gururepairlab@gmail.com" class="sideContactLinks">
+        <i class="fa fa-envelope" aria-hidden="true"></i> gururepairlab@gmail.com
+    </a>
 </div>
+
+<!--  -->

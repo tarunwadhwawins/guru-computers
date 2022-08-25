@@ -203,7 +203,8 @@
 .stickyContainer {
     display: none;
     @media screen and (max-width: 1199px) {
-        display: block !important;
+        flex-direction: column;
+        display: flex !important;
         padding: 0px;
         margin: 0px;
         position: fixed;
@@ -211,39 +212,28 @@
         top: 230px;
         width: 210px;
         z-index: 1100;
-        ul {
-            margin: 0;
-            padding: 0;
-            list-style: disc;
-            li {
-                list-style-type: none;
-                background-color: $primary-dark-color;
-                color: $secondary-contrast-color;
-                height: 43px;
-                padding: 0px;
-                transition: all 0.25s ease-in-out;
-                &:hover {
-                    margin-left: -185px;
-                }
-                cursor: pointer;
-                i {
-                    float: left;
-                    margin: 5px 4px;
-                    margin-right: 5px;
-                    font-size: 21px;
-                    padding: 6px;
-                    color: $primary-contrast-color;
-                    text-align: center;
-                }
-                p {
-                    padding-top: 13px;
-                    margin: 0px;
-                    line-height: 16px;
-                    font-size: 13px;
-                    a {
-                        color: $primary-contrast-color;
-                    }
-                }
+        .sideContactLinks {
+            color: $primary-contrast-color;
+            background-color: $primary-dark-color;
+            color: $secondary-contrast-color;
+            height: 43px;
+            padding: 0px;
+            cursor: pointer;
+            transition: all 0.25s ease-in-out;
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            &:hover {
+                margin-left: -185px;
+            }
+            i {
+                float: left;
+                margin: 5px 4px;
+                margin-right: 5px;
+                font-size: 21px;
+                padding: 6px;
+                color: $primary-contrast-color;
+                text-align: center;
             }
         }
     }
