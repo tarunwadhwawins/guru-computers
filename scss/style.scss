@@ -2,7 +2,7 @@
 // Banner
 .banner {
     @media (max-width: 991px) {
-     margin:52px 0 0 0;
+        margin: 52px 0 0 0;
     }
     .replacement {
         .slider {
@@ -19,7 +19,7 @@
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
-                width:100%;
+                width: 100%;
                 label {
                     font-size: 50px;
                     color: $primary-contrast-color;
@@ -33,7 +33,7 @@
                         font-size: 30px;
                     }
                     @media (max-width: 640px) {
-                        font-size:16px;
+                        font-size: 16px;
                         margin-bottom: 15px;
                     }
                 }
@@ -523,7 +523,7 @@
 
 // contact//
 .contact {
-    padding:50px 0;
+    padding: 50px 0;
     .textWidgets {
         padding: 0 0 30px 0;
         display: flex;
@@ -570,7 +570,7 @@
         }
     }
     .question {
-        padding:30px;
+        padding: 30px;
         border: 2px solid $white-color2;
         border-radius: 4px;
         background: $primary-contrast-color;
@@ -681,6 +681,13 @@
         }
     }
 }
+
+.contactMap {
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
 // data recovery //
 .dataRecoverydelta {
     .productData {
