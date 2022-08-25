@@ -149,6 +149,10 @@ p {
   max-width: 640px;
 }
 
+.boxShadow {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
 @keyframes slideInUp {
   0% {
     transform: translateY(50px);

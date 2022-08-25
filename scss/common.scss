@@ -148,6 +148,10 @@ p {
     max-width: 640px;
 }
 
+.boxShadow {
+    box-shadow: 0 0 8px rgb(0 0 0 / 10%);
+}
+
 // Animations
 @keyframes slideInUp {
     0% {
