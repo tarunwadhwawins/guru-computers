@@ -60,7 +60,7 @@
                     </a>
                     <div class="contactLink">
                         <p class="p-0"> <a href="tel:+1 (604) 256-2193"><i class="fa fa-phone" aria-hidden="true"></i><b> +1 (604) 256-2193 </b></a></p>
-                        <a href="mailto:abs@gmail.com " data-bs-toggle="tooltip" data-bs-placement="top" title="to-mail" class="guruImagelink d-flex"> <i class="fa fa-envelope" aria-hidden="true"></i><img src="<?php echo $url; ?>assets/images/Guru-Top-img.png" alt="guruimagelink"></a>
+                        <a href="mailto:abs@gmail.com " data-bs-toggle="tooltip" data-bs-placement="top" class="guruImagelink d-flex"> <i class="fa fa-envelope" aria-hidden="true"></i><img src="<?php echo $url; ?>assets/images/Guru-Top-img.png" alt="guruimagelink"></a>
                     </div>
                     <div class="workHour">
                         <p class="p-0"><b>Working Hours:</b></p>
