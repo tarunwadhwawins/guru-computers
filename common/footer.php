@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-3 col-lg-6 col-md-6 mb-3">
-                <h3 class="widgetTitle">COMPUTER REPAIR IN DELTA</h3>
+                <h3 class="widgetTitle">Computer Repair In Delta</h3>
                 <div class="footerLinks">
                     <ul class="menu">
                         <li><a href="<?php echo $url; ?>delta/apple-macbook-screen-replacement-in-delta">MacBook Screen Replacement</a></li>
@@ -19,7 +19,7 @@
                 </div>
             </div>
             <div class="col-xl-3 col-lg-6 col-md-6 mb-3">
-                <h3 class="widgetTitle">COMPUTER REPAIR IN SURREY</h3>
+                <h3 class="widgetTitle">Computer Repair In Surrey</h3>
                 <div class="footerLinks">
                     <ul class="menu">
                         <li><a href="<?php echo $url; ?>surrey/macbook-screen-replacement-surrey">MacBook Screen Replacement</a></li>
@@ -36,21 +36,21 @@
                 </div>
             </div>
             <div class="col-xl-3 col-lg-6 col-md-6 mb-3">
-                <h3 class="widgetTitle">GURU COMPUTERS SERVICES</h3>
+                <h3 class="widgetTitle">Guru Computers Services</h3>
                 <div class="footerLinks">
                     <ul class="menu">
-                        <li><a href="<?php echo $url; ?>services/computer-repair-delta">Computer Repair Delta</a></li>
+                        <li><a href="<?php echo $url; ?>computer-repair-delta">Computer Repair Delta</a></li>
                         <li>
-                            <a href="<?php echo $url; ?>services/computer-repair-surrey">Computer Repair Surrey</a></li>
+                            <a href="<?php echo $url; ?>computer-repair-surrey">Computer Repair Surrey</a></li>
                         <li>
-                            <a href="<?php echo $url; ?>services/macbook-repair-delta">MacBook Repair Delta</a>
+                            <a href="<?php echo $url; ?>macbook-repair-delta">MacBook Repair Delta</a>
                         </li>
-                        <li><a href="<?php echo $url; ?>services/macbook-repair-surrey">MacBook Repair Surrey</a></li>
+                        <li><a href="<?php echo $url; ?>macbook-repair-surrey">MacBook Repair Surrey</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-6 col-md-6 mb-3">
-                <h3 class="widgetTitle">CONTACT US</h3>
+                <h3 class="widgetTitle">Contact Us</h3>
                 <div class="footerDetail">
                     <a href="https://g.page/GuruComputersDelta?share" target="_blank">
                         <p class="p-0"> <i class="fa fa-map-marker" aria-hidden="true"></i> Guru Computers,</p>

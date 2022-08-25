@@ -4,19 +4,18 @@
 <head>
     <!-- Meta & Link Tags -->
   <?php
-    $title = '';
+    $title = 'MacBook Repair in Surrey, BC - Quality Repair Service - Guru Computers';
     $keyword  = '';
-    $description  = "";
+    $description  = "Looking for MacBook Repair in Surrey? Guru Computers provide the best MacBook Repair Service in Surrey, BC. We do Screen Replacement, Keyboard Repair.";
     
-    include_once('../common/common-css.php'); ?>
+    include_once('common/common-css.php'); ?>
     <!--  -->
 </head>
 
 <body>
-    <!-- header -->
-    <?php include_once('../common/header.php'); ?>
+    <!-- -->
+    <?php include_once('common/header.php'); ?>
     <!--  -->
-    <!-- Banner -->
     <div class="repairBanner">
         <div class="container">
             <div class="row">
@@ -27,12 +26,10 @@
         </div>
     </div>
     <!--  -->
-    <!-- Callus-Button -->
     <div class="callButtn">
             <a href="tel:+1 (604) 256-2193" target="_self" class="primaryButton"> Call +1 (604) 256-2193 </a>
         </div>
     <!--  -->
-    <!-- We also repair MacBook logic boards for common repairs. -->
     <section class="commonRepair">
         <div class="container">
             <div class="row">
@@ -50,7 +47,6 @@
         </div>
     </section>
     <!--  -->
-    <!-- WHY SHOULD YOU CHOOSE GURU COMPUTERS -->
     <section class="chooseComputer">
         <div class="container">
             <div class="row">
@@ -78,7 +74,6 @@
         </div>
     </section>
     <!-- -->
-    <!-- Macbook Replacement & Repair Keyboard LogicBoard -->
     <section class="replacmentMacbook">
         <div class="container">
             <div class="row">
@@ -130,14 +125,11 @@
         </div>
     </section>
     <!--  -->
-    <!-- queries about your Computer/MacBook repair? -->
-    <?php include_once('../common/any-query.php'); ?>
+    <?php include_once('common/any-query.php'); ?>
     <!--  -->
-    <!-- footer -->
-    <?php include_once('../common/footer.php'); ?>
+    <?php include_once('common/footer.php'); ?>
     <!--  -->
-    <!-- script -->
-    <?php include_once('../common/common-js.php'); ?>
+    <?php include_once('common/common-js.php'); ?>
     <!--  -->
 
 </body>

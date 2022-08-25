@@ -3,19 +3,18 @@
 <head>
     <!-- Meta & Link Tags -->
   <?php
-    $title = '';
+    $title = 'Computer Repair Surrey, BC - Reliable Service - Guru Computers';
     $keyword  = '';
-    $description  = "";
+    $description  = "Looking for computer repair Surrey, BC? Guru Computers is the best repair shop for computers and laptops in Surrey, British Columbia. We repair all kind of";
     
-    include_once('../common/common-css.php'); ?>
+    include_once('common/common-css.php'); ?>
     <!--  -->
 </head>
 
 <body>
     <!-- header -->
-    <?php include_once('../common/header.php'); ?>
+    <?php include_once('common/header.php'); ?>
     <!--  -->
-    <!-- Banner -->
     <div class="repairBanner">
         <div class="container">
             <div class="row">
@@ -26,7 +25,6 @@
         </div>
     </div>
     <!--  -->
-    <!-- Guru Computers in Delta is the most trusted computer repair service  -->
     <section class="commonRepair">
         <div class="container">
             <div class="row">
@@ -47,7 +45,6 @@
         </div>
     </section>
     <!--  -->
-    <!-- WHY SHOULD YOU CHOOSE GURU COMPUTERS -->
     <section class="chooseComputer">
         <div class="container">
             <div class="row">
@@ -67,7 +64,6 @@
         </div>
     </section>
     <!-- -->
-    <!-- Macbook Replacement & Repair Keyboard LogicBoard -->
     <section class="replacmentMacbook">
         <div class="container">
             <div class="row">
@@ -107,14 +103,13 @@
                         </div>
                     </div>
                 </div>
-                <!-- ----------------------------------------- -->
                 <div class="col-lg-6 col-md-12 col-sm-12 pb-5">
                     <div class="logicboardRepair" id="services">
                         <h3>Dell Laptop Repair</h3>
                         <p class="text-left">Dell doesn’t need any introduction as it is well-accepted PC manufacturing brand in North America and offers an impressive lineup of Inspiron laptops, XPS gaming laptops and Latitude series for the home and small business segment. At Guru Computers, we repair all versions of Dell laptops/computers here.
                         Dell Laptop Repair in ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="dell-laptop-repair-delta-surrey">Dell Laptop Repair</a>
+                            <a class="primaryButton read-more" href="<?php echo $url; ?>services/dell-laptop-repair-delta-surrey">Dell Laptop Repair</a>
                         </div>
                     </div>
                 </div>
@@ -123,7 +118,7 @@
                         <h3>iMac Repair Surrey</h3>
                         <p class="text-left">Apple iMac is a popular choice for a lot of home and business users. Needless to say, these are powerful and very well-built machines with a sleek and elegant design. It has everything you want in a beautiful looking computer.iMac repairs in surrey - iMac Repair Service Just like any other ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="imac-repair-surrey">iMac Repair Surrey</a>
+                            <a class="primaryButton read-more" href="<?php echo $url; ?>services/imac-repair-surrey">iMac Repair Surrey</a>
                         </div>
                     </div>
                 </div>
@@ -133,7 +128,7 @@
                         <p class="text-left">Looking for computer power supply repair in Delta and Surrey? Guru Computers can help you with that. A power supply unit is the backbone of a computer. It supplies specific voltage to various components of a computer or a laptop.
                             If a power supply malfunctions, you may have a non-working ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="computer-laptop-power-supply-repair-delta-surrey">Power Supply Repair </a>
+                            <a class="primaryButton read-more" href="<?php echo $url; ?>services/computer-laptop-power-supply-repair-delta-surrey">Power Supply Repair </a>
                         </div>
                     </div>
                 </div> 
@@ -142,7 +137,7 @@
                         <h3>Data Recovery Surrey – Hard Drive Data Recovery</h3>
                         <p class="text-left">Computer or Laptop not working due to damage? Need that data transferred to a new computer or an external storage drive? Trust us at Guru Computers in Surrey to handle your data securely and efficiently.From home users to small businesses, Guru Computers is a trusted name for hard drive recovery ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="hard-drive-data-recovery-in-surrey">Hard Drive Data Recovery Surrey</a>
+                            <a class="primaryButton read-more" href="<?php echo $url; ?>services/hard-drive-data-recovery-in-surrey">Hard Drive Data Recovery Surrey</a>
                         </div>
                     </div>
                 </div>
@@ -152,7 +147,7 @@
                         <p class="text-left">Unable to use your laptop because of a virus/spyware message? Did someone phone you claiming to be from a reputable company and accessing your computer to free it from Viruses? These are common cyber-attacks and your computer may still be infected, and your data at risk.
                         Virus Removal Surrey - Computer ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="virus-malware-trojan-removal-surrey">Virus Removal Surrey</a>
+                            <a class="primaryButton read-more" href="<?php echo $url; ?>services/virus-malware-trojan-removal-surrey">Virus Removal Surrey</a>
                         </div>
                     </div>
                 </div>
@@ -161,7 +156,7 @@
                         <h3>Laptop Screen Repair In Surrey</h3>
                         <p class="text-left">The most common repair in a laptop is the screen replacement. Accidents happen and screens crack leaving your laptop in an unusable state.Laptop Screen Repair In Surrey - Laptop Repair SurreyWe have a huge inventory of OEM high definition screens to quickly bring your laptop to its original form. Most ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="fix-laptop-screen-repair-surrey">Laptop Screen Repair Surrey</a>
+                            <a class="primaryButton read-more" href="<?php echo $url; ?>services/fix-laptop-screen-repair-surrey">Laptop Screen Repair Surrey</a>
                         </div>
                     </div>
                 </div> 
@@ -169,14 +164,11 @@
         </div>
     </section>
     <!--  -->
-    <!-- queries about your Computer/MacBook repair? -->
-    <?php include_once('../common/any-query.php'); ?>
+    <?php include_once('common/any-query.php'); ?>
     <!--  -->
-    <!-- footer -->
-    <?php include_once('../common/footer.php'); ?>
+    <?php include_once('common/footer.php'); ?>
     <!--  -->
-    <!-- script -->
-    <?php include_once('../common/common-js.php'); ?>
+    <?php include_once('common/common-js.php'); ?>
     <!--  -->
 
 </body>

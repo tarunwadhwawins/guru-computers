@@ -6,6 +6,7 @@
         text-align: left;
         font-size: 16px;
         color: $primary-contrast-color;
+        text-transform: uppercase;
         font-family: 'poppinsmedium';
         position: relative;
         &::after {
@@ -163,10 +164,6 @@
     }
 }
 
-.show {
-    display: block !important;
-}
-
 .backToTop {
     position: fixed;
     right: 3px;
@@ -196,6 +193,9 @@
         a {
             color: $primary-color;
         }
+    }
+    &.show {
+        display: block !important;
     }
 }
 

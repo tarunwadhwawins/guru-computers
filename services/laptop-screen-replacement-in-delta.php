@@ -4,9 +4,9 @@
 <head>
     <!-- Meta & Link Tags -->
   <?php
-    $title = '';
+    $title = 'Laptop &amp; Apple MacBook Screen Repair or Replacement in Delta | Guru Computers Delta';
     $keyword  = '';
-    $description  = "";
+    $description  = "Cracked your laptop or apple Macbook screen? At Guru Computers we offer laptop and Apple Macbook screen repair or replacement services in Delta at affordable prices.";
     
     include_once('../common/common-css.php'); ?>
     <!--  -->
@@ -16,7 +16,6 @@
     <!-- header -->
     <?php include_once('../common/header.php'); ?>
     <!--  -->
-    <!-- Banner -->
     <div class="repairBanner">
         <div class="container">
             <div class="row">
@@ -27,12 +26,10 @@
         </div>
     </div>
     <!--  -->
-    <!-- Callus-Button -->
     <div class="callButtn">
         <a  href="tel:+1 (604) 256-2193" target="_self" class="primaryButton"> Call +1 (604) 256-2193</a>
     </div>
     <!--  -->
-    <!-- Laptop screen replacement In Delta – Can we repair your laptop screen? -->
     <section class="laptopProduct">
         <div class="container">
             <div class="row">
@@ -79,13 +76,11 @@
             </div>
         </div>
     </section>
-    <!-- queries about your Computer/MacBook repair? -->
+    <!--  -->
     <?php include_once('../common/any-query.php'); ?>
     <!--  -->
-    <!-- footer -->
     <?php include_once('../common/footer.php'); ?>
     <!--  -->
-    <!-- script -->
     <?php include_once('../common/common-js.php'); ?>
     <!--  -->
 </body>

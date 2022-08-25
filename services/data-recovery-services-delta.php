@@ -4,9 +4,9 @@
 <head>
      <!-- Meta & Link Tags -->
   <?php
-    $title = '';
+    $title = 'Data Recovery Services Delta - Hard Drive/Disk Data Recovery - Trusted';
     $keyword  = '';
-    $description  = "";
+    $description  = "Data Recovery Services Delta: If you are looking for Data Recovery Service in Delta, please visit us at Guru Computers. We offer data recovery services and";
     
     include_once('../common/common-css.php'); ?>
     <!--  -->
@@ -28,7 +28,6 @@
             </div>
         </div>
         <!--  -->
-        <!-- Callus-Button -->
         <div class="callButtn">
             <a href="tel:+1 (604) 256-2193" target="_self" class="primaryButton"> Call +1 (604) 256-2193 </a>
         </div>
@@ -88,13 +87,10 @@
             </div>
     </section>
     <!--  -->
-    <!-- any query -->
     <?php include_once('../common/any-query.php'); ?>
     <!--  -->
-    <!-- footer -->
     <?php include_once('../common/footer.php'); ?>
     <!--  -->
-    <!-- script -->
     <?php include_once('../common/common-js.php'); ?>
     <!--  -->
 </body>

@@ -4,19 +4,18 @@
 <head>
     <!-- Meta & Link Tags -->
    <?php
-    $title = '';
-    $keyword  = '';
-    $description  = "";
+    $title = "MacBook Repair Services in Delta | Laptop Screen Replacement";
+    $keyword  = "";
+    $description = "Guru Computers is a leading platform that provides best IT Solutions or MacBook Repair Services in Delta. Visit us and get your computers fixed at affordable prices.";
     
     include_once('common/common-css.php'); ?>
     <!--  -->
 </head>
 
 <body>
-    <!-- header -->
+    <!-- -->
     <?php include_once('common/header.php'); ?>
     <!--  -->
-    <!-- Banner -->
     <section class="banner">
         <div class="owl-carousel replacement">
             <div class="slider">
@@ -54,7 +53,6 @@
         </div>
     </section>
     <!--  -->
-    <!-- COMPUTER REPAIR & MACBOOK REPAIR SERVICE -->
     <section class="repairService">
         <div class="container">
             <div class="row">
@@ -72,7 +70,6 @@
         </div>
     </section>
     <!--  -->
-    <!-- Repair in Delta & Surrey -->
     <section class="deltaSurrey">
         <div class="container">
             <div class="row align-items-center">
@@ -87,16 +84,16 @@
                 <div class="col-lg-6 col-md-12 col-sm-12">
                    <div class="buttonContainer">
                         <div class="buttonSection">
-                                <a href="<?php echo $url; ?>services/macbook-repair-delta" class=" primaryButton"> Macbook Repair in Delta</a>
+                                <a href="<?php echo $url; ?>macbook-repair-delta" class=" primaryButton"> Macbook Repair in Delta</a>
                             </div>
                             <div class="buttonSection">
-                                <a href="<?php echo $url; ?>services/macbook-repair-surrey" class=" primaryButton"> Macbook Repair in Surrey</a>
+                                <a href="<?php echo $url; ?>macbook-repair-surrey" class=" primaryButton"> Macbook Repair in Surrey</a>
                             </div>
                             <div class="buttonSection">
-                                <a href="<?php echo $url; ?>services/computer-repair-delta" class=" primaryButton"> Computer Repair in Delta</a>
+                                <a href="<?php echo $url; ?>computer-repair-delta" class=" primaryButton"> Computer Repair in Delta</a>
                             </div>
                             <div class="buttonSection">
-                                <a href="<?php echo $url; ?>services/computer-repair-surrey" class=" primaryButton"> Computer Repair in Surrey</a>
+                                <a href="<?php echo $url; ?>computer-repair-surrey" class=" primaryButton"> Computer Repair in Surrey</a>
                             </div>
                    </div>
                 </div>
@@ -104,7 +101,6 @@
         </div>
     </section>
     <!--  -->
-    <!-- TESTIMONIALS -->
     <section class="testimonials">
         <div class="container">
             <div class="row">
@@ -396,15 +392,11 @@
             </div>
     </section>
     <!--  -->
-    <!-- queries about your Computer/MacBook repair? -->
     <?php include_once('common/any-query.php'); ?>
     <!--  -->
-    <!-- footer -->
     <?php include_once('common/footer.php'); ?>
     <!--  -->
-    <!-- script -->
     <?php include_once('common/common-js.php'); ?>
-
     <!--  -->
 </body>
 

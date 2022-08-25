@@ -4,7 +4,7 @@
 <head>
     <!-- Meta & Link Tags -->
    <?php
-    $title = '';
+    $title = 'Contact - Guru Computers';
     $keyword  = '';
     $description  = "";
     
@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <!-- header -->
+    <!--  -->
     <?php include_once('common/header.php'); ?>
     <!--  -->
     <section class="contact">

@@ -4,9 +4,9 @@
 <head>
     <!-- Meta & Link Tags -->
   <?php
-    $title = '';
+    $title = 'Computer Power Supply Repair in Delta and Surrey - PSU Replacement';
     $keyword  = '';
-    $description  = "";
+    $description  = "Computer/Laptop power supply is an essential unit of any CPU. Visit Guru Computers for quick computer power supply repair in Delta and Surrey.";
     
     include_once('../common/common-css.php'); ?>
     <!--  -->
@@ -27,12 +27,10 @@
         </div>
     </div>
     <!--  -->
-    <!-- Callus-Button -->
     <div class="callButtn">
             <a href="tel:+1 (604) 256-2193" target="_self" class="primaryButton"> Call +1 (604) 256-2193 </a>
         </div>
     <!--  -->
-    <!-- iMac Repair Delta - iMac Parts Replacement -->
     <section class="laptopProduct">
         <div class="container">
             <div class="row">
@@ -53,17 +51,17 @@
                     <ul class="referLink">
                         <li><a href="<?php echo $url; ?>delta/apple-macbook-keyboard-replacement-delta">MacBook keyboard replacement</a></li>
                         <li><a href="<?php echo $url; ?>delta/apple-macbook-liquid-damage-repair-delta">MacBook Liquid Damage Repair Delta</a></li>
-                        <li><a href="<?php echo $url; ?>services/laptop-screen-replacement-in-delta">Laptop Screen Replacement in Delta</a></li>
-                        <li><a href="<?php echo $url; ?>services/virus-spyware-malware-adware-removal">Virus Removal in Delta</a></li>
-                        <li><a href="<?php echo $url; ?>services/acer-laptop-repair-delta">Acer Laptop Repair Delta</a></li>
+                        <li><a href="laptop-screen-replacement-in-delta">Laptop Screen Replacement in Delta</a></li>
+                        <li><a href="virus-spyware-malware-adware-removal">Virus Removal in Delta</a></li>
+                        <li><a href="acer-laptop-repair-delta">Acer Laptop Repair Delta</a></li>
                     </ul>
                     <h3>Computer Repair Services In Surrey:</h3>
                     <ul class="referLink">
                         <li><a href="<?php echo $url; ?>surrey/macbook-screen-replacement-surrey">MacBook Screen Replacement</a></li>
                         <li><a href="<?php echo $url; ?>surrey/macbook-logic-board-repair-surrey">Apple MacBook Logic Board Repair</a></li>
-                        <li><a href="<?php echo $url; ?>services/hard-drive-data-recovery-in-surrey">Data Recovery Surrey</a></li>
-                        <li><a href="<?php echo $url; ?>services/virus-malware-trojan-removal-surrey">Virus Removal Surrey</a></li>
-                        <li><a href="<?php echo $url; ?>services/Laptop Screen Repair In Surrey">Laptop Screen Repair In Surrey</a></li>
+                        <li><a href="hard-drive-data-recovery-in-surrey">Data Recovery Surrey</a></li>
+                        <li><a href="virus-malware-trojan-removal-surrey">Virus Removal Surrey</a></li>
+                        <li><a href="Laptop Screen Repair In Surrey">Laptop Screen Repair In Surrey</a></li>
                     </ul>
                     <div class="productBook">
                         <a class="primaryButton" href="<?php echo $url; ?>contact" target="_self">Book Now</a>
@@ -76,13 +74,10 @@
         </div>
     </section>
     <!--  -->
-    <!-- queries about your Computer/MacBook repair? -->
     <?php include_once('../common/any-query.php'); ?>
     <!--  -->
-    <!-- footer -->
     <?php include_once('../common/footer.php'); ?>
     <!--  -->
-    <!-- script -->
     <?php include_once('../common/common-js.php'); ?>
     <!--  -->
 </body>

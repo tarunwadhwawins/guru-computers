@@ -4,19 +4,18 @@
 <head>
     <!-- Meta & Link Tags -->
   <?php
-    $title = '';
+    $title = 'MacBook Repair Service | MacBook Screen Replacement';
     $keyword  = '';
-    $description  = "";
+    $description  = "Get the most affordable MacBook Repair services with Guru Computers or on the same day repair services and also get 90 days warranty on these services. Visit us or contact us now";
     
-    include_once('../common/common-css.php'); ?>
+    include_once('common/common-css.php'); ?>
     <!--  -->
 </head>
 
 <body>
-    <!-- header -->
-    <?php include_once('../common/header.php'); ?>
     <!--  -->
-    <!-- Banner -->
+    <?php include_once('common/header.php'); ?>
+    <!--  -->
     <div class="repairBanner">
         <div class="container">
             <div class="row">
@@ -27,12 +26,10 @@
         </div>
     </div>
     <!--  -->
-    <!-- Callus-Button -->
     <div class="callButtn">
             <a href="tel:+1 (604) 256-2193" target="_self" class="primaryButton"> Call +1 (604) 256-2193 </a>
         </div>
     <!--  -->
-    <!-- We also repair MacBook logic boards for common repairs. -->
     <section class="commonRepair">
         <div class="container">
             <div class="row">
@@ -53,7 +50,6 @@
         </div>
     </section>
     <!--  -->
-    <!-- WHY SHOULD YOU CHOOSE GURU COMPUTERS -->
     <section class="chooseComputer">
         <div class="container">
             <div class="row">
@@ -81,7 +77,6 @@
         </div>
     </section>
     <!-- -->
-    <!-- Macbook Replacement & Repair Keyboard LogicBoard -->
     <section class="replacmentMacbook">
         <div class="container">
             <div class="row">
@@ -129,14 +124,11 @@
         </div>
     </section>
     <!--  -->
-    <!-- queries about your Computer/MacBook repair? -->
-    <?php include_once('../common/any-query.php'); ?>
+    <?php include_once('common/any-query.php'); ?>
     <!--  -->
-    <!-- footer -->
-    <?php include_once('../common/footer.php'); ?>
+    <?php include_once('common/footer.php'); ?>
     <!--  -->
-    <!-- script -->
-    <?php include_once('../common/common-js.php'); ?>
+    <?php include_once('common/common-js.php'); ?>
     <!--  -->
 
 </body>

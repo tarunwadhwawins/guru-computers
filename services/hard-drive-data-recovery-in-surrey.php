@@ -4,9 +4,9 @@
 <head>
     <!-- Meta & Link Tags -->
    <?php
-    $title = '';
+    $title = 'Data Recovery Expert in Surrey - Hard Drive Data Recovery - Trusted Service';
     $keyword  = '';
-    $description  = "";
+    $description  = "Are you looking for data recovery expert in Surrey, BC? Guru Computers can repair your hard drive and recover your data easily, securely and efficiently.";
     
     include_once('../common/common-css.php'); ?>
     <!--  -->
@@ -28,7 +28,6 @@
             </div>
         </div>
         <!--  -->
-        <!-- Callus-Button -->
         <div class="callButtn">
             <a href="tel:+1 (604) 256-2193" target="_self" class="primaryButton"> Call +1 (604) 256-2193 </a>
         </div>
@@ -73,16 +72,10 @@
         </div>
     </section>
     <!--  -->
-
-    <!-- any query -->
     <?php include_once('../common/any-query.php'); ?>
     <!--  -->
-
-    <!-- footer -->
     <?php include_once('../common/footer.php'); ?>
     <!--  -->
-
-    <!-- script -->
     <?php include_once('../common/common-js.php'); ?>
     <!--  -->
 </body>

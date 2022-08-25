@@ -4,19 +4,18 @@
 <head>
     <!-- Meta & Link Tags -->
   <?php
-    $title = '';
+    $title = 'MacBook Keyboard Replacement In Delta - Guru Computers';
     $keyword  = '';
-    $description  = "";
+    $description  = "You might be looking for MacBook Keyboard Replacement service in Delta, BC? We repair all kind of MacBooks and satisfy our customers...";
     
     include_once('../common/common-css.php'); ?>
     <!--  -->
 </head>
 
 <body>
-    <!-- header -->
+    <!---->
     <?php include_once('../common/header.php'); ?>
     <!--  -->
-    <!-- Banner -->
     <div class="repairBanner">
         <div class="container">
             <div class="row">
@@ -27,7 +26,6 @@
         </div>
     </div>
     <!--  -->
-    <!-- Apple-Macbbok screen replacement In Delta – Can we repair your laptop screen? -->
     <section class="laptopProduct">
         <div class="container">
             <div class="row">
@@ -65,13 +63,11 @@
             </div>
         </div>
     </section>
-    <!-- queries about your Computer/MacBook repair? -->
+    <!-- -->
     <?php include_once('../common/any-query.php'); ?>
     <!--  -->
-    <!-- footer -->
     <?php include_once('../common/footer.php'); ?>
     <!--  -->
-    <!-- script -->
     <?php include_once('../common/common-js.php'); ?>
     <!--  -->
 </body>

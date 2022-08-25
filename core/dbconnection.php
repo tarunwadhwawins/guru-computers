@@ -8,8 +8,8 @@ session_start();
 
 // For Local
 $servername = "localhost";
-$username = "dits";
-$password = "dits";
+$username = "root";
+$password = "";
 $dbname = "gurucomputer";
 $url = "http://localhost/gurucomputer/";
 // Create connection

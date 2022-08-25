@@ -4,19 +4,18 @@
 <head>
    <!-- Meta & Link Tags -->
   <?php
-    $title = '';
+    $title = 'Computer Repair Delta, BC - Trustworthy Service - Guru Computers';
     $keyword  = '';
-    $description  = "";
+    $description  = "Looking for computer repair Delta, BC? Guru Computers is the best repair shop for computers and laptops in Delta, British Columbia. We repair all kinds of";
     
-    include_once('../common/common-css.php'); ?>
+    include_once('common/common-css.php'); ?>
     <!--  -->
 </head>
 
 <body>
-    <!-- header -->
-    <?php include_once('../common/header.php'); ?>
     <!--  -->
-    <!-- Banner -->
+    <?php include_once('common/header.php'); ?>
+    <!--  -->
     <div class="repairBanner">
         <div class="container">
             <div class="row">
@@ -27,7 +26,6 @@
         </div>
     </div>
     <!--  -->
-    <!-- Guru Computers in Delta is the most trusted computer repair service  -->
     <section class="commonRepair">
         <div class="container">
             <div class="row">
@@ -51,7 +49,6 @@
         </div>
     </section>
     <!--  -->
-    <!-- WHY SHOULD YOU CHOOSE GURU COMPUTERS -->
     <section class="chooseComputer">
         <div class="container">
             <div class="row">
@@ -71,7 +68,6 @@
         </div>
     </section>
     <!-- -->
-    <!-- Macbook Replacement & Repair Keyboard LogicBoard -->
     <section class="replacmentMacbook">
         <div class="container">
             <div class="row">
@@ -115,14 +111,13 @@
                         </div>
                     </div>
                 </div>
-                <!-- ----------------------------------------- -->
                 <div class="col-lg-6 col-md-12 col-sm-12 pb-5">
                     <div class="logicboardRepair" id="services">
                         <h3>Macbook & Laptop SSD Upgrade Services in Delta</h3>
                         <p class="text-left">Let’s face it. Everyone needs a dependable computer to complete their assignments, reports, presentations and in many cases, their school work. A fast and steady computer makes your life so easy. However, if you have a slow-running
                             computer or a laptop, the regular task takes way longer to complete and ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="lapatop-ssd-upgrade-in-delta">MacBook SSD Upgrade Delta</a>
+                            <a class="primaryButton read-more" href="<?php echo $url; ?>services/lapatop-ssd-upgrade-in-delta">MacBook SSD Upgrade Delta</a>
                         </div>
                     </div>
                 </div>
@@ -132,7 +127,7 @@
                         <p class="text-left">Dell doesn’t need any introduction as it is well-accepted PC manufacturing brand in North America and offers an impressive lineup of Inspiron laptops, XPS gaming laptops and Latitude series for the home and small business segment.
                             At Guru Computers, we repair all versions of Dell laptops/computers here. Dell Laptop Repair in ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="dell-laptop-repair-delta-surrey">Dell Laptop Repair</a>
+                            <a class="primaryButton read-more" href="<?php echo $url; ?>services/dell-laptop-repair-delta-surrey">Dell Laptop Repair</a>
                         </div>
                     </div>
                 </div>
@@ -142,7 +137,7 @@
                         <p class="text-left">Looking for iMac repair Delta? At Guru Computers, we repair all iMac generations. Apple iMac is a very well-built machine. It’s a marvel of technology inside a solid aluminium chassis with a sleek and elegant design. It has almost
                             all the things you need to in a power machine. However, ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="imac-repair-delta">iMac Repair Delta</a>
+                            <a class="primaryButton read-more" href="<?php echo $url; ?>services/imac-repair-delta">iMac Repair Delta</a>
                         </div>
                     </div>
                 </div>
@@ -152,7 +147,7 @@
                         <p class="text-left">Looking for computer power supply repair in Delta and Surrey? Guru Computers can help you with that. A power supply unit is the backbone of a computer. It supplies specific voltage to various components of a computer or a laptop.
                             If a power supply malfunctions, you may have a non-working ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="computer-laptop-power-supply-repair-delta-surrey">Power Supply Repair </a>
+                            <a class="primaryButton read-more" href="<?php echo $url; ?>services/computer-laptop-power-supply-repair-delta-surrey">Power Supply Repair </a>
                         </div>
                     </div>
                 </div>
@@ -162,7 +157,7 @@
                         <p class="text-left">ASUS has built a solid reputation among leading laptop and desktop brands. Asus offers an affordable and durable line of VivoBook and the premium line ASUS ZenBook. Asus Repair Delta - Asus Laptop Services At Guru Computers, we
                             offer repairs like Asus laptop screen replacement, motherboard level repair, dc jack replacement ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="asus-laptop-repair-delta">Asus Laptop Repair Delta </a>
+                            <a class="primaryButton read-more" href="<?php echo $url; ?>services/asus-laptop-repair-delta">Asus Laptop Repair Delta </a>
                         </div>
                     </div>
                 </div>
@@ -172,7 +167,7 @@
                         <p class="text-left">Lenovo is the industry leader in innovation and technology when it comes to laptops and smart devices. They offer a gamut of laptops and devices catering to a wide range of consumer needs. If you're looking for Lenovo laptop repair
                             in Delta, then you must visit Guru Computers, a computer ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="lenovo-laptop-repair-delta">Lenovo Laptop Repair Delta</a>
+                            <a class="primaryButton read-more" href="<?php echo $url; ?>services/lenovo-laptop-repair-delta">Lenovo Laptop Repair Delta</a>
                         </div>
                     </div>
                 </div>
@@ -182,7 +177,7 @@
                         <p class="text-left">Acer offers a wide variety of affordable laptop and desktop to cater to a wide range of consumers in home and small business segment. It is one of the leading laptop brands in North America and offers an affordable and durable
                             line of laptops like Acer Aspire, Acer Swift and ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="acer-laptop-repair-delta">Acer Laptop Repair Delta</a>
+                            <a class="primaryButton read-more" href="<?php echo $url; ?>services/acer-laptop-repair-delta">Acer Laptop Repair Delta</a>
                         </div>
                     </div>
                 </div>
@@ -192,7 +187,7 @@
                         <p class="text-left">Data Recovery Services Delta - Can we recover your data from hard drive? That’s the first question that comes to mind when you learn that your hard drive has failed. If you are looking for Data Recovery Service in Delta, please
                             visit us at Guru Computers. We offer data recovery services ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="data-recovery-services-delta">Hard Drive Data Recovery Delta</a>
+                            <a class="primaryButton read-more" href="<?php echo $url; ?>services/data-recovery-services-delta">Hard Drive Data Recovery Delta</a>
                         </div>
                     </div>
                 </div>
@@ -202,7 +197,7 @@
                         <p class="text-left">Laptop screen replacement In Delta - Can we repair your laptop screen? When you find any issues in your laptop screen, you can simply bring it to us at Guru Computers and we will fix it for you. We make sure that your computer
                             is working perfectly again with OEM parts ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="laptop-screen-replacement-in-delta">Laptop Screen Repair Delta</a>
+                            <a class="primaryButton read-more" href="<?php echo $url; ?>services/laptop-screen-replacement-in-delta">Laptop Screen Repair Delta</a>
                         </div>
                     </div>
                 </div>
@@ -212,7 +207,7 @@
                         <p class="text-left">Virus Removal Delta - Malware, Trojan, Spyware, Adwares - How do Guru Computers remove virus from your PC? A computer virus, spyware, malware or adware is a piece of software that can get installed on your computer without your
                             knowledge or intention. These software programs can interfere with computer operations. It might ...</p>
                         <div class="repairButtonn">
-                            <a class="primaryButton read-more" href="virus-spyware-malware-adware-removal">Virus Removal Delta</a>
+                            <a class="primaryButton read-more" href="<?php echo $url; ?>services/virus-spyware-malware-adware-removal">Virus Removal Delta</a>
                         </div>
                     </div>
                 </div>
@@ -220,14 +215,11 @@
         </div>
     </section>
     <!--  -->
-    <!-- queries about your Computer/MacBook repair? -->
-    <?php include_once('../common/any-query.php'); ?>
+    <?php include_once('common/any-query.php'); ?>
     <!--  -->
-    <!-- footer -->
-    <?php include_once('../common/footer.php'); ?>
+    <?php include_once('common/footer.php'); ?>
     <!--  -->
-    <!-- script -->
-    <?php include_once('../common/common-js.php'); ?>
+    <?php include_once('common/common-js.php'); ?>
     <!--  -->
 
 </body>

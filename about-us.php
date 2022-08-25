@@ -4,16 +4,16 @@
 <head>
     <!-- Meta & Link Tags -->
    <?php
-    $title = '';
+    $title = 'About Us - Guru Computers';
     $keyword  = '';
-    $description  = "";
+    $description  = "Guru Computers was established in the summer of 2013. Sukh, the owner has over 15 years of experience in fixing computers.";
     
     include_once('common/common-css.php'); ?>
     <!--  -->
 </head>
 
 <body>
-    <!-- header -->
+    <!-- -->
     <?php include_once('common/header.php'); ?>
     <!--  -->
     <section class="aboutUs">
@@ -35,10 +35,9 @@
             </div>
         </div>
     </section>
-    <!-- footer -->
+    <!--  -->
     <?php include_once('common/footer.php'); ?>
     <!--  -->
-    <!-- script -->
     <?php include_once('common/common-js.php'); ?>
     <!--  -->
 </body>
