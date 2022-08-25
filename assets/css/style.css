@@ -634,10 +634,12 @@
     margin-top: 0;
   }
 }
-.contact .question .contactField h5 {
+.contact .question .contactField label {
   color: #f15a24;
-  font-family: "open_sansbold";
+  font-family: "poppinsmedium";
   margin: 0 0 7px 0;
+  display: block;
+  font-size: 14px;
 }
 .contact .question .contactField input {
   padding: 5px;

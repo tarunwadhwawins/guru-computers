@@ -634,10 +634,12 @@
                     margin-top: 0;
                 }
             }
-            h5 {
+            label {
                 color: $primary-color;
-                font-family: "open_sansbold";
+                font-family: "poppinsmedium";
                 margin: 0 0 7px 0;
+                display: block;
+                font-size: 14px;
             }
             input {
                 padding: 5px;
