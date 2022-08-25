@@ -523,8 +523,9 @@
 
 // contact//
 .contact {
-    .textWigits {
-        padding: 50px 0;
+    padding:50px 0;
+    .textWidgets {
+        padding: 0 0 30px 0;
         display: flex;
         justify-content: center;
         @media screen and (max-width: 767px) {
@@ -569,7 +570,7 @@
         }
     }
     .question {
-        padding: 10px;
+        padding:30px;
         border: 2px solid $white-color2;
         border-radius: 4px;
         background: $primary-contrast-color;
@@ -633,10 +634,12 @@
                     margin-top: 0;
                 }
             }
-            h5 {
+            label {
                 color: $primary-color;
-                font-family: "open_sansbold";
+                font-family: "poppinsmedium";
                 margin: 0 0 7px 0;
+                display: block;
+                font-size: 14px;
             }
             input {
                 padding: 5px;

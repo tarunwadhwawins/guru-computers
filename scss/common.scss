@@ -135,7 +135,7 @@ p {
         color: $primary-contrast-color;
     }
     @media(max-width: 991px) {
-        padding: 10px 17px 15px;
+        padding: 10px 17px;
         font-size: 12px;
     }
 }
@@ -146,6 +146,10 @@ p {
 
 .youtubeVideo {
     max-width: 640px;
+}
+
+.boxShadow {
+    box-shadow: 0 0 8px rgb(0 0 0 / 10%);
 }
 
 // Animations
