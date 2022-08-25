@@ -106,6 +106,11 @@
                                 </div>
                                 <div class="col-sm-12">
                                     <div class="contactField">
+                                        <input  data-validation="recaptcha" data-validation-recaptcha-sitekey="6LdmI44hAAAAAPLZHO9DaTyvHoP0e5mpRZsjEX0S">
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="contactField">
                                         <button class="primaryButton" type="submit">Send</button>
                                     </div>
                                 </div>

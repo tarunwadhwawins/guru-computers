@@ -36,7 +36,9 @@
     var base_url = '<?php echo $url; ?>';
     $(document).ready(function() {
         $.validate({
-            modules: 'security'
+            modules: 'security',
+            reCaptchaSiteKey: '6LdmI44hAAAAAPLZHO9DaTyvHoP0e5mpRZsjEX0S',
+            reCaptchaTheme: 'light'
         });
         $("#contactForm").submit(function(e) {
             e.preventDefault();
