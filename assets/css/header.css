@@ -33,30 +33,22 @@ header .navbar .navbar-toggler {
   position: relative;
   z-index: 999;
 }
-header .navbar .navbar-toggler.active .menuBar .menuClose {
+header .navbar .navbar-toggler span {
   display: block;
+  height: 2px;
+  background-color: #f15a24;
+  width: 20px;
+  margin: 5px 0;
+  transition: all 0.5s;
 }
-header .navbar .navbar-toggler.active .menuBar .menuBars {
+header .navbar .navbar-toggler.active span:first-child {
+  transform: rotate(45deg) translate(4px, 0px);
+}
+header .navbar .navbar-toggler.active span:nth-child(2) {
   display: none;
 }
-header .navbar .navbar-toggler .menuBar {
-  border: 3px solid #f15a24;
-  padding: 10px 15px;
-  border-radius: 5px;
-  color: #f15a24;
-  font-size: 20px;
-}
-@media (max-width: 767px) {
-  header .navbar .navbar-toggler .menuBar {
-    padding: 6px 12px;
-    font-size: 14px;
-  }
-}
-header .navbar .navbar-toggler .menuBar .menuClose {
-  display: none;
-}
-header .navbar .navbar-toggler .menuBar .menuBars {
-  display: block;
+header .navbar .navbar-toggler.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -1px);
 }
 @media (max-width: 1199px) {
   header .navbar .navbar-collapse .navbar-nav {
