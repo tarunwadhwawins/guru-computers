@@ -43,9 +43,7 @@ function customerEmailData($Name)
   $email_content = '<!doctype html>
     <html>
     <head>
-       <link rel="preconnect" href="https://fonts.googleapis.com">
-       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+      
     </head>
     <body data-new-gr-c-s-check-loaded="14.993.0" data-gr-ext-installed="">
        <table cellpadding="0" cellspacing="0" align="center" border="0"

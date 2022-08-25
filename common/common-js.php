@@ -49,6 +49,7 @@
                 success: function(response) {
                     var $messageDiv = $('#quotesmessage')
                     $messageDiv.hide().html(response.Message);
+                    grecaptcha.reset();
                     if (response.Success == true) {
                         $messageDiv.text('Thank You! Our Team Will Get Back To You Soon!!');
                         document.getElementById("contactForm").reset();
