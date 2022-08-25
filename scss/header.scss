@@ -28,31 +28,25 @@ header {
             box-shadow: none !important;
             position: relative;
             z-index: 999;
+            span {
+                display: block;
+                height: 2px;
+                background-color: $primary-color;
+                width: 20px;
+                margin: 5px 0;
+                transition: all 0.5s;
+            }
             &.active {
-                .menuBar {
-                    .menuClose {
-                        display: block;
+                span {
+                    &:first-child {
+                        transform: rotate(45deg) translate(4px, 0px);
                     }
-                    .menuBars {
+                    &:nth-child(2) {
                         display: none;
                     }
-                }
-            }
-            .menuBar {
-                border: 3px solid $primary-color;
-                padding: 10px 15px;
-                border-radius: 5px;
-                color: $primary-color;
-                font-size: 20px;
-                @media (max-width: 767px) {
-                    padding: 6px 12px;
-                    font-size: 14px;
-                }
-                .menuClose {
-                    display: none;
-                }
-                .menuBars {
-                    display: block;
+                    &:nth-child(3) {
+                        transform: rotate(-45deg) translate(5px, -1px);
+                    }
                 }
             }
         }
