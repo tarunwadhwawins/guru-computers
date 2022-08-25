@@ -144,9 +144,8 @@
 
 .backToTop {
   position: fixed;
-  right: 3px;
-  top: 83%;
-  margin-right: 22px;
+  right: 25px;
+  bottom: 83px;
   display: none;
   z-index: 60;
   border-radius: 4px;
@@ -154,12 +153,10 @@
   background-color: #f15a24;
   text-decoration: none;
   cursor: pointer;
-}
-.backToTop a {
   color: #fff;
   text-align: center;
 }
-.backToTop a i {
+.backToTop i {
   display: block;
   font-size: 36px;
   line-height: 40px;
@@ -169,8 +166,6 @@
 .backToTop:hover {
   background-color: #000;
   transition: all 0.8s;
-}
-.backToTop:hover a {
   color: #f15a24;
 }
 .backToTop.show {

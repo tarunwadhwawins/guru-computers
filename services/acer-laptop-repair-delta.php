@@ -36,7 +36,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                    <div class="productContent"><img class="rightimg" src="<?php echo $url; ?>assets/images/Acer-repair-delta.jpg" alt="laptopimage"></div>
+                    <div class="productContent"><img class="rightimg" src="<?php echo $url; ?>assets/images/Acer-repair-delta.jpg" alt="Acer Repair Delta"></div>
                         <p>Acer offers a wide variety of affordable laptop and desktop to cater to a wide range of consumers in home and small business segment. It is one of the leading laptop brands in North America and offers an affordable and durable
                             line of laptops like Acer Aspire, Acer Swift and Acer TravelMate.</p>
                         <h2>Acer Repair Delta – Acer Laptop Services</h2>

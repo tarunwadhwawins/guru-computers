@@ -31,7 +31,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="<?php echo $url; ?>assets/images/delta/screen-replacementservice.jpg" alt="productImage">
+                        <img src="<?php echo $url; ?>assets/images/delta/screen-replacementservice.jpg" alt="Apple Macbook Screen Replacement">
                     </div>
                     <p>MacBook screen cracked or shattered? Guru Computers provide the best MacBook Screen Replacement in <a href="apple-macbook-screen-replacement-in-delta"><span class="textt">Delta </span></a> , BC. At Guru Computers, we repair MacBooks
                         of all generations.</p>

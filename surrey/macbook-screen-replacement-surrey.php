@@ -31,7 +31,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="<?php echo $url; ?>assets/images/delta/screen-replacementservice.jpg" alt="productImage">
+                        <img src="<?php echo $url; ?>assets/images/delta/screen-replacementservice.jpg" alt="Apple MacBook Screen">
                     </div>
                     <p>Cracked MacBook screen? Guru Computers provide the best MacBook screen replacement service in <a href="<?php echo $url; ?>services/macbook-repair-surrey"><span class="textt">Surrey </span></a> , BC. We repair all generations of MacBooks.</p>
                     <h2>Apple MacBook Screen Replacement Surrey</h2>

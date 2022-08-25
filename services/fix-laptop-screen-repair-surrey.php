@@ -35,7 +35,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="<?php echo $url; ?>assets/images/laptopscreenrepair.png" alt="productImage">
+                        <img src="<?php echo $url; ?>assets/images/laptopscreenrepair.png" alt="Laptop Screen Repair">
                     </div>
                     <p>The most common repair in a laptop is the screen replacement. Accidents happen and screens crack leaving your laptop in an unusable state.</p>
                     <h2>Laptop Screen Repair In Surrey – Laptop Repair Sureey</h2>

@@ -36,7 +36,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                    <div class="productContent">  <img class="rightimg" src="<?php echo $url; ?>assets/images/Data-Recovery_new.png" alt=""></div>
+                    <div class="productContent">  <img class="rightimg" src="<?php echo $url; ?>assets/images/Data-Recovery_new.png" alt="Data Recovery Surrey"></div>
                         <p>Computer or Laptop not working due to damage? Need that data transferred to a new computer or an <a href="https://www.amazon.com/External-Hard-Drives-Storage-Add-Ons/b?ie=UTF8&amp;node=595048" target="_blank" rel="noopener nofollow noreferrer">external storage drive</a>?
                             Trust us at Guru Computers in Surrey to handle your data securely and efficiently.</p>
                         <p>From home users to small businesses, Guru Computers is a trusted name for <a href="https://en.wikipedia.org/wiki/Data_recovery" target="_blank" rel="noopener dofollow noreferrer">hard drive recovery</a> when your business is interrupted

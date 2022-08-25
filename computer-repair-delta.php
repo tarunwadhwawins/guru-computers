@@ -42,7 +42,7 @@
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="boardImage">
-                        <img src="<?php echo $url; ?>assets/images/laptop.png" alt="boardImage">
+                        <img src="<?php echo $url; ?>assets/images/laptop.png" alt="Computer Repair Services">
                     </div>
                 </div>
             </div>

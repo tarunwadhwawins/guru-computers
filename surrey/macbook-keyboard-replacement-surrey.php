@@ -31,7 +31,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="<?php echo $url; ?>assets/images/keyboardrepairservices01.jpg" alt="productImage">
+                        <img src="<?php echo $url; ?>assets/images/keyboardrepairservices01.jpg" alt="Apple Macbook Keyboard">
                     </div>
                     <p>Did your laptop keys just stop working? Guru Computers provide the best Apple MacBook Keyboard Replacement service in <a href="macbook-keyboard-replacement-surrey"><span class="textt">Surrey </span></a> ,, BC. We here at Guru Computers,
                         fix all generations of MacBooks.

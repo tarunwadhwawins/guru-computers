@@ -31,7 +31,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="<?php echo $url; ?>assets/images/keyboardrepairservices01.jpg" alt="productImage">
+                        <img src="<?php echo $url; ?>assets/images/keyboardrepairservices01.jpg" alt="Apple Macbook Screen">
                     </div>
                     <p>MacBook keys stop working? Guru Computers provide the best MacBook Keyboard Replacement service in <a href="macbook-repair-delta"><span class="textt">Delta </span></a> , BC. We here at Guru Computers, repair all kind of MacBooks.</p>
                     <h2>Best Macbook Keyboard Replacement In Delta</h2>
@@ -57,7 +57,7 @@
                         <a class="primaryButton" href="<?php echo $url; ?>contact" target="_self">Book Now</a>
                     </div>
                     <?php include_once('../common/youtubevideo.php'); ?>
-                    <h4>GET DIRECTIONS fOR Laptop Screen replacement in Delta</h4>
+                    <h4>Get Directions For Laptop Screen replacement in Delta</h4>
                     <?php include_once('../common/map.php'); ?>
                 </div>
             </div>

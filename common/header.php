@@ -8,7 +8,7 @@
     <div class="container-fluid-lg">
         <nav class="navbar navbar-expand-xl">
             <a class="navbar-brand" href="<?php echo $url; ?>">
-                <img src="<?php echo $url; ?>assets/images/logo.png" alt="logoimage"></a>
+                <img src="<?php echo $url; ?>assets/images/logo.png" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span></span>
                 <span></span>

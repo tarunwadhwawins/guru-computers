@@ -31,7 +31,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="<?php echo $url; ?>assets/images/logicboardservice.png" alt="productImage">
+                        <img src="<?php echo $url; ?>assets/images/logicboardservice.png" alt="Apple MacBook Logicboard">
                     </div>
                     <p>Looking for Apple MacBook Logicboard Repair in <a href="macbook-repair-delta"><span class="textt">Delta </span></a> , BC? At Guru Computers, we repair Apple MacBooks of all generations.</p>
                     <h2>Apple Macbook Logicboard Repair In Delta</h2>

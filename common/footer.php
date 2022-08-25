@@ -98,12 +98,11 @@
     </div>
 </footer>
 <!-- Back to Top -->
-<div class="backToTop " title="Back to top">
-    <a href="#"> <i class="fa fa-angle-up" aria-hidden="true"></i></a>
-</div>
+    <a href="#" class="backToTop "><i class="fa fa-angle-up" aria-hidden="true"></i></a>
 <!--  -->
 
 <div class="stickyContainer">
+<<<<<<< Updated upstream
     <a href="tel:+1 (604) 256-2193" class="sideContactLinks">
         <i class="fa fa-phone" aria-hidden="true"></i> +1 (604) 256-2193
     </a>
@@ -112,4 +111,19 @@
     </a>
 </div>
 
+=======
+    <ul class="sticky">
+        <li>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <p><a href="tel:+1 (604) 256-2193">+1 (604) 256-2193 </a></p>
+        </li>
+        <li>
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <p>
+                <a href="mailto:gururepairlab@gmail.com"> gururepairlab@gmail.com</a>
+            </p>
+        </li>
+    </ul>
+</div>
+>>>>>>> Stashed changes
 <!--  -->

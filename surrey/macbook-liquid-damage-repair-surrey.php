@@ -31,7 +31,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="<?php echo $url; ?>assets/images/liquid-damageservice.jpg" alt="productImage">
+                        <img src="<?php echo $url; ?>assets/images/liquid-damageservice.jpg" alt="Apple Macbook Liquid Damage">
                     </div>
                     <p>Spilled a coffee/liquid on your laptop? Guru Computers provide the best MacBook liquid damage repair service in <a href="macbook-liquid-damage-repair-surrey"><span class="textt">Surrey </span></a> , BC. We repair all generations
                         of MacBooks.</p>

@@ -35,7 +35,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="<?php echo $url; ?>assets/images/iMac-Repair-Delta-Surrey-1.png" alt="productImage">
+                        <img src="<?php echo $url; ?>assets/images/iMac-Repair-Delta-Surrey-1.png" alt="iMac repairs surrey">
                     </div>
                     <p>Apple <a href="https://en.wikipedia.org/wiki/IMac" target="_blank"><span class="textt">iMac </span></a>
                         is a popular choice for a lot of home and business users. Needless to say, these are powerful and  very well-built machines   with a sleek and elegant design.  It has everything you want in a beautiful looking computer </p>

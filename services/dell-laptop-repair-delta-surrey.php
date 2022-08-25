@@ -36,7 +36,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                    <div class="productContent"><img class="rightimg" src="<?php echo $url; ?>assets/images/Dell-Laptop-Repair-1.jpg" alt="dellimage"></div>
+                    <div class="productContent"><img class="rightimg" src="<?php echo $url; ?>assets/images/Dell-Laptop-Repair-1.jpg" alt="Dell Laptop Repair"></div>
                         <p>Dell doesn’t need any introduction as it is well-accepted PC manufacturing brand in North America and offers an impressive lineup of Inspiron laptops, XPS gaming laptops and Latitude series for the home and small business segment
                             . At Guru Computers, we repair all versions of Dell laptops/computers here.</p>
                         <h2>Dell Laptop Repair in Delta and Surrey – Dell Repair Service </h2>

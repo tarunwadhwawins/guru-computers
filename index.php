@@ -24,10 +24,10 @@
                     <p> Keyboard replacement starting at $175 onwords.</p>
                     <a href="<?php echo $url; ?>contact" class=" primaryButton">Call Now!</a>
                 </div>
-                <img src="<?php echo $url; ?>assets/images/keyboardreplacement.jpg" alt="bannerimage">
+                <img src="<?php echo $url; ?>assets/images/keyboardreplacement.jpg" alt="keyboard replacement">
             </div>
             <div class="slider">
-                <img src="<?php echo $url; ?>assets/images/liquiddamage2.jpg" alt="bannerimage">
+                <img src="<?php echo $url; ?>assets/images/liquiddamage2.jpg" alt="spilled liquid">
                 <div class="bannerText d-flex align-items-center flex-column">
                     <label>Spilled liquid?</label>
                     <p>Liquid damage repair starting at $110 onwards. </p>
@@ -35,7 +35,7 @@
                 </div>
             </div>
             <div class="slider">
-                <img src="<?php echo $url; ?>assets/images/logicboard2.jpg" alt="bannerimage">
+                <img src="<?php echo $url; ?>assets/images/logicboard2.jpg" alt="logicboard repair">
                 <div class="bannerText d-flex align-items-center flex-column">
                     <label>Need a Logicboard repair?</label>
                     <p>Logicboard repair service comes with 90 days warranty.</p>
@@ -43,7 +43,7 @@
                 </div>
             </div>
             <div class="slider">
-                <img src="<?php echo $url; ?>assets/images/screenreplacement.jpg" alt="bannerimage">
+                <img src="<?php echo $url; ?>assets/images/screenreplacement.jpg" alt="cracked or shattered screens">
                 <div class="bannerText d-flex align-items-center flex-column">
                     <label>cracked or shattered screens?</label>
                     <p> Screen replacement starting at $200 onwards.</p>
@@ -75,10 +75,10 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="webIcon">
-                        <img src="<?php echo $url; ?>assets/images/applelogo.png" alt="apple-logo">
+                        <img src="<?php echo $url; ?>assets/images/applelogo.png" alt="apple">
                     </div>
                     <div class="webIcon">
-                        <img src="<?php echo $url; ?>assets/images/windowslogo.png" alt="window-logo">
+                        <img src="<?php echo $url; ?>assets/images/windowslogo.png" alt="window">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12">

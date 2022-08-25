@@ -31,10 +31,10 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="webIcon">
-                        <img src="<?php echo $url; ?>assets/images/applelogo.png" alt="webimage">
+                        <img src="<?php echo $url; ?>assets/images/applelogo.png" alt="apple">
                     </div>
                     <div class="webIcon">
-                        <img src="<?php echo $url; ?>assets/images/windowslogo.png" alt="webimage">
+                        <img src="<?php echo $url; ?>assets/images/windowslogo.png" alt="window">
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12">

@@ -34,13 +34,13 @@
                 <div class="col-lg-10 offset-lg-1 col-sm-12">
                     <div class="textWidgets">
                         <div class="callus">
-                            <img src="<?php echo $url; ?>assets/images/phoneimage.png" alt="contactimage">
+                            <img src="<?php echo $url; ?>assets/images/phoneimage.png" alt="Call Us">
                             <h4>Call Us</h4>
                             <p>Guru Computers</p>
                             <a href="tel:+1 (604) 256-2193" class="primaryButton">+1 (604) 256-2193</a>
                         </div>
                         <div class="callus">
-                            <img src="<?php echo $url; ?>assets/images/clockimage.png" alt="contactimage">
+                            <img src="<?php echo $url; ?>assets/images/clockimage.png" alt="contact">
                             <h4>Support Hours</h4>
                             <p>Monday-Saturday : 10:00 am - 07:00 pm</p>
                             <p>Sunday : Closed</p>

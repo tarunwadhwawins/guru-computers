@@ -35,7 +35,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="<?php echo $url; ?>assets/images/Laptop-Screen-Replacement.jpg" alt="productImage">
+                        <img src="<?php echo $url; ?>assets/images/Laptop-Screen-Replacement.jpg" alt="Laptop Screen Replacment">
                     </div>
                     <p class="text-left">Laptop screen replacement In Delta – Can we repair your laptop screen?</p>
                     <p>When you find any issues in your laptop screen, you can simply bring it to us at Guru Computers and we will fix it for you. We make sure that your computer is working perfectly again with OEM parts installed.</p>

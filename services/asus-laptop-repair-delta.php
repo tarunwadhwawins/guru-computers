@@ -36,7 +36,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                    <div class="productContent">  <img class="rightimg" src="<?php echo $url; ?>assets/images/Asus.jpg" alt="laptopimage"></div>
+                    <div class="productContent">  <img class="rightimg" src="<?php echo $url; ?>assets/images/Asus.jpg" alt="Asus Laptop Screen Repair"></div>
                         <p>ASUS has built a solid reputation among leading laptop and desktop brands. Asus offers an affordable and durable line of VivoBook and the premium line ASUS ZenBook.</p>
                         <h2>Asus Repair Delta – Asus Laptop Services</h2>
                         <p>At Guru Computers, we offer repairs like Asus laptop screen replacement, motherboard level repair, dc jack replacement and Hard Drive upgrades to a Solid-State Drive. Most of these services are offered the same day and are backed

@@ -166,9 +166,8 @@
 
 .backToTop {
     position: fixed;
-    right: 3px;
-    top: 83%;
-    margin-right: 22px;
+    right: 25px;
+    bottom: 83px;
     display: none;
     z-index: 60;
     border-radius: 4px;
@@ -176,23 +175,19 @@
     background-color: $primary-color;
     text-decoration: none;
     cursor: pointer;
-    a {
-        color: $primary-contrast-color;
+    color: $primary-contrast-color;
+    text-align: center;
+    i {
+        display: block;
+        font-size: 36px;
+        line-height: 40px;
+        padding-bottom: 2px;
         text-align: center;
-        i {
-            display: block;
-            font-size: 36px;
-            line-height: 40px;
-            padding-bottom: 2px;
-            text-align: center;
-        }
     }
     &:hover {
         background-color: $primary-dark-color;
         transition: all 0.8s;
-        a {
-            color: $primary-color;
-        }
+        color: $primary-color;
     }
     &.show {
         display: block !important;

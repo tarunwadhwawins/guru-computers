@@ -36,7 +36,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="<?php echo $url; ?>assets/images/Computer-Power-Supply-Replacement.jpg" alt="productImage">
+                        <img src="<?php echo $url; ?>assets/images/Computer-Power-Supply-Replacement.jpg" alt="Computer Power Supply">
                     </div>
                     <p>Looking for computer power supply repair in Delta and Surrey? Guru Computers can help you with that. A <a href="https://en.wikipedia.org/wiki/Power_supply_unit_(computer)" target="_blank" rel="noopener noreferrer dofollow">power supply</a>                        unit is the backbone of a computer. It supplies specific voltage to various components of a computer or a laptop. If a power supply malfunctions, you may have a non-working computer. Many times, a failing power supply is the only
                         reason for a dead/non-working computer. Fortunately, these are easy to repair or replace. </p>

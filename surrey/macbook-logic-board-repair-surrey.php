@@ -31,7 +31,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="<?php echo $url; ?>assets/images/logicboardservice.png" alt="productImage">
+                        <img src="<?php echo $url; ?>assets/images/logicboardservice.png" alt="Apple Macbook Logic Board">
                     </div>
                     <p>You might be looking for Apple MacBook logic board repair service in <a href="https://gurucomputers.ca/macbook-repair-surrey/" target="_blank"><span class="textt">Surrey </span></a> , BC? Then you must visit the Guru Computers. We here at Guru Computers,
                         repair all kind of MacBooks.</p>

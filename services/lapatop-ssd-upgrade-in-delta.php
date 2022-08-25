@@ -35,7 +35,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="<?php echo $url; ?>assets/images/Laptop-Screen-Replacement.jpg" alt="productImage">
+                        <img src="<?php echo $url; ?>assets/images/Laptop-Screen-Replacement.jpg" alt="flash storage ssd">
                     </div>
                     <p>Let’s face it. Everyone needs a dependable computer to complete their assignments, reports, presentations and in many cases, their school work. A fast and steady computer makes your life so easy. However, if you have a slow-running
                         computer or a laptop, the regular task takes way longer to complete and results in inefficiency. </p>

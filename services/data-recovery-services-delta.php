@@ -36,7 +36,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                         <div class="productContent"><img src="<?php echo $url; ?>assets/images/Data-Recovery-Services-Delta.png" alt="laptopimage"></div>
+                         <div class="productContent"><img src="<?php echo $url; ?>assets/images/Data-Recovery-Services-Delta.png" alt="Data Recovery Services"></div>
                         <h5>Data Recovery Services Delta – Can we recover your data from hard drive?</h5>
                         <p>That’s the first question that comes to mind when you learn that your hard drive has failed. If you are looking for Data Recovery Service in Delta, please visit us at <a href="<?php echo $url; ?>">Guru Computers</a>.
                             We offer data recovery services and we have the equipment to professionally recover data from a failed hard drive.</p>

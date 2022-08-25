@@ -43,7 +43,7 @@
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="boardImage">
-                        <img src="<?php echo $url; ?>assets/images/macbook-with-apple-logo.png" alt="boardImage">
+                        <img src="<?php echo $url; ?>assets/images/macbook-with-apple-logo.png" alt="MacBook repair delta">
                     </div>
                 </div>
             </div>

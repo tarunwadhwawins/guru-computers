@@ -36,7 +36,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="<?php echo $url; ?>assets/images/iMac-Repair-Delta-Surrey-1.png" alt="productImage">
+                        <img src="<?php echo $url; ?>assets/images/iMac-Repair-Delta-Surrey-1.png" alt="iMac Repair Delta">
                     </div>
                     <p>Looking for iMac repair Delta? At Guru Computers, we repair all iMac generations. Apple <a href="https://en.wikipedia.org/wiki/IMac" target="_blank"><span class="textt">iMac </span></a>is a very well-built machine. It’s a marvel of technology inside a solid aluminium chassis with
                         a sleek and elegant design. It has almost all the things you need to in a power machine. However, the parts inside may require repairs occasionally. </p>

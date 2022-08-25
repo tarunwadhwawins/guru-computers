@@ -31,7 +31,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="productContent">
-                        <img src="<?php echo $url; ?>assets/images/liquid-damageservice.jpg" alt="productImage">
+                        <img src="<?php echo $url; ?>assets/images/liquid-damageservice.jpg" alt="Apple Macbook Liquid Damage">
                     </div>
                     <p>Spilled a coffee on your laptop? Guru Computers provide the best MacBook Liquid Damage Repair in <a href="macbook-repair-delta"><span class="textt">Delta </span></a> , BC. We at Guru Computers, repair MacBooks of all generation.</p>
                     <h2>Best Apple Macbook Liquid Damage Repair In Delta</h2>
@@ -63,7 +63,7 @@
                         <a class="primaryButton" href="<?php echo $url; ?>contact" target="_self">Book Now</a>
                     </div>
                     <?php include_once('../common/youtubevideo.php'); ?>
-                    <h4>Get direction fOR Laptop Screen replacement in Delta</h4>
+                    <h4>Get Direction For Laptop Screen replacement in Delta</h4>
                     <?php include_once('../common/map.php'); ?>
                 </div>
             </div>
