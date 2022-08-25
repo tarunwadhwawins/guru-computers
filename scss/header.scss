@@ -85,7 +85,7 @@ header {
                 &.nav-item {
                     font-family: "open_sanslight";
                     &.active {
-                        .nav-link {
+                        >.nav-link {
                             color: $primary-color;
                         }
                     }
