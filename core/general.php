@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_GET['action']) && !empty($_
   $request = $_POST;
   switch ($_GET['action']) {
     case 'ConactFormSave':
-      $sql = "INSERT INTO `contacts`(`Name`, `Email`,`Phone`, `Message`, `Service`, `IP`, `URL`) VALUES ('" . mysqli_real_escape_string($conn, $request['name']) . "', '" . mysqli_real_escape_string($conn, $request['email']) . "', '" . mysqli_real_escape_string($conn, $request['phone'])  . "', '" . mysqli_real_escape_string($conn, $request['message'])  . "', '" . mysqli_real_escape_string($conn, $request['service'])  . "', '" . mysqli_real_escape_string($conn, $_SERVER['REMOTE_ADDR']) . "', '" . mysqli_real_escape_string($conn, $_SERVER['HTTP_REFERER']) . "')";
+      $sql = "INSERT INTO `contacts`(`Name`, `Email`,`Phone`, `Message`, `Service`, `IP`, `URL`) VALUES ('" . mysqli_real_escape_string($conn, $request['name']) . "', '" . mysqli_real_escape_string($conn, $request['email']) . "', '" . mysqli_real_escape_string($conn, $request['contact_no'])  . "', '" . mysqli_real_escape_string($conn, $request['message'])  . "', '" . mysqli_real_escape_string($conn, $request['service'])  . "', '" . mysqli_real_escape_string($conn, $_SERVER['REMOTE_ADDR']) . "', '" . mysqli_real_escape_string($conn, $_SERVER['HTTP_REFERER']) . "')";
 
 
       if ($conn->query($sql) === TRUE) {
@@ -31,7 +31,7 @@ function userInformationHtml($request)
   $html = '<p><strong>Name</strong> : ' . $request['name'] . '</p>';
   $html .= '<p><strong>Email</strong> : ' . $request['email'] . '</p>';
   $html .= '<p><strong>Service</strong> : ' . $request['service'] . '</p>';
-  $html .= '<p><strong>Phone</strong> : ' . $request['phone'] . '</p>';
+  $html .= '<p><strong>Phone</strong> : ' . $request['contact_no'] . '</p>';
   $html .= '<p><strong>Message</strong>: ' . $request['message'] . '</p>';
 
   return $html;
