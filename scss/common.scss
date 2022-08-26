@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    font-family: $secondary-font-family;
+    font-family: $secondary-font-family-regular;
     scroll-behavior: smooth;
 }
 
@@ -38,26 +38,26 @@ a {
 h1 {
     font-size: 28px;
     text-transform: capitalize;
-    font-family: 'open_sanssemibold';
+    font-family: $secondary-font-family-semibold;
 }
 
 h2 {
     text-transform: capitalize;
     font-size: 24px;
-    font-family: 'open_sanssemibold';
+    font-family: $secondary-font-family-semibold;
 }
 
 h3 {
     text-transform: capitalize;
     font-size: 20px;
-    font-family: 'open_sanssemibold';
+    font-family: $secondary-font-family-semibold;
     color: $primary-contrast-color;
 }
 
 h4 {
     font-size: 18px;
     text-transform: capitalize;
-    font-family: 'open_sanssemibold';
+    font-family: $secondary-font-family-semibold;
     color: $secondary-dark-color;
 }
 
@@ -96,7 +96,7 @@ p {
 }
 
 .textt {
-    color: $grey3;
+    color: $grey300;
     &:hover {
         color: $primary-color;
     }
@@ -110,7 +110,6 @@ p {
     color: $primary-contrast-color;
     border: 1px solid $primary-color;
     border-radius: 4px;
-    font-family: 'open_sansregular';
     display: inline-block;
     &:hover {
         background: $baseblue;
@@ -122,10 +121,10 @@ p {
 
 .secondaryButton {
     background: $secondary-contrast-color;
-    color: $grey2;
+    color: $grey200;
     border: 2px solid $secondary-contrast-color;
     padding: 12px 20px;
-    font-family: 'open_sansbold';
+    font-family: $secondary-font-family-bold;
     border-radius: 4px;
     font-size: 13px;
     display: inline-block;

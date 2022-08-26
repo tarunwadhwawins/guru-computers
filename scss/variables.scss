@@ -1,31 +1,39 @@
 //Theme-Colors
+// Primary-Color
+$primary-color:#f15a24;
 $primary-contrast-color: #fff;
-$secondary-contrast-color:#efefef;
-$white-color1:#f8f8f8;
-$white-color2:#ddd;
 $primary-dark-color: #000;
 $baseblack:#1a1a1a;
+$darkcolor:#3a3a3a;
+$basered:#eb7260;
+$baseblue:#002858;
+$grey100:#777;
+$grey200:#666;
+$grey300: #aaa;
+$grey400:#cbcbcb;
+$grey500:#dcdcdc;
+$grey600: #464547;
+// Secondary -Color
+$secondary-contrast-color:#efefef;
 $secondary-dark-color:#2d2d2d;
 $solid-dark-color:#333333;
 $solid-lite-color:#ffffff40;
-$darkcolor:#3a3a3a;
-$primary-color:#f15a24;
-$baseblue:#002858;
+$white-color1:#f8f8f8;
+$white-color2:#ddd;
+$grey-boder:#d9d9d9;
+// Alternative-Color
 $facebook-color:#3E5993;
 $twitter-color:#00C3F8;
-$basered:#eb7260;
-$grey:#777;
-$grey2:#666;
-$grey3: #aaa;
-$grey4:#cbcbcb;
-$grey5:#dcdcdc;
-$grey6: #464547;
-$grey-boder:#d9d9d9;
 $instagram-color:linear-gradient( 45deg, #405de6, #5851db, #833ab4, #c13584, #fd1d1d);
-;
-// Fonts
-$primary-font-family: 'poppinsregular';
-$secondary-font-family: 'open_sansregular';
+// Primary Family
+$primary-font-family-regular: 'poppinsregular';
+$primary-font-family-medium: 'poppinsmedium';
+$primary-font-family-bold: 'poppinsbold';
+// Secondary Family
+$secondary-font-family-light: 'open_sanslight';
+$secondary-font-family-regular: 'open_sansregular';
+$secondary-font-family-semibold: 'open_sanssemibold';
+$secondary-font-family-bold: 'open_sansbold';
 //
 // animation //
 @mixin fadeInDown {

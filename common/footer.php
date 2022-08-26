@@ -53,19 +53,19 @@
                 <h3 class="widgetTitle">Contact Us</h3>
                 <div class="footerDetail">
                     <a href="https://g.page/GuruComputersDelta?share" target="_blank">
-                        <p class="p-0"> <i class="fa fa-map-marker" aria-hidden="true"></i> Guru Computers,</p>
-                        <p class="p-0">8609-8611, 120th street,</p>
-                        <p class="p-0">Scott Rd, Delta, BC V4C 6R4,</p>
-                        <p class="p-0"> Canada</p>
+                        <i class="fa fa-map-marker" aria-hidden="true"></i> Guru Computers,<br>
+                       8609-8611, 120th street,<br>
+                       Scott Rd, Delta, BC V4C 6R4,<br>
+                        Canada
                     </a>
                     <div class="contactLink">
-                        <p class="p-0"> <a href="tel:+1 (604) 256-2193"><i class="fa fa-phone" aria-hidden="true"></i> +1 (604) 256-2193 </a></p>
-                        <a href="mailto:abs@gmail.com " data-bs-toggle="tooltip" data-bs-placement="top" class="guruImagelink d-flex"> <i class="fa fa-envelope" aria-hidden="true"></i><img src="<?php echo $url; ?>assets/images/email.svg" alt="Guru Computers"></a>
+                        <p> <a href="tel:+1 (604) 256-2193"><i class="fa fa-phone" aria-hidden="true"></i> +1 (604) 256-2193 </a></p>
+                        <a href="mailto:abs@gmail.com " class="guruImagelink d-flex"> <i class="fa fa-envelope" aria-hidden="true"></i><img src="<?php echo $url; ?>assets/images/email.svg" alt="Guru Computers"></a>
                     </div>
                     <div class="workHour">
-                        <p class="p-0"><span>Working Hours:</span></p>
-                        <p class="p-0">Mon-Sat: 10:00 am – 07:00 pm</p>
-                        <p class="p-0">Sunday : Closed</p>
+                        <p><span>Working Hours:</span></p>
+                        <p>Mon-Sat: 10:00 am – 07:00 pm</p>
+                        <p>Sunday : Closed</p>
                     </div>
                 </div>
             </div>

@@ -47,9 +47,9 @@
   font-family: "open_sansregular";
   margin-top: 15px;
 }
-.siteFooter .footerDetail p {
-  margin: 0px;
-  padding: 5px 0;
+.siteFooter .footerDetail p,
+.siteFooter .footerDetail a {
+  margin: 0;
   line-height: 24px;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
@@ -79,10 +79,6 @@
 }
 .siteFooter .footerDetail .workHour p {
   color: #777;
-  padding: 5px 0;
-  line-height: 24px;
-  font-size: 14px;
-  font-family: "open_sansregular";
 }
 .siteFooter .footerDetail .workHour p span {
   font-family: "open_sansbold";

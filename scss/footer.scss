@@ -7,7 +7,7 @@
         font-size: 16px;
         color: $primary-contrast-color;
         text-transform: uppercase;
-        font-family: 'poppinsmedium';
+        font-family: $primary-font-family-medium;
         position: relative;
         &::after {
             content: "";
@@ -26,11 +26,11 @@
                 margin-bottom: 1rem;
                 padding: 0;
                 li {
-                    border-bottom: 1px dashed $grey;
+                    border-bottom: 1px dashed $grey100;
                     padding: 10px 0;
                     list-style: none;
                     line-height: 24px;
-                    font-family: 'open_sanslight';
+                    font-family: $secondary-font-family-light;
                     &:last-child {
                         border: none;
                     }
@@ -46,21 +46,21 @@
         }
     }
     .footerDetail {
-        font-family: 'open_sansregular';
+        font-family: $secondary-font-family-regular;
         margin-top: 15px;
-        p {
-            margin: 0px;
-            padding: 5px 0;
+        p,
+        a {
+            margin: 0;
             line-height: 24px;
             text-decoration: none;
             color: rgba(255, 255, 255, 0.6);
             font-size: 14px;
-            font-family: 'open_sansregular';
+            font-family: $secondary-font-family-regular;
         }
         .contactLink {
             a {
                 text-decoration: none;
-                color: $grey3;
+                color: $grey300;
                 &.guruImagelink {
                     margin: 6px 0 9px;
                 }
@@ -76,19 +76,15 @@
                 }
                 .mailtext {
                     font-size: 16px;
-                    color: $grey4;
+                    color: $grey400;
                 }
             }
         }
         .workHour {
             p {
-                color: $grey;
-                padding: 5px 0;
-                line-height: 24px;
-                font-size: 14px;
-                font-family: 'open_sansregular';
+                color: $grey100;
                 span {
-                    font-family: 'open_sansbold';
+                    font-family: $secondary-font-family-bold;
                 }
             }
         }
@@ -108,7 +104,7 @@
         color: $solid-lite-color;
         letter-spacing: 1px;
         font-size: 14px;
-        font-family: 'open_sansregular';
+        font-family: $secondary-font-family-regular;
     }
     .textRight {
         text-align: right;
@@ -161,7 +157,7 @@
                     display: inline-block;
                     border-radius: 4px;
                     transition: all .5s;
-                    background: $grey;
+                    background: $grey100;
                 }
             }
         }

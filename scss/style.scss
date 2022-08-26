@@ -24,7 +24,7 @@
                     font-size: 50px;
                     color: $primary-contrast-color;
                     text-transform: uppercase;
-                    font-family: "open_sanssemibold";
+                    font-family: $secondary-font-family-semibold;
                     text-align: center;
                     @media (max-width: 991px) {
                         font-size: 40px;
@@ -131,7 +131,7 @@
             margin: 0 0 40px 0;
         }
         p {
-            color: $grey;
+            color: $grey100;
             padding: 0 0 10px;
         }
     }
@@ -175,7 +175,7 @@
             p {
                 font-size: 16px;
                 line-height: 26px;
-                color: $grey;
+                color: $grey100;
                 margin-top: 10px;
             }
             .ratingIcon {
@@ -187,7 +187,7 @@
                 margin: 20px 0;
                 text-align: center;
                 .title {
-                    border-right: 1px solid $grey;
+                    border-right: 1px solid $grey100;
                     padding: 0 30px 0 0;
                 }
             }
@@ -242,7 +242,7 @@
         height: 130px;
     }
     h1 {
-        font-family: "poppinsbold";
+        font-family: $primary-font-family-bold;
         position: absolute;
         color: $primary-contrast-color;
         bottom: 30px;
@@ -260,7 +260,7 @@
     padding: 35px 0;
     .logicBoards {
         p {
-            color: $grey;
+            color: $grey100;
         }
         .repairBtton {
             margin: 25px 0 0;
@@ -342,7 +342,7 @@
             color: $secondary-dark-color;
         }
         p {
-            color: $grey;
+            color: $grey100;
         }
         .repairButtonn {
             .primaryButton {
@@ -374,7 +374,7 @@
         }
     }
     p {
-        color: $grey;
+        color: $grey100;
         text-align: left;
     }
 }
@@ -392,13 +392,13 @@
         }
     }
     strong {
-        color: $grey;
+        color: $grey100;
     }
     p {
-        color: $grey;
+        color: $grey100;
         a {
             background: transparent;
-            color: $grey;
+            color: $grey100;
             &:hover {
                 color: $primary-color;
             }
@@ -418,11 +418,11 @@
             list-style: none;
             li {
                 width: 100%;
-                color: $grey2;
+                color: $grey200;
                 &::before {
                     content: ".";
                     color: $primary-color;
-                    font-family: "poppinsbold";
+                    font-family: $primary-font-family-bold;
                     display: inline-block;
                     width: 1em;
                     margin-left: -1em;
@@ -435,10 +435,10 @@
         li {
             list-style: disc;
             font-size: 12px;
-            color: $grey3;
+            color: $grey300;
             a {
                 background: transparent;
-                color: $grey3;
+                color: $grey300;
                 &:hover {
                     color: $primary-color;
                 }
@@ -519,7 +519,7 @@
         p {
             font-size: 14px;
             line-height: 24px;
-            color: $grey;
+            color: $grey100;
             margin: 0 0 10px;
             font-family: "open_sansregular";
         }
@@ -540,13 +540,13 @@
                 width: 100% !important;
                 &:first-child {
                     border-right: none !important;
-                    border-bottom: 1px solid $grey5;
+                    border-bottom: 1px solid $grey500;
                 }
             }
         }
         .callus {
             &:first-child {
-                border-right: 1px solid $grey5;
+                border-right: 1px solid $grey500;
             }
             display: flex;
             padding: 15px;
@@ -564,7 +564,7 @@
             }
             p {
                 line-height: 20px;
-                color: $grey6;
+                color: $grey600;
                 margin: 0 0 10px;
             }
             .primaryButton {
@@ -622,7 +622,7 @@
             h3 {
                 font-family: "poppinsmedium";
                 text-transform: uppercase;
-                color: $grey6;
+                color: $grey600;
                 font-size: 20px;
                 line-height: 25px;
                 margin-bottom: 35px;
@@ -664,7 +664,7 @@
                 border: 2px solid $white-color2;
                 border-radius: 4px;
                 height: 44px;
-                color: $grey2 !important;
+                color: $grey200 !important;
                 padding: 5px;
                 font-size: 15px;
             }
@@ -674,7 +674,7 @@
                 background-color: $white-color1;
                 border: 2px solid $white-color2;
                 border-radius: 4px;
-                color: $grey2 !important;
+                color: $grey200 !important;
                 font-size: 15px;
                 padding: 5px;
                 resize: none;
@@ -697,7 +697,7 @@
 .dataRecoverydelta {
     .productData {
         a {
-            color: $grey3;
+            color: $grey300;
             &:hover {
                 color: $primary-color;
             }
@@ -716,12 +716,12 @@
         }
         h5 {
             line-height: 26px;
-            color: $grey;
+            color: $grey100;
             font-family: "open_sansbold";
         }
         p {
             line-height: 24px;
-            color: $grey;
+            color: $grey100;
             margin: 0 0 10px;
             @media screen and (max-width: 480px) {
                 text-align: justify;
@@ -748,7 +748,7 @@
                     a {
                         &::before {
                             content: "\2022";
-                            color: $grey3;
+                            color: $grey300;
                             font-weight: bold;
                             display: inline-block;
                             width: 1em;
@@ -806,7 +806,7 @@
                 margin: 10px 0;
                 font-size: 14px;
                 line-height: 24px;
-                color: $grey;
+                color: $grey100;
                 font-family: "open_sansbold";
             }
             h3 {
