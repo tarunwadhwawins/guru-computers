@@ -156,6 +156,9 @@ header .navbar .repairDropdown:hover .repairMenu {
 header .navbar .subMenuDropdown:hover .dropdown-menu.subMenu {
   display: block;
 }
+header .navbar a.dropdown-item:focus {
+  background: none;
+}
 header .navbar .subMenu {
   position: absolute;
   left: 100%;

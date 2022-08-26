@@ -83,7 +83,7 @@ header {
             }
             li {
                 &.nav-item {
-                    font-family: "open_sanslight";
+                    font-family: $secondary-font-family-light;
                     &.active {
                         >.nav-link {
                             color: $primary-color;
@@ -104,7 +104,7 @@ header {
                             color: $primary-contrast-color;
                             padding: 9px 17px;
                             font-size: 14px;
-                            font-family: "open_sanslight";
+                            font-family: $secondary-font-family-light;
                             &:hover {
                                 color: $primary-color;
                                 transition: all 0.4s;
@@ -114,7 +114,6 @@ header {
                     }
                 }
                 @media (max-width: 1199px) {
-                    // border-top: 1px solid $grey100;
                     width: 100%;
                 }
             }
@@ -127,8 +126,6 @@ header {
                         display: block;
                         background: $primary-dark-color !important;
                         padding: 0 35px;
-                        // list-style: circle !important;
-                        // color: $primary-contrast-color;
                     }
                 }
             }
@@ -148,8 +145,6 @@ header {
                     padding: 0 35px;
                     border: none;
                     background: $primary-dark-color !important;
-                    // list-style: circle !important;
-                    // color: $primary-contrast-color;
                 }
             }
             &:hover {
@@ -174,6 +169,13 @@ header {
                     &.subMenu {
                         display: block;
                     }
+                }
+            }
+        }
+        a {
+            &.dropdown-item {
+                &:focus {
+                    background: none;
                 }
             }
         }
@@ -209,7 +211,7 @@ header {
             a {
                 color: $primary-contrast-color;
                 font-size: 14px;
-                font-family: "open_sanslight";
+                font-family: $secondary-font-family-light;
                 margin: 0 12px 0 0;
                 i {
                     margin: 0 6px 0 0;
