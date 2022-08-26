@@ -59,11 +59,11 @@
                         <p class="p-0"> Canada</p>
                     </a>
                     <div class="contactLink">
-                        <p class="p-0"> <a href="tel:+1 (604) 256-2193"><i class="fa fa-phone" aria-hidden="true"></i><b> +1 (604) 256-2193 </b></a></p>
-                        <a href="mailto:abs@gmail.com " data-bs-toggle="tooltip" data-bs-placement="top" class="guruImagelink d-flex"> <i class="fa fa-envelope" aria-hidden="true"></i><img src="<?php echo $url; ?>assets/images/Guru-Top-img.png" alt="guruimagelink"></a>
+                        <p class="p-0"> <a href="tel:+1 (604) 256-2193"><i class="fa fa-phone" aria-hidden="true"></i> +1 (604) 256-2193 </a></p>
+                        <a href="mailto:abs@gmail.com " data-bs-toggle="tooltip" data-bs-placement="top" class="guruImagelink d-flex"> <i class="fa fa-envelope" aria-hidden="true"></i><img src="<?php echo $url; ?>assets/images/email.svg" alt="Guru Computers"></a>
                     </div>
                     <div class="workHour">
-                        <p class="p-0"><b>Working Hours:</b></p>
+                        <p class="p-0"><span>Working Hours:</span></p>
                         <p class="p-0">Mon-Sat: 10:00 am – 07:00 pm</p>
                         <p class="p-0">Sunday : Closed</p>
                     </div>
@@ -102,28 +102,11 @@
 <!--  -->
 
 <div class="stickyContainer">
-<<<<<<< Updated upstream
     <a href="tel:+1 (604) 256-2193" class="sideContactLinks">
         <i class="fa fa-phone" aria-hidden="true"></i> +1 (604) 256-2193
     </a>
     <a href="mailto:gururepairlab@gmail.com" class="sideContactLinks">
-        <i class="fa fa-envelope" aria-hidden="true"></i> gururepairlab@gmail.com
+        <i class="fa fa-envelope" aria-hidden="true"></i> <img src="<?php echo $url; ?>assets/images/email-white.svg" alt="Guru Computers">
     </a>
 </div>
-
-=======
-    <ul class="sticky">
-        <li>
-            <i class="fa fa-phone" aria-hidden="true"></i>
-            <p><a href="tel:+1 (604) 256-2193">+1 (604) 256-2193 </a></p>
-        </li>
-        <li>
-            <i class="fa fa-envelope" aria-hidden="true"></i>
-            <p>
-                <a href="mailto:gururepairlab@gmail.com"> gururepairlab@gmail.com</a>
-            </p>
-        </li>
-    </ul>
-</div>
->>>>>>> Stashed changes
 <!--  -->

@@ -66,6 +66,7 @@
                 }
                 img {
                     max-width: 180px;
+                    margin-left: 5px;
                 }
                 &:hover {
                     color: $primary-color;
@@ -86,6 +87,9 @@
                 line-height: 24px;
                 font-size: 14px;
                 font-family: 'open_sansregular';
+                span {
+                    font-family: 'open_sansbold';
+                }
             }
         }
     }
@@ -229,6 +233,9 @@
                 padding: 6px;
                 color: $primary-contrast-color;
                 text-align: center;
+            }
+            img {
+                width: 170px;
             }
         }
     }

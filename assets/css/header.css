@@ -203,10 +203,8 @@ header .navbar .detailed a:hover {
   color: #f15a24;
   transition: all 0.4s;
 }
-@media (max-width: 991px) {
-  header .navbar .detailed a.guruImagelink img {
-    max-width: 180px;
-  }
+header .navbar .detailed a.guruImagelink img {
+  max-width: 180px;
 }
 
 .section-bg {

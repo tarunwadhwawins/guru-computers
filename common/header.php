@@ -78,7 +78,7 @@
                 <div class="detailed d-flex flex-column">
                     <a href="tel:+91-708-708-7356" data-bs-toggle="tooltip" data-bs-placement="top" title="On-Call"> <i class="fa fa-phone" aria-hidden="true"></i> +1 (604) 256-2193</a>
 
-                    <a href="mailto:abs@gmail.com " data-bs-toggle="tooltip" data-bs-placement="top" class="guruImagelink d-flex"> <i class="fa fa-envelope" aria-hidden="true"></i><img src="<?php echo $url; ?>assets/images/Guru-Top-img.png" alt="guruimagelink"></a>
+                    <a href="mailto:abs@gmail.com " data-bs-toggle="tooltip" data-bs-placement="top" class="guruImagelink d-flex"> <i class="fa fa-envelope" aria-hidden="true"></i><img src="<?php echo $url; ?>assets/images/email-white.svg" alt="Guru Computers"></a>
                 </div>
             </div>
         </nav>
