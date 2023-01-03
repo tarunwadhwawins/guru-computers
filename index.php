@@ -4,11 +4,13 @@
 <head>
     <!-- Meta & Link Tags -->
    <?php
+   
     $title = " MacBook Repair Services in Surrey | Guru Computers";
     $keyword  = "computer guru";
     $description = "Guru Computers offers quick laptop & MacBook repair services in Surrey. We offer affordable and reliable same day computer repair services.";
     
-    include_once('common/common-css.php'); ?>
+    include_once('common/common-css.php');
+     ?>
     <!--  -->
 </head>
 
