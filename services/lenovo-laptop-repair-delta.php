@@ -6,7 +6,7 @@
   <?php
     $title = 'Lenovo Screen Replacement | Lenovo Laptop Repair | Lenovo Computer';
     $keyword  = '';
-    $description  = "Looking for the highest quality of Lenovo Screen Replacement? Get the best deals on Lenovo Laptop Repair. We offer the lowest cost on Lenovo Computer Repair in Delta";
+    $description  = "Looking for the highest quality of Lenovo Screen Replacement? Get the best deals on Lenovo Laptop Repair and lowest cost on Lenovo Computer Repair in Delta.";
     
     include_once('../common/common-css.php'); ?>
     <!--  -->
@@ -50,7 +50,7 @@
                         </p>
                         <h3>Lenovo Hard Drive Upgrade – SSD Upgrade
                         </h3>
-                        <p> style="font-size: medium;">A lot of laptops these days are sluggish due to worn out traditional hard drive. These hard drives fail due to malfunction. At Guru Computers we can replace the traditional hard drive with a <a href="https://en.wikipedia.org/wiki/Solid-state_drive"
+                        <p style="font-size: medium;">A lot of laptops these days are sluggish due to worn out traditional hard drive. These hard drives fail due to malfunction. At Guru Computers we can replace the traditional hard drive with a <a href="https://en.wikipedia.org/wiki/Solid-state_drive"
                                 target="_blank" rel="noopener dofollow noreferrer">Solid-State Drive</a> which not only improves the speed by 10 times but, also improves the battery performance. These solid-state drives have chip-based memory and they have
                             no mechanical parts inside. This service comes with 90 days no hassle warranty.</p>
                         <h3>Lenovo Laptop Ram Upgrade
@@ -74,7 +74,7 @@
                         </p>
                         <h3>Our Other Computer Repair Services In Delta</h3>
                         <ul class="referLink">
-                                <li><a href="macbook-repair-delta">MacBook Repair In Delta</a></li>
+                                <li><a href="<?php echo $url; ?>macbook-repair-delta">MacBook Repair In Delta</a></li>
                                 <li><a href="asus-laptop-repair-delta">Asus Repair Delta</a></li>
                                 <li><a href="virus-spyware-malware-adware-removal">Virus Removal in Delta</a></li>
                                 <li><a href="<?php echo $url; ?>delta/apple-macbook-screen-replacement-in-delta">MacBook Screen Repair Delta</a></li>

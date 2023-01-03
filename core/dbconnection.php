@@ -8,10 +8,10 @@ session_start();
 
 // For Local
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "gurucomputer";
-$url = "http://localhost/gurucomputer/";
+$username = "ditstekserver_gurudb";
+$password = "gurudb@1234!";
+$dbname = "ditstekserver_gurudb";
+$url = "https://www.gurucomputers.ca/";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 

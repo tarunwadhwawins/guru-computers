@@ -4,9 +4,9 @@
 <head>
     <!-- Meta & Link Tags -->
    <?php
-    $title = 'Data Recovery Expert in Surrey - Hard Drive Data Recovery - Trusted Service';
+    $title = 'Data Recovery Expert in Surrey- Guru Computers';
     $keyword  = '';
-    $description  = "Are you looking for data recovery expert in Surrey, BC? Guru Computers can repair your hard drive and recover your data easily, securely and efficiently.";
+    $description  = "Need to transfer data to a new laptop or an external storage drive? Guru Computers offer professional and secure data recovery services in Surrey.";
     
     include_once('../common/common-css.php'); ?>
     <!--  -->
@@ -47,7 +47,7 @@
                         <p>Are you getting a S.M.A.R.T. error when booting up your computer? Is your computer really slow accessing files? Your hard drive may be failing and needs a replacement.</p>
                         <p>This puts your valuable data at significant risk. We store everything on the computers and laptops including your pictures, files, music, and whatnot. Hard disks are susceptible to damage due to shock/drop, physical damage and
                             they wear out, even if you treat them good with timely maintenance.</p>
-                        <p>Visit us at <a href="computer-repair-surrey">Guru Computers in Surrey</a> if you are looking for Data Recovery Service. We offer data recovery services and we have the equipment to professionally recover data from a failed hard
+                        <p>Visit us at <a href="<?php echo $url; ?>computer-repair-surrey">Guru Computers in Surrey</a> if you are looking for Data Recovery Service. We offer data recovery services and we have the equipment to professionally recover data from a failed hard
                             drive. Our technicians are trained in hard drive data recovery process to recover data from your hard disk and we ensure the integrity of your data when we recover it.</p>
                         <h3>Our Other Computer Repair Services:</h3>
                         <ul class="referLink">
@@ -55,7 +55,7 @@
                                 <li><a href="<?php echo $url; ?>surrey/macbook-keyboard-replacement-surrey">MacBook Keyboard Repair</a></li>
                                 <li><a href="<?php echo $url; ?>surrey/macbook-logic-board-repair-surrey">Apple MacBook Logic Board Repair</a></li>
                                 <li><a href="virus-malware-trojan-removal-surrey">Virus Removal In Surrey</a></li>
-                                <li><a href="macbook-screen-replacement-surrey">MacBook Screen Replacement</a></li>
+                                <li><a href="<?php echo $url; ?>surrey/macbook-screen-replacement-surrey">MacBook Screen Replacement</a></li>
                                 <li><a href="hard-drive-data-recovery-in-surrey">Data Recovery Services Surrey</a></li>
                                 <li><a href="fix-laptop-screen-repair-surrey">Laptop Screen Replacement</a></li>
                             </ul>

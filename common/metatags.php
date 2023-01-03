@@ -1,3 +1,11 @@
+<?php
+$current_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+$current_page = str_replace($url, "", $current_url); 
+if($current_page == ""){
+  $current_page = "";
+}
+?>
+
 <meta name="trustpilot-one-time-domain-verification-id" content="81eb2947-c71c-4e16-8fcd-6f1d292ba3dd" />
 <!--<meta name="verify-reviews" content="$2y$10$7vkZ2q6.Hsc51BOBgDi95eHZ3NCFWeZpFsv/8A2VOrO2QwvnxEkPC">-->
 <!-- Google Tag Manager -->
@@ -124,7 +132,7 @@ gtag('config', 'UA-129154793-5');
 <meta property="og:type" content="website" />
 <meta property="og:title" content="<?php echo $title ?>" />
 <meta property="og:description" content="<?php echo $description ?>" />
-<meta property="og:url" content="https://www.gurucomputers.ca/" />
+<meta property="og:url" content="<?php echo $url; ?><?php echo $current_page; ?>" />
 <meta property="og:site_name" content="Guru Computers" />
 <meta property="article:modified_time" content="2022-01-20T10:50:15+00:00" />
-<meta name="twitter:card" content="summary_large_image" />
+<meta property="og:image" content="https://www.gurucomputers.ca/assets/images/logo.png" />

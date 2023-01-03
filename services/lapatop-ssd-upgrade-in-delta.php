@@ -4,9 +4,9 @@
 <head>
     <!-- Meta & Link Tags -->
   <?php
-    $title = 'Laptop SSD Upgrade | Macbook SSD Repair Services - Guru Computers Delta';
+    $title = 'Laptop SSD Upgrade in Delta | Guru Computers';
     $keyword  = '';
-    $description  = "Laptop is performing slow? You laptop needs a SSD upgrade. At Guru Computers we offer Macbook and laptop SSD repair services, so your laptop can perform like new. Call us today!";
+    $description  = " Are you struggling with a slow-running laptop? It's time to upgrade your device for $150 onwards. Reach out to Guru Computers for laptop SSD upgrade services.";
     
     include_once('../common/common-css.php'); ?>
     <!--  -->

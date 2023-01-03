@@ -51,9 +51,7 @@
                     $messageDiv.hide().html(response.Message);
                     grecaptcha.reset();
                     if (response.Success == true) {
-                        $messageDiv.text('Thank You! Our Team Will Get Back To You Soon!!');
-                        document.getElementById("contactForm").reset();
-                        $messageDiv.addClass('alert alert-success').fadeIn(1500);
+                        window.location = 'https://www.gurucomputers.ca/thankyou';
                     } else {
                         $messageDiv.text('Error');
                         $messageDiv.addClass('alert alert-danger').fadeIn(1500);

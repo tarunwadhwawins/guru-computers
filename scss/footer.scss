@@ -81,36 +81,13 @@
             }
         }
         .workHour {
+            margin:0 0 15px 0;
             p {
                 color: $grey100;
                 span {
                     font-family: $secondary-font-family-bold;
                 }
             }
-        }
-    }
-}
-
-// Copyright
-.copyright {
-    background-color: $darkcolor;
-    padding: 20px 0;
-    @media only screen and (max-width: 767px) {
-        text-align: center;
-        align-items: center;
-    }
-    p {
-        margin: 0;
-        color: $solid-lite-color;
-        letter-spacing: 1px;
-        font-size: 14px;
-        font-family: $secondary-font-family-regular;
-    }
-    .textRight {
-        text-align: right;
-        @media only screen and (max-width: 767px) {
-            margin-top: 10px;
-            text-align: center;
         }
         .socials {
             list-style: none;
@@ -158,6 +135,37 @@
                     border-radius: 4px;
                     transition: all .5s;
                     background: $grey100;
+                }
+            }
+        }
+    }
+}
+
+// Copyright
+.copyright {
+    background-color: $darkcolor;
+    padding: 20px 0;
+    @media only screen and (max-width: 767px) {
+        text-align: center;
+        align-items: center;
+    }
+    p {
+        margin: 0;
+        color: $solid-lite-color;
+        letter-spacing: 1px;
+        font-size: 14px;
+        font-family: $secondary-font-family-regular;
+    }
+    .textRight {
+        text-align: right;
+        @media only screen and (max-width: 767px) {
+            margin-top: 10px;
+            text-align: center;
+        }
+        ul{
+            li{
+                a{
+                    color:$primary-color;
                 }
             }
         }

@@ -5,9 +5,9 @@
    
     <!-- Meta & Link Tags -->
     <?php
-    $title = 'iMac Repair Delta - iMac Parts Replacement - Guru Computers';
+    $title = 'iMac Repair Delta | iMac Parts Replacement';
     $keyword  = '';
-    $description  = "We do iMac Repair as well as MacBook Repair in Delta, British Columbia. We at Guru Computers are expert in repairing all kinds of Apple products.";
+    $description  = "Need to repair your iMac? Guru Computers offer a full range of professional iMac repair services in Delta with the best turnaround. Contact us to know more!";
     
     include_once('../common/common-css.php'); ?>
     <!--  -->
@@ -59,7 +59,7 @@
                     <h3>Other Computer Repair Services In Delta:</h3>
                  
                     <ul class="referLink">
-                        <li><a href="macbook-repair-delta">MacBook repair in Delta</a></li>
+                        <li><a href="<?php echo $url; ?>macbook-repair-delta">MacBook repair in Delta</a></li>
                         <li><a href="virus-spyware-malware-adware-removal">Virus Removal in Delta</a></li>
                         <li><a href="<?php echo $url; ?>delta/apple-macbook-screen-replacement-in-delta">MacBook screen replacement</a></li>
                         <li><a href="computer-laptop-power-supply-repair-delta-surrey">Computer Power Supply Replacement</a></li>

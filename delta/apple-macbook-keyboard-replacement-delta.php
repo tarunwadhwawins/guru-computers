@@ -33,7 +33,7 @@
                     <div class="productContent">
                         <img src="<?php echo $url; ?>assets/images/keyboardrepairservices01.jpg" alt="Apple Macbook Screen">
                     </div>
-                    <p>MacBook keys stop working? Guru Computers provide the best MacBook Keyboard Replacement service in <a href="macbook-repair-delta"><span class="textt">Delta </span></a> , BC. We here at Guru Computers, repair all kind of MacBooks.</p>
+                    <p>MacBook keys stop working? Guru Computers provide the best MacBook Keyboard Replacement service in <a href="<?php echo $url; ?>macbook-repair-delta"><span class="textt">Delta </span></a> , BC. We here at Guru Computers, repair all kind of MacBooks.</p>
                     <h2>Best Macbook Keyboard Replacement In Delta</h2>
                     <p>At Guru Computers, we replace a lot of keyboards where customers have accidentally spilled a drink on their <a href="https://www.apple.com/in/macbook/" target="_blank"><span class="textt">MacBook </span></a> keyboard while working on it. liquid spills
                         can cause a lot of damage if it penetrates to the MacBook logic board. The device continues to work for a while and eventually, it becomes unusable.</p>

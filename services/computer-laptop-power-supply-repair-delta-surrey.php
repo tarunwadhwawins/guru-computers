@@ -61,7 +61,7 @@
                         <li><a href="<?php echo $url; ?>surrey/macbook-logic-board-repair-surrey">Apple MacBook Logic Board Repair</a></li>
                         <li><a href="hard-drive-data-recovery-in-surrey">Data Recovery Surrey</a></li>
                         <li><a href="virus-malware-trojan-removal-surrey">Virus Removal Surrey</a></li>
-                        <li><a href="Laptop Screen Repair In Surrey">Laptop Screen Repair In Surrey</a></li>
+                        <li><a href="<?php echo $url; ?>services/fix-laptop-screen-repair-surrey">Laptop Screen Repair In Surrey</a></li>
                     </ul>
                     <div class="productBook">
                         <a class="primaryButton" href="<?php echo $url; ?>contact" target="_self">Book Now</a>

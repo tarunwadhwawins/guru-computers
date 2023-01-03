@@ -4,9 +4,9 @@
 <head>
     <!-- Meta & Link Tags -->
   <?php
-    $title = 'MacBook Repair in Surrey, BC - Quality Repair Service - Guru Computers';
+    $title = 'MacBook Repair Specialist Surrey -Guru Computers';
     $keyword  = '';
-    $description  = "Looking for MacBook Repair in Surrey? Guru Computers provide the best MacBook Repair Service in Surrey, BC. We do Screen Replacement, Keyboard Repair.";
+    $description  = "Looking for MacBook Repair in Surrey? Guru Computers offer same day screen, keyboard and battery replacement along with water damage motherboard repairs.";
     
     include_once('common/common-css.php'); ?>
     <!--  -->

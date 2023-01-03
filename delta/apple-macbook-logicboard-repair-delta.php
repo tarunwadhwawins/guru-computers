@@ -33,14 +33,14 @@
                     <div class="productContent">
                         <img src="<?php echo $url; ?>assets/images/logicboardservice.png" alt="Apple MacBook Logicboard">
                     </div>
-                    <p>Looking for Apple MacBook Logicboard Repair in <a href="macbook-repair-delta"><span class="textt">Delta </span></a> , BC? At Guru Computers, we repair Apple MacBooks of all generations.</p>
+                    <p>Looking for Apple MacBook Logicboard Repair in <a href="<?php echo $url; ?>macbook-repair-delta"><span class="textt">Delta </span></a> , BC? At Guru Computers, we repair Apple MacBooks of all generations.</p>
                     <h2>Apple Macbook Logicboard Repair In Delta</h2>
                     <p>Apple Macs are powerful machines in a metallic chassis. They handle a lot of processing and it is made possible by a state-of-the-art logic board. It takes proper handling and maintenance for the logic board to perform at its peak.
                         Accidental drops, liquid spills and overheating are common issues with these machines. This is where we offer our experience and expertise. </p>
                     <h3>We Can Help With The Following Repairs:</h3>
                     <div class="product-listing">
                         <ul>
-                            <li><a href="apple-macbook-liquid-damage-repair-delta/"><span class="textt-theme">  MacBook </span></a> or iMac not turning ON.</li>
+                            <li><a href="apple-macbook-liquid-damage-repair-delta"><span class="textt-theme">  MacBook </span></a> or iMac not turning ON.</li>
                             <li>Macbook not charging.</li>
                             <li>Apple MacBook Keyboard not responding.</li>
                         </ul>

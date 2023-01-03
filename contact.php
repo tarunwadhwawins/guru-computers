@@ -6,7 +6,7 @@
     <?php
     $title = 'Contact - Guru Computers';
     $keyword  = '';
-    $description  = "";
+    $description  = "Guru Computers is a dedicated expert, who provides IT Solutions for Mac Repair, SSD upgrade, Screen Replacement and so on. Contact us now.";
     
     include_once('common/common-css.php'); ?>
     <!--  -->

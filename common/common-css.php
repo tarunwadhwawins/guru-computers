@@ -13,7 +13,7 @@ if($current_page == ""){
 <!--  -->
 <!-- Fav-icon -->
 <link rel="icon" href="<?php echo $url; ?>assets/images/favicon.png" type="image/x-icon">
-<link rel="canonical" href="<?php echo $url, $current_page; ?>" />
+<link rel="canonical" href="<?php echo $url; ?><?php echo $current_page; ?>" />
 <!--  -->
 <!-- Link -->
 <link rel="stylesheet" href="<?php echo $url; ?>assets/css/bootstrap.min.css">

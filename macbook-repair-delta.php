@@ -4,9 +4,9 @@
 <head>
     <!-- Meta & Link Tags -->
   <?php
-    $title = 'MacBook Repair Service | MacBook Screen Replacement';
+    $title = 'MacBook Repair Services in Delta | Guru Computers';
     $keyword  = '';
-    $description  = "Get the most affordable MacBook Repair services with Guru Computers or on the same day repair services and also get 90 days warranty on these services. Visit us or contact us now";
+    $description  = " Looking for quick MacBook repair services in Delta? Guru Computers is your answer! for a quick turnaround. We offer same-day reliable MacBook repair services.";
     
     include_once('common/common-css.php'); ?>
     <!--  -->

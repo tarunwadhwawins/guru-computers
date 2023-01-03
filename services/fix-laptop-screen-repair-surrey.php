@@ -5,7 +5,7 @@
    <!-- Meta & Link Tags -->
    <?php
     $title = 'Laptop Screen Repair Surrey - Computer Repair Surrey - Guru Computers';
-    $keyword  = '';
+    $keyword  = 'laptop screen repair';
     $description  = "Looking for the laptop screen repair in Surrey? We Guru Computer can fix any laptop screen easily with the help of certified technicians and right tools.";
     
     include_once('../common/common-css.php'); ?>
@@ -56,7 +56,7 @@
                         <li>Low cost than the competitors</li>
                         <li>Emergency services provided</li>
                         <li>Trustworthy support and service</li>
-                        <li>Support for all kinds of<a href="computer-repair-surrey"> computer repair services</a></li>
+                        <li>Support for all kinds of<a href="<?php echo $url; ?>computer-repair-surrey"> computer repair services</a></li>
                     </ul>
                     <h3>Our Other Computer Repair Services In Surrey, British Columbia:</h3>
                     <ul class="referLink">

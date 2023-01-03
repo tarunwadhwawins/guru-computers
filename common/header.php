@@ -17,10 +17,10 @@
             <div class="navbar-collapse" >
                 <div class="section-bg"></div>
                 <ul class="d-flex align-items-center navbar-nav m-auto">
-                    <li class="nav-item <?php echo $current_page == '/gurucomputer/index' ? 'active':'' ?>">
-                        <a class="nav-link " href="<?php echo $url; ?>index">Home</a>
+                    <li class="nav-item <?php echo $current_page == '/' ? 'active':'' ?>">
+                        <a class="nav-link " href="<?php echo $url; ?>">Home</a>
                     </li>
-                    <li class="nav-item <?php echo $current_page == '/gurucomputer/services-offered' ? 'active':'' ?> dropdown mainDropdown">
+                    <li class="nav-item <?php echo $current_page == '/services-offered' ? 'active':'' ?> dropdown mainDropdown">
                         <a href="<?php echo $url; ?>services-offered" class="nav-link ">Computer Repair <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                         <ul class="dropdown-menu mainMenu">
                             <li class="nav-item dropdown subMenuDropdown"><a href="javascript:void(0)" class=" nav-link dropdown-item" aria-expanded="false">MacBook Repair </a>
@@ -68,17 +68,20 @@
                             <li><a href="<?php echo $url; ?>services/lenovo-laptop-repair-delta" class="dropdown-item">Lenovo Repair</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item <?php echo $current_page == '/gurucomputer/about-us' ? 'active':'' ?>">
+                    <li class="nav-item <?php echo $current_page == '/about-us' ? 'active':'' ?>">
                         <a class="nav-link" href="<?php echo $url; ?>about-us">About Us</a>
                     </li>
-                    <li class="nav-item <?php echo $current_page == '/gurucomputer/contact' ? 'active':'' ?>">
+                    <li class="nav-item <?php echo $current_page == '/blogs' ? 'active':'' ?>">
+                        <a class="nav-link" href="<?php echo $url; ?>blogs">Blogs</a>
+                    </li>
+                    <li class="nav-item <?php echo $current_page == '/contact' ? 'active':'' ?>">
                         <a class="nav-link" href="<?php echo $url; ?>contact">Contact Us</a>
                     </li>
                 </ul>
                 <div class="detailed d-flex flex-column">
-                    <a href="tel:+91-708-708-7356" data-bs-toggle="tooltip" data-bs-placement="top" title="On-Call"> <i class="fa fa-phone" aria-hidden="true"></i> +1 (604) 256-2193</a>
+                    <a href="tel:+1 (604) 256-2193" data-bs-toggle="tooltip" data-bs-placement="top" title="On-Call"> <i class="fa fa-phone" aria-hidden="true"></i> +1 (604) 256-2193</a>
 
-                    <a href="mailto:abs@gmail.com " data-bs-toggle="tooltip" data-bs-placement="top" class="guruImagelink d-flex"> <i class="fa fa-envelope" aria-hidden="true"></i><img src="<?php echo $url; ?>assets/images/email-white.svg" alt="Guru Computers"></a>
+                    <a href="mailto:gururepairlab@gmail.com " data-bs-toggle="tooltip" data-bs-placement="top" class="guruImagelink d-flex"> <i class="fa fa-envelope" aria-hidden="true"></i><img src="<?php echo $url; ?>assets/images/email-white.svg" alt="Guru Computers"></a>
                 </div>
             </div>
         </nav>

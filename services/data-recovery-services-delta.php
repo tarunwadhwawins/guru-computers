@@ -4,9 +4,9 @@
 <head>
      <!-- Meta & Link Tags -->
   <?php
-    $title = 'Data Recovery Services Delta - Hard Drive/Disk Data Recovery - Trusted';
+    $title = 'Data Recovery Services Delta- Guru Computers';
     $keyword  = '';
-    $description  = "Data Recovery Services Delta: If you are looking for Data Recovery Service in Delta, please visit us at Guru Computers. We offer data recovery services and";
+    $description  = "Lost data that was not backed up anywhere? Guru Computers can help you out! We offer data recovery services to recover data from a failed hard drive.";
     
     include_once('../common/common-css.php'); ?>
     <!--  -->
@@ -74,7 +74,7 @@
                                 <li><a href="virus-spyware-malware-adware-removal">Computer Malware Removal Delta – Trojan Removal – Virus Clean</a></li>
                                 <li><a href="<?php echo $url; ?>delta/apple-macbook-keyboard-replacement-delta">MacBook Screen Replacement</a></li>
                                 <li><a href="<?php echo $url; ?>delta/apple-macbook-keyboard-replacement-delta">MacBook Keyboard Repair</a></li>
-                                <li><a href="<?php echo $url; ?>delta/apple-macbook-logicboard-repair-delta.php">Apple MacBook Logic Board Repair</a></li>
+                                <li><a href="<?php echo $url; ?>delta/apple-macbook-logicboard-repair-delta">Apple MacBook Logic Board Repair</a></li>
                             </ul>  
                         <div class="productBook">
                         <a class="primaryButton" href="<?php echo $url; ?>contact" target="_self">Book Now</a>

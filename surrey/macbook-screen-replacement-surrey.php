@@ -5,7 +5,7 @@
     <!-- Meta & Link Tags -->
   <?php
     $title = 'MacBook Screen Replacement In Surrey, Air LCD, BC - Guru Computers';
-    $keyword  = '';
+    $keyword  = 'macbook air repair';
     $description  = "You might be looking for Apple MacBook Screen Replacement service in Surrey, BC? We here at Guru Computers, repair all kind of MacBook and satisfy.";
     
     include_once('../common/common-css.php'); ?>
@@ -33,7 +33,7 @@
                     <div class="productContent">
                         <img src="<?php echo $url; ?>assets/images/delta/screen-replacementservice.jpg" alt="Apple MacBook Screen">
                     </div>
-                    <p>Cracked MacBook screen? Guru Computers provide the best MacBook screen replacement service in <a href="<?php echo $url; ?>services/macbook-repair-surrey"><span class="textt">Surrey </span></a> , BC. We repair all generations of MacBooks.</p>
+                    <p>Cracked MacBook screen? Guru Computers provide the best MacBook screen replacement service in <a href="<?php echo $url; ?>macbook-repair-surrey"><span class="textt">Surrey </span></a> , BC. We repair all generations of MacBooks.</p>
                     <h2>Apple MacBook Screen Replacement Surrey</h2>
                     <p>The most common repair for Apple <a href="https://www.apple.com/in/macbook-pro/" target="_blank"><span class="textt">MacBook </span></a> is LCD screen replacement. These are high-quality screens, however, are susceptible to accidental damages. Accidental
                         drops may cause vertical lines on the screen or it can go completely blank.</p>

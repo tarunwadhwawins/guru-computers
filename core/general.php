@@ -13,10 +13,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_GET['action']) && !empty($_
       if ($conn->query($sql) === TRUE) {
 
         // Contact Information to Client
-        sendEmail('tarunwadhwawins@gmail.com', "Contact Information", userInformationHtml($request));
-
+        sendEmail('noreply@gurucomputers.ca', "Contact Information", userInformationHtml($request));
         // Thank you email to User
-        $message = customerEmailData($request['name']);
+        $message = customerEmailData(ucwords($request['name']));
         sendEmail($request['email'], 'Thank you for Contact', $message);
         $response = array('Success' => true, 'Message' => 'Thank you for contacting Guru Computers. Our team will get back to you shortly with the next steps. ');
       } else {
@@ -28,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_GET['action']) && !empty($_
 
 function userInformationHtml($request)
 {
-  $html = '<p style="font-size:13px;color:#000 !important;"><strong>Name</strong> : ' . $request['name'] . '</p>';
+  $html = '<p style="font-size:13px;color:#000 !important;"><strong>Name</strong> : ' . ucwords($request['name']) . '</p>';
   $html .= '<p style="font-size:13px;color:#000 !important;"><strong>Email</strong> : ' . $request['email'] . '</p>';
   $html .= '<p style="font-size:13px;color:#000 !important;"><strong>Service</strong> : ' . $request['service'] . '</p>';
   $html .= '<p style="font-size:13px;color:#000 !important;"><strong>Phone</strong> : ' . $request['contact_no'] . '</p>';
@@ -55,7 +54,7 @@ function customerEmailData($Name)
         <tbody>
             <tr>
                 <td style="padding: 10px 15px;background-color: #f2f2f2;color: #fff;text-align: center;">
-                    <img src="https://ditstekdemo.com/ClientApps/gurucomputer/assets/images/logo.png"
+                    <img src="https://www.gurucomputers.ca/assets/images/logo.png"
                         style="max-width: 200px;">
                 </td>
             </tr>

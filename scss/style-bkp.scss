@@ -1,0 +1,848 @@
+@import "./variables.scss";
+// Banner
+.banner {
+    @media (max-width: 991px) {
+        margin: 52px 0 0 0;
+    }
+    .replacement {
+        .slider {
+            position: relative;
+            &:before {
+                content: "";
+                width: 100%;
+                height: 100%;
+                background: #00000066;
+                position: absolute;
+            }
+            .bannerText {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 100%;
+                label {
+                    font-size: 50px;
+                    color: $primary-contrast-color;
+                    text-transform: uppercase;
+                    font-family: $secondary-font-family-semibold;
+                    text-align: center;
+                    @media (max-width: 991px) {
+                        font-size: 40px;
+                    }
+                    @media (max-width: 767px) {
+                        font-size: 30px;
+                    }
+                    @media (max-width: 640px) {
+                        font-size: 16px;
+                        margin-bottom: 15px;
+                    }
+                }
+                p {
+                    text-shadow: 0 1px 1px $solid-dark-color;
+                    line-height: 30px;
+                    text-align: center;
+                    color: $primary-contrast-color;
+                    letter-spacing: 1px;
+                    @media (max-width: 680px) {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    .owl-carousel {
+        position: relative;
+        .owl-item {
+            &.active {
+                h1 {
+                    // animation //
+                    @include slideInUp1 // //
+                    ;
+                }
+                p {
+                    // animation //
+                    @include slideInUp2 // //
+                    ;
+                }
+                .primaryButton {
+                    // animation //
+                    @include slideInUp3 // //
+                    ;
+                }
+            }
+        }
+        .owl-prev {
+            .fa {
+                position: absolute;
+                top: 50%;
+                left: 1%;
+                font-size: 40px;
+                color: $primary-dark-color;
+                background: $primary-contrast-color;
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                border-radius: 50%;
+                padding: 0 3px 0 0;
+                &:hover {
+                    color: $primary-contrast-color;
+                    background: $primary-color;
+                    transition: all 0.8s;
+                }
+                @media (max-width: 991px) {
+                    display: none;
+                }
+            }
+        }
+        .owl-next {
+            .fa {
+                position: absolute;
+                top: 50%;
+                right: 1%;
+                font-size: 40px;
+                color: $primary-dark-color;
+                background: $primary-contrast-color;
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                border-radius: 50%;
+                padding: 0 0 0 3px;
+                &:hover {
+                    color: $primary-contrast-color;
+                    background: $primary-color;
+                    transition: all 0.8s;
+                }
+                @media (max-width: 991px) {
+                    display: none;
+                }
+            }
+        }
+        .owl-dots {
+            display: none;
+        }
+    }
+}
+
+// COMPUTER REPAIR & MACBOOK REPAIR SERVICE
+.repairService {
+    padding: 30px 0;
+    .computerMacbook {
+        h1 {
+            margin: 0 0 40px 0;
+        }
+        p {
+            color: $grey100;
+            padding: 0 0 10px;
+        }
+    }
+}
+
+// Repair in Delta & Surrey
+.deltaSurrey {
+    background-color: $primary-dark-color;
+    padding: 50px 0;
+    text-align: center;
+    .webIcon {
+        width: 10%;
+        display: inline-block;
+        margin: 0 90px 30px 0px;
+        @media (max-width: 991px) {
+            margin: 0 50px 60px 0;
+        }
+    }
+    .buttonContainer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+        .buttonSection {
+            min-width: 250px;
+            a {
+                width: 100%;
+            }
+        }
+    }
+}
+
+// TESTIMONIALS
+.testimonials {
+    padding: 30px 0;
+    h2 {
+        margin: 0 0 40px 0;
+    }
+    .testimonialContent {
+        .quickService {
+            p {
+                font-size: 16px;
+                line-height: 26px;
+                color: $grey100;
+                margin-top: 10px;
+            }
+            .ratingIcon {
+                i {
+                    color: $baseblack;
+                }
+            }
+            .testimonialProfile {
+                margin: 20px 0;
+                text-align: center;
+                .title {
+                    border-right: 1px solid $grey100;
+                    padding: 0 30px 0 0;
+                }
+            }
+        }
+    }
+    .owl-nav {
+        display: none;
+    }
+    .owl-dots {
+        display: none;
+    }
+}
+
+// queries about your Computer/MacBook repair?
+.queriesAbout {
+    background-color: $primary-dark-color;
+    width: 100%;
+    padding: 18px 0;
+    .yourComputer {
+        h4 {
+            font-size: 22px;
+            color: $primary-contrast-color;
+            line-height: normal;
+            text-transform: none;
+            margin: 0 20px 0px 0;
+            font-family: "open_sansregular";
+            @media (max-width: 991px) {
+                font-size: 17px;
+                margin: 5px 0 15px 0;
+            }
+        }
+        @media (max-width: 991px) {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 12px 0 20px 0;
+        }
+    }
+}
+
+// MacBook Repair Service ---------------------//
+// RepairBanner
+.repairBanner {
+    background-image: url(../images/innerimage1.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 210px;
+    position: relative;
+    @media (max-width: 575px) {
+        height: 130px;
+    }
+    h1 {
+        font-family: $primary-font-family-bold;
+        position: absolute;
+        color: $primary-contrast-color;
+        bottom: 30px;
+        font-size: 26px;
+        @include slideInUp1;
+        @media (max-width: 575px) {
+            font-size: 18px;
+            text-transform: capitalize;
+        }
+    }
+}
+
+// logic boards for common repairs
+.commonRepair {
+    padding: 35px 0;
+    .logicBoards {
+        p {
+            color: $grey100;
+        }
+        .repairBtton {
+            margin: 25px 0 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            @media (max-width: 991px) {
+                text-align: center;
+                margin: 30px 0 40px;
+            }
+        }
+    }
+    .boardImage {
+        text-align: right;
+        img {
+            max-width: 360px;
+            @media (max-width: 991px) {
+                max-width: 400px;
+                margin: 0 auto;
+                display: flex;
+            }
+        }
+    }
+}
+
+// WHY SHOULD YOU CHOOSE GURU COMPUTERS
+.chooseComputer {
+    background-color: $primary-dark-color;
+    padding: 30px 0;
+    .trustWorthy {
+        h2 {
+            font-size: 22px;
+            display: block;
+            font-family: "poppinsregular";
+            color: $primary-contrast-color;
+            line-height: normal;
+            margin: 0 20px 0px 0;
+            text-transform: capitalize;
+        }
+        ul {
+            padding: 8px 0 0 20px;
+            display: flex;
+            flex-wrap: wrap;
+            li {
+                color: $primary-contrast-color;
+                width: 30%;
+                list-style: initial;
+                padding-bottom: 5px;
+                font-family: "open_sanslight";
+                @media (max-width: 575px) {
+                    width: 50%;
+                }
+            }
+        }
+        p {
+            color: $primary-contrast-color;
+        }
+    }
+    .primaryButton {
+        margin: 0 0 15px 0;
+        padding: 20px;
+        display: block;
+        font-size: 16px;
+        text-align: center;
+        @media (max-width: 991px) {
+            margin: 15px 0 0 0;
+        }
+    }
+    a {
+        display: inline-block;
+        margin: 10px 8px 0 0;
+    }
+}
+
+// Macbook Replacement & Repair Keyboard LogicBoard
+.replacmentMacbook {
+    padding: 30px 0;
+    .logicboardRepair {
+        h3 {
+            color: $secondary-dark-color;
+        }
+        p {
+            color: $grey100;
+        }
+        .repairButtonn {
+            .primaryButton {
+                padding: 7px 12px;
+                font-family: "open_sansbold";
+                font-size: 13px;
+                line-height: 26px;
+            }
+        }
+    }
+}
+
+// Computer Repair Services-----------------------------
+// Computer Reapir Services Delta & Surrey
+.deltaBg {
+    background: transparent;
+    .sectionHead {
+        width: auto;
+        display: inline-block;
+        margin: 0 40px 20px 0;
+        @media (max-width: 991px) {
+            margin-bottom: 30px;
+        }
+        h2 {
+            margin: 0 0 24px 0;
+        }
+        .primaryButton {
+            padding: 12px 60px;
+        }
+    }
+    p {
+        color: $grey100;
+        text-align: left;
+    }
+}
+
+// Laptop screen replacement In Delta – Can we repair your laptop screen?------------------
+.laptopProduct {
+    padding: 50px 0;
+    .productContent {
+        float: right;
+        width: 295px;
+        margin: 0 0 0 28px;
+        @media (max-width: 991px) {
+            width: 100%;
+            margin-bottom: 18px;
+        }
+    }
+    strong {
+        color: $grey100;
+    }
+    p {
+        color: $grey100;
+        a {
+            background: transparent;
+            color: $grey100;
+            &:hover {
+                color: $primary-color;
+            }
+        }
+    }
+    h2 {
+        color: $primary-dark-color;
+    }
+    h3 {
+        color: $secondary-dark-color;
+    }
+    .product-listing {
+        width: 100%;
+        margin: 0 0 15px 0px;
+        ul {
+            padding: 0 0 0 38px;
+            list-style: none;
+            li {
+                width: 100%;
+                color: $grey200;
+                &::before {
+                    content: ".";
+                    color: $primary-color;
+                    font-family: $primary-font-family-bold;
+                    display: inline-block;
+                    width: 1em;
+                    margin-left: -1em;
+                }
+            }
+        }
+    }
+    .referLink {
+        margin: 0 0 18px 40px;
+        li {
+            list-style: disc;
+            font-size: 12px;
+            color: $grey300;
+            a {
+                background: transparent;
+                color: $grey300;
+                &:hover {
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+    .productBook {
+        margin: 0px 0 15px 0;
+        .primaryButton {
+            padding: 6px 12px;
+            font-size: 13px;
+        }
+    }
+    p {
+        iframe {
+            @media (max-width: 991px) {
+                width: 100%;
+            }
+        }
+    }
+    h4 {
+        padding: 10px 0 8px;
+    }
+}
+
+// Laptop SSD Upgrade | MacBook SSD Repair-----------------------
+// Callus-Button
+.callButtn {
+    margin: 0 auto;
+    width: auto;
+    text-align: center;
+    display: none;
+    margin-top: 25px;
+    @media (max-width: 575px) {
+        display: block;
+    }
+    .primaryButton {
+        margin: 0 0 15px 0;
+        padding: 14px;
+        font-size: 16px;
+    }
+}
+
+// iMac Repair Delta - iMac Parts Replacement
+// SURAJ WORk
+//ABOUT-US//
+.aboutUs {
+    .aboutBanner {
+        @media (max-width: 575px) {
+            img {
+                margin: 35px 0 0 0;
+            }
+        }
+    }
+    .productBanner {
+        padding: 30px 0 60px 0;
+        width: 100%;
+        h1 {
+            font-size: 26px;
+            margin: 0 0 16px 0;
+            font-family: "poppinsmedium";
+        }
+        h2 {
+            font-size: 26px;
+            margin: 0 0 16px 0;
+            font-family: "poppinsmedium";
+        }
+        img {
+            &.rightimg {
+                float: right;
+                width: 295px;
+                margin: 0 0 0 28px;
+                @media (max-width: 575px) {
+                    width: 100%;
+                }
+            }
+        }
+        p {
+            font-size: 14px;
+            line-height: 24px;
+            color: $grey100;
+            margin: 0 0 10px;
+            font-family: "open_sansregular";
+        }
+    }
+}
+
+// contact//
+.contact {
+    padding: 50px 0;
+    .textWidgets {
+        padding: 0 0 30px 0;
+        display: flex;
+        justify-content: center;
+        @media screen and (max-width: 767px) {
+            flex-direction: column;
+            align-items: center;
+            .callus {
+                width: 100% !important;
+                &:first-child {
+                    border-right: none !important;
+                    border-bottom: 1px solid $grey500;
+                }
+            }
+        }
+        .callus {
+            &:first-child {
+                border-right: 1px solid $grey500;
+            }
+            display: flex;
+            padding: 15px;
+            text-align: center;
+            flex-direction: column;
+            align-items: center;
+            width: 50%;
+            img {
+                width: auto;
+            }
+            h4 {
+                margin: 20px 0 16px;
+                font-family: "poppinsmedium";
+                color: $secondary-dark-color;
+            }
+            p {
+                line-height: 20px;
+                color: $grey600;
+                margin: 0 0 10px;
+            }
+            .primaryButton {
+                padding: 12px 35px;
+                font-size: 13px;
+                font-family: "open_sansregular";
+            }
+        }
+    }
+    .question {
+        padding: 30px;
+        border: 2px solid $white-color2;
+        border-radius: 4px;
+        background: $primary-contrast-color;
+        margin-bottom: 30px;
+        .contactField {
+            span {
+                position: relative;
+                &.help-block {
+                    &.form-error {
+                        color: #dc3232;
+                        font-size: 12px;
+                        position: absolute;
+                    }
+                }
+            }
+            .form-control {
+                &:focus {
+                    box-shadow: none;
+                }
+            }
+            margin: 0 0 25px 0;
+            position: relative;
+            h2 {
+                color: rgb(0, 0, 0);
+                font-size: 44px;
+                line-height: normal;
+                margin-bottom: 10px;
+                margin-top: 16px;
+                font-family: "poppinsmedium";
+                text-transform: uppercase;
+                @media screen and (max-width: 1199px) {
+                    font-size: 35px;
+                }
+                @media screen and (max-width: 991px) {
+                    font-size: 28px;
+                }
+                @media screen and (max-width: 767px) {
+                    font-size: 24px;
+                }
+                @media screen and (max-width: 575px) {
+                    font-size: 20px;
+                }
+            }
+            h3 {
+                font-family: "poppinsmedium";
+                text-transform: uppercase;
+                color: $grey600;
+                font-size: 20px;
+                line-height: 25px;
+                margin-bottom: 35px;
+                @media screen and (max-width: 1199px) {
+                    font-size: 18px;
+                    line-height: 14px;
+                    margin-bottom: 13px;
+                    margin-top: 0;
+                }
+                @media screen and (max-width: 575px) {
+                    font-size: 14px;
+                    line-height: 14px;
+                    margin-bottom: 13px;
+                    margin-top: 0;
+                }
+            }
+            label {
+                color: $primary-color;
+                font-family: "poppinsmedium";
+                margin: 0 0 7px 0;
+                display: block;
+                font-size: 14px;
+            }
+            input {
+                padding: 5px;
+                font-size: 15px;
+                width: 100%;
+                background-color: $white-color1;
+                border: 2px solid $white-color2;
+                border-radius: 4px;
+                height: 44px;
+                color: $primary-dark-color;
+                font-size: 15px;
+            }
+            select {
+                font-size: 15px;
+                width: 100%;
+                background-color: $white-color1;
+                border: 2px solid $white-color2;
+                border-radius: 4px;
+                height: 44px;
+                color: $grey200 !important;
+                padding: 5px;
+                font-size: 15px;
+            }
+            textarea {
+                font-size: 15px;
+                width: 100%;
+                background-color: $white-color1;
+                border: 2px solid $white-color2;
+                border-radius: 4px;
+                color: $grey200 !important;
+                font-size: 15px;
+                padding: 5px;
+                resize: none;
+                height: 200px;
+            }
+            .primaryButton {
+                width: 200px;
+            }
+        }
+    }
+}
+
+.contactMap {
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+// data recovery //
+.dataRecoverydelta {
+    .productData {
+        a {
+            color: $grey300;
+            &:hover {
+                color: $primary-color;
+            }
+        }
+        padding: 50px 0;
+        img {
+            &.rightimg {
+                float: right;
+                width: 295px;
+                margin: 0 0 0 28px;
+                @media screen and (max-width: 767px) {
+                    width: 100%;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        h5 {
+            line-height: 26px;
+            color: $grey100;
+            font-family: "open_sansbold";
+        }
+        p {
+            line-height: 24px;
+            color: $grey100;
+            margin: 0 0 10px;
+            @media screen and (max-width: 480px) {
+                text-align: justify;
+                line-height: 26px;
+            }
+        }
+        h3 {
+            color: $secondary-dark-color;
+        }
+        h4 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .listing {
+            margin: 0 0 12px 0;
+            ul {
+                padding: 0px 0 0 38px;
+                list-style: none;
+                margin: 0;
+                li {
+                    font-size: 14px;
+                    line-height: 28px;
+                    font-family: "open_sansregular";
+                    a {
+                        &::before {
+                            content: "\2022";
+                            color: $grey300;
+                            font-weight: bold;
+                            display: inline-block;
+                            width: 1em;
+                            margin-left: -1em;
+                        }
+                    }
+                    &::before {
+                        content: "\2022";
+                        color: $primary-color;
+                        font-weight: bold;
+                        display: inline-block;
+                        width: 1em;
+                        margin-left: -1em;
+                    }
+                }
+            }
+        }
+        .primaryButton {
+            padding: 6px 12px;
+            font-size: 13px;
+        }
+        .comments {
+            textarea {
+                display: block;
+                border: 1px solid $grey-boder;
+                font-size: 14px;
+                padding: 10px;
+                color: $secondary-dark-color;
+                margin: 10px 0;
+                max-width: 77%;
+                width: 100%;
+                resize: none;
+                @media screen and (max-width: 767px) {
+                    max-width: 100% !important;
+                }
+            }
+            input {
+                border: 1px solid $grey-boder;
+                color: #b8b8b8;
+                font-size: 14px;
+                padding: 10px;
+                margin: 10px 0;
+                max-width: 77%;
+                width: 100%;
+                &.checkbox {
+                    width: unset !important;
+                }
+                @media screen and (max-width: 767px) {
+                    max-width: 100% !important;
+                }
+            }
+            .boldtext {
+                display: inline-block;
+                max-width: 100%;
+                margin: 10px 0;
+                font-size: 14px;
+                line-height: 24px;
+                color: $grey100;
+                font-family: "open_sansbold";
+            }
+            h3 {
+                border-bottom: 1px solid $grey-boder;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 48px;
+                margin-bottom: 15px;
+                position: relative;
+            }
+            .saveCheckbox {
+                @media screen and (max-width: 767px) {
+                    display: flex;
+                    align-items: center;
+                    column-gap: 20px;
+                }
+            }
+        }
+    }
+}
+
+// Error Page
+.error404 {
+    text-align: center;
+    padding: 50px 0;
+    h2 {
+        font-size: 150px;
+        line-height: 130px;
+        font-weight: 700;
+        padding: 0;
+        margin: 0 0 10px;
+        color: $primary-color;
+    }
+    h3 {
+        color: $darkcolor;
+        font-size: 20px;
+        margin: 0 0 20px;
+    }
+}

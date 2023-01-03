@@ -71,7 +71,7 @@
                         <h3>Our Other Computer Repair Services</h3>
                         <div class="product-listing">
                         <ul >
-                                <li><a href="macbook-repair-delta"><span class="textt-theme">MacBook Repair In Delta</span></a></li>
+                                <li><a href="<?php echo $url; ?>macbook-repair-delta"><span class="textt-theme">MacBook Repair In Delta</span></a></li>
                                 <li><a href="<?php echo $url; ?>delta/apple-macbook-screen-replacement-in-delta"><span class="textt-theme">MacBook Screen Repair Delta</span></a></li>
                                 <li><a href="acer-laptop-repair-delta"><span class="textt-theme">Acer laptop repair Delta</span></a></li>
                                 <li><a href="asus-laptop-repair-delta"><span class="textt-theme">Asus Repair Delta</span></a></li>

@@ -33,7 +33,7 @@
                     <div class="productContent">
                         <img src="<?php echo $url; ?>assets/images/liquid-damageservice.jpg" alt="Apple Macbook Liquid Damage">
                     </div>
-                    <p>Spilled a coffee on your laptop? Guru Computers provide the best MacBook Liquid Damage Repair in <a href="macbook-repair-delta"><span class="textt">Delta </span></a> , BC. We at Guru Computers, repair MacBooks of all generation.</p>
+                    <p>Spilled a coffee on your laptop? Guru Computers provide the best MacBook Liquid Damage Repair in <a href="<?php echo $url; ?>macbook-repair-delta"><span class="textt">Delta </span></a> , BC. We at Guru Computers, repair MacBooks of all generation.</p>
                     <h2>Best Apple Macbook Liquid Damage Repair In Delta</h2>
                     <p>The worst kind of damage to any computer is a liquid spill. If you have spilled liquid and have been told it is unfixable or it costs too much money, we got your covered. Don’t use a hair dryer or dump it in a box full of rice to dry
                         it out. Liquid damage should be dealt with immediately to improve the chances of restoring your device. </p>

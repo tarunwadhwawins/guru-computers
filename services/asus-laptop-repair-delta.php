@@ -69,10 +69,10 @@
                         <h3>Other Computer Repair Services Delta, British Columbia</h3>
                        
                         <ul class="referLink">
-                                <li><a href="macbook-repair-delta">MacBook repair in Delta</a></li>
+                                <li><a href="<?php echo $url; ?>macbook-repair-delta">MacBook repair in Delta</a></li>
                                 <li><a href="laptop-screen-replacement-in-delta">Laptop Screen Replacement in Delta</a></li>
                                 <li><a href="virus-spyware-malware-adware-removal">Virus Removal in Delta</a></li>
-                                <li><a href="macbook-repair-delta">MacBook Screen Repair</a></li>
+                                <li><a href="<?php echo $url; ?>macbook-repair-delta">MacBook Screen Repair</a></li>
                                 <li><a href="<?php echo $url; ?>services/acer-laptop-repair-delta">Acer laptop repair Delta</a></li>
                             </ul>
                         

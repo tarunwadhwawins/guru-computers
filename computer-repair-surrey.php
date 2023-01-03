@@ -4,7 +4,7 @@
     <!-- Meta & Link Tags -->
   <?php
     $title = 'Computer Repair Surrey, BC - Reliable Service - Guru Computers';
-    $keyword  = '';
+    $keyword  = 'computer shops surrey';
     $description  = "Looking for computer repair Surrey, BC? Guru Computers is the best repair shop for computers and laptops in Surrey, British Columbia. We repair all kind of";
     
     include_once('common/common-css.php'); ?>

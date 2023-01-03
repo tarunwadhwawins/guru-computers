@@ -4,9 +4,9 @@
 <head>
     <!-- Meta & Link Tags -->
    <?php
-    $title = "MacBook Repair Services in Delta | Laptop Screen Replacement";
-    $keyword  = "";
-    $description = "Guru Computers is a leading platform that provides best IT Solutions or MacBook Repair Services in Delta. Visit us and get your computers fixed at affordable prices.";
+    $title = " MacBook Repair Services in Surrey | Guru Computers";
+    $keyword  = "computer guru";
+    $description = "Guru Computers offers quick laptop & MacBook repair services in Surrey. We offer affordable and reliable same day computer repair services.";
     
     include_once('common/common-css.php'); ?>
     <!--  -->

@@ -60,13 +60,24 @@
                     </a>
                     <div class="contactLink">
                         <p> <a href="tel:+1 (604) 256-2193"><i class="fa fa-phone" aria-hidden="true"></i> +1 (604) 256-2193 </a></p>
-                        <a href="mailto:abs@gmail.com " class="guruImagelink d-flex"> <i class="fa fa-envelope" aria-hidden="true"></i><img src="<?php echo $url; ?>assets/images/email.svg" alt="Guru Computers"></a>
+                        <a href="mailto:gururepairlab@gmail.com " class="guruImagelink d-flex"> <i class="fa fa-envelope" aria-hidden="true"></i><img src="<?php echo $url; ?>assets/images/email.svg" alt="Guru Computers"></a>
                     </div>
                     <div class="workHour">
                         <p><span>Working Hours:</span></p>
                         <p>Mon-Sat: 10:00 am – 07:00 pm</p>
                         <p>Sunday : Closed</p>
                     </div>
+                    <ul class="socials init-animate animated" style="visibility: visible;">
+                        <li class="facebook">
+                            <a href="https://www.facebook.com/GuruComputersDelta" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="instagram">
+                            <a href="https://www.instagram.com/gurucomputersdelta/" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+                        </li>
+                        <li class="twitter">
+                            <a href="https://twitter.com/gurusystems_ca" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -80,17 +91,10 @@
             </div>
             <div class="col-md-6">
                 <div class="textRight">
-                    <ul class="socials init-animate animated" style="visibility: visible;">
-                        <li class="facebook">
-                            <a href="https://www.facebook.com/GuruComputersDelta" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li class="instagram">
-                            <a href="https://www.instagram.com/gurucomputersdelta/" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
-                        </li>
-                        <li class="twitter">
-                            <a href="https://twitter.com/gurusystems_ca" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-                        </li>
-                    </ul>
+                <ul class="list-inline text-end social-list">
+                             <li class="list-inline-item"><a href="<?php echo $url; ?>privacy-policy">Privacy Policy</a></li>
+                             <li class="list-inline-item"><a href="<?php echo $url; ?>terms-conditions">Terms & Conditions</a></li>
+                         </ul> 
                 </div>
             </div>
         </div>

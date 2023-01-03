@@ -38,7 +38,7 @@
                     <h2>Apple Macbook Liquid Damage Repair Surrey</h2>
                     <p> Liquid damage is the worst damage to any electronic device. If you have spilled liquid don’t use a hair dryer or dump your device in a box full of rice to dry it out. Liquid damage must be cleaned immediately at a component level to
                         improve the chances of restoring your device. Do not try to turn it ON.</p>
-                    <p> OApplying power may cause irreversible damage to the logic board. There are a lot of integrated circuits, capacitors, and coils regulating the power to different components on a logic board. If you have been told it is unfixable or
+                    <p> Applying power may cause irreversible damage to the logic board. There are a lot of integrated circuits, capacitors, and coils regulating the power to different components on a logic board. If you have been told it is unfixable or
                         it costs too much money, we got you covered.</p>
                     <h3>We specialize in these liquid damage repairs:</h3>
                     <div class="product-listing">

@@ -75,6 +75,9 @@ header .navbar .navbar-toggler.active span:nth-child(3) {
     right: 0;
     transition: 0.5s;
   }
+   header .navbar .navbar-collapse.active .dropdown .fa-angle-down {
+    display: none;
+  }
 }
 @media (max-width: 1199px) {
   header .navbar .navbar-nav {

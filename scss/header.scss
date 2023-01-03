@@ -73,6 +73,11 @@ header {
                         right: 0;
                         transition: 0.5s;
                     }
+                    .dropdown{
+                        .fa-angle-down{
+                            display: none;
+                        }
+                    }
                 }
             }
         }
